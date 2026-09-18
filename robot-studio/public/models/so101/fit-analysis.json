@@ -1,0 +1,341 @@
+{
+  "status": "INCOMPLETE \u2014 nominal envelope study only; do not print as a finished conversion",
+  "method": "Unscaled original STEP solids; localized subtraction around original servo datums. No replacement arm geometry.",
+  "nominal_servo": {
+    "body_mm": [
+      40.9,
+      20,
+      37
+    ],
+    "tab_span_mm": 54,
+    "tab_thickness_mm": 2.6,
+    "body_bottom_to_tab_mm": 26.8,
+    "clearance_per_side_mm": 0.3,
+    "horn_envelope_diameter_mm": 20,
+    "horn_envelope_height_mm": 4.5,
+    "shaft_offset_from_case_end_mm": 10,
+    "source": "https://towerpro.com.tw/product/mg996R/",
+    "measured_hardware": false
+  },
+  "release_gates": [
+    "Confirm actual servo body, tab hole pitch, output shaft and supplied horn with calipers.",
+    "Design and validate mounting-tab fasteners and load paths.",
+    "Resolve MG996R single-output shaft versus stock passive-side support.",
+    "Validate wall thickness after clearance cuts, assembly access, cable routing and full swept collisions.",
+    "Evaluate direct-drive shoulder/elbow torque and heating; no payload is rated.",
+    "Design encoder cartridges in original leader housings after follower fit passes.",
+    "Slice only approved parts; then print a one-joint fit test before full plates."
+  ],
+  "parts": [
+    {
+      "part": "Base_motor_holder_SO101",
+      "source_step": "source/STEP/Base_motor_holder_SO101.step",
+      "intersections": [
+        {
+          "servo_index": 0,
+          "removed_intersection_mm3": 303.69
+        }
+      ],
+      "original_volume_mm3": 23717.253,
+      "removed_mm3": 303.693,
+      "removed_percent": 1.28,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Base_motor_holder_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    },
+    {
+      "part": "Base_SO101",
+      "source_step": "source/STEP/Base_SO101.step",
+      "intersections": [
+        {
+          "servo_index": 0,
+          "removed_intersection_mm3": 317.253
+        }
+      ],
+      "original_volume_mm3": 122707.548,
+      "removed_mm3": 317.271,
+      "removed_percent": 0.259,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Base_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    },
+    {
+      "part": "Motor_holder_SO101_Base",
+      "source_step": "source/STEP/Motor_holder_SO101_Base.step",
+      "intersections": [
+        {
+          "servo_index": 1,
+          "removed_intersection_mm3": 1328.513
+        }
+      ],
+      "original_volume_mm3": 13314.276,
+      "removed_mm3": 1328.519,
+      "removed_percent": 9.978,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Motor_holder_SO101_Base_MG996R_clearance_DRAFT.stl",
+      "watertight": false
+    },
+    {
+      "part": "Motor_holder_SO101_Wrist",
+      "source_step": "source/STEP/Motor_holder_SO101_Wrist.step",
+      "intersections": [
+        {
+          "servo_index": 3,
+          "removed_intersection_mm3": 1481.531
+        }
+      ],
+      "original_volume_mm3": 13880.542,
+      "removed_mm3": 1481.526,
+      "removed_percent": 10.673,
+      "valid_brep": true,
+      "solid_count": 2,
+      "status": "REJECTED: clearance cut breaks or invalidates original part; no printable draft exported",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false
+    },
+    {
+      "part": "Under_arm_SO101",
+      "source_step": "source/STEP/Under_arm_SO101.step",
+      "intersections": [
+        {
+          "servo_index": 2,
+          "removed_intersection_mm3": 2715.922
+        },
+        {
+          "servo_index": 3,
+          "removed_intersection_mm3": 1633.508
+        }
+      ],
+      "original_volume_mm3": 92963.36,
+      "removed_mm3": 4349.412,
+      "removed_percent": 4.679,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Under_arm_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    },
+    {
+      "part": "Upper_arm_SO101",
+      "source_step": "source/STEP/Upper_arm_SO101.step",
+      "intersections": [
+        {
+          "servo_index": 1,
+          "removed_intersection_mm3": 3846.154
+        },
+        {
+          "servo_index": 2,
+          "removed_intersection_mm3": 2722.909
+        }
+      ],
+      "original_volume_mm3": 117417.074,
+      "removed_mm3": 6569.07,
+      "removed_percent": 5.595,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Upper_arm_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    },
+    {
+      "part": "Rotation_Pitch_SO101",
+      "source_step": "source/STEP/Rotation_Pitch_SO101.step",
+      "intersections": [
+        {
+          "servo_index": 0,
+          "removed_intersection_mm3": 3373.74
+        },
+        {
+          "servo_index": 1,
+          "removed_intersection_mm3": 1778.764
+        }
+      ],
+      "original_volume_mm3": 68811.494,
+      "removed_mm3": 5152.428,
+      "removed_percent": 7.488,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Rotation_Pitch_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    },
+    {
+      "part": "Wrist_Roll_Pitch_SO101",
+      "source_step": "source/STEP/Wrist_Roll_Pitch_SO101.step",
+      "intersections": [
+        {
+          "servo_index": 3,
+          "removed_intersection_mm3": 2946.913
+        },
+        {
+          "servo_index": 4,
+          "removed_intersection_mm3": 4031.917
+        }
+      ],
+      "original_volume_mm3": 32312.812,
+      "removed_mm3": 6978.837,
+      "removed_percent": 21.598,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Wrist_Roll_Pitch_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": false
+    },
+    {
+      "part": "WaveShare_Mounting_Plate_SO101",
+      "source_step": "source/STEP/WaveShare_Mounting_Plate_SO101.step",
+      "intersections": [],
+      "original_volume_mm3": 9093.306,
+      "removed_mm3": -0.0,
+      "removed_percent": -0.0,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/WaveShare_Mounting_Plate_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    },
+    {
+      "part": "Handle_SO101",
+      "source_step": "source/STEP/Handle_SO101.step",
+      "intersections": [],
+      "original_volume_mm3": 69551.842,
+      "removed_mm3": 0.0,
+      "removed_percent": 0.0,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Handle_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    },
+    {
+      "part": "Trigger_SO101",
+      "source_step": "source/STEP/Trigger_SO101.step",
+      "intersections": [],
+      "original_volume_mm3": 11177.067,
+      "removed_mm3": 0.0,
+      "removed_percent": 0.0,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Trigger_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    },
+    {
+      "part": "Wrist_Roll_SO101",
+      "source_step": "source/STEP/Wrist_Roll_SO101.step",
+      "intersections": [],
+      "original_volume_mm3": 39819.731,
+      "removed_mm3": -0.164,
+      "removed_percent": -0.0,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Wrist_Roll_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    },
+    {
+      "part": "Moving_Jaw_SO101",
+      "source_step": "source/STEP/Moving_Jaw_SO101.step",
+      "intersections": [
+        {
+          "servo_index": 5,
+          "removed_intersection_mm3": 1747.733
+        }
+      ],
+      "original_volume_mm3": 20691.457,
+      "removed_mm3": 1747.609,
+      "removed_percent": 8.446,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Moving_Jaw_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    },
+    {
+      "part": "Wrist_Roll_Follower_SO101",
+      "source_step": "source/STEP/Wrist_Roll_Follower_SO101.step",
+      "intersections": [
+        {
+          "servo_index": 4,
+          "removed_intersection_mm3": 89.251
+        },
+        {
+          "servo_index": 5,
+          "removed_intersection_mm3": 1925.698
+        }
+      ],
+      "original_volume_mm3": 56619.549,
+      "removed_mm3": 2014.933,
+      "removed_percent": 3.559,
+      "valid_brep": true,
+      "solid_count": 1,
+      "status": "CLEARANCE ONLY \u2014 NOT PRINT RELEASE",
+      "attachment_verified": false,
+      "wall_strength_verified": false,
+      "physical_fit_verified": false,
+      "draft_file": "stl/Wrist_Roll_Follower_SO101_MG996R_clearance_DRAFT.stl",
+      "watertight": true
+    }
+  ],
+  "purchased_hardware": {
+    "asin": "B0F2TKPB95",
+    "url": "https://www.amazon.in/dp/B0F2TKPB95",
+    "user_confirmed_purchased": true,
+    "listed_pack_quantity": 4,
+    "brand_on_page": "Generic",
+    "manufacturer_on_page": "TESTIN ELECTRONICS",
+    "title_claim": "180 degree MG996R",
+    "description_and_box_claim": "360 degree continuous rotation MG996R",
+    "actual_positional_operation_verified": false,
+    "user_reported_travel_degrees": 180,
+    "user_reported_travel_note": "User confirmed it only does 180 degrees; accepted for preview limits. No instrumented hardware test performed by the agent.",
+    "physical_dimensions_measured": false,
+    "supplied_horn_measured": false,
+    "engineering_release_blocker": "Measure actual body, mounting tabs, shaft/horn datums and usable joint travel; complete attachment and clearance validation.",
+    "inspected_at": "2026-09-17"
+  },
+  "leader_conversion": "Not attempted: original leader files preserved; no servo or encoder fit claim."
+}

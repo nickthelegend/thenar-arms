@@ -1,0 +1,16 @@
+{
+  "method": "At each nominal 0.20 mm model layer, test whether each positive-winding mesh cross-section contour >2 mm\u00b2 intersects a non-support extrusion segment (0.3 mm tolerance; arcs approximated in 3-degree segments). Holes, fine features, exact bead widths, complete perimeter coverage and load strength are not certified.",
+  "files": {
+    "slicing/P1S_ENCODER_CARTRIDGE_FIT/P1S_ENCODER_CARTRIDGE_FIT_sliced.3mf": "e1256201ad828060c1cfaf870bebb5c63e354b3398e672513fddd1dfabd9e9db"
+  },
+  "plates": [
+    {
+      "plate": "P1S_ENCODER_CARTRIDGE_FIT",
+      "cross_section_components_screened": 534,
+      "missing_component_candidates": [],
+      "slicer_diagnostics": [],
+      "coarse_screen_passed": true
+    }
+  ],
+  "all_coarse_screens_passed": true
+}

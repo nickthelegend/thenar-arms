@@ -1,0 +1,5403 @@
+{
+  "revision": "SO101-MG996R-R3",
+  "status": "Nominal-fit CAD prototype; toolpath review and physical tests pending",
+  "source": {
+    "repository": "https://github.com/TheRobotStudio/SO-ARM100",
+    "commit": "eecbe3e0a9ebb23e25ad7b2759b03884c6660903",
+    "files": [
+      {
+        "path": "Individual/Base_motor_holder_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Base_motor_holder_SO101.stl",
+        "sha256": "e10eb1296560bc00dca91af5f35d9be637be026a5b544c0ebfcac51501aa3c70",
+        "bytes": 340884,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -22.350000381469727,
+            38.099998474121094,
+            -20.799999237060547
+          ],
+          [
+            25.29109001159668,
+            69.5,
+            59.400001525878906
+          ]
+        ],
+        "size_mm": [
+          47.641090393066406,
+          31.400001525878906,
+          80.20000076293945
+        ],
+        "triangles": 6816,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Base_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Base_SO101.stl",
+        "sha256": "19f3c6baafc23a3bc92805762e906df9514d1008be84d490a90a9096ffdcf3c8",
+        "bytes": 477984,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -55.462501525878906,
+            2.9266571262807906e-13,
+            -16.0
+          ],
+          [
+            55.462501525878906,
+            72.0,
+            71.0
+          ]
+        ],
+        "size_mm": [
+          110.92500305175781,
+          71.9999999999997,
+          87.0
+        ],
+        "triangles": 9558,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Motor_holder_SO101_Base.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Motor_holder_SO101_Base.stl",
+        "sha256": "f9971aa805e2d6fb61726d2787e752a6fe0ff21d3c66023296ee4c57a2b100a4",
+        "bytes": 292784,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -53.84990692138672,
+            -55.0970573425293,
+            -28.880443572998047
+          ],
+          [
+            -25.84990692138672,
+            -17.0,
+            26.200000762939453
+          ]
+        ],
+        "size_mm": [
+          28.0,
+          38.0970573425293,
+          55.0804443359375
+        ],
+        "triangles": 5854,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Motor_holder_SO101_Wrist.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Motor_holder_SO101_Wrist.stl",
+        "sha256": "936c84ed2c918b3ec14e2c3ec3f742f47bed10a4e3d0a2c9bf7869d0a2a55149",
+        "bytes": 400584,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -53.84990692138672,
+            -53.900001525878906,
+            -30.19096565246582
+          ],
+          [
+            -25.84990692138672,
+            -17.0,
+            26.200000762939453
+          ]
+        ],
+        "size_mm": [
+          28.0,
+          36.900001525878906,
+          56.39096641540527
+        ],
+        "triangles": 8010,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Under_arm_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Under_arm_SO101.stl",
+        "sha256": "537b03e68ff7c061da4cc70bf0b5a61018a76c00bccc72d61f022d1644230db5",
+        "bytes": 525484,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -53.84990692138672,
+            -44.0,
+            -34.20000076293945
+          ],
+          [
+            76.84990692138672,
+            -20.0,
+            30.200000762939453
+          ]
+        ],
+        "size_mm": [
+          130.69981384277344,
+          24.0,
+          64.4000015258789
+        ],
+        "triangles": 10508,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Upper_arm_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Upper_arm_SO101.stl",
+        "sha256": "96333913c296b13ecb1c81e63e57e4352fb6b5dea7722c84ec1fbd5073e23865",
+        "bytes": 401984,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -65.08499145507812,
+            -1.6566609195578508e-13,
+            -35.599998474121094
+          ],
+          [
+            77.06130981445312,
+            24.5,
+            31.700000762939453
+          ]
+        ],
+        "size_mm": [
+          142.14630126953125,
+          24.500000000000167,
+          67.29999923706055
+        ],
+        "triangles": 8038,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Rotation_Pitch_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Rotation_Pitch_SO101.stl",
+        "sha256": "5ef34a5420071627d01323be13e80b7ac8af0760c72d8382c0664c914f281800",
+        "bytes": 334884,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -59.79999923706055,
+            0.20000000298023224,
+            -23.0
+          ],
+          [
+            0.0,
+            84.4000015258789,
+            23.0
+          ]
+        ],
+        "size_mm": [
+          59.79999923706055,
+          84.20000152289867,
+          46.0
+        ],
+        "triangles": 6696,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Wrist_Roll_Pitch_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Wrist_Roll_Pitch_SO101.stl",
+        "sha256": "14eb2f45ab1b279025ed2aea358f0091aad6aff967faef58527fd216f28fb6e5",
+        "bytes": 851884,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -27.100006103515625,
+            -20.0,
+            -37.82838821411133
+          ],
+          [
+            35.20000076293945,
+            15.659594535827637,
+            39.999324798583984
+          ]
+        ],
+        "size_mm": [
+          62.30000686645508,
+          35.65959453582764,
+          77.82771301269531
+        ],
+        "triangles": 17036,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/WaveShare_Mounting_Plate_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/WaveShare_Mounting_Plate_SO101.stl",
+        "sha256": "6275f05ef28cd407be13ea882735282c4a8b2ef64930c77a9e7b5a3811740be1",
+        "bytes": 37684,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -25.5,
+            -21.0,
+            0.0
+          ],
+          [
+            25.5,
+            21.0,
+            7.599999904632568
+          ]
+        ],
+        "size_mm": [
+          51.0,
+          42.0,
+          7.599999904632568
+        ],
+        "triangles": 752,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Handle_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Handle_SO101.stl",
+        "sha256": "fb8757bdff009c04c207481dd664813ccdac2ad989acea6057df780b52327281",
+        "bytes": 561084,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -93.87895965576172,
+            -12.5,
+            36.70326232910156
+          ],
+          [
+            -5.754360675811768,
+            12.5,
+            96.7681655883789
+          ]
+        ],
+        "size_mm": [
+          88.12459897994995,
+          25.0,
+          60.064903259277344
+        ],
+        "triangles": 11220,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Trigger_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Trigger_SO101.stl",
+        "sha256": "48ecec3a3710cffdc0ae96d28547e49ddf4cbc93ccd915be7549f78e00ad2850",
+        "bytes": 448084,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -31.98978614807129,
+            -50.99993896484375,
+            -26.0
+          ],
+          [
+            9.989919662475586,
+            10.0,
+            6.0
+          ]
+        ],
+        "size_mm": [
+          41.979705810546875,
+          60.99993896484375,
+          32.0
+        ],
+        "triangles": 8960,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Wrist_Roll_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Wrist_Roll_SO101.stl",
+        "sha256": "de3a65044dd4ae8bcb9659d8ca2b49598e3f5571edf89f45ad975e9776a7ffee",
+        "bytes": 307984,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -35.20000076293945,
+            -24.0,
+            -1.0
+          ],
+          [
+            30.0,
+            28.0,
+            41.849998474121094
+          ]
+        ],
+        "size_mm": [
+          65.20000076293945,
+          52.0,
+          42.849998474121094
+        ],
+        "triangles": 6158,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Moving_Jaw_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Moving_Jaw_SO101.stl",
+        "sha256": "403763bbab8656cc7ce5ea6374741d0860bd19426b5b4b0041de3a2c1275f90b",
+        "bytes": 563084,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -12.300000190734863,
+            -82.0,
+            -24.0
+          ],
+          [
+            9.999165534973145,
+            9.988959312438965,
+            24.0
+          ]
+        ],
+        "size_mm": [
+          22.299165725708008,
+          91.98895931243896,
+          48.0
+        ],
+        "triangles": 11260,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Individual/Wrist_Roll_Follower_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Wrist_Roll_Follower_SO101.stl",
+        "sha256": "3f47a4b889b95a4c71046bda9ddfc9399d96d80a57ad7fc079700e240323a302",
+        "bytes": 602884,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -35.20000076293945,
+            -24.21821403503418,
+            -0.05029354616999626
+          ],
+          [
+            30.0,
+            27.78178596496582,
+            105.375
+          ]
+        ],
+        "size_mm": [
+          65.20000076293945,
+          52.0,
+          105.42529354617
+        ],
+        "triangles": 12056,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Follower/Ender_Follower_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Follower/Ender_Follower_SO101.stl",
+        "sha256": "f39e984d51f5ffd716bc7af5fbce31d7ef02bcd067ad6308ef597a7999f0a086",
+        "bytes": 24823670,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -108.65885925292969,
+            -106.47090911865234,
+            -8.96453857421875e-05
+          ],
+          [
+            107.68504333496094,
+            108.81082153320312,
+            87.0
+          ]
+        ],
+        "size_mm": [
+          216.34390258789062,
+          215.28173065185547,
+          87.00008964538574
+        ],
+        "triangles": 96584,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      },
+      {
+        "path": "Leader/Ender_Leader_SO101.stl",
+        "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Leader/Ender_Leader_SO101.stl",
+        "sha256": "b6d7599f0c326e3a3707530196629c2aa8d9768239dcd141d394e96fda103c85",
+        "bytes": 25489030,
+        "matches_workspace_upstream": true,
+        "bounds_mm": [
+          [
+            -108.65885925292969,
+            -105.38587951660156,
+            -7.43865966796875e-05
+          ],
+          [
+            107.68504333496094,
+            108.81082153320312,
+            88.12458801269531
+          ]
+        ],
+        "size_mm": [
+          216.34390258789062,
+          214.1967010498047,
+          88.12466239929199
+        ],
+        "triangles": 99606,
+        "watertight": true,
+        "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+      }
+    ]
+  },
+  "parts": [
+    {
+      "id": "Base_motor_holder_SO101",
+      "label": "Base motor holder",
+      "file": "Base_motor_holder_SO101.stl",
+      "kind": "print",
+      "bounds": [
+        47.641090393066406,
+        31.400001525878906,
+        80.20000076293945
+      ],
+      "watertight": true,
+      "volume_mm3": 23709.036375715736,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Base_SO101",
+      "label": "Base",
+      "file": "Base_SO101.stl",
+      "kind": "print",
+      "bounds": [
+        110.92500305175781,
+        71.9999999999997,
+        87.0
+      ],
+      "watertight": true,
+      "volume_mm3": 122689.76292945848,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Motor_holder_SO101_Base",
+      "label": "Motor holder Base",
+      "file": "Motor_holder_SO101_Base.stl",
+      "kind": "print",
+      "bounds": [
+        28.0,
+        38.0970573425293,
+        55.0804443359375
+      ],
+      "watertight": true,
+      "volume_mm3": 13307.191403017132,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Motor_holder_SO101_Wrist",
+      "label": "Motor holder Wrist",
+      "file": "Motor_holder_SO101_Wrist.stl",
+      "kind": "print",
+      "bounds": [
+        28.0,
+        36.900001525878906,
+        56.39096641540527
+      ],
+      "watertight": true,
+      "volume_mm3": 13871.623342825786,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Under_arm_SO101",
+      "label": "Under arm",
+      "file": "Under_arm_SO101.stl",
+      "kind": "print",
+      "bounds": [
+        130.69981384277344,
+        24.0,
+        64.4000015258789
+      ],
+      "watertight": true,
+      "volume_mm3": 92895.03045840858,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Upper_arm_SO101",
+      "label": "Upper arm",
+      "file": "Upper_arm_SO101.stl",
+      "kind": "print",
+      "bounds": [
+        142.14630126953125,
+        24.500000000000167,
+        67.29999923706055
+      ],
+      "watertight": true,
+      "volume_mm3": 117328.19197700791,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Rotation_Pitch_SO101",
+      "label": "Rotation Pitch",
+      "file": "Rotation_Pitch_SO101.stl",
+      "kind": "print",
+      "bounds": [
+        59.79999923706055,
+        84.20000152289867,
+        46.0
+      ],
+      "watertight": true,
+      "volume_mm3": 68787.1786680352,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Wrist_Roll_Pitch_SO101",
+      "label": "Wrist Roll Pitch",
+      "file": "Wrist_Roll_Pitch_SO101.stl",
+      "kind": "print",
+      "bounds": [
+        62.30000686645508,
+        35.65959453582764,
+        77.82771301269531
+      ],
+      "watertight": true,
+      "volume_mm3": 32299.355781760885,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "WaveShare_Mounting_Plate_SO101",
+      "label": "WaveShare Mounting Plate",
+      "file": "WaveShare_Mounting_Plate_SO101.stl",
+      "kind": "print",
+      "bounds": [
+        51.0,
+        42.0,
+        7.599999904632568
+      ],
+      "watertight": true,
+      "volume_mm3": 9093.45215924056,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Handle_SO101",
+      "label": "Handle",
+      "file": "Handle_SO101.stl",
+      "kind": "print",
+      "bounds": [
+        88.12459897994995,
+        25.0,
+        60.064903259277344
+      ],
+      "watertight": true,
+      "volume_mm3": 69626.4008320805,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Trigger_SO101",
+      "label": "Trigger",
+      "file": "Trigger_SO101.stl",
+      "kind": "print",
+      "bounds": [
+        41.979705810546875,
+        60.99993896484375,
+        32.0
+      ],
+      "watertight": true,
+      "volume_mm3": 11164.257818076476,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Wrist_Roll_SO101",
+      "label": "Wrist Roll",
+      "file": "Wrist_Roll_SO101.stl",
+      "kind": "print",
+      "bounds": [
+        65.20000076293945,
+        52.0,
+        42.849998474121094
+      ],
+      "watertight": true,
+      "volume_mm3": 39815.49121454107,
+      "notes": "Exact upstream STL. Original STS3215 interfaces; MG996R fit NOT released.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "sts3215_03a_v1",
+      "label": "sts3215 03a v1",
+      "file": "sts3215_03a_v1.stl",
+      "kind": "hardware",
+      "bounds": [
+        45.400001525878906,
+        24.80000114440918,
+        39.60000038146973
+      ],
+      "watertight": true,
+      "volume_mm3": 36215.05620286372,
+      "notes": "Original STS3215 reference mesh from the upstream simulation; NOT an MG996R.",
+      "quantity": {
+        "follower": 0,
+        "leader": 5
+      }
+    },
+    {
+      "id": "sts3215_03a_no_horn_v1",
+      "label": "sts3215 03a no horn v1",
+      "file": "sts3215_03a_no_horn_v1.stl",
+      "kind": "hardware",
+      "bounds": [
+        45.400001525878906,
+        24.80000114440918,
+        39.60000038146973
+      ],
+      "watertight": true,
+      "volume_mm3": 35656.6299995575,
+      "notes": "Original STS3215 reference mesh from the upstream simulation; NOT an MG996R.",
+      "quantity": {
+        "follower": 0,
+        "leader": 1
+      }
+    },
+    {
+      "id": "Base_MG996R_R3",
+      "label": "Base \u00b7 MG996R",
+      "kind": "print",
+      "file": "follower-r3/print-parts/Base_MG996R_R3.stl",
+      "bounds": [
+        110.92500305175781,
+        71.9999999999997,
+        91.79999923706056
+      ],
+      "watertight": true,
+      "notes": "Original-derived nominal MG996R prototype. Base_SO101, Base_motor_holder_SO101",
+      "quantity": {
+        "follower": 1,
+        "leader": 0
+      }
+    },
+    {
+      "id": "Shoulder_MG996R_R3",
+      "label": "Shoulder \u00b7 MG996R",
+      "kind": "print",
+      "file": "follower-r3/print-parts/Shoulder_MG996R_R3.stl",
+      "bounds": [
+        64.56820106506348,
+        121.90299682319164,
+        55.0423698425293
+      ],
+      "watertight": true,
+      "notes": "Original-derived nominal MG996R prototype. Rotation_Pitch_SO101, Motor_holder_SO101_Base",
+      "quantity": {
+        "follower": 1,
+        "leader": 0
+      }
+    },
+    {
+      "id": "Upper_arm_MG996R_R3",
+      "label": "Upper arm \u00b7 MG996R",
+      "kind": "print",
+      "file": "follower-r3/print-parts/Upper_arm_MG996R_R3.stl",
+      "bounds": [
+        144.16999145507813,
+        64.0,
+        67.29999923706055
+      ],
+      "watertight": true,
+      "notes": "Original-derived nominal MG996R prototype. Upper_arm_SO101",
+      "quantity": {
+        "follower": 1,
+        "leader": 0
+      }
+    },
+    {
+      "id": "Forearm_MG996R_R3",
+      "label": "Forearm \u00b7 MG996R",
+      "kind": "print",
+      "file": "follower-r3/print-parts/Forearm_MG996R_R3.stl",
+      "bounds": [
+        169.84156036376953,
+        36.9000015258789,
+        64.4000015258789
+      ],
+      "watertight": true,
+      "notes": "Original-derived nominal MG996R prototype. Under_arm_SO101, Motor_holder_SO101_Wrist",
+      "quantity": {
+        "follower": 1,
+        "leader": 0
+      }
+    },
+    {
+      "id": "Wrist_pitch_roll_MG996R_R3",
+      "label": "Wrist pitch roll \u00b7 MG996R",
+      "kind": "print",
+      "file": "follower-r3/print-parts/Wrist_pitch_roll_MG996R_R3.stl",
+      "bounds": [
+        69.55000686645508,
+        35.65959453582764,
+        87.82838821411133
+      ],
+      "watertight": true,
+      "notes": "Original-derived nominal MG996R prototype. Wrist_Roll_Pitch_SO101",
+      "quantity": {
+        "follower": 1,
+        "leader": 0
+      }
+    },
+    {
+      "id": "Gripper_body_MG996R_R3",
+      "label": "Gripper body \u00b7 MG996R",
+      "kind": "print",
+      "file": "follower-r3/print-parts/Gripper_body_MG996R_R3.stl",
+      "bounds": [
+        76.95000076293945,
+        52.0,
+        106.4252940416336
+      ],
+      "watertight": true,
+      "notes": "Original-derived nominal MG996R prototype. Wrist_Roll_Follower_SO101",
+      "quantity": {
+        "follower": 1,
+        "leader": 0
+      }
+    },
+    {
+      "id": "Moving_jaw_MG996R_R3",
+      "label": "Moving jaw \u00b7 MG996R",
+      "kind": "print",
+      "file": "follower-r3/print-parts/Moving_jaw_MG996R_R3.stl",
+      "bounds": [
+        28.0,
+        96.0,
+        47.18398666381836
+      ],
+      "watertight": true,
+      "notes": "Original-derived nominal MG996R prototype. Moving_Jaw_SO101",
+      "quantity": {
+        "follower": 1,
+        "leader": 0
+      }
+    },
+    {
+      "id": "MG996R_body_R3",
+      "label": "MG996R \u00b7 nominal body",
+      "kind": "hardware",
+      "file": "follower-r3/MG996R_body_reference.stl",
+      "bounds": [
+        54,
+        20,
+        42.7
+      ],
+      "watertight": true,
+      "notes": "Purchased component, reference dimensions. Do not print.",
+      "quantity": {
+        "follower": 6,
+        "leader": 0
+      }
+    },
+    {
+      "id": "metal_horn_R3",
+      "label": "25T metal horn \u00b7 \u00d820 / 14 mm PCD",
+      "kind": "hardware",
+      "file": "follower-r3/metal_horn_reference.stl",
+      "bounds": [
+        20,
+        20,
+        4.5
+      ],
+      "watertight": true,
+      "notes": "Purchased component, reference dimensions. Do not print.",
+      "quantity": {
+        "follower": 6,
+        "leader": 0
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "follower",
+      "parent": null,
+      "position": [
+        -400,
+        0.0,
+        2.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": null
+    },
+    {
+      "id": "leader",
+      "parent": null,
+      "position": [
+        400,
+        0.0,
+        2.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": null
+    },
+    {
+      "id": "follower_base_link",
+      "parent": "follower",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": null
+    },
+    {
+      "id": "leader_base_link",
+      "parent": "leader",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": null
+    },
+    {
+      "id": "follower_shoulder_link_datum",
+      "parent": "follower_base_link",
+      "position": [
+        38.835300000000004,
+        -8.97657e-06,
+        62.4
+      ],
+      "rotation": [
+        -180,
+        0,
+        180
+      ],
+      "joint": null
+    },
+    {
+      "id": "leader_shoulder_link_datum",
+      "parent": "leader_base_link",
+      "position": [
+        38.835300000000004,
+        -8.97657e-06,
+        62.4
+      ],
+      "rotation": [
+        -180,
+        0,
+        180
+      ],
+      "joint": null
+    },
+    {
+      "id": "follower_shoulder_link",
+      "parent": "follower_shoulder_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 0
+    },
+    {
+      "id": "leader_shoulder_link",
+      "parent": "leader_shoulder_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 0
+    },
+    {
+      "id": "follower_upper_arm_link_datum",
+      "parent": "follower_shoulder_link",
+      "position": [
+        -30.3992,
+        -18.2778,
+        -54.199999999999996
+      ],
+      "rotation": [
+        -90,
+        0,
+        -90
+      ],
+      "joint": null
+    },
+    {
+      "id": "leader_upper_arm_link_datum",
+      "parent": "leader_shoulder_link",
+      "position": [
+        -30.3992,
+        -18.2778,
+        -54.199999999999996
+      ],
+      "rotation": [
+        -90,
+        0,
+        -90
+      ],
+      "joint": null
+    },
+    {
+      "id": "follower_upper_arm_link",
+      "parent": "follower_upper_arm_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 1
+    },
+    {
+      "id": "leader_upper_arm_link",
+      "parent": "leader_upper_arm_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 1
+    },
+    {
+      "id": "follower_lower_arm_link_datum",
+      "parent": "follower_upper_arm_link",
+      "position": [
+        -112.57000000000001,
+        -28.0,
+        1.73763e-13
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "joint": null
+    },
+    {
+      "id": "leader_lower_arm_link_datum",
+      "parent": "leader_upper_arm_link",
+      "position": [
+        -112.57000000000001,
+        -28.0,
+        1.73763e-13
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "joint": null
+    },
+    {
+      "id": "follower_lower_arm_link",
+      "parent": "follower_lower_arm_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 2
+    },
+    {
+      "id": "leader_lower_arm_link",
+      "parent": "leader_lower_arm_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 2
+    },
+    {
+      "id": "follower_wrist_link_datum",
+      "parent": "follower_lower_arm_link",
+      "position": [
+        -134.9,
+        5.2,
+        3.62355e-14
+      ],
+      "rotation": [
+        0,
+        0,
+        -90
+      ],
+      "joint": null
+    },
+    {
+      "id": "leader_wrist_link_datum",
+      "parent": "leader_lower_arm_link",
+      "position": [
+        -134.9,
+        5.2,
+        3.62355e-14
+      ],
+      "rotation": [
+        0,
+        0,
+        -90
+      ],
+      "joint": null
+    },
+    {
+      "id": "follower_wrist_link",
+      "parent": "follower_wrist_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 3
+    },
+    {
+      "id": "leader_wrist_link",
+      "parent": "leader_wrist_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 3
+    },
+    {
+      "id": "follower_gripper_link_datum",
+      "parent": "follower_wrist_link",
+      "position": [
+        5.5511199999999994e-14,
+        -69.1,
+        18.1
+      ],
+      "rotation": [
+        -90,
+        0,
+        177.2108701017695
+      ],
+      "joint": null
+    },
+    {
+      "id": "leader_gripper_link_datum",
+      "parent": "leader_wrist_link",
+      "position": [
+        5.5511199999999994e-14,
+        -61.1,
+        18.1
+      ],
+      "rotation": [
+        -90,
+        0,
+        177.2108701017695
+      ],
+      "joint": null
+    },
+    {
+      "id": "follower_gripper_link",
+      "parent": "follower_gripper_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 4
+    },
+    {
+      "id": "leader_gripper_link",
+      "parent": "leader_gripper_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 4
+    },
+    {
+      "id": "follower_moving_jaw_so101_v1_link_datum",
+      "parent": "follower_gripper_link",
+      "position": [
+        20.2,
+        18.8,
+        -23.400000000000002
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "joint": null
+    },
+    {
+      "id": "follower_gripper_frame_link_datum",
+      "parent": "follower_gripper_link",
+      "position": [
+        -7.9,
+        -0.21812099999999998,
+        -98.12740000000001
+      ],
+      "rotation": [
+        -180,
+        0,
+        180
+      ],
+      "joint": null
+    },
+    {
+      "id": "leader_moving_jaw_so101_v1_link_datum",
+      "parent": "leader_gripper_link",
+      "position": [
+        20.2,
+        18.8,
+        -23.400000000000002
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "joint": null
+    },
+    {
+      "id": "leader_gripper_frame_link_datum",
+      "parent": "leader_gripper_link",
+      "position": [
+        -7.9,
+        -0.21812099999999998,
+        -98.12740000000001
+      ],
+      "rotation": [
+        -180,
+        0,
+        180
+      ],
+      "joint": null
+    },
+    {
+      "id": "follower_moving_jaw_so101_v1_link",
+      "parent": "follower_moving_jaw_so101_v1_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 5
+    },
+    {
+      "id": "follower_gripper_frame_link",
+      "parent": "follower_gripper_frame_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": null
+    },
+    {
+      "id": "leader_moving_jaw_so101_v1_link",
+      "parent": "leader_moving_jaw_so101_v1_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": 5
+    },
+    {
+      "id": "leader_gripper_frame_link",
+      "parent": "leader_gripper_frame_link_datum",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "joint": null
+    }
+  ],
+  "instances": [
+    {
+      "id": "follower_sts3215_03a_v1_2",
+      "part": "MG996R_body_R3",
+      "node": "follower_base_link",
+      "robot": "follower",
+      "position": [
+        26.3353,
+        -8.97657e-06,
+        43.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "follower_sts3215_03a_v1_4",
+      "part": "MG996R_body_R3",
+      "node": "follower_shoulder_link",
+      "robot": "follower",
+      "position": [
+        -30.3992,
+        0.42224100000000003,
+        -41.7
+      ],
+      "rotation": [
+        90,
+        0,
+        -90
+      ]
+    },
+    {
+      "id": "follower_sts3215_03a_v1_7",
+      "part": "MG996R_body_R3",
+      "node": "follower_upper_arm_link",
+      "robot": "follower",
+      "position": [
+        -112.57000000000001,
+        -15.5,
+        18.700000000000003
+      ],
+      "rotation": [
+        180,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "follower_sts3215_03a_v1_11",
+      "part": "MG996R_body_R3",
+      "node": "follower_lower_arm_link",
+      "robot": "follower",
+      "position": [
+        -122.39999999999999,
+        5.2,
+        18.700000000000003
+      ],
+      "rotation": [
+        180,
+        0,
+        180
+      ]
+    },
+    {
+      "id": "follower_sts3215_03a_no_horn_v1_12",
+      "part": "MG996R_body_R3",
+      "node": "follower_wrist_link",
+      "robot": "follower",
+      "position": [
+        8.32667e-14,
+        -50.4,
+        30.599999999999998
+      ],
+      "rotation": [
+        90,
+        0,
+        -90
+      ]
+    },
+    {
+      "id": "follower_sts3215_03a_v1_14",
+      "part": "MG996R_body_R3",
+      "node": "follower_gripper_link",
+      "robot": "follower",
+      "position": [
+        7.7,
+        0.1,
+        -23.400000000000002
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leader_Base_motor_holder_SO101_17",
+      "part": "Base_motor_holder_SO101",
+      "node": "leader_base_link",
+      "robot": "leader",
+      "position": [
+        -6.36471,
+        -0.0994414,
+        -2.4
+      ],
+      "rotation": [
+        -135.0000000001932,
+        90,
+        -135.0000000001932
+      ]
+    },
+    {
+      "id": "leader_Base_SO101_18",
+      "part": "Base_SO101",
+      "node": "leader_base_link",
+      "robot": "leader",
+      "position": [
+        -6.36471,
+        -8.97657e-06,
+        -2.4
+      ],
+      "rotation": [
+        -135.00000000019327,
+        90,
+        -135.00000000019327
+      ]
+    },
+    {
+      "id": "leader_sts3215_03a_v1_19",
+      "part": "sts3215_03a_v1",
+      "node": "leader_base_link",
+      "robot": "leader",
+      "position": [
+        26.3353,
+        -8.97657e-06,
+        43.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leader_WaveShare_Mounting_Plate_SO101_20",
+      "part": "WaveShare_Mounting_Plate_SO101",
+      "node": "leader_base_link",
+      "robot": "leader",
+      "position": [
+        -30.982699999999998,
+        -0.19944099999999998,
+        47.4
+      ],
+      "rotation": [
+        -135.00000000019287,
+        90,
+        -135.00000000019287
+      ]
+    },
+    {
+      "id": "leader_sts3215_03a_v1_21",
+      "part": "sts3215_03a_v1",
+      "node": "leader_shoulder_link",
+      "robot": "leader",
+      "position": [
+        -30.3992,
+        0.42224100000000003,
+        -41.7
+      ],
+      "rotation": [
+        90,
+        0,
+        -90
+      ]
+    },
+    {
+      "id": "leader_Motor_holder_SO101_Base_22",
+      "part": "Motor_holder_SO101_Base",
+      "node": "leader_shoulder_link",
+      "robot": "leader",
+      "position": [
+        -67.5992,
+        -0.177759,
+        15.8499
+      ],
+      "rotation": [
+        90,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "leader_Rotation_Pitch_SO101_23",
+      "part": "Rotation_Pitch_SO101",
+      "node": "leader_shoulder_link",
+      "robot": "leader",
+      "position": [
+        12.2008,
+        0.0222413,
+        46.4
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leader_sts3215_03a_v1_24",
+      "part": "sts3215_03a_v1",
+      "node": "leader_upper_arm_link",
+      "robot": "leader",
+      "position": [
+        -112.57000000000001,
+        -15.5,
+        18.700000000000003
+      ],
+      "rotation": [
+        180,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "leader_Upper_arm_SO101_25",
+      "part": "Upper_arm_SO101",
+      "node": "leader_upper_arm_link",
+      "robot": "leader",
+      "position": [
+        -65.08500000000001,
+        12.0,
+        18.2
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leader_Under_arm_SO101_26",
+      "part": "Under_arm_SO101",
+      "node": "leader_lower_arm_link",
+      "robot": "leader",
+      "position": [
+        -64.8499,
+        -32.0,
+        18.2
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leader_Motor_holder_SO101_Wrist_27",
+      "part": "Motor_holder_SO101_Wrist",
+      "node": "leader_lower_arm_link",
+      "robot": "leader",
+      "position": [
+        -64.8499,
+        -32.0,
+        18.0
+      ],
+      "rotation": [
+        -180,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leader_sts3215_03a_v1_28",
+      "part": "sts3215_03a_v1",
+      "node": "leader_lower_arm_link",
+      "robot": "leader",
+      "position": [
+        -122.39999999999999,
+        5.2,
+        18.700000000000003
+      ],
+      "rotation": [
+        180,
+        0,
+        180
+      ]
+    },
+    {
+      "id": "leader_sts3215_03a_no_horn_v1_29",
+      "part": "sts3215_03a_no_horn_v1",
+      "node": "leader_wrist_link",
+      "robot": "leader",
+      "position": [
+        8.32667e-14,
+        -42.4,
+        30.599999999999998
+      ],
+      "rotation": [
+        90,
+        0,
+        -90
+      ]
+    },
+    {
+      "id": "leader_Wrist_Roll_Pitch_SO101_30",
+      "part": "Wrist_Roll_Pitch_SO101",
+      "node": "leader_wrist_link",
+      "robot": "leader",
+      "position": [
+        0.0,
+        -28.0,
+        18.1
+      ],
+      "rotation": [
+        -90,
+        0,
+        -90
+      ]
+    },
+    {
+      "id": "leader_sts3215_03a_v1_31",
+      "part": "sts3215_03a_v1",
+      "node": "leader_gripper_link",
+      "robot": "leader",
+      "position": [
+        7.7,
+        0.1,
+        -23.400000000000002
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leader_Wrist_Roll_SO101_32",
+      "part": "Wrist_Roll_SO101",
+      "node": "leader_gripper_link",
+      "robot": "leader",
+      "position": [
+        8.331941928756323e-14,
+        2.5201293800115146e-06,
+        5.790537868088919e-07
+      ],
+      "rotation": [
+        -180,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leader_Handle_SO101_33",
+      "part": "Handle_SO101",
+      "node": "leader_gripper_link",
+      "robot": "leader",
+      "position": [
+        8.331941928756323e-14,
+        2.5201293800115146e-06,
+        5.790537868088919e-07
+      ],
+      "rotation": [
+        -180,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leader_Trigger_SO101_34",
+      "part": "Trigger_SO101",
+      "node": "leader_moving_jaw_so101_v1_link",
+      "robot": "leader",
+      "position": [
+        -5.5511199999999994e-14,
+        -5.5511199999999994e-14,
+        18.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "follower_Base_MG996R_R3",
+      "part": "Base_MG996R_R3",
+      "node": "follower_base_link",
+      "robot": "follower",
+      "position": [
+        -6.36471,
+        -8.97657e-06,
+        -2.4
+      ],
+      "rotation": [
+        -135.00000000019327,
+        90,
+        -135.00000000019327
+      ]
+    },
+    {
+      "id": "follower_Shoulder_MG996R_R3",
+      "part": "Shoulder_MG996R_R3",
+      "node": "follower_shoulder_link",
+      "robot": "follower",
+      "position": [
+        12.2008,
+        0.0222413,
+        46.4
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "follower_Upper_arm_MG996R_R3",
+      "part": "Upper_arm_MG996R_R3",
+      "node": "follower_upper_arm_link",
+      "robot": "follower",
+      "position": [
+        -65.08500000000001,
+        12.0,
+        18.2
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "follower_Forearm_MG996R_R3",
+      "part": "Forearm_MG996R_R3",
+      "node": "follower_lower_arm_link",
+      "robot": "follower",
+      "position": [
+        -64.8499,
+        -32.0,
+        18.2
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "follower_Wrist_pitch_roll_MG996R_R3",
+      "part": "Wrist_pitch_roll_MG996R_R3",
+      "node": "follower_wrist_link",
+      "robot": "follower",
+      "position": [
+        0.0,
+        -28.0,
+        18.1
+      ],
+      "rotation": [
+        -90,
+        0,
+        -90
+      ]
+    },
+    {
+      "id": "follower_Gripper_body_MG996R_R3",
+      "part": "Gripper_body_MG996R_R3",
+      "node": "follower_gripper_link",
+      "robot": "follower",
+      "position": [
+        8.32667e-14,
+        -0.218214,
+        0.949706
+      ],
+      "rotation": [
+        -180,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "follower_Moving_jaw_MG996R_R3",
+      "part": "Moving_jaw_MG996R_R3",
+      "node": "follower_moving_jaw_so101_v1_link",
+      "robot": "follower",
+      "position": [
+        -5.5511199999999994e-14,
+        -5.5511199999999994e-14,
+        18.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "follower_metal_horn_0",
+      "part": "metal_horn_R3",
+      "robot": "follower",
+      "node": "follower_shoulder_link",
+      "position": [
+        12.500000000000018,
+        -7.592805180458908e-16,
+        18.699999999999996
+      ],
+      "rotation": [
+        -180.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "id": "follower_metal_horn_1",
+      "part": "metal_horn_R3",
+      "robot": "follower",
+      "node": "follower_upper_arm_link",
+      "position": [
+        12.500000000000007,
+        1.7763568394002505e-14,
+        18.700041000000002
+      ],
+      "rotation": [
+        180.0,
+        2.5444437451708134e-14,
+        -180.0
+      ]
+    },
+    {
+      "id": "follower_metal_horn_2",
+      "part": "metal_horn_R3",
+      "robot": "follower",
+      "node": "follower_lower_arm_link",
+      "position": [
+        12.499999999999975,
+        1.4210854715202004e-14,
+        18.69999999999983
+      ],
+      "rotation": [
+        179.99999999999997,
+        0.0,
+        179.99999999999997
+      ]
+    },
+    {
+      "id": "follower_metal_horn_3",
+      "part": "metal_horn_R3",
+      "robot": "follower",
+      "node": "follower_wrist_link",
+      "position": [
+        -1.0302869668521451e-14,
+        12.500000000000014,
+        18.699999999999967
+      ],
+      "rotation": [
+        -180.0,
+        0.0,
+        90.0
+      ]
+    },
+    {
+      "id": "follower_metal_horn_4",
+      "part": "metal_horn_R3",
+      "robot": "follower",
+      "node": "follower_gripper_link",
+      "position": [
+        -0.6082534543777426,
+        12.485192338736212,
+        18.7
+      ],
+      "rotation": [
+        -179.99999999999994,
+        0.0,
+        87.21087010176952
+      ]
+    },
+    {
+      "id": "follower_metal_horn_5",
+      "part": "metal_horn_R3",
+      "robot": "follower",
+      "node": "follower_moving_jaw_so101_v1_link",
+      "position": [
+        -12.499999999999957,
+        3.552713678800501e-15,
+        18.7
+      ],
+      "rotation": [
+        -179.99999999999997,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "plates": [
+    {
+      "id": "P1S_MG996R_R3_01",
+      "label": "MG996R follower \u00b7 plate 1",
+      "robot": "follower",
+      "prototype": true,
+      "file": "follower-r3/plates/P1S_MG996R_R3_01.3mf",
+      "entries": [
+        {
+          "part": "Forearm_MG996R_R3",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -3.4450928483976665e-16,
+            -1.0,
+            0.0,
+            0.0,
+            1.0,
+            -3.4450928483976665e-16,
+            0.0,
+            101.99166107177734,
+            75.20000076293945,
+            -17.049999999999997,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              11.0,
+              41.00000000000001,
+              0.0
+            ],
+            [
+              180.84156036376953,
+              105.40000152587892,
+              36.900001525878906
+            ]
+          ]
+        },
+        {
+          "part": "Upper_arm_MG996R_R3",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -3.4450928483976665e-16,
+            -1.0,
+            0.0,
+            0.0,
+            1.0,
+            -3.4450928483976665e-16,
+            0.0,
+            76.08499145507812,
+            153.0,
+            61.55,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              11.0,
+              117.4000015258789,
+              0.0
+            ],
+            [
+              155.16999145507813,
+              184.70000076293945,
+              64.0
+            ]
+          ]
+        },
+        {
+          "part": "Shoulder_MG996R_R3",
+          "matrix": [
+            -1.0,
+            4.440892098500626e-16,
+            0.0,
+            0.0,
+            -4.440892098500626e-16,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            168.96919151306156,
+            239.5029983520508,
+            26.371000289916992,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              167.16999145507813,
+              117.4000015258789,
+              0.0
+            ],
+            [
+              231.7381925201416,
+              239.30299834907058,
+              55.0423698425293
+            ]
+          ]
+        },
+        {
+          "part": "Moving_jaw_MG996R_R3",
+          "matrix": [
+            4.930380657631324e-32,
+            2.220446049250313e-16,
+            -1.0,
+            0.0,
+            -1.0,
+            2.220446049250313e-16,
+            0.0,
+            0.0,
+            2.220446049250313e-16,
+            1.0,
+            2.220446049250313e-16,
+            0.0,
+            25.000000000000007,
+            220.70000076293945,
+            14.000000000000005,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              11.000000000000002,
+              196.70000076293945,
+              0.0
+            ],
+            [
+              107.0,
+              243.8839874267578,
+              28.0
+            ]
+          ]
+        }
+      ],
+      "count": 4,
+      "height": 64.0,
+      "bed_mm": [
+        256,
+        256
+      ],
+      "part_spacing_mm": 12,
+      "front_reserve_mm": 35,
+      "slicer": {
+        "plate": "P1S_MG996R_R3_01",
+        "exit_code": 0,
+        "input_sha256": "af9724fcb82b62e60110e0073a69cb6d410cbd11d4be7d08cfea55174a6b2433",
+        "diagnostics": [
+          "[2026-09-18 11:35:37.761351] [0x000000016c2d7000] [error]   ZFiller: encounter idx from clip: 819",
+          "[2026-09-18 11:35:38.201136] [0x000000016d307000] [error]   ZFiller: encounter idx from clip: 17"
+        ],
+        "gcode_present": true,
+        "gcode_summary": [
+          "; model printing time: 10h 39m 44s; total estimated time: 10h 46m 0s",
+          "; total filament weight [g] : 277.89"
+        ],
+        "sliced_file": "slicing/P1S_MG996R_R3_01/P1S_MG996R_R3_01_sliced.3mf"
+      }
+    },
+    {
+      "id": "P1S_MG996R_R3_02",
+      "label": "MG996R follower \u00b7 plate 2",
+      "robot": "follower",
+      "prototype": true,
+      "file": "follower-r3/plates/P1S_MG996R_R3_02.3mf",
+      "entries": [
+        {
+          "part": "Base_MG996R_R3",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            66.4625015258789,
+            40.99999999999971,
+            20.79999923706056,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              11.0,
+              41.0,
+              0.0
+            ],
+            [
+              121.92500305175781,
+              112.99999999999972,
+              91.79999923706056
+            ]
+          ]
+        },
+        {
+          "part": "Gripper_body_MG996R_R3",
+          "matrix": [
+            2.220446049250313e-16,
+            1.2246467991473532e-16,
+            1.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.2246467991473532e-16,
+            0.0,
+            1.0,
+            -2.719262146893782e-32,
+            -2.220446049250313e-16,
+            0.0,
+            134.97529709339142,
+            68.78178596496582,
+            35.20000076293946,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              133.9250030517578,
+              41.0,
+              0.0
+            ],
+            [
+              240.35029709339142,
+              93.0,
+              76.95000076293945
+            ]
+          ]
+        },
+        {
+          "part": "Wrist_pitch_roll_MG996R_R3",
+          "matrix": [
+            2.220446049250313e-16,
+            1.2246467991473532e-16,
+            1.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.2246467991473532e-16,
+            0.0,
+            1.0,
+            -2.719262146893782e-32,
+            -2.220446049250313e-16,
+            0.0,
+            179.75339126586914,
+            120.65959453582764,
+            27.100006103515625,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              133.9250030517578,
+              105.0,
+              0.0
+            ],
+            [
+              221.75339126586914,
+              140.65959453582764,
+              69.55000686645508
+            ]
+          ]
+        }
+      ],
+      "count": 3,
+      "height": 91.79999923706056,
+      "bed_mm": [
+        256,
+        256
+      ],
+      "part_spacing_mm": 12,
+      "front_reserve_mm": 35,
+      "slicer": {
+        "plate": "P1S_MG996R_R3_02",
+        "exit_code": 0,
+        "input_sha256": "7c3a0991bae602780a930b31f214772b21734efb43f9acdb6dbcca4282b70dd9",
+        "diagnostics": [],
+        "gcode_present": true,
+        "gcode_summary": [
+          "; model printing time: 9h 1m 47s; total estimated time: 9h 8m 3s",
+          "; total filament weight [g] : 218.99"
+        ],
+        "sliced_file": "slicing/P1S_MG996R_R3_02/P1S_MG996R_R3_02_sliced.3mf"
+      }
+    }
+  ],
+  "jointNames": [
+    "Base rotation",
+    "Shoulder",
+    "Elbow",
+    "Wrist pitch",
+    "Wrist roll",
+    "Gripper / trigger"
+  ],
+  "home": [
+    0,
+    -25,
+    35,
+    0,
+    0,
+    20
+  ],
+  "limits": [
+    [
+      -85,
+      85
+    ],
+    [
+      -80,
+      80
+    ],
+    [
+      -80,
+      80
+    ],
+    [
+      -80,
+      80
+    ],
+    [
+      -85,
+      85
+    ],
+    [
+      0,
+      70
+    ]
+  ],
+  "parameters": {},
+  "leader_pose_verified": false,
+  "display_base_spacing_mm": 800,
+  "conversion_units": [
+    {
+      "file": "Base_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -55.462501525878906,
+          2.9266571262807906e-13,
+          -20.79999923706056
+        ],
+        [
+          55.462501525878906,
+          72.0,
+          71.0
+        ]
+      ],
+      "volume_mm3": 143126.81849352794,
+      "surface_simplification_tolerance_mm": 0,
+      "stl_encoding": "ASCII float64",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 0.0,
+      "sha256": "1358ebd4bc44dea44ba6125f3c1efd77de4d47f2f4de9ff0a151dd4e86a2416b",
+      "id": "Base_MG996R_R3",
+      "label": "Base \u00b7 MG996R",
+      "source_parts": [
+        "Base_SO101",
+        "Base_motor_holder_SO101"
+      ],
+      "anchor_source_frame": "Base_SO101",
+      "registration_overlap": []
+    },
+    {
+      "file": "Shoulder_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -62.76900100708008,
+          0.20000000298023224,
+          -26.371000289916992
+        ],
+        [
+          1.7992000579833984,
+          122.10299682617188,
+          28.671369552612305
+        ]
+      ],
+      "volume_mm3": 73467.20598104132,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 3.953110447963674e-06,
+      "sha256": "62b7bd8978a8cdd9bfd498d34c48f13afbda8868014c17b33a247a936d3f122d",
+      "id": "Shoulder_MG996R_R3",
+      "label": "Shoulder \u00b7 MG996R",
+      "source_parts": [
+        "Rotation_Pitch_SO101",
+        "Motor_holder_SO101_Base"
+      ],
+      "anchor_source_frame": "Rotation_Pitch_SO101",
+      "registration_overlap": [
+        {
+          "source": "Motor_holder_SO101_Base",
+          "translation_mm": [
+            0.031,
+            -0.047,
+            0.029
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Upper_arm_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -65.08499145507812,
+          -2.450000000000003,
+          -35.599998474121094
+        ],
+        [
+          79.08500000000001,
+          61.55,
+          31.700000762939453
+        ]
+      ],
+      "volume_mm3": 108278.26349211176,
+      "surface_simplification_tolerance_mm": 0,
+      "stl_encoding": "ASCII float64",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 0.0,
+      "sha256": "532810011f7edca315fb046f8e837912bb5fe9803d9520b6d2b93e20b2fc79f8",
+      "id": "Upper_arm_MG996R_R3",
+      "label": "Upper arm \u00b7 MG996R",
+      "source_parts": [
+        "Upper_arm_SO101"
+      ],
+      "anchor_source_frame": "Upper_arm_SO101",
+      "registration_overlap": []
+    },
+    {
+      "file": "Forearm_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -90.99166107177734,
+          -53.950001525878896,
+          -34.20000076293945
+        ],
+        [
+          78.84989929199219,
+          -17.049999999999997,
+          30.200000762939453
+        ]
+      ],
+      "volume_mm3": 99079.49542170028,
+      "surface_simplification_tolerance_mm": 0,
+      "stl_encoding": "ASCII float64",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 0.0,
+      "sha256": "f83aab72bc14ca0fb9964d7303ce6860dcc816d3110205cd2aa9bf4151803439",
+      "id": "Forearm_MG996R_R3",
+      "label": "Forearm \u00b7 MG996R",
+      "source_parts": [
+        "Under_arm_SO101",
+        "Motor_holder_SO101_Wrist"
+      ],
+      "anchor_source_frame": "Under_arm_SO101",
+      "registration_overlap": [
+        {
+          "source": "Motor_holder_SO101_Wrist",
+          "translation_mm": [
+            0,
+            -0.05,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Wrist_pitch_roll_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -27.100006103515625,
+          -20.0,
+          -45.82838821411133
+        ],
+        [
+          42.45000076293945,
+          15.659594535827637,
+          42.0
+        ]
+      ],
+      "volume_mm3": 28958.283887662925,
+      "surface_simplification_tolerance_mm": 0,
+      "stl_encoding": "ASCII float64",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 1.2562825964426707e-16,
+      "sha256": "3356387425979f0f67b0aa7f650cadda22b4b5ac900a3d5acbb3c222dd4f5d75",
+      "id": "Wrist_pitch_roll_MG996R_R3",
+      "label": "Wrist pitch roll \u00b7 MG996R",
+      "source_parts": [
+        "Wrist_Roll_Pitch_SO101"
+      ],
+      "anchor_source_frame": "Wrist_Roll_Pitch_SO101",
+      "registration_overlap": []
+    },
+    {
+      "file": "Gripper_body_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -35.20000076293945,
+          -24.21821403503418,
+          -1.050294041633606
+        ],
+        [
+          41.75,
+          27.78178596496582,
+          105.375
+        ]
+      ],
+      "volume_mm3": 54119.54426704742,
+      "surface_simplification_tolerance_mm": 0.01,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 7.93790121684782e-05,
+      "sha256": "6ff8bc14bbd57f45eafe951b41a8a5048c90b6c586ae795c7392747492220b82",
+      "id": "Gripper_body_MG996R_R3",
+      "label": "Gripper body \u00b7 MG996R",
+      "source_parts": [
+        "Wrist_Roll_Follower_SO101"
+      ],
+      "anchor_source_frame": "Wrist_Roll_Follower_SO101",
+      "registration_overlap": []
+    },
+    {
+      "file": "Moving_jaw_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -14.0,
+          -82.0,
+          -24.0
+        ],
+        [
+          14.0,
+          14.0,
+          23.18398666381836
+        ]
+      ],
+      "volume_mm3": 19401.362276232834,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 6.90524255229091e-08,
+      "sha256": "6cafcba6741b3a83b66ef9a93eb5e3c1d50f3e3de66b3592ee4f5299fc06a22d",
+      "id": "Moving_jaw_MG996R_R3",
+      "label": "Moving jaw \u00b7 MG996R",
+      "source_parts": [
+        "Moving_Jaw_SO101"
+      ],
+      "anchor_source_frame": "Moving_Jaw_SO101",
+      "registration_overlap": []
+    }
+  ],
+  "prototype_reports": {
+    "build": {
+      "revision": "R3",
+      "status": "Nominal CAD prototype \u2014 no physical validation; sliced toolpaths require review",
+      "source": "Exact original SO101 individual meshes, locally modified; no whole-part scaling.",
+      "wrist_axis_extension_mm": 8,
+      "parts": [
+        {
+          "file": "Base_motor_holder_SO101_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -22.350000381469727,
+              38.099998474121094,
+              -20.799999237060547
+            ],
+            [
+              25.29109001159668,
+              69.5,
+              66.75000762939453
+            ]
+          ],
+          "volume_mm3": 25571.503662577383,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 1.751026616038761e-05,
+          "sha256": "03350ccd06e3a8555a96ba55b39703e1f173e63693f862f0a7d743282100a65c",
+          "part": "Base_motor_holder_SO101",
+          "source_sha256": "e10eb1296560bc00dca91af5f35d9be637be026a5b544c0ebfcac51501aa3c70",
+          "features": [
+            {
+              "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+              "joint": 0
+            }
+          ],
+          "discarded_nonstructural_fragments_mm3": [],
+          "structural_components": 1,
+          "source_volume_mm3": 23707.55919724728,
+          "removed_source_mm3": 1279.77001129219,
+          "added_mm3": 3143.4678095530408
+        },
+        {
+          "file": "Base_SO101_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -55.462501525878906,
+              2.9266571262807906e-13,
+              -16.0
+            ],
+            [
+              55.462501525878906,
+              72.0,
+              71.0
+            ]
+          ],
+          "volume_mm3": 118287.72620507742,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 5.030338962874459e-06,
+          "sha256": "07bc6b604613b0578fc6de639392970463d0cdd85b48b83cfb2b994d7c2e497b",
+          "part": "Base_SO101",
+          "source_sha256": "19f3c6baafc23a3bc92805762e906df9514d1008be84d490a90a9096ffdcf3c8",
+          "features": [],
+          "discarded_nonstructural_fragments_mm3": [],
+          "structural_components": 1,
+          "source_volume_mm3": 122688.11643080195,
+          "removed_source_mm3": 4399.838145973214,
+          "added_mm3": 0.03952873518603312
+        },
+        {
+          "file": "WaveShare_Mounting_Plate_SO101_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -25.5,
+              -21.0,
+              0.0
+            ],
+            [
+              25.5,
+              21.0,
+              7.599999904632568
+            ]
+          ],
+          "volume_mm3": 9093.45215924056,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 0.0,
+          "sha256": "e00f88019f821995cd9e75aba1d47302cbaeeedcfec45e913050bf0227ccb2d8",
+          "part": "WaveShare_Mounting_Plate_SO101",
+          "source_sha256": "6275f05ef28cd407be13ea882735282c4a8b2ef64930c77a9e7b5a3811740be1",
+          "features": [],
+          "discarded_nonstructural_fragments_mm3": [],
+          "structural_components": 1,
+          "source_volume_mm3": 9093.45215924056,
+          "removed_source_mm3": 0.0,
+          "added_mm3": 0.0
+        },
+        {
+          "file": "Motor_holder_SO101_Base_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -91.59989929199219,
+              -55.0970573425293,
+              -28.842369079589844
+            ],
+            [
+              -25.84990692138672,
+              -17.0,
+              26.200000762939453
+            ]
+          ],
+          "volume_mm3": 13845.140695460184,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 2.9457143789422188e-05,
+          "sha256": "e85a10ddef7dbe7e94d4093e9d9f991315813809b3d1b3c3be2d2ce889868bcb",
+          "part": "Motor_holder_SO101_Base",
+          "source_sha256": "f9971aa805e2d6fb61726d2787e752a6fe0ff21d3c66023296ee4c57a2b100a4",
+          "features": [
+            {
+              "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+              "joint": 1
+            }
+          ],
+          "discarded_nonstructural_fragments_mm3": [],
+          "structural_components": 1,
+          "source_volume_mm3": 13309.217878405632,
+          "removed_source_mm3": 3064.386528651999,
+          "added_mm3": 3599.893335149101
+        },
+        {
+          "file": "Rotation_Pitch_SO101_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -59.79999923706055,
+              0.20000000298023224,
+              -23.0
+            ],
+            [
+              1.7992000579833984,
+              84.4000015258789,
+              23.0
+            ]
+          ],
+          "volume_mm3": 61101.28789142002,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 9.568428254179869e-06,
+          "sha256": "9ac2c85d29377bc67fdb123db44e2a40c47b3f732f9855a03557c7c8c075d7a1",
+          "part": "Rotation_Pitch_SO101",
+          "source_sha256": "5ef34a5420071627d01323be13e80b7ac8af0760c72d8382c0664c914f281800",
+          "features": [
+            {
+              "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+              "joint": 0
+            },
+            {
+              "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+              "joint": 0,
+              "step_degrees": 2
+            }
+          ],
+          "discarded_nonstructural_fragments_mm3": [],
+          "structural_components": 1,
+          "source_volume_mm3": 68787.19583742798,
+          "removed_source_mm3": 9343.782701243608,
+          "added_mm3": 1657.297619848646
+        },
+        {
+          "file": "Upper_arm_SO101_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -65.08499145507812,
+              -2.450000000000003,
+              -35.599998474121094
+            ],
+            [
+              79.08500000000001,
+              61.55,
+              31.700000762939453
+            ]
+          ],
+          "volume_mm3": 108277.62501778982,
+          "surface_simplification_tolerance_mm": 0,
+          "stl_encoding": "ASCII float64",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 2.6878896218818987e-16,
+          "sha256": "bf650555c68c9f40e6fba33c9ac25a65d08384af656401f56a8a1975000bfee4",
+          "part": "Upper_arm_SO101",
+          "source_sha256": "96333913c296b13ecb1c81e63e57e4352fb6b5dea7722c84ec1fbd5073e23865",
+          "features": [
+            {
+              "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+              "joint": 2
+            },
+            {
+              "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+              "joint": 1
+            },
+            {
+              "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+              "joint": 1,
+              "step_degrees": 2
+            }
+          ],
+          "discarded_nonstructural_fragments_mm3": [],
+          "structural_components": 1,
+          "source_volume_mm3": 117327.72352597798,
+          "removed_source_mm3": 14133.278030606962,
+          "added_mm3": 5083.200735528236
+        },
+        {
+          "file": "Under_arm_SO101_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -53.84990692138672,
+              -46.0,
+              -34.20000076293945
+            ],
+            [
+              78.84989929199219,
+              -18.0,
+              30.200000762939453
+            ]
+          ],
+          "volume_mm3": 85926.3548087312,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 6.415605854570528e-06,
+          "sha256": "8b132cd0bab828636fb8b3f055033863ac382157546f7b0cd1b68c5a2aadd379",
+          "part": "Under_arm_SO101",
+          "source_sha256": "537b03e68ff7c061da4cc70bf0b5a61018a76c00bccc72d61f022d1644230db5",
+          "features": [
+            {
+              "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+              "joint": 2
+            },
+            {
+              "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+              "joint": 2,
+              "step_degrees": 2
+            }
+          ],
+          "discarded_nonstructural_fragments_mm3": [],
+          "structural_components": 1,
+          "source_volume_mm3": 92894.24896813529,
+          "removed_source_mm3": 8595.6893445499,
+          "added_mm3": 1627.2568022996227
+        },
+        {
+          "file": "Motor_holder_SO101_Wrist_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -90.99166107177734,
+              -53.900001525878906,
+              -30.190000534057617
+            ],
+            [
+              -25.84990692138672,
+              -17.0,
+              26.200000762939453
+            ]
+          ],
+          "volume_mm3": 13966.552949687759,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 3.1671324797406305e-05,
+          "sha256": "60d67de67c7c74edec913f5dbfa5a081b9bbf753c3c73443416680856d98a954",
+          "part": "Motor_holder_SO101_Wrist",
+          "source_sha256": "936c84ed2c918b3ec14e2c3ec3f742f47bed10a4e3d0a2c9bf7869d0a2a55149",
+          "features": [
+            {
+              "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+              "joint": 3
+            }
+          ],
+          "discarded_nonstructural_fragments_mm3": [
+            16.293241979362072
+          ],
+          "structural_components": 1,
+          "source_volume_mm3": 13870.111163306025,
+          "removed_source_mm3": 3220.7991242766607,
+          "added_mm3": 3316.7911306518918
+        },
+        {
+          "file": "Wrist_Roll_Pitch_SO101_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -27.100006103515625,
+              -20.0,
+              -45.82838821411133
+            ],
+            [
+              42.45000076293945,
+              15.659594535827637,
+              42.0
+            ]
+          ],
+          "volume_mm3": 29179.46065687782,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 8.017979486693405e-06,
+          "sha256": "4b022865d3a0db3d43f45537fef5c9e75ba48bf7a38bce54df26dea684c8520f",
+          "part": "Wrist_Roll_Pitch_SO101",
+          "source_sha256": "14eb2f45ab1b279025ed2aea358f0091aad6aff967faef58527fd216f28fb6e5",
+          "features": [
+            {
+              "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+              "joint": 4
+            },
+            {
+              "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+              "joint": 3
+            },
+            {
+              "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+              "joint": 3,
+              "step_degrees": 2
+            }
+          ],
+          "discarded_nonstructural_fragments_mm3": [],
+          "structural_components": 1,
+          "source_volume_mm3": 32298.689769272474,
+          "removed_source_mm3": 14437.162537359154,
+          "added_mm3": 11317.697348225784
+        },
+        {
+          "file": "Wrist_Roll_Follower_SO101_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -35.20000076293945,
+              -24.21821403503418,
+              -1.050294041633606
+            ],
+            [
+              41.75,
+              27.78178596496582,
+              105.375
+            ]
+          ],
+          "volume_mm3": 54115.65376233932,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 1.8758309225563005e-05,
+          "sha256": "b3593496150f3cf97774a0a12a0a1547fac0ba15217436f108fcf28311ea966c",
+          "part": "Wrist_Roll_Follower_SO101",
+          "source_sha256": "3f47a4b889b95a4c71046bda9ddfc9399d96d80a57ad7fc079700e240323a302",
+          "features": [
+            {
+              "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+              "joint": 5
+            },
+            {
+              "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+              "joint": 4
+            },
+            {
+              "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+              "joint": 4,
+              "step_degrees": 2
+            }
+          ],
+          "discarded_nonstructural_fragments_mm3": [],
+          "structural_components": 1,
+          "source_volume_mm3": 56618.21071310225,
+          "removed_source_mm3": 7247.294675905583,
+          "added_mm3": 4743.740638399567
+        },
+        {
+          "file": "Moving_Jaw_SO101_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -14.0,
+              -82.0,
+              -24.0
+            ],
+            [
+              14.0,
+              14.0,
+              23.18398666381836
+            ]
+          ],
+          "volume_mm3": 19401.357315946767,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 2.588667447028974e-05,
+          "sha256": "715aa63e67bcb91f1b95e8377f1833c7413ea5b56577f3fd3b44f914a9c3002b",
+          "part": "Moving_Jaw_SO101",
+          "source_sha256": "403763bbab8656cc7ce5ea6374741d0860bd19426b5b4b0041de3a2c1275f90b",
+          "features": [
+            {
+              "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+              "joint": 5
+            },
+            {
+              "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+              "joint": 5,
+              "step_degrees": 2
+            }
+          ],
+          "discarded_nonstructural_fragments_mm3": [],
+          "structural_components": 1,
+          "source_volume_mm3": 20692.84162342956,
+          "removed_source_mm3": 3354.9966958847476,
+          "added_mm3": 2063.0105753011153
+        }
+      ],
+      "print_units": [
+        {
+          "file": "Base_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -55.462501525878906,
+              2.9266571262807906e-13,
+              -20.79999923706056
+            ],
+            [
+              55.462501525878906,
+              72.0,
+              71.0
+            ]
+          ],
+          "volume_mm3": 143126.81849352794,
+          "surface_simplification_tolerance_mm": 0,
+          "stl_encoding": "ASCII float64",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 0.0,
+          "sha256": "1358ebd4bc44dea44ba6125f3c1efd77de4d47f2f4de9ff0a151dd4e86a2416b",
+          "id": "Base_MG996R_R3",
+          "label": "Base \u00b7 MG996R",
+          "source_parts": [
+            "Base_SO101",
+            "Base_motor_holder_SO101"
+          ],
+          "anchor_source_frame": "Base_SO101",
+          "registration_overlap": []
+        },
+        {
+          "file": "Shoulder_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -62.76900100708008,
+              0.20000000298023224,
+              -26.371000289916992
+            ],
+            [
+              1.7992000579833984,
+              122.10299682617188,
+              28.671369552612305
+            ]
+          ],
+          "volume_mm3": 73467.20598104132,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 3.953110447963674e-06,
+          "sha256": "62b7bd8978a8cdd9bfd498d34c48f13afbda8868014c17b33a247a936d3f122d",
+          "id": "Shoulder_MG996R_R3",
+          "label": "Shoulder \u00b7 MG996R",
+          "source_parts": [
+            "Rotation_Pitch_SO101",
+            "Motor_holder_SO101_Base"
+          ],
+          "anchor_source_frame": "Rotation_Pitch_SO101",
+          "registration_overlap": [
+            {
+              "source": "Motor_holder_SO101_Base",
+              "translation_mm": [
+                0.031,
+                -0.047,
+                0.029
+              ]
+            }
+          ]
+        },
+        {
+          "file": "Upper_arm_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -65.08499145507812,
+              -2.450000000000003,
+              -35.599998474121094
+            ],
+            [
+              79.08500000000001,
+              61.55,
+              31.700000762939453
+            ]
+          ],
+          "volume_mm3": 108278.26349211176,
+          "surface_simplification_tolerance_mm": 0,
+          "stl_encoding": "ASCII float64",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 0.0,
+          "sha256": "532810011f7edca315fb046f8e837912bb5fe9803d9520b6d2b93e20b2fc79f8",
+          "id": "Upper_arm_MG996R_R3",
+          "label": "Upper arm \u00b7 MG996R",
+          "source_parts": [
+            "Upper_arm_SO101"
+          ],
+          "anchor_source_frame": "Upper_arm_SO101",
+          "registration_overlap": []
+        },
+        {
+          "file": "Forearm_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -90.99166107177734,
+              -53.950001525878896,
+              -34.20000076293945
+            ],
+            [
+              78.84989929199219,
+              -17.049999999999997,
+              30.200000762939453
+            ]
+          ],
+          "volume_mm3": 99079.49542170028,
+          "surface_simplification_tolerance_mm": 0,
+          "stl_encoding": "ASCII float64",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 0.0,
+          "sha256": "f83aab72bc14ca0fb9964d7303ce6860dcc816d3110205cd2aa9bf4151803439",
+          "id": "Forearm_MG996R_R3",
+          "label": "Forearm \u00b7 MG996R",
+          "source_parts": [
+            "Under_arm_SO101",
+            "Motor_holder_SO101_Wrist"
+          ],
+          "anchor_source_frame": "Under_arm_SO101",
+          "registration_overlap": [
+            {
+              "source": "Motor_holder_SO101_Wrist",
+              "translation_mm": [
+                0,
+                -0.05,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "Wrist_pitch_roll_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -27.100006103515625,
+              -20.0,
+              -45.82838821411133
+            ],
+            [
+              42.45000076293945,
+              15.659594535827637,
+              42.0
+            ]
+          ],
+          "volume_mm3": 28958.283887662925,
+          "surface_simplification_tolerance_mm": 0,
+          "stl_encoding": "ASCII float64",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 1.2562825964426707e-16,
+          "sha256": "3356387425979f0f67b0aa7f650cadda22b4b5ac900a3d5acbb3c222dd4f5d75",
+          "id": "Wrist_pitch_roll_MG996R_R3",
+          "label": "Wrist pitch roll \u00b7 MG996R",
+          "source_parts": [
+            "Wrist_Roll_Pitch_SO101"
+          ],
+          "anchor_source_frame": "Wrist_Roll_Pitch_SO101",
+          "registration_overlap": []
+        },
+        {
+          "file": "Gripper_body_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -35.20000076293945,
+              -24.21821403503418,
+              -1.050294041633606
+            ],
+            [
+              41.75,
+              27.78178596496582,
+              105.375
+            ]
+          ],
+          "volume_mm3": 54119.54426704742,
+          "surface_simplification_tolerance_mm": 0.01,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 7.93790121684782e-05,
+          "sha256": "6ff8bc14bbd57f45eafe951b41a8a5048c90b6c586ae795c7392747492220b82",
+          "id": "Gripper_body_MG996R_R3",
+          "label": "Gripper body \u00b7 MG996R",
+          "source_parts": [
+            "Wrist_Roll_Follower_SO101"
+          ],
+          "anchor_source_frame": "Wrist_Roll_Follower_SO101",
+          "registration_overlap": []
+        },
+        {
+          "file": "Moving_jaw_MG996R_R3.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "shells": 1,
+          "bounds_mm": [
+            [
+              -14.0,
+              -82.0,
+              -24.0
+            ],
+            [
+              14.0,
+              14.0,
+              23.18398666381836
+            ]
+          ],
+          "volume_mm3": 19401.362276232834,
+          "surface_simplification_tolerance_mm": 0.005,
+          "stl_encoding": "binary",
+          "bounded_mesh_repair": null,
+          "relative_volume_change": 6.90524255229091e-08,
+          "sha256": "6cafcba6741b3a83b66ef9a93eb5e3c1d50f3e3de66b3592ee4f5299fc06a22d",
+          "id": "Moving_jaw_MG996R_R3",
+          "label": "Moving jaw \u00b7 MG996R",
+          "source_parts": [
+            "Moving_Jaw_SO101"
+          ],
+          "anchor_source_frame": "Moving_Jaw_SO101",
+          "registration_overlap": []
+        }
+      ],
+      "limits_degrees": [
+        [
+          -85,
+          85
+        ],
+        [
+          -80,
+          80
+        ],
+        [
+          -80,
+          80
+        ],
+        [
+          -80,
+          80
+        ],
+        [
+          -85,
+          85
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "physical_fit_verified": false,
+      "complete_arm_release": false,
+      "pending": [
+        "Physical fit test",
+        "Single-shaft load support and retention",
+        "Strength, powered operation and cable routing",
+        "Encoder leader conversion",
+        "Slicer/toolpath review"
+      ]
+    },
+    "interfaces": {
+      "revision": "R3",
+      "physical_tested": false,
+      "joints": [
+        {
+          "joint": 0,
+          "holder": "Base_motor_holder_SO101",
+          "driven": "Rotation_Pitch_SO101",
+          "insertion": [
+            {
+              "lift_mm": 0.0,
+              "intersection_mm3": 1.5614919448278087e-10
+            },
+            {
+              "lift_mm": 2.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 5.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 7.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 10.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 12.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 15.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 17.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 20.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 22.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 25.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 27.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 30.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 32.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 35.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 37.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 40.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 42.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 45.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 47.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 50.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 52.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 55.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 57.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 60.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 62.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 65.0,
+              "intersection_mm3": 0
+            }
+          ],
+          "tab_lands": [
+            {
+              "centre_mm": [
+                -22.7,
+                -5
+              ],
+              "mean_support_area_mm2": 23.977809352604165,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                -22.7,
+                5
+              ],
+              "mean_support_area_mm2": 23.979458668405606,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                -5
+              ],
+              "mean_support_area_mm2": 23.979687961689542,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                5
+              ],
+              "mean_support_area_mm2": 23.98074961174941,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "horn_lands": [
+            {
+              "centre_mm": [
+                19.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 23.103285534939147,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                5.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 23.10345654815116,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                7
+              ],
+              "mean_head_support_area_mm2": 23.10362833226483,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                -7
+              ],
+              "mean_head_support_area_mm2": 23.104498997778826,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "insertion_passed": true,
+          "four_tab_lands_present": true,
+          "four_horn_lands_present": true
+        },
+        {
+          "joint": 1,
+          "holder": "Motor_holder_SO101_Base",
+          "driven": "Upper_arm_SO101",
+          "insertion": [
+            {
+              "lift_mm": 0.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 2.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 5.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 7.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 10.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 12.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 15.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 17.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 20.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 22.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 25.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 27.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 30.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 32.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 35.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 37.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 40.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 42.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 45.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 47.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 50.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 52.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 55.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 57.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 60.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 62.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 65.0,
+              "intersection_mm3": 0
+            }
+          ],
+          "tab_lands": [
+            {
+              "centre_mm": [
+                -22.7,
+                -5
+              ],
+              "mean_support_area_mm2": 23.87459441810759,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                -22.7,
+                5
+              ],
+              "mean_support_area_mm2": 23.873791181121938,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                -5
+              ],
+              "mean_support_area_mm2": 23.741247593733753,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                5
+              ],
+              "mean_support_area_mm2": 23.740230278070946,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "horn_lands": [
+            {
+              "centre_mm": [
+                19.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 23.10413952564852,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                5.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 23.10379790358847,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                7
+              ],
+              "mean_head_support_area_mm2": 23.103968714618514,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                -7
+              ],
+              "mean_head_support_area_mm2": 23.101754100348614,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "insertion_passed": true,
+          "four_tab_lands_present": true,
+          "four_horn_lands_present": true
+        },
+        {
+          "joint": 2,
+          "holder": "Upper_arm_SO101",
+          "driven": "Under_arm_SO101",
+          "insertion": [
+            {
+              "lift_mm": 0.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 2.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 5.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 7.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 10.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 12.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 15.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 17.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 20.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 22.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 25.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 27.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 30.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 32.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 35.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 37.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 40.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 42.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 45.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 47.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 50.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 52.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 55.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 57.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 60.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 62.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 65.0,
+              "intersection_mm3": 0
+            }
+          ],
+          "tab_lands": [
+            {
+              "centre_mm": [
+                -22.7,
+                -5
+              ],
+              "mean_support_area_mm2": 23.97934494076081,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                -22.7,
+                5
+              ],
+              "mean_support_area_mm2": 23.98088100553483,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                -5
+              ],
+              "mean_support_area_mm2": 23.980209710501377,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                5
+              ],
+              "mean_support_area_mm2": 23.980896023674852,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "horn_lands": [
+            {
+              "centre_mm": [
+                19.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 23.10328637823793,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                5.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 23.10295706113764,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                7
+              ],
+              "mean_head_support_area_mm2": 23.102432342325734,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                -7
+              ],
+              "mean_head_support_area_mm2": 23.102260694103705,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "insertion_passed": true,
+          "four_tab_lands_present": true,
+          "four_horn_lands_present": true
+        },
+        {
+          "joint": 3,
+          "holder": "Motor_holder_SO101_Wrist",
+          "driven": "Wrist_Roll_Pitch_SO101",
+          "insertion": [
+            {
+              "lift_mm": 0.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 2.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 5.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 7.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 10.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 12.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 15.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 17.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 20.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 22.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 25.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 27.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 30.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 32.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 35.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 37.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 40.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 42.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 45.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 47.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 50.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 52.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 55.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 57.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 60.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 62.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 65.0,
+              "intersection_mm3": 0
+            }
+          ],
+          "tab_lands": [
+            {
+              "centre_mm": [
+                -22.7,
+                -5
+              ],
+              "mean_support_area_mm2": 23.732225445357425,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                -22.7,
+                5
+              ],
+              "mean_support_area_mm2": 23.73265096103878,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                -5
+              ],
+              "mean_support_area_mm2": 23.729683685239777,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                5
+              ],
+              "mean_support_area_mm2": 23.730231202041747,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "horn_lands": [
+            {
+              "centre_mm": [
+                19.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 22.566576014299812,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                5.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 22.566160004086502,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                7
+              ],
+              "mean_head_support_area_mm2": 20.17673048956637,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                -7
+              ],
+              "mean_head_support_area_mm2": 20.175726778171256,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "insertion_passed": true,
+          "four_tab_lands_present": true,
+          "four_horn_lands_present": true
+        },
+        {
+          "joint": 4,
+          "holder": "Wrist_Roll_Pitch_SO101",
+          "driven": "Wrist_Roll_Follower_SO101",
+          "insertion": [
+            {
+              "lift_mm": 0.0,
+              "intersection_mm3": 2.8622937353617317e-16
+            },
+            {
+              "lift_mm": 2.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 5.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 7.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 10.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 12.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 15.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 17.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 20.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 22.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 25.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 27.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 30.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 32.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 35.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 37.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 40.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 42.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 45.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 47.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 50.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 52.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 55.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 57.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 60.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 62.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 65.0,
+              "intersection_mm3": 0
+            }
+          ],
+          "tab_lands": [
+            {
+              "centre_mm": [
+                -22.7,
+                -5
+              ],
+              "mean_support_area_mm2": 23.9812318231037,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                -22.7,
+                5
+              ],
+              "mean_support_area_mm2": 23.980430479619077,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                -5
+              ],
+              "mean_support_area_mm2": 23.98139330546421,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                5
+              ],
+              "mean_support_area_mm2": 23.982828056351618,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "horn_lands": [
+            {
+              "centre_mm": [
+                19.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 23.113853844086957,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                5.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 23.111299023464028,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                7
+              ],
+              "mean_head_support_area_mm2": 23.11284644708547,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                -7
+              ],
+              "mean_head_support_area_mm2": 23.117260552440257,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "insertion_passed": true,
+          "four_tab_lands_present": true,
+          "four_horn_lands_present": true
+        },
+        {
+          "joint": 5,
+          "holder": "Wrist_Roll_Follower_SO101",
+          "driven": "Moving_Jaw_SO101",
+          "insertion": [
+            {
+              "lift_mm": 0.0,
+              "intersection_mm3": 5.852914435065684e-07
+            },
+            {
+              "lift_mm": 2.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 5.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 7.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 10.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 12.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 15.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 17.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 20.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 22.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 25.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 27.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 30.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 32.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 35.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 37.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 40.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 42.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 45.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 47.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 50.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 52.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 55.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 57.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 60.0,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 62.5,
+              "intersection_mm3": 0
+            },
+            {
+              "lift_mm": 65.0,
+              "intersection_mm3": 0
+            }
+          ],
+          "tab_lands": [
+            {
+              "centre_mm": [
+                -22.7,
+                -5
+              ],
+              "mean_support_area_mm2": 24.002632695881978,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                -22.7,
+                5
+              ],
+              "mean_support_area_mm2": 24.004069183800564,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                -5
+              ],
+              "mean_support_area_mm2": 24.002813038045044,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                26.8,
+                5
+              ],
+              "mean_support_area_mm2": 24.002915912553846,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "horn_lands": [
+            {
+              "centre_mm": [
+                19.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 23.104651477468085,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                5.5,
+                0
+              ],
+              "mean_head_support_area_mm2": 23.10243326549215,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                7
+              ],
+              "mean_head_support_area_mm2": 23.10379890037901,
+              "M3_shank_intersection_mm3": 0
+            },
+            {
+              "centre_mm": [
+                12.5,
+                -7
+              ],
+              "mean_head_support_area_mm2": 23.103694443138775,
+              "M3_shank_intersection_mm3": 0
+            }
+          ],
+          "insertion_passed": true,
+          "four_tab_lands_present": true,
+          "four_horn_lands_present": true
+        }
+      ],
+      "method": "Exported joined STL re-import. Hornless servo translated +Z at 27 heights; 7 mm tab-washer footprints through 4 mm ledges, and 6.4 mm horn-head footprints through 6 mm printed horn plates.",
+      "scope": "Nominal fit only; no strength/load proof. Servo is inserted before the driven link is attached.",
+      "all_checks_passed": true,
+      "files": {
+        "print-parts/Base_MG996R_R3.stl": "1358ebd4bc44dea44ba6125f3c1efd77de4d47f2f4de9ff0a151dd4e86a2416b",
+        "print-parts/Forearm_MG996R_R3.stl": "f83aab72bc14ca0fb9964d7303ce6860dcc816d3110205cd2aa9bf4151803439",
+        "print-parts/Gripper_body_MG996R_R3.stl": "6ff8bc14bbd57f45eafe951b41a8a5048c90b6c586ae795c7392747492220b82",
+        "print-parts/Moving_jaw_MG996R_R3.stl": "6cafcba6741b3a83b66ef9a93eb5e3c1d50f3e3de66b3592ee4f5299fc06a22d",
+        "print-parts/Shoulder_MG996R_R3.stl": "62b7bd8978a8cdd9bfd498d34c48f13afbda8868014c17b33a247a936d3f122d",
+        "print-parts/Upper_arm_MG996R_R3.stl": "532810011f7edca315fb046f8e837912bb5fe9803d9520b6d2b93e20b2fc79f8",
+        "print-parts/Wrist_pitch_roll_MG996R_R3.stl": "3356387425979f0f67b0aa7f650cadda22b4b5ac900a3d5acbb3c222dd4f5d75"
+      }
+    },
+    "plates": {
+      "revision": "R3",
+      "plates": [
+        {
+          "id": "P1S_MG996R_R3_01",
+          "label": "MG996R follower \u00b7 plate 1",
+          "robot": "follower",
+          "prototype": true,
+          "file": "follower-r3/plates/P1S_MG996R_R3_01.3mf",
+          "entries": [
+            {
+              "part": "Forearm_MG996R_R3",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -3.4450928483976665e-16,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -3.4450928483976665e-16,
+                0.0,
+                101.99166107177734,
+                75.20000076293945,
+                -17.049999999999997,
+                1.0
+              ],
+              "bounds_mm": [
+                [
+                  11.0,
+                  41.00000000000001,
+                  0.0
+                ],
+                [
+                  180.84156036376953,
+                  105.40000152587892,
+                  36.900001525878906
+                ]
+              ]
+            },
+            {
+              "part": "Upper_arm_MG996R_R3",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -3.4450928483976665e-16,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -3.4450928483976665e-16,
+                0.0,
+                76.08499145507812,
+                153.0,
+                61.55,
+                1.0
+              ],
+              "bounds_mm": [
+                [
+                  11.0,
+                  117.4000015258789,
+                  0.0
+                ],
+                [
+                  155.16999145507813,
+                  184.70000076293945,
+                  64.0
+                ]
+              ]
+            },
+            {
+              "part": "Shoulder_MG996R_R3",
+              "matrix": [
+                -1.0,
+                4.440892098500626e-16,
+                0.0,
+                0.0,
+                -4.440892098500626e-16,
+                -1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                168.96919151306156,
+                239.5029983520508,
+                26.371000289916992,
+                1.0
+              ],
+              "bounds_mm": [
+                [
+                  167.16999145507813,
+                  117.4000015258789,
+                  0.0
+                ],
+                [
+                  231.7381925201416,
+                  239.30299834907058,
+                  55.0423698425293
+                ]
+              ]
+            },
+            {
+              "part": "Moving_jaw_MG996R_R3",
+              "matrix": [
+                4.930380657631324e-32,
+                2.220446049250313e-16,
+                -1.0,
+                0.0,
+                -1.0,
+                2.220446049250313e-16,
+                0.0,
+                0.0,
+                2.220446049250313e-16,
+                1.0,
+                2.220446049250313e-16,
+                0.0,
+                25.000000000000007,
+                220.70000076293945,
+                14.000000000000005,
+                1.0
+              ],
+              "bounds_mm": [
+                [
+                  11.000000000000002,
+                  196.70000076293945,
+                  0.0
+                ],
+                [
+                  107.0,
+                  243.8839874267578,
+                  28.0
+                ]
+              ]
+            }
+          ],
+          "count": 4,
+          "height": 64.0,
+          "bed_mm": [
+            256,
+            256
+          ],
+          "part_spacing_mm": 12,
+          "front_reserve_mm": 35,
+          "slicer": {
+            "plate": "P1S_MG996R_R3_01",
+            "exit_code": 0,
+            "input_sha256": "af9724fcb82b62e60110e0073a69cb6d410cbd11d4be7d08cfea55174a6b2433",
+            "diagnostics": [
+              "[2026-09-18 11:35:37.761351] [0x000000016c2d7000] [error]   ZFiller: encounter idx from clip: 819",
+              "[2026-09-18 11:35:38.201136] [0x000000016d307000] [error]   ZFiller: encounter idx from clip: 17"
+            ],
+            "gcode_present": true,
+            "gcode_summary": [
+              "; model printing time: 10h 39m 44s; total estimated time: 10h 46m 0s",
+              "; total filament weight [g] : 277.89"
+            ],
+            "sliced_file": "slicing/P1S_MG996R_R3_01/P1S_MG996R_R3_01_sliced.3mf"
+          }
+        },
+        {
+          "id": "P1S_MG996R_R3_02",
+          "label": "MG996R follower \u00b7 plate 2",
+          "robot": "follower",
+          "prototype": true,
+          "file": "follower-r3/plates/P1S_MG996R_R3_02.3mf",
+          "entries": [
+            {
+              "part": "Base_MG996R_R3",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                66.4625015258789,
+                40.99999999999971,
+                20.79999923706056,
+                1.0
+              ],
+              "bounds_mm": [
+                [
+                  11.0,
+                  41.0,
+                  0.0
+                ],
+                [
+                  121.92500305175781,
+                  112.99999999999972,
+                  91.79999923706056
+                ]
+              ]
+            },
+            {
+              "part": "Gripper_body_MG996R_R3",
+              "matrix": [
+                2.220446049250313e-16,
+                1.2246467991473532e-16,
+                1.0,
+                0.0,
+                0.0,
+                -1.0,
+                1.2246467991473532e-16,
+                0.0,
+                1.0,
+                -2.719262146893782e-32,
+                -2.220446049250313e-16,
+                0.0,
+                134.97529709339142,
+                68.78178596496582,
+                35.20000076293946,
+                1.0
+              ],
+              "bounds_mm": [
+                [
+                  133.9250030517578,
+                  41.0,
+                  0.0
+                ],
+                [
+                  240.35029709339142,
+                  93.0,
+                  76.95000076293945
+                ]
+              ]
+            },
+            {
+              "part": "Wrist_pitch_roll_MG996R_R3",
+              "matrix": [
+                2.220446049250313e-16,
+                1.2246467991473532e-16,
+                1.0,
+                0.0,
+                0.0,
+                -1.0,
+                1.2246467991473532e-16,
+                0.0,
+                1.0,
+                -2.719262146893782e-32,
+                -2.220446049250313e-16,
+                0.0,
+                179.75339126586914,
+                120.65959453582764,
+                27.100006103515625,
+                1.0
+              ],
+              "bounds_mm": [
+                [
+                  133.9250030517578,
+                  105.0,
+                  0.0
+                ],
+                [
+                  221.75339126586914,
+                  140.65959453582764,
+                  69.55000686645508
+                ]
+              ]
+            }
+          ],
+          "count": 3,
+          "height": 91.79999923706056,
+          "bed_mm": [
+            256,
+            256
+          ],
+          "part_spacing_mm": 12,
+          "front_reserve_mm": 35,
+          "slicer": {
+            "plate": "P1S_MG996R_R3_02",
+            "exit_code": 0,
+            "input_sha256": "7c3a0991bae602780a930b31f214772b21734efb43f9acdb6dbcca4282b70dd9",
+            "diagnostics": [],
+            "gcode_present": true,
+            "gcode_summary": [
+              "; model printing time: 9h 1m 47s; total estimated time: 9h 8m 3s",
+              "; total filament weight [g] : 218.99"
+            ],
+            "sliced_file": "slicing/P1S_MG996R_R3_02/P1S_MG996R_R3_02_sliced.3mf"
+          }
+        }
+      ],
+      "orientations": {
+        "Base_MG996R_R3": {
+          "bed_contact_area_mm2": 797.4348348834162,
+          "unsupported_down_face_area_mm2": 3616.6539686182805,
+          "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+        },
+        "Shoulder_MG996R_R3": {
+          "bed_contact_area_mm2": 172.00520789124025,
+          "unsupported_down_face_area_mm2": 3526.1111519084966,
+          "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+        },
+        "Upper_arm_MG996R_R3": {
+          "bed_contact_area_mm2": 116.0,
+          "unsupported_down_face_area_mm2": 5872.651967589212,
+          "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+        },
+        "Forearm_MG996R_R3": {
+          "bed_contact_area_mm2": 917.6085303707766,
+          "unsupported_down_face_area_mm2": 5640.4215585587335,
+          "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+        },
+        "Wrist_pitch_roll_MG996R_R3": {
+          "bed_contact_area_mm2": 582.8314321647339,
+          "unsupported_down_face_area_mm2": 1524.264403053066,
+          "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+        },
+        "Gripper_body_MG996R_R3": {
+          "bed_contact_area_mm2": 825.1879896680307,
+          "unsupported_down_face_area_mm2": 1661.5925842011507,
+          "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+        },
+        "Moving_jaw_MG996R_R3": {
+          "bed_contact_area_mm2": 12.461399532139136,
+          "unsupported_down_face_area_mm2": 1371.0340503659104,
+          "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+        }
+      },
+      "sliced": true,
+      "globally_minimum_plate_count_proven": false,
+      "method": "16 rectangle-packing candidates; 12 mm part spacing, 35 mm front reserve, 5 mm outer reserve. Counts exclude the obsolete stock WaveShare controller mount.",
+      "settings": {
+        "printer": "Bambu Lab P1S",
+        "nozzle_mm": 0.4,
+        "layer_height_mm": 0.2,
+        "filament": "Generic PETG",
+        "bed": "Textured PEI",
+        "walls": 4,
+        "wall_generator": "arachne",
+        "infill": "25% gyroid",
+        "support": "normal(auto), 30 degrees",
+        "brim_mm": 5
+      },
+      "toolpath_screen": {
+        "method": "At each nominal 0.20 mm model layer, test whether each positive-winding mesh cross-section contour >2 mm\u00b2 intersects a non-support extrusion segment (0.3 mm tolerance; arcs approximated in 3-degree segments). Holes, fine features, exact bead widths, complete perimeter coverage and load strength are not certified.",
+        "files": {
+          "slicing/P1S_MG996R_R3_01/P1S_MG996R_R3_01_sliced.3mf": "25e86e7876584dd8383a9530b4b5656cc9b580df07376809467802f35e1ce7af",
+          "slicing/P1S_MG996R_R3_02/P1S_MG996R_R3_02_sliced.3mf": "08ca22168583c1840844c3e1dc7ebd7a0fa6c57e7d7548db34dfb10d635e8b61"
+        },
+        "plates": [
+          {
+            "plate": "P1S_MG996R_R3_01",
+            "cross_section_components_screened": 3277,
+            "missing_component_candidates": [
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 10.0,
+                "slice_z_mm": 9.9,
+                "outer_area_mm2": 3.48337857865954,
+                "bounds": [
+                  52.765371941030025,
+                  45.21000023186207,
+                  58.40507507324219,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 10.2,
+                "slice_z_mm": 10.1,
+                "outer_area_mm2": 3.48347940529311,
+                "bounds": [
+                  52.7659799978137,
+                  45.21000023186207,
+                  58.405930392444134,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 10.4,
+                "slice_z_mm": 10.3,
+                "outer_area_mm2": 3.483562155702657,
+                "bounds": [
+                  52.76658806204796,
+                  45.21000023186207,
+                  58.4067857041955,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 10.6,
+                "slice_z_mm": 10.5,
+                "outer_area_mm2": 3.483427504157362,
+                "bounds": [
+                  52.767196118831635,
+                  45.21000023186207,
+                  58.40128154307604,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 10.8,
+                "slice_z_mm": 10.700000000000001,
+                "outer_area_mm2": 3.4795912931881503,
+                "bounds": [
+                  52.76780418306589,
+                  45.21000023186207,
+                  58.37504805624485,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 11.0,
+                "slice_z_mm": 10.9,
+                "outer_area_mm2": 3.469519157389186,
+                "bounds": [
+                  52.76841223984957,
+                  45.21000023186207,
+                  58.3329828903079,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 11.2,
+                "slice_z_mm": 11.1,
+                "outer_area_mm2": 3.446548768847606,
+                "bounds": [
+                  52.769020304083824,
+                  45.21000023186207,
+                  58.25817050784826,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 11.4,
+                "slice_z_mm": 11.3,
+                "outer_area_mm2": 3.408941373088055,
+                "bounds": [
+                  52.76962836831808,
+                  45.21000023186207,
+                  58.171956196427345,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 11.6,
+                "slice_z_mm": 11.5,
+                "outer_area_mm2": 3.354524910041846,
+                "bounds": [
+                  52.77023642510176,
+                  45.21000023186207,
+                  58.05003899335861,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 11.8,
+                "slice_z_mm": 11.700000000000001,
+                "outer_area_mm2": 3.285734595613121,
+                "bounds": [
+                  52.770844489336014,
+                  45.21000023186207,
+                  57.9232479557395,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 12.0,
+                "slice_z_mm": 11.9,
+                "outer_area_mm2": 3.2013881435182157,
+                "bounds": [
+                  52.79328737407923,
+                  45.21000023186207,
+                  57.76265939325094,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 12.2,
+                "slice_z_mm": 12.1,
+                "outer_area_mm2": 3.0956943273583875,
+                "bounds": [
+                  52.82903112471104,
+                  45.21000023186207,
+                  57.57828500121832,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 12.4,
+                "slice_z_mm": 12.3,
+                "outer_area_mm2": 2.9647760293150895,
+                "bounds": [
+                  52.872275821864605,
+                  45.21000023186207,
+                  57.37798362970352,
+                  45.900000765919685
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 13.6,
+                "slice_z_mm": 13.5,
+                "outer_area_mm2": 18.189971222387612,
+                "bounds": [
+                  145.47636952996254,
+                  41.0,
+                  155.8902122452855,
+                  42.8615640103817
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 13.8,
+                "slice_z_mm": 13.700000000000001,
+                "outer_area_mm2": 16.053970062429016,
+                "bounds": [
+                  145.50964465737343,
+                  41.0,
+                  155.85869309306145,
+                  42.655747793614864
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 14.0,
+                "slice_z_mm": 13.9,
+                "outer_area_mm2": 13.930730180397859,
+                "bounds": [
+                  145.54291978478432,
+                  41.0,
+                  155.8271739333868,
+                  42.44993157684803
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 16.2,
+                "slice_z_mm": 16.099999999999998,
+                "outer_area_mm2": 7.291986399143752,
+                "bounds": [
+                  150.1203737258911,
+                  41.0,
+                  155.82617373019457,
+                  42.35301011055708
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 16.4,
+                "slice_z_mm": 16.299999999999997,
+                "outer_area_mm2": 15.049969550495007,
+                "bounds": [
+                  145.54118764400482,
+                  41.0,
+                  155.8596130385995,
+                  42.55867621302605
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 16.6,
+                "slice_z_mm": 16.5,
+                "outer_area_mm2": 17.178837623672734,
+                "bounds": [
+                  145.50966718047857,
+                  41.0,
+                  155.8930523470044,
+                  42.764342315495014
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 30.6,
+                "slice_z_mm": 30.5,
+                "outer_area_mm2": 105.35812743950919,
+                "bounds": [
+                  48.141754150390625,
+                  90.80000038444996,
+                  59.577537536621094,
+                  101.05448265373707
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 36.6,
+                "slice_z_mm": 36.5,
+                "outer_area_mm2": 36.52413863731272,
+                "bounds": [
+                  48.141754150390625,
+                  56.50985459238291,
+                  74.65596771240234,
+                  57.89119426161051
+                ]
+              },
+              {
+                "part": "Forearm_MG996R_R3",
+                "print_z_mm": 36.8,
+                "slice_z_mm": 36.699999999999996,
+                "outer_area_mm2": 27.411051367106438,
+                "bounds": [
+                  48.141754150390625,
+                  56.67361572384834,
+                  74.45596943050623,
+                  57.72797814011574
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 44.0,
+                "slice_z_mm": 43.9,
+                "outer_area_mm2": 2.0442143249074434,
+                "bounds": [
+                  148.71266300231218,
+                  121.93060091882944,
+                  150.8183499649167,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 44.2,
+                "slice_z_mm": 44.1,
+                "outer_area_mm2": 2.175306309458392,
+                "bounds": [
+                  148.75910986214876,
+                  121.88652918487787,
+                  150.92830102145672,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 44.4,
+                "slice_z_mm": 44.3,
+                "outer_area_mm2": 2.309946267569103,
+                "bounds": [
+                  148.7988821491599,
+                  121.84177597612143,
+                  151.03825207054615,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 44.6,
+                "slice_z_mm": 44.5,
+                "outer_area_mm2": 2.4981456721852737,
+                "bounds": [
+                  148.80297572910786,
+                  121.79155734181404,
+                  151.14820312708616,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 44.8,
+                "slice_z_mm": 44.699999999999996,
+                "outer_area_mm2": 2.694741185667226,
+                "bounds": [
+                  148.80528773367405,
+                  121.74133870750666,
+                  151.25815418362617,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 45.0,
+                "slice_z_mm": 44.9,
+                "outer_area_mm2": 2.9128659787802462,
+                "bounds": [
+                  148.79757477343082,
+                  121.69085267931223,
+                  151.34969196468592,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 45.2,
+                "slice_z_mm": 45.1,
+                "outer_area_mm2": 3.18351954744503,
+                "bounds": [
+                  148.75737277418375,
+                  121.63927701115608,
+                  151.4285071119666,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 48.0,
+                "slice_z_mm": 47.9,
+                "outer_area_mm2": 16.087447387099928,
+                "bounds": [
+                  114.74495273083448,
+                  117.4000015258789,
+                  125.09217323362827,
+                  119.05929737538099
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 48.2,
+                "slice_z_mm": 48.1,
+                "outer_area_mm2": 13.966165478548646,
+                "bounds": [
+                  114.78145033121109,
+                  117.4000015258789,
+                  125.05743981897831,
+                  118.85363079607487
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 48.4,
+                "slice_z_mm": 48.3,
+                "outer_area_mm2": 5.15933869368655,
+                "bounds": [
+                  114.8179479315877,
+                  117.4000015258789,
+                  119.35258690267801,
+                  118.61694972217083
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 50.6,
+                "slice_z_mm": 50.5,
+                "outer_area_mm2": 12.916452006332293,
+                "bounds": [
+                  114.89547508209944,
+                  117.4000015258789,
+                  125.13763063400984,
+                  118.75543341040611
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 50.8,
+                "slice_z_mm": 50.699999999999996,
+                "outer_area_mm2": 15.078208108664512,
+                "bounds": [
+                  114.86074171960354,
+                  117.4000015258789,
+                  125.17412944883108,
+                  118.96160628646612
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 51.0,
+                "slice_z_mm": 50.9,
+                "outer_area_mm2": 17.206895985207666,
+                "bounds": [
+                  114.82600835710764,
+                  117.4000015258789,
+                  125.21062825620174,
+                  119.1672726944089
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 54.2,
+                "slice_z_mm": 54.1,
+                "outer_area_mm2": 3.0533251662927796,
+                "bounds": [
+                  148.77579000592232,
+                  121.66503317654133,
+                  151.38950411230326,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 54.4,
+                "slice_z_mm": 54.3,
+                "outer_area_mm2": 2.791343096343553,
+                "bounds": [
+                  148.80940113961697,
+                  121.71640318632126,
+                  151.31031814217567,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 54.6,
+                "slice_z_mm": 54.5,
+                "outer_area_mm2": 2.595835431051455,
+                "bounds": [
+                  148.80419974774122,
+                  121.76636093109846,
+                  151.20317842066288,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 54.8,
+                "slice_z_mm": 54.699999999999996,
+                "outer_area_mm2": 2.4069597541965777,
+                "bounds": [
+                  148.7988988161087,
+                  121.81631867587566,
+                  151.09322731941938,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 55.0,
+                "slice_z_mm": 54.9,
+                "outer_area_mm2": 2.2326218033940677,
+                "bounds": [
+                  148.78581374138594,
+                  121.86522714048624,
+                  150.9832762181759,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 55.2,
+                "slice_z_mm": 55.1,
+                "outer_area_mm2": 2.1099386979731207,
+                "bounds": [
+                  148.73622080683708,
+                  121.90852931141853,
+                  150.8733251169324,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 57.0,
+                "slice_z_mm": 56.9,
+                "outer_area_mm2": 2.0670515578767663,
+                "bounds": [
+                  147.32460914552212,
+                  122.0239035487175,
+                  149.6002755984664,
+                  123.59995900094509
+                ]
+              },
+              {
+                "part": "Upper_arm_MG996R_R3",
+                "print_z_mm": 57.2,
+                "slice_z_mm": 57.1,
+                "outer_area_mm2": 2.5888065379585896,
+                "bounds": [
+                  146.79500173032284,
+                  121.92525836825371,
+                  149.41246215999126,
+                  123.59995900094509
+                ]
+              }
+            ],
+            "slicer_diagnostics": [
+              "[2026-09-18 11:35:37.761351] [0x000000016c2d7000] [error]   ZFiller: encounter idx from clip: 819",
+              "[2026-09-18 11:35:38.201136] [0x000000016d307000] [error]   ZFiller: encounter idx from clip: 17"
+            ],
+            "coarse_screen_passed": false
+          },
+          {
+            "plate": "P1S_MG996R_R3_02",
+            "cross_section_components_screened": 5557,
+            "missing_component_candidates": [
+              {
+                "part": "Gripper_body_MG996R_R3",
+                "print_z_mm": 39.8,
+                "slice_z_mm": 39.699999999999996,
+                "outer_area_mm2": 11.37876554328659,
+                "bounds": [
+                  140.9250007867813,
+                  41.0,
+                  146.9251155257225,
+                  42.909618221223354
+                ]
+              },
+              {
+                "part": "Gripper_body_MG996R_R3",
+                "print_z_mm": 40.0,
+                "slice_z_mm": 39.9,
+                "outer_area_mm2": 10.144795375445483,
+                "bounds": [
+                  140.9250007867813,
+                  41.0,
+                  146.92512913048267,
+                  42.70395544171333
+                ]
+              },
+              {
+                "part": "Gripper_body_MG996R_R3",
+                "print_z_mm": 40.2,
+                "slice_z_mm": 40.1,
+                "outer_area_mm2": 8.910816425366193,
+                "bounds": [
+                  140.9250007867813,
+                  41.0,
+                  146.92514273524284,
+                  42.49829265475273
+                ]
+              },
+              {
+                "part": "Gripper_body_MG996R_R3",
+                "print_z_mm": 42.6,
+                "slice_z_mm": 42.5,
+                "outer_area_mm2": 8.933377172276323,
+                "bounds": [
+                  140.92628347873688,
+                  41.0,
+                  146.92500126361847,
+                  42.50240283459425
+                ]
+              },
+              {
+                "part": "Gripper_body_MG996R_R3",
+                "print_z_mm": 42.8,
+                "slice_z_mm": 42.699999999999996,
+                "outer_area_mm2": 10.167090541579455,
+                "bounds": [
+                  140.92628347873688,
+                  41.0,
+                  146.92500126361847,
+                  42.70806569606066
+                ]
+              },
+              {
+                "part": "Wrist_pitch_roll_MG996R_R3",
+                "print_z_mm": 0.8,
+                "slice_z_mm": 0.7000000000000001,
+                "outer_area_mm2": 2.7459012391591386,
+                "bounds": [
+                  210.04615972191095,
+                  111.4283909574151,
+                  213.75032943487167,
+                  113.66747942566872
+                ]
+              },
+              {
+                "part": "Wrist_pitch_roll_MG996R_R3",
+                "print_z_mm": 22.6,
+                "slice_z_mm": 22.5,
+                "outer_area_mm2": 17.660697564690054,
+                "bounds": [
+                  151.1017393991351,
+                  138.848871730268,
+                  161.49958130717278,
+                  140.65959453582764
+                ]
+              },
+              {
+                "part": "Wrist_pitch_roll_MG996R_R3",
+                "print_z_mm": 22.8,
+                "slice_z_mm": 22.7,
+                "outer_area_mm2": 15.528973805186979,
+                "bounds": [
+                  151.1334235817194,
+                  139.05453798174858,
+                  161.46637284755707,
+                  140.65959453582764
+                ]
+              },
+              {
+                "part": "Wrist_pitch_roll_MG996R_R3",
+                "print_z_mm": 23.0,
+                "slice_z_mm": 22.9,
+                "outer_area_mm2": 13.40990606152991,
+                "bounds": [
+                  151.16510777175426,
+                  139.26020424067974,
+                  161.43316438049078,
+                  140.65959453582764
+                ]
+              },
+              {
+                "part": "Wrist_pitch_roll_MG996R_R3",
+                "print_z_mm": 25.2,
+                "slice_z_mm": 25.099999999999998,
+                "outer_area_mm2": 13.461575405779513,
+                "bounds": [
+                  151.14775516092777,
+                  139.2551747635007,
+                  161.41745945066214,
+                  140.65959453582764
+                ]
+              },
+              {
+                "part": "Wrist_pitch_roll_MG996R_R3",
+                "print_z_mm": 25.4,
+                "slice_z_mm": 25.299999999999997,
+                "outer_area_mm2": 15.58098016508302,
+                "bounds": [
+                  151.1143153682351,
+                  139.04950853437185,
+                  161.44897861778736,
+                  140.65959453582764
+                ]
+              },
+              {
+                "part": "Wrist_pitch_roll_MG996R_R3",
+                "print_z_mm": 25.6,
+                "slice_z_mm": 25.5,
+                "outer_area_mm2": 17.713046449120156,
+                "bounds": [
+                  151.08087558299303,
+                  138.8438423126936,
+                  161.48049779236317,
+                  140.65959453582764
+                ]
+              }
+            ],
+            "slicer_diagnostics": [],
+            "coarse_screen_passed": false
+          }
+        ],
+        "all_coarse_screens_passed": false
+      },
+      "sliced_downloads_released": false
+    }
+  }
+}

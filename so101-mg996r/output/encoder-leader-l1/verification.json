@@ -1,0 +1,1892 @@
+{
+  "revision": "L1",
+  "physical_tested": false,
+  "files": {
+    "print-parts/Base_Encoder_L1.stl": "6854c8b3f5a49220d17dcd0a9bf4b1a98ae667f5b362ccaec5be502a455ad6d8",
+    "print-parts/Shoulder_Encoder_L1.stl": "0e0aa90af77e40488387736f55b5e4d0f6f4d9380b81b5bc1b7a3ea120b504be",
+    "print-parts/Upper_arm_Encoder_L1.stl": "df7ed8383f98b81d1379299673c4cfe3f97a0346e15e7ca26c66955a77b1a5c2",
+    "print-parts/Forearm_Encoder_L1.stl": "b887f3cf51c065b9bf67fca63e7febf255d3a3a834bab73b288dc2b89f950f90",
+    "print-parts/Wrist_pitch_roll_Encoder_L1.stl": "dfd685e68095250315d5cae9bb969020cfa46961dbe77cc065db1be778b954d4",
+    "print-parts/Handle_Encoder_L1.stl": "eeb579202ec80a0cf825ec7e3c425308093427406019d2c6090e71de40044598",
+    "print-parts/Trigger_Encoder_L1.stl": "77069e895607b32970e5d7204bde6c82210160c1e1b4fba62ca61d6be3ceeaa5",
+    "print-parts/Encoder_cartridge_L1.stl": "25636259ca2cb772a9b5c1de4788df2dbc2c92d6b8887c8e440e8d59c8c4e2c8",
+    "print-parts/Bearing_cap_front_L1.stl": "6c5918d297ace4d15e6f692f1f321d567235557512829bab84fbce5e7c09aa28",
+    "print-parts/Bearing_cap_rear_L1.stl": "f60586404dd1db3a79c50f2a85a1ee477850a8752820337535d3e582610294f7",
+    "print-parts/Encoder_rotor_L1.stl": "ac54e3515316dbf72023abf350fd907080aaf0c6e69ba8777bb39e52a740173d",
+    "print-parts/Magnet_cup_L1.stl": "f25ee6905538c502604c6bb193905e5e855c7420cac6f02cb695cc6d1f36a304",
+    "reference/AS5600_PCB_L1.stl": "e701f92dbcb8a34b6f5bc07542c24808d906bb82827ad6ede515c6feeb84de98",
+    "reference/AS5600_chip_L1.stl": "7b5521617395f60f38fcc2841f214319f99000d176b77c97c7bf086265a55c02",
+    "reference/AS5600_connectors_L1.stl": "1e62d31d178ea7154724077d5881349fe73078359a5354cf4e41c6b4670b26cc",
+    "reference/688_bearing_front_L1.stl": "a5c3825d8ed5ba8fff9f43c8ed8f890e56e01308dab9c69a61226e5610bd6e74",
+    "reference/688_bearing_rear_L1.stl": "5be8a3a41b3e4e58870961da4d392368ee6c1fbde0cba3407b95713daa465573",
+    "reference/Diametric_magnet_L1.stl": "90b4294f90a9e596023ae6b271412649ef478389daecfe7d79106d1f1a015511"
+  },
+  "poses": [
+    {
+      "name": "home",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "zero",
+      "angles_degrees": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_-85",
+      "angles_degrees": [
+        -85.0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_-63.75",
+      "angles_degrees": [
+        -63.75,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_-42.5",
+      "angles_degrees": [
+        -42.5,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_-21.25",
+      "angles_degrees": [
+        -21.25,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_0",
+      "angles_degrees": [
+        0.0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_21.25",
+      "angles_degrees": [
+        21.25,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_42.5",
+      "angles_degrees": [
+        42.5,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_63.75",
+      "angles_degrees": [
+        63.75,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_85",
+      "angles_degrees": [
+        85.0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_-80",
+      "angles_degrees": [
+        0,
+        -80.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_-60",
+      "angles_degrees": [
+        0,
+        -60.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_-40",
+      "angles_degrees": [
+        0,
+        -40.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_-20",
+      "angles_degrees": [
+        0,
+        -20.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_0",
+      "angles_degrees": [
+        0,
+        0.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "part": "follower_Handle_Encoder_L1",
+          "mm3": 2837.4332204957423
+        }
+      ]
+    },
+    {
+      "name": "joint_1_20",
+      "angles_degrees": [
+        0,
+        20.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "part": "follower_Handle_Encoder_L1",
+          "mm3": 67441.58828279689
+        },
+        {
+          "part": "follower_Trigger_Encoder_L1",
+          "mm3": 565.8665138008248
+        }
+      ]
+    },
+    {
+      "name": "joint_1_40",
+      "angles_degrees": [
+        0,
+        40.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "part": "follower_Wrist_pitch_roll_Encoder_L1",
+          "mm3": 3943.8223833088023
+        },
+        {
+          "part": "follower_Handle_Encoder_L1",
+          "mm3": 108015.4728275546
+        },
+        {
+          "part": "follower_Trigger_Encoder_L1",
+          "mm3": 12188.873178363747
+        },
+        {
+          "part": "encoder_4_Encoder_cartridge_L1",
+          "mm3": 1156.288470141073
+        },
+        {
+          "part": "encoder_4_Bearing_cap_front_L1",
+          "mm3": 751.2548840608993
+        },
+        {
+          "part": "encoder_4_Encoder_rotor_L1",
+          "mm3": 1741.3354561578258
+        },
+        {
+          "part": "encoder_4_688_bearing_front_L1",
+          "mm3": 476.4452370925311
+        },
+        {
+          "part": "encoder_5_Encoder_cartridge_L1",
+          "mm3": 10895.65136624351
+        },
+        {
+          "part": "encoder_5_Bearing_cap_front_L1",
+          "mm3": 751.2548840608976
+        },
+        {
+          "part": "encoder_5_Bearing_cap_rear_L1",
+          "mm3": 892.469278035008
+        },
+        {
+          "part": "encoder_5_Encoder_rotor_L1",
+          "mm3": 2291.1819872762535
+        },
+        {
+          "part": "encoder_5_Magnet_cup_L1",
+          "mm3": 637.1109387980407
+        },
+        {
+          "part": "encoder_5_AS5600_PCB_L1",
+          "mm3": 691.2626416005329
+        },
+        {
+          "part": "encoder_5_AS5600_chip_L1",
+          "mm3": 35.00000000000009
+        },
+        {
+          "part": "encoder_5_AS5600_connectors_L1",
+          "mm3": 126.00001037120833
+        },
+        {
+          "part": "encoder_5_688_bearing_front_L1",
+          "mm3": 753.6794733654017
+        },
+        {
+          "part": "encoder_5_688_bearing_rear_L1",
+          "mm3": 753.6795452418775
+        },
+        {
+          "part": "encoder_5_Diametric_magnet_L1",
+          "mm3": 56.525961233021505
+        }
+      ]
+    },
+    {
+      "name": "joint_1_60",
+      "angles_degrees": [
+        0,
+        60.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "part": "follower_Forearm_Encoder_L1",
+          "mm3": 1199.6973346392112
+        },
+        {
+          "part": "follower_Wrist_pitch_roll_Encoder_L1",
+          "mm3": 27667.01608599004
+        },
+        {
+          "part": "follower_Handle_Encoder_L1",
+          "mm3": 108015.47282755456
+        },
+        {
+          "part": "follower_Trigger_Encoder_L1",
+          "mm3": 12188.873178363741
+        },
+        {
+          "part": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 384.08295769441276
+        },
+        {
+          "part": "encoder_4_Encoder_cartridge_L1",
+          "mm3": 10895.651366243526
+        },
+        {
+          "part": "encoder_4_Bearing_cap_front_L1",
+          "mm3": 751.254884060898
+        },
+        {
+          "part": "encoder_4_Bearing_cap_rear_L1",
+          "mm3": 892.4692780350088
+        },
+        {
+          "part": "encoder_4_Encoder_rotor_L1",
+          "mm3": 2291.1819872762526
+        },
+        {
+          "part": "encoder_4_Magnet_cup_L1",
+          "mm3": 637.1109387980393
+        },
+        {
+          "part": "encoder_4_AS5600_PCB_L1",
+          "mm3": 691.2626416005359
+        },
+        {
+          "part": "encoder_4_AS5600_chip_L1",
+          "mm3": 34.999999999999844
+        },
+        {
+          "part": "encoder_4_AS5600_connectors_L1",
+          "mm3": 126.00001037120818
+        },
+        {
+          "part": "encoder_4_688_bearing_front_L1",
+          "mm3": 753.6794733654024
+        },
+        {
+          "part": "encoder_4_688_bearing_rear_L1",
+          "mm3": 753.6795452418785
+        },
+        {
+          "part": "encoder_4_Diametric_magnet_L1",
+          "mm3": 56.525961233021405
+        },
+        {
+          "part": "encoder_5_Encoder_cartridge_L1",
+          "mm3": 10895.651366243508
+        },
+        {
+          "part": "encoder_5_Bearing_cap_front_L1",
+          "mm3": 751.2548840608976
+        },
+        {
+          "part": "encoder_5_Bearing_cap_rear_L1",
+          "mm3": 892.4692780350082
+        },
+        {
+          "part": "encoder_5_Encoder_rotor_L1",
+          "mm3": 2291.1819872762526
+        },
+        {
+          "part": "encoder_5_Magnet_cup_L1",
+          "mm3": 637.1109387980399
+        },
+        {
+          "part": "encoder_5_AS5600_PCB_L1",
+          "mm3": 691.262641600534
+        },
+        {
+          "part": "encoder_5_AS5600_chip_L1",
+          "mm3": 35.00000000000003
+        },
+        {
+          "part": "encoder_5_AS5600_connectors_L1",
+          "mm3": 126.00001037120808
+        },
+        {
+          "part": "encoder_5_688_bearing_front_L1",
+          "mm3": 753.6794733654012
+        },
+        {
+          "part": "encoder_5_688_bearing_rear_L1",
+          "mm3": 753.679545241877
+        },
+        {
+          "part": "encoder_5_Diametric_magnet_L1",
+          "mm3": 56.52596123302149
+        }
+      ]
+    },
+    {
+      "name": "joint_1_80",
+      "angles_degrees": [
+        0,
+        80.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "part": "follower_Forearm_Encoder_L1",
+          "mm3": 3033.5950431445863
+        },
+        {
+          "part": "follower_Wrist_pitch_roll_Encoder_L1",
+          "mm3": 33144.88160603611
+        },
+        {
+          "part": "follower_Handle_Encoder_L1",
+          "mm3": 108015.47282755453
+        },
+        {
+          "part": "follower_Trigger_Encoder_L1",
+          "mm3": 12188.873178363734
+        },
+        {
+          "part": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 8986.49139025096
+        },
+        {
+          "part": "encoder_3_Bearing_cap_front_L1",
+          "mm3": 734.6408492467157
+        },
+        {
+          "part": "encoder_3_Bearing_cap_rear_L1",
+          "mm3": 875.8552432208272
+        },
+        {
+          "part": "encoder_3_Encoder_rotor_L1",
+          "mm3": 2291.1819872762526
+        },
+        {
+          "part": "encoder_3_Magnet_cup_L1",
+          "mm3": 637.1109387980396
+        },
+        {
+          "part": "encoder_3_AS5600_PCB_L1",
+          "mm3": 684.6329925090747
+        },
+        {
+          "part": "encoder_3_AS5600_chip_L1",
+          "mm3": 35.00000000000002
+        },
+        {
+          "part": "encoder_3_AS5600_connectors_L1",
+          "mm3": 126.00001037120832
+        },
+        {
+          "part": "encoder_3_688_bearing_front_L1",
+          "mm3": 753.679473365401
+        },
+        {
+          "part": "encoder_3_688_bearing_rear_L1",
+          "mm3": 753.6795452418764
+        },
+        {
+          "part": "encoder_3_Diametric_magnet_L1",
+          "mm3": 56.52596123302144
+        },
+        {
+          "part": "encoder_4_Encoder_cartridge_L1",
+          "mm3": 10895.65136624351
+        },
+        {
+          "part": "encoder_4_Bearing_cap_front_L1",
+          "mm3": 751.2548840608961
+        },
+        {
+          "part": "encoder_4_Bearing_cap_rear_L1",
+          "mm3": 892.4692780350086
+        },
+        {
+          "part": "encoder_4_Encoder_rotor_L1",
+          "mm3": 2291.181987276253
+        },
+        {
+          "part": "encoder_4_Magnet_cup_L1",
+          "mm3": 637.1109387980396
+        },
+        {
+          "part": "encoder_4_AS5600_PCB_L1",
+          "mm3": 691.2626416005382
+        },
+        {
+          "part": "encoder_4_AS5600_chip_L1",
+          "mm3": 35.00000000000016
+        },
+        {
+          "part": "encoder_4_AS5600_connectors_L1",
+          "mm3": 126.00001037120816
+        },
+        {
+          "part": "encoder_4_688_bearing_front_L1",
+          "mm3": 753.6794733654019
+        },
+        {
+          "part": "encoder_4_688_bearing_rear_L1",
+          "mm3": 753.6795452418775
+        },
+        {
+          "part": "encoder_4_Diametric_magnet_L1",
+          "mm3": 56.525961233021434
+        },
+        {
+          "part": "encoder_5_Encoder_cartridge_L1",
+          "mm3": 10895.651366243499
+        },
+        {
+          "part": "encoder_5_Bearing_cap_front_L1",
+          "mm3": 751.2548840608961
+        },
+        {
+          "part": "encoder_5_Bearing_cap_rear_L1",
+          "mm3": 892.4692780350078
+        },
+        {
+          "part": "encoder_5_Encoder_rotor_L1",
+          "mm3": 2291.1819872762517
+        },
+        {
+          "part": "encoder_5_Magnet_cup_L1",
+          "mm3": 637.1109387980399
+        },
+        {
+          "part": "encoder_5_AS5600_PCB_L1",
+          "mm3": 691.2626416005352
+        },
+        {
+          "part": "encoder_5_AS5600_chip_L1",
+          "mm3": 34.999999999999964
+        },
+        {
+          "part": "encoder_5_AS5600_connectors_L1",
+          "mm3": 126.00001037120823
+        },
+        {
+          "part": "encoder_5_688_bearing_front_L1",
+          "mm3": 753.6794733654013
+        },
+        {
+          "part": "encoder_5_688_bearing_rear_L1",
+          "mm3": 753.6795452418771
+        },
+        {
+          "part": "encoder_5_Diametric_magnet_L1",
+          "mm3": 56.525961233021455
+        }
+      ]
+    },
+    {
+      "name": "joint_2_-80",
+      "angles_degrees": [
+        0,
+        -25,
+        -80.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_-60",
+      "angles_degrees": [
+        0,
+        -25,
+        -60.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_-40",
+      "angles_degrees": [
+        0,
+        -25,
+        -40.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_-20",
+      "angles_degrees": [
+        0,
+        -25,
+        -20.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_0",
+      "angles_degrees": [
+        0,
+        -25,
+        0.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_20",
+      "angles_degrees": [
+        0,
+        -25,
+        20.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_40",
+      "angles_degrees": [
+        0,
+        -25,
+        40.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_60",
+      "angles_degrees": [
+        0,
+        -25,
+        60.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "part": "follower_Handle_Encoder_L1",
+          "mm3": 1906.2650762553171
+        }
+      ]
+    },
+    {
+      "name": "joint_2_80",
+      "angles_degrees": [
+        0,
+        -25,
+        80.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "part": "follower_Handle_Encoder_L1",
+          "mm3": 53167.92729625156
+        }
+      ]
+    },
+    {
+      "name": "joint_3_-80",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        -80.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_-60",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        -60.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_-40",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        -40.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_-20",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        -20.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_0",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_20",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        20.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_40",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        40.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_60",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        60.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_80",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        80.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_-85",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        -85.0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_-63.75",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        -63.75,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_-42.5",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        -42.5,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_-21.25",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        -21.25,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_0",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0.0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_21.25",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        21.25,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_42.5",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        42.5,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_63.75",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        63.75,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_85",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        85.0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_0",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        0.0
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_8.75",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        8.75
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_17.5",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        17.5
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_26.25",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        26.25
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_35",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        35.0
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_43.75",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        43.75
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_52.5",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        52.5
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_61.25",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        61.25
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_70",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        70.0
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_0",
+      "angles_degrees": [
+        28.239934700222257,
+        -72.85541148300351,
+        67.01215462799917,
+        -43.46148102907179,
+        -36.64278937495827,
+        34.484923782272894
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_1",
+      "angles_degrees": [
+        68.50719218528,
+        -27.713294777925732,
+        -16.139848464833495,
+        48.855585128256266,
+        80.57047633240552,
+        52.4408618120428
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_2",
+      "angles_degrees": [
+        82.61268863700617,
+        51.36722889628116,
+        -1.3012335535704622,
+        -47.45773498810312,
+        36.01148233141489,
+        68.55443696607345
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "part": "follower_Handle_Encoder_L1",
+          "mm3": 13389.797936390629
+        }
+      ]
+    },
+    {
+      "name": "combined_3",
+      "angles_degrees": [
+        36.63857528207652,
+        -9.041210778000082,
+        -24.969897698310515,
+        75.93582032805713,
+        54.44552663651459,
+        43.806675274637534
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_4",
+      "angles_degrees": [
+        -60.31942828586453,
+        53.14951036165272,
+        -30.2599836922011,
+        -56.76678078154758,
+        -34.83769222780558,
+        21.93744157854237
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_5",
+      "angles_degrees": [
+        71.96394979632153,
+        -2.6217174690692424,
+        31.126783396925646,
+        -45.850273556158015,
+        50.99415523463725,
+        32.34479551124514
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_6",
+      "angles_degrees": [
+        5.863149223896247,
+        74.95086748413482,
+        77.48378497130835,
+        78.04559824025384,
+        52.73681433624803,
+        3.5380553832727557
+      ],
+      "overlaps": [
+        {
+          "a": "follower_Base_Encoder_L1",
+          "b": "follower_Forearm_Encoder_L1",
+          "mm3": 48.623
+        },
+        {
+          "a": "follower_Base_Encoder_L1",
+          "b": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 583.602
+        },
+        {
+          "a": "follower_Base_Encoder_L1",
+          "b": "encoder_3_Bearing_cap_front_L1",
+          "mm3": 58.533
+        },
+        {
+          "a": "follower_Base_Encoder_L1",
+          "b": "encoder_3_Bearing_cap_rear_L1",
+          "mm3": 52.32
+        },
+        {
+          "a": "follower_Base_Encoder_L1",
+          "b": "encoder_3_Encoder_rotor_L1",
+          "mm3": 0.899
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "follower_Forearm_Encoder_L1",
+          "mm3": 5767.126
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "follower_Wrist_pitch_roll_Encoder_L1",
+          "mm3": 1168.643
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 4712.498
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "encoder_3_Bearing_cap_front_L1",
+          "mm3": 403.286
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "encoder_3_Bearing_cap_rear_L1",
+          "mm3": 427.907
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "encoder_3_Encoder_rotor_L1",
+          "mm3": 967.272
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "encoder_3_Magnet_cup_L1",
+          "mm3": 35.281
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "encoder_3_688_bearing_front_L1",
+          "mm3": 497.508
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "encoder_3_688_bearing_rear_L1",
+          "mm3": 433.829
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "encoder_4_Encoder_cartridge_L1",
+          "mm3": 194.7
+        },
+        {
+          "a": "follower_Shoulder_Encoder_L1",
+          "b": "encoder_4_AS5600_PCB_L1",
+          "mm3": 15.333
+        },
+        {
+          "a": "follower_Forearm_Encoder_L1",
+          "b": "encoder_0_Encoder_cartridge_L1",
+          "mm3": 559.508
+        },
+        {
+          "a": "follower_Forearm_Encoder_L1",
+          "b": "encoder_0_Bearing_cap_front_L1",
+          "mm3": 51.669
+        },
+        {
+          "a": "follower_Forearm_Encoder_L1",
+          "b": "encoder_0_Bearing_cap_rear_L1",
+          "mm3": 40.971
+        },
+        {
+          "a": "follower_Forearm_Encoder_L1",
+          "b": "encoder_0_Encoder_rotor_L1",
+          "mm3": 79.691
+        },
+        {
+          "a": "follower_Forearm_Encoder_L1",
+          "b": "encoder_0_688_bearing_front_L1",
+          "mm3": 98.88
+        },
+        {
+          "a": "follower_Forearm_Encoder_L1",
+          "b": "encoder_0_688_bearing_rear_L1",
+          "mm3": 54.962
+        },
+        {
+          "a": "follower_Forearm_Encoder_L1",
+          "b": "encoder_1_Encoder_cartridge_L1",
+          "mm3": 25.044
+        },
+        {
+          "a": "encoder_0_Encoder_cartridge_L1",
+          "b": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 625.935
+        },
+        {
+          "a": "encoder_0_Encoder_cartridge_L1",
+          "b": "encoder_3_Bearing_cap_front_L1",
+          "mm3": 18.656
+        },
+        {
+          "a": "encoder_0_Encoder_cartridge_L1",
+          "b": "encoder_3_Bearing_cap_rear_L1",
+          "mm3": 16.602
+        },
+        {
+          "a": "encoder_0_Bearing_cap_front_L1",
+          "b": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 42.348
+        },
+        {
+          "a": "encoder_0_Bearing_cap_rear_L1",
+          "b": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 5.394
+        },
+        {
+          "a": "encoder_0_Encoder_rotor_L1",
+          "b": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 3.292
+        },
+        {
+          "a": "encoder_0_688_bearing_front_L1",
+          "b": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 45.488
+        },
+        {
+          "a": "encoder_0_688_bearing_rear_L1",
+          "b": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 0.895
+        }
+      ],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_7",
+      "angles_degrees": [
+        -4.925831980057206,
+        -34.32830759661165,
+        -47.778501261977055,
+        7.703021712716485,
+        -22.884615485834033,
+        19.048537882151386
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_8",
+      "angles_degrees": [
+        23.428115142407897,
+        6.551376198890075,
+        17.062677449123562,
+        -58.37754803963131,
+        72.34151093820617,
+        1.448547828734672
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_9",
+      "angles_degrees": [
+        -58.315073012929645,
+        79.41784221295123,
+        -27.374206273558315,
+        -77.41803285091387,
+        -80.1489682489814,
+        26.08245689347274
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "part": "follower_Forearm_Encoder_L1",
+          "mm3": 1360.8550577099584
+        },
+        {
+          "part": "follower_Wrist_pitch_roll_Encoder_L1",
+          "mm3": 538.2363338922868
+        },
+        {
+          "part": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 2254.7776334642153
+        },
+        {
+          "part": "encoder_3_Bearing_cap_front_L1",
+          "mm3": 112.00526642229188
+        },
+        {
+          "part": "encoder_3_Bearing_cap_rear_L1",
+          "mm3": 112.00526642229038
+        },
+        {
+          "part": "encoder_3_Encoder_rotor_L1",
+          "mm3": 34.77610768376145
+        },
+        {
+          "part": "encoder_3_AS5600_PCB_L1",
+          "mm3": 61.865834655908344
+        },
+        {
+          "part": "encoder_3_AS5600_connectors_L1",
+          "mm3": 10.270822746999933
+        }
+      ]
+    },
+    {
+      "name": "combined_10",
+      "angles_degrees": [
+        -18.453597379661595,
+        78.57765053279053,
+        37.36725317857296,
+        54.48130410876242,
+        51.741881470760404,
+        57.59139687475951
+      ],
+      "overlaps": [
+        {
+          "a": "follower_Base_Encoder_L1",
+          "b": "follower_Handle_Encoder_L1",
+          "mm3": 1907.769
+        }
+      ],
+      "table_intersections": [
+        {
+          "part": "follower_Forearm_Encoder_L1",
+          "mm3": 2272.327592601339
+        },
+        {
+          "part": "follower_Wrist_pitch_roll_Encoder_L1",
+          "mm3": 32726.686356650203
+        },
+        {
+          "part": "follower_Handle_Encoder_L1",
+          "mm3": 74808.80209513595
+        },
+        {
+          "part": "follower_Trigger_Encoder_L1",
+          "mm3": 12188.873178363738
+        },
+        {
+          "part": "encoder_3_Encoder_cartridge_L1",
+          "mm3": 7746.115279424878
+        },
+        {
+          "part": "encoder_3_Bearing_cap_front_L1",
+          "mm3": 652.5984111391624
+        },
+        {
+          "part": "encoder_3_Bearing_cap_rear_L1",
+          "mm3": 793.8128051132738
+        },
+        {
+          "part": "encoder_3_Encoder_rotor_L1",
+          "mm3": 2286.752260788841
+        },
+        {
+          "part": "encoder_3_Magnet_cup_L1",
+          "mm3": 637.1109387980396
+        },
+        {
+          "part": "encoder_3_AS5600_PCB_L1",
+          "mm3": 635.8162820069272
+        },
+        {
+          "part": "encoder_3_AS5600_chip_L1",
+          "mm3": 34.99999999999998
+        },
+        {
+          "part": "encoder_3_AS5600_connectors_L1",
+          "mm3": 111.79658289470503
+        },
+        {
+          "part": "encoder_3_688_bearing_front_L1",
+          "mm3": 753.6794733654012
+        },
+        {
+          "part": "encoder_3_688_bearing_rear_L1",
+          "mm3": 753.6795452418763
+        },
+        {
+          "part": "encoder_3_Diametric_magnet_L1",
+          "mm3": 56.52596123302141
+        },
+        {
+          "part": "encoder_4_Encoder_cartridge_L1",
+          "mm3": 10895.651366243512
+        },
+        {
+          "part": "encoder_4_Bearing_cap_front_L1",
+          "mm3": 751.2548840608979
+        },
+        {
+          "part": "encoder_4_Bearing_cap_rear_L1",
+          "mm3": 892.4692780350086
+        },
+        {
+          "part": "encoder_4_Encoder_rotor_L1",
+          "mm3": 2291.1819872762526
+        },
+        {
+          "part": "encoder_4_Magnet_cup_L1",
+          "mm3": 637.1109387980392
+        },
+        {
+          "part": "encoder_4_AS5600_PCB_L1",
+          "mm3": 691.2626416005372
+        },
+        {
+          "part": "encoder_4_AS5600_chip_L1",
+          "mm3": 35.000000000000114
+        },
+        {
+          "part": "encoder_4_AS5600_connectors_L1",
+          "mm3": 126.00001037120806
+        },
+        {
+          "part": "encoder_4_688_bearing_front_L1",
+          "mm3": 753.6794733654019
+        },
+        {
+          "part": "encoder_4_688_bearing_rear_L1",
+          "mm3": 753.6795452418777
+        },
+        {
+          "part": "encoder_4_Diametric_magnet_L1",
+          "mm3": 56.525961233021356
+        },
+        {
+          "part": "encoder_5_Encoder_cartridge_L1",
+          "mm3": 10895.6513662435
+        },
+        {
+          "part": "encoder_5_Bearing_cap_front_L1",
+          "mm3": 751.254884060897
+        },
+        {
+          "part": "encoder_5_Bearing_cap_rear_L1",
+          "mm3": 892.4692780350065
+        },
+        {
+          "part": "encoder_5_Encoder_rotor_L1",
+          "mm3": 2291.1819872762535
+        },
+        {
+          "part": "encoder_5_Magnet_cup_L1",
+          "mm3": 637.1109387980397
+        },
+        {
+          "part": "encoder_5_AS5600_PCB_L1",
+          "mm3": 691.2626416005363
+        },
+        {
+          "part": "encoder_5_AS5600_chip_L1",
+          "mm3": 35.00000000000005
+        },
+        {
+          "part": "encoder_5_AS5600_connectors_L1",
+          "mm3": 126.00001037120816
+        },
+        {
+          "part": "encoder_5_688_bearing_front_L1",
+          "mm3": 753.6794733654008
+        },
+        {
+          "part": "encoder_5_688_bearing_rear_L1",
+          "mm3": 753.6795452418768
+        },
+        {
+          "part": "encoder_5_Diametric_magnet_L1",
+          "mm3": 56.5259612330215
+        }
+      ]
+    },
+    {
+      "name": "combined_11",
+      "angles_degrees": [
+        7.637600843761851,
+        -63.942975314836374,
+        -69.10159869346674,
+        48.65277756155557,
+        35.367415562000396,
+        44.024273006122115
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_12",
+      "angles_degrees": [
+        -4.538985024676613,
+        12.766806406103104,
+        -56.80421339110563,
+        -5.863771043986148,
+        70.42642282068138,
+        19.331189873118976
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_13",
+      "angles_degrees": [
+        25.462428749335498,
+        -71.93268420858223,
+        23.422972712258314,
+        -0.07783725575341904,
+        65.33905395131352,
+        69.90595630038756
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_14",
+      "angles_degrees": [
+        -22.330048135641,
+        -57.34567092737148,
+        -25.216539614663702,
+        74.75729039322673,
+        -14.538594950966322,
+        3.304738456952908
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_15",
+      "angles_degrees": [
+        -0.4583234628647337,
+        67.63420527048174,
+        -30.55998316872362,
+        52.27382597738297,
+        -57.85678695580183,
+        53.614709625747565
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "part": "follower_Wrist_pitch_roll_Encoder_L1",
+          "mm3": 4514.902833292144
+        },
+        {
+          "part": "follower_Handle_Encoder_L1",
+          "mm3": 108015.4728275546
+        },
+        {
+          "part": "follower_Trigger_Encoder_L1",
+          "mm3": 12188.873178363752
+        },
+        {
+          "part": "encoder_4_Encoder_cartridge_L1",
+          "mm3": 1709.3654590287067
+        },
+        {
+          "part": "encoder_4_Bearing_cap_front_L1",
+          "mm3": 751.2548840608973
+        },
+        {
+          "part": "encoder_4_Encoder_rotor_L1",
+          "mm3": 1804.791784853434
+        },
+        {
+          "part": "encoder_4_688_bearing_front_L1",
+          "mm3": 713.0399276767273
+        },
+        {
+          "part": "encoder_5_Encoder_cartridge_L1",
+          "mm3": 10895.651366243514
+        },
+        {
+          "part": "encoder_5_Bearing_cap_front_L1",
+          "mm3": 751.2548840608991
+        },
+        {
+          "part": "encoder_5_Bearing_cap_rear_L1",
+          "mm3": 892.4692780350047
+        },
+        {
+          "part": "encoder_5_Encoder_rotor_L1",
+          "mm3": 2291.1819872762558
+        },
+        {
+          "part": "encoder_5_Magnet_cup_L1",
+          "mm3": 637.1109387980415
+        },
+        {
+          "part": "encoder_5_AS5600_PCB_L1",
+          "mm3": 691.2626416005309
+        },
+        {
+          "part": "encoder_5_AS5600_chip_L1",
+          "mm3": 35.00000000000004
+        },
+        {
+          "part": "encoder_5_AS5600_connectors_L1",
+          "mm3": 126.0000103712082
+        },
+        {
+          "part": "encoder_5_688_bearing_front_L1",
+          "mm3": 753.679473365401
+        },
+        {
+          "part": "encoder_5_688_bearing_rear_L1",
+          "mm3": 753.6795452418771
+        },
+        {
+          "part": "encoder_5_Diametric_magnet_L1",
+          "mm3": 56.52596123302147
+        }
+      ]
+    }
+  ],
+  "tested_poses": 72,
+  "failed_poses": 2,
+  "table_intersection_poses": 11,
+  "cartridge_rotation_max_overlap_mm3": 0,
+  "pcb_insertion_max_overlap_mm3": 5.109523700664881e-15,
+  "interfaces": [
+    {
+      "joint": 0,
+      "insertion_max_mm3": 5.652347032629036e-05,
+      "tab_lands_mm2": [
+        29.413134016103886,
+        29.41330437878653,
+        28.88936800148395,
+        28.890472387269426
+      ],
+      "tab_shank_overlap_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rotor_screw_lands_mm2": [
+        23.104822422825407,
+        23.102944967124856,
+        23.103287179534362,
+        23.10381615196571
+      ],
+      "passed": true
+    },
+    {
+      "joint": 1,
+      "insertion_max_mm3": 1.3849845841479731e-06,
+      "tab_lands_mm2": [
+        29.29296958037994,
+        29.29008189672493,
+        28.612838446650915,
+        28.613691305812978
+      ],
+      "tab_shank_overlap_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rotor_screw_lands_mm2": [
+        23.103456912365317,
+        23.103468154728716,
+        23.103624808851684,
+        23.102091134598115
+      ],
+      "passed": true
+    },
+    {
+      "joint": 2,
+      "insertion_max_mm3": 0,
+      "tab_lands_mm2": [
+        29.413269572572634,
+        29.41444649781865,
+        28.890712598652634,
+        28.889928446536363
+      ],
+      "tab_shank_overlap_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rotor_screw_lands_mm2": [
+        23.10396830666238,
+        23.102943710603952,
+        23.101579001689487,
+        23.074200453388148
+      ],
+      "passed": true
+    },
+    {
+      "joint": 3,
+      "insertion_max_mm3": 0,
+      "tab_lands_mm2": [
+        29.22438899565064,
+        29.2242807779429,
+        28.76862577251972,
+        28.770915929790945
+      ],
+      "tab_shank_overlap_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rotor_screw_lands_mm2": [
+        23.10311529008439,
+        23.101925264228555,
+        23.104309843726217,
+        23.102944866102888
+      ],
+      "passed": true
+    },
+    {
+      "joint": 4,
+      "insertion_max_mm3": 0.00010003275396518971,
+      "tab_lands_mm2": [
+        29.41653369016766,
+        29.415084723822336,
+        28.890727594586927,
+        28.89072764803864
+      ],
+      "tab_shank_overlap_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rotor_screw_lands_mm2": [
+        23.104139570264792,
+        23.10362777662481,
+        23.102952093540214,
+        23.104651546742172
+      ],
+      "passed": true
+    },
+    {
+      "joint": 5,
+      "insertion_max_mm3": 5.658342378067672e-06,
+      "tab_lands_mm2": [
+        29.412625809038776,
+        29.41417470080622,
+        28.89072124135038,
+        28.89016218062196
+      ],
+      "tab_shank_overlap_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rotor_screw_lands_mm2": [
+        23.1034571695948,
+        23.10188984621848,
+        23.104822371311567,
+        23.103592511489254
+      ],
+      "passed": true
+    }
+  ],
+  "all_interfaces_passed": true,
+  "magnet_chip_gap_mm": 2.0,
+  "method": "Exported meshes reloaded; all pair intersections >0.5 mm\u00b3 reported. 72 full-arm poses, 72 cartridge rotor samples, 36 assembled-PCB slide-in samples, six cartridge insertion/tab-land/rotor-land checks. No wires or threaded screw engagement simulation.",
+  "remaining": [
+    "Physical bearing journal fit",
+    "Magnetic field strength/status and zero/sign calibration",
+    "Cable bend and fastener/tool clearance under actual assembly load"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "display_base_spacing_mm": 800,
+  "display_spacing_is_not_a_mechanical_dimension": true,
+  "mg996r_limits_degrees": [[-85, 85], [-80, 80], [-80, 80], [-80, 80], [-85, 85], [0, 70]],
+  "limits_status": "Provisional preview limits only: no joint uses more than 170 degrees; physical horn indexing, collision clearance and usable servo travel are not calibrated.",
+  "home_degrees": [0, -25, 35, 0, 0, 20]
+}

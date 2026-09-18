@@ -1,0 +1,17 @@
+{
+  "asin": "B0F2TKPB95",
+  "url": "https://www.amazon.in/dp/B0F2TKPB95",
+  "user_confirmed_purchased": true,
+  "listed_pack_quantity": 4,
+  "brand_on_page": "Generic",
+  "manufacturer_on_page": "TESTIN ELECTRONICS",
+  "title_claim": "180 degree MG996R",
+  "description_and_box_claim": "360 degree continuous rotation MG996R",
+  "actual_positional_operation_verified": false,
+  "user_reported_travel_degrees": 180,
+  "user_reported_travel_note": "User confirmed it only does 180 degrees; accepted for preview limits. No instrumented hardware test performed by the agent.",
+  "physical_dimensions_measured": false,
+  "supplied_horn_measured": false,
+  "engineering_release_blocker": "Measure actual body, mounting tabs, shaft/horn datums and usable joint travel; complete attachment and clearance validation.",
+  "inspected_at": "2026-09-17"
+}

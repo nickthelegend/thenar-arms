@@ -1,0 +1,203 @@
+{
+  "plates": [
+    {
+      "id": "P1S_ENCODER_CARTRIDGE_FIT",
+      "count": 5,
+      "entries": [
+        {
+          "part": "Encoder_cartridge_L1",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            41.95000076293945,
+            55.30000019073486,
+            26.649999618530273,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              15.0,
+              45.0,
+              0.0
+            ],
+            [
+              79.0,
+              65.60000038146973,
+              33.84999942779541
+            ]
+          ]
+        },
+        {
+          "part": "Bearing_cap_front_L1",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            91.5,
+            55.0,
+            -7.199999809265137,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              91.0,
+              45.0,
+              0.0
+            ],
+            [
+              117.0,
+              65.0,
+              2.0
+            ]
+          ]
+        },
+        {
+          "part": "Bearing_cap_rear_L1",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            129.5,
+            55.0,
+            12.399999618530273,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              129.0,
+              45.0,
+              0.0
+            ],
+            [
+              155.0,
+              65.0,
+              4.199999809265137
+            ]
+          ]
+        },
+        {
+          "part": "Encoder_rotor_L1",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.2246467991473532e-16,
+            0.0,
+            0.0,
+            -1.2246467991473532e-16,
+            -1.0,
+            0.0,
+            164.5,
+            55.0,
+            16.700000762939453,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              167.0,
+              45.0,
+              0.0
+            ],
+            [
+              187.0,
+              65.0,
+              26.850000381469727
+            ]
+          ]
+        },
+        {
+          "part": "Magnet_cup_L1",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.2246467991473532e-16,
+            0.0,
+            0.0,
+            -1.2246467991473532e-16,
+            -1.0,
+            0.0,
+            191.5,
+            50.0,
+            -8.149999618530273,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              199.0,
+              45.0,
+              0.0
+            ],
+            [
+              209.0,
+              55.0,
+              11.149999618530273
+            ]
+          ]
+        }
+      ],
+      "label": "One encoder cartridge \u00b7 test first",
+      "slicer": {
+        "plate": "P1S_ENCODER_CARTRIDGE_FIT",
+        "exit_code": 0,
+        "input_sha256": "e38375ad343baddd9be32eb2898f59caff7c4c3f24bd3b1edc941ec4e83e2588",
+        "diagnostics": [],
+        "gcode_present": true,
+        "gcode_summary": [
+          "; model printing time: 1h 12m 51s; total estimated time: 1h 19m 7s",
+          "; total filament weight [g] : 25.41"
+        ],
+        "sliced_file": "slicing/P1S_ENCODER_CARTRIDGE_FIT/P1S_ENCODER_CARTRIDGE_FIT_sliced.3mf"
+      }
+    }
+  ],
+  "sliced": true,
+  "sliced_downloads_released": false,
+  "release_note": "Geometry only: successful export is not clearance. Resolve diagnostics and inspect all sliced layers before a full print.",
+  "settings": {
+    "printer": "Bambu Lab P1S",
+    "nozzle_mm": 0.4,
+    "layer_height_mm": 0.2,
+    "filament": "Generic PETG",
+    "bed": "Textured PEI",
+    "walls": 4,
+    "wall_generator": "arachne",
+    "infill": "25% gyroid",
+    "support": "normal(auto), 30 degrees",
+    "brim_mm": 5
+  }
+}

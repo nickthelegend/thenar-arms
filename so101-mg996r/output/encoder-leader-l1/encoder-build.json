@@ -1,0 +1,341 @@
+{
+  "revision": "L1",
+  "parts": [
+    {
+      "file": "Encoder_cartridge_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -26.950000762939453,
+          -10.300000190734863,
+          -26.649999618530273
+        ],
+        [
+          37.04999923706055,
+          10.300000190734863,
+          7.199999809265137
+        ]
+      ],
+      "volume_mm3": 10895.572417931058,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 3.75445617586598e-05,
+      "sha256": "25636259ca2cb772a9b5c1de4788df2dbc2c92d6b8887c8e440e8d59c8c4e2c8",
+      "id": "Encoder_cartridge_L1",
+      "label": "Encoder cartridge",
+      "kind": "print",
+      "quantity": 6
+    },
+    {
+      "file": "Bearing_cap_front_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -0.5,
+          -10.0,
+          7.199999809265137
+        ],
+        [
+          25.5,
+          10.0,
+          9.199999809265137
+        ]
+      ],
+      "volume_mm3": 751.2523117561485,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 4.947311015427754e-05,
+      "sha256": "6c5918d297ace4d15e6f692f1f321d567235557512829bab84fbce5e7c09aa28",
+      "id": "Bearing_cap_front_L1",
+      "label": "Bearing cap front",
+      "kind": "print",
+      "quantity": 6
+    },
+    {
+      "file": "Bearing_cap_rear_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -0.5,
+          -10.0,
+          -12.399999618530273
+        ],
+        [
+          25.5,
+          10.0,
+          -8.199999809265137
+        ]
+      ],
+      "volume_mm3": 892.4667057302595,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 4.162508685722216e-05,
+      "sha256": "f60586404dd1db3a79c50f2a85a1ee477850a8752820337535d3e582610294f7",
+      "id": "Bearing_cap_rear_L1",
+      "label": "Bearing cap rear",
+      "kind": "print",
+      "quantity": 6
+    },
+    {
+      "file": "Encoder_rotor_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          2.5,
+          -10.0,
+          -10.149999618530273
+        ],
+        [
+          22.5,
+          10.0,
+          16.700000762939453
+        ]
+      ],
+      "volume_mm3": 2291.181987276253,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 0.000373817569854501,
+      "sha256": "ac54e3515316dbf72023abf350fd907080aaf0c6e69ba8777bb39e52a740173d",
+      "id": "Encoder_rotor_L1",
+      "label": "Encoder rotor",
+      "kind": "print",
+      "quantity": 6
+    },
+    {
+      "file": "Magnet_cup_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          7.5,
+          -5.0,
+          -19.299999237060547
+        ],
+        [
+          17.5,
+          5.0,
+          -8.149999618530273
+        ]
+      ],
+      "volume_mm3": 637.0946926216624,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 0.00011864766577302714,
+      "sha256": "f25ee6905538c502604c6bb193905e5e855c7420cac6f02cb695cc6d1f36a304",
+      "id": "Magnet_cup_L1",
+      "label": "Magnet cup",
+      "kind": "print",
+      "quantity": 6
+    },
+    {
+      "file": "AS5600_PCB_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -0.20000000298023224,
+          -8.890000343322754,
+          -24.149999618530273
+        ],
+        [
+          25.200000762939453,
+          8.890000343322754,
+          -22.549999237060547
+        ]
+      ],
+      "volume_mm3": 691.2564404920475,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 0.00011654350642675543,
+      "sha256": "e701f92dbcb8a34b6f5bc07542c24808d906bb82827ad6ede515c6feeb84de98",
+      "id": "AS5600_PCB_L1",
+      "label": "AS5600 PCB",
+      "kind": "hardware",
+      "quantity": 6
+    },
+    {
+      "file": "AS5600_chip_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          10.0,
+          -2.0,
+          -22.549999237060547
+        ],
+        [
+          15.0,
+          2.0,
+          -20.799999237060547
+        ]
+      ],
+      "volume_mm3": 35.0,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 8.120488408686853e-16,
+      "sha256": "7b5521617395f60f38fcc2841f214319f99000d176b77c97c7bf086265a55c02",
+      "id": "AS5600_chip_L1",
+      "label": "AS5600 chip",
+      "kind": "hardware",
+      "quantity": 6
+    },
+    {
+      "file": "AS5600_connectors_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 2,
+      "bounds_mm": [
+        [
+          0.7480000257492065,
+          -2.5,
+          -22.549999237060547
+        ],
+        [
+          24.25200080871582,
+          2.5,
+          -19.549999237060547
+        ]
+      ],
+      "volume_mm3": 126.00001037120819,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 8.231117600561201e-08,
+      "sha256": "1e62d31d178ea7154724077d5881349fe73078359a5354cf4e41c6b4670b26cc",
+      "id": "AS5600_connectors_L1",
+      "label": "AS5600 connectors",
+      "kind": "hardware",
+      "quantity": 6
+    },
+    {
+      "file": "688_bearing_front_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          4.5,
+          -8.0,
+          2.0999999046325684
+        ],
+        [
+          20.5,
+          8.0,
+          7.099999904632568
+        ]
+      ],
+      "volume_mm3": 753.6794733654011,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 5.71030475046942e-09,
+      "sha256": "a5c3825d8ed5ba8fff9f43c8ed8f890e56e01308dab9c69a61226e5610bd6e74",
+      "id": "688_bearing_front_L1",
+      "label": "688 bearing front",
+      "kind": "hardware",
+      "quantity": 6
+    },
+    {
+      "file": "688_bearing_rear_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          4.5,
+          -8.0,
+          -8.100000381469727
+        ],
+        [
+          20.5,
+          8.0,
+          -3.0999999046325684
+        ]
+      ],
+      "volume_mm3": 753.6795452418768,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 8.965712619912871e-08,
+      "sha256": "5be8a3a41b3e4e58870961da4d392368ee6c1fbde0cba3407b95713daa465573",
+      "id": "688_bearing_rear_L1",
+      "label": "688 bearing rear",
+      "kind": "hardware",
+      "quantity": 6
+    },
+    {
+      "file": "Diametric_magnet_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          9.5,
+          -3.0,
+          -18.799999237060547
+        ],
+        [
+          15.5,
+          3.0,
+          -16.799999237060547
+        ]
+      ],
+      "volume_mm3": 56.52596123302146,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 7.215019552843253e-09,
+      "sha256": "90b4294f90a9e596023ae6b271412649ef478389daecfe7d79106d1f1a015511",
+      "id": "Diametric_magnet_L1",
+      "label": "Diametric magnet",
+      "kind": "hardware",
+      "quantity": 6
+    }
+  ],
+  "pcb_holes_xy_mm": [
+    [
+      2.34,
+      6.35
+    ],
+    [
+      22.66,
+      6.35
+    ],
+    [
+      2.34,
+      -6.3500000000000005
+    ],
+    [
+      22.66,
+      -6.3500000000000005
+    ]
+  ],
+  "pcb_source_sha256": "75fb995ef95f4517ba3485d86535f43c094efd8466cd856a4a506356befb7c93",
+  "pcb_mm": [
+    25.4,
+    17.78,
+    1.6
+  ],
+  "bearing": "688, 8 x 16 x 5 mm",
+  "magnet": "6 x 2 mm, diametrically magnetised",
+  "magnet_chip_gap_mm": 2.0,
+  "physical_tested": false
+}

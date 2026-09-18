@@ -1,0 +1,4178 @@
+{
+  "status": "NOT PRINT READY",
+  "physical_tested": false,
+  "user_reported_servo_travel_degrees": 180,
+  "manifest_sha256": "2330b6e7ce84a021050f8f41fc2e1c1b7dddba0536aab1f8546daf7a46a0177a",
+  "method": "OpenCascade positive solid intersection volume >0.5 mm\u00b3 after local-frame bounding-box overlap >0.001 mm. All follower print/servo pairs included; no same-link exclusions. Conservative nominal servo + circular horn envelope, not measured hardware. Floor tests use bounding boxes only.",
+  "limits_degrees": [
+    [
+      -85,
+      85
+    ],
+    [
+      -80,
+      80
+    ],
+    [
+      -80,
+      80
+    ],
+    [
+      -80,
+      80
+    ],
+    [
+      -85,
+      85
+    ],
+    [
+      0,
+      70
+    ]
+  ],
+  "limits_calibrated": false,
+  "display_base_spacing_mm": 800,
+  "mesh_checks": [
+    {
+      "part": "Base_motor_holder_SO101_draft",
+      "watertight": true,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "f2cae20a8d936c5679092fb59bdb5c528f259e1f434f024e2c4b8d6d4e178c1f",
+      "step_file": "output/clearance-study/step/Base_motor_holder_SO101_MG996R_clearance_DRAFT.step"
+    },
+    {
+      "part": "Base_SO101_draft",
+      "watertight": true,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "aed1861c968d5270e79d029bf4860c851300d92aed34773085d1347b90bc8352",
+      "step_file": "output/clearance-study/step/Base_SO101_MG996R_clearance_DRAFT.step"
+    },
+    {
+      "part": "MG996R_nominal",
+      "watertight": true,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "55634e36942368637b4e0b24633ab4895ab8b31c19e5895b2ce2dca62c858ecc",
+      "step_file": "nominal servo BREP generated from documented parameters"
+    },
+    {
+      "part": "WaveShare_Mounting_Plate_SO101_draft",
+      "watertight": true,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "6275f05ef28cd407be13ea882735282c4a8b2ef64930c77a9e7b5a3811740be1",
+      "step_file": "source/STEP/WaveShare_Mounting_Plate_SO101.step"
+    },
+    {
+      "part": "Motor_holder_SO101_Base_draft",
+      "watertight": false,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "67eacad81986de06ea33302b8b43460a4f8ec036299440fe40ca56f4a2d06c65",
+      "step_file": "output/clearance-study/step/Motor_holder_SO101_Base_MG996R_clearance_DRAFT.step"
+    },
+    {
+      "part": "Rotation_Pitch_SO101_draft",
+      "watertight": true,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "acb0128861d84c51095f3a0a2af6679fd78656f3c6be0f91dada53199cd6057c",
+      "step_file": "output/clearance-study/step/Rotation_Pitch_SO101_MG996R_clearance_DRAFT.step"
+    },
+    {
+      "part": "Upper_arm_SO101_draft",
+      "watertight": true,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "6ba375d2283733c6bd374b16be8e8ef59fd997c52002bb3703e4a4650208e8f8",
+      "step_file": "output/clearance-study/step/Upper_arm_SO101_MG996R_clearance_DRAFT.step"
+    },
+    {
+      "part": "Under_arm_SO101_draft",
+      "watertight": true,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "f067cec78de28b91489b1921b0e355011e7214219220600fcfc0eceff3047190",
+      "step_file": "output/clearance-study/step/Under_arm_SO101_MG996R_clearance_DRAFT.step"
+    },
+    {
+      "part": "Motor_holder_SO101_Wrist",
+      "watertight": true,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "936c84ed2c918b3ec14e2c3ec3f742f47bed10a4e3d0a2c9bf7869d0a2a55149",
+      "step_file": "source/STEP/Motor_holder_SO101_Wrist.step"
+    },
+    {
+      "part": "Wrist_Roll_Pitch_SO101_draft",
+      "watertight": false,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "b2c3a3f088532ef3635a93196bc5aa58593256e35f08b8b3c9e7cf3b750c3283",
+      "step_file": "output/clearance-study/step/Wrist_Roll_Pitch_SO101_MG996R_clearance_DRAFT.step"
+    },
+    {
+      "part": "Wrist_Roll_Follower_SO101_draft",
+      "watertight": true,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "8b0c31dc1d36118ab40dbbed7fe0eba3766f81af337bbd5335b2f126d42587cd",
+      "step_file": "output/clearance-study/step/Wrist_Roll_Follower_SO101_MG996R_clearance_DRAFT.step"
+    },
+    {
+      "part": "Moving_Jaw_SO101_draft",
+      "watertight": true,
+      "step_valid": true,
+      "step_solids": 1,
+      "sha256_stl": "b48a7d555dcf1fe2aa52be2a060046b839ac1ffe4359f8874b0226afc126b36b",
+      "step_file": "output/clearance-study/step/Moving_Jaw_SO101_MG996R_clearance_DRAFT.step"
+    }
+  ],
+  "collisions": {
+    "tested_poses": 44,
+    "home_interferences": 7,
+    "failed_sampled_poses": 44,
+    "sampled_poses_passed": false,
+    "full_envelope_passed": false,
+    "home_details": [
+      {
+        "a": "Base_motor_holder_SO101_draft",
+        "a_instance": "follower_Base_motor_holder_SO101_0",
+        "b": "Base_SO101_draft",
+        "b_instance": "follower_Base_SO101_1",
+        "volume_mm3": 1.656,
+        "same_link": true
+      },
+      {
+        "a": "Base_motor_holder_SO101_draft",
+        "a_instance": "follower_Base_motor_holder_SO101_0",
+        "b": "WaveShare_Mounting_Plate_SO101_draft",
+        "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+        "volume_mm3": 141.261,
+        "same_link": true
+      },
+      {
+        "a": "MG996R_nominal",
+        "a_instance": "follower_sts3215_03a_v1_4",
+        "b": "Upper_arm_SO101_draft",
+        "b_instance": "follower_Upper_arm_SO101_8",
+        "volume_mm3": 301.87,
+        "same_link": false
+      },
+      {
+        "a": "MG996R_nominal",
+        "a_instance": "follower_sts3215_03a_v1_7",
+        "b": "Under_arm_SO101_draft",
+        "b_instance": "follower_Under_arm_SO101_9",
+        "volume_mm3": 274.97,
+        "same_link": false
+      },
+      {
+        "a": "Motor_holder_SO101_Wrist",
+        "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+        "b": "MG996R_nominal",
+        "b_instance": "follower_sts3215_03a_v1_11",
+        "volume_mm3": 1092.097,
+        "same_link": true
+      },
+      {
+        "a": "MG996R_nominal",
+        "a_instance": "follower_sts3215_03a_v1_11",
+        "b": "MG996R_nominal",
+        "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+        "volume_mm3": 137.8,
+        "same_link": false
+      },
+      {
+        "a": "MG996R_nominal",
+        "a_instance": "follower_sts3215_03a_v1_14",
+        "b": "Moving_Jaw_SO101_draft",
+        "b_instance": "follower_Moving_Jaw_SO101_16",
+        "volume_mm3": 69.729,
+        "same_link": false
+      }
+    ],
+    "poses": [
+      {
+        "name": "home",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -49.40182868014134,
+            55.462751821590004,
+            248.91397352542867
+          ]
+        ]
+      },
+      {
+        "name": "zero",
+        "angles_degrees": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -1.3656306551016424,
+            55.462751821590004,
+            274.3918660627315
+          ]
+        ]
+      },
+      {
+        "name": "joint_0_min",
+        "angles_degrees": [
+          -85.0,
+          -25.0,
+          35.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 169.006,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -304.66303323285314,
+            312.48577861270604,
+            248.9139536249029
+          ]
+        ]
+      },
+      {
+        "name": "joint_0_mid",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -49.40182868014134,
+            55.462751821590004,
+            248.91397352542867
+          ]
+        ]
+      },
+      {
+        "name": "joint_0_max",
+        "angles_degrees": [
+          85.0,
+          -25.0,
+          35.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 162.974,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -312.3848722517719,
+            -0.00026079756269877424
+          ],
+          [
+            -306.26531724127597,
+            55.462751821590004,
+            248.9138533089746
+          ]
+        ]
+      },
+      {
+        "name": "joint_1_min",
+        "angles_degrees": [
+          0.0,
+          -80.0,
+          35.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 276.425,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -461.04204054145015,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -202.18368770948905,
+            55.462751821590004,
+            418.5393648196886
+          ]
+        ]
+      },
+      {
+        "name": "joint_1_mid",
+        "angles_degrees": [
+          0.0,
+          0.0,
+          35.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -26.05320503196007,
+            55.462751821590004,
+            249.17012929198552
+          ]
+        ]
+      },
+      {
+        "name": "joint_1_max",
+        "angles_degrees": [
+          0.0,
+          80.0,
+          35.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 282.494,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [
+          {
+            "part": "Under_arm_SO101_draft",
+            "aabb_low_z_mm": -1.677
+          },
+          {
+            "part": "Motor_holder_SO101_Wrist",
+            "aabb_low_z_mm": -5.861
+          },
+          {
+            "part": "MG996R_nominal",
+            "aabb_low_z_mm": -32.711
+          },
+          {
+            "part": "MG996R_nominal",
+            "aabb_low_z_mm": -73.087
+          },
+          {
+            "part": "Wrist_Roll_Pitch_SO101_draft",
+            "aabb_low_z_mm": -81.598
+          },
+          {
+            "part": "MG996R_nominal",
+            "aabb_low_z_mm": -115.031
+          },
+          {
+            "part": "Wrist_Roll_Follower_SO101_draft",
+            "aabb_low_z_mm": -176.659
+          },
+          {
+            "part": "Moving_Jaw_SO101_draft",
+            "aabb_low_z_mm": -181.627
+          }
+        ],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -181.62708878420125
+          ],
+          [
+            -199.0963451742684,
+            55.462751821590004,
+            153.42212504862312
+          ]
+        ]
+      },
+      {
+        "name": "joint_2_min",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          -80.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 196.244,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -490.5659544337666,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -310.56556496886213,
+            55.462751821590004,
+            531.1513510996945
+          ]
+        ]
+      },
+      {
+        "name": "joint_2_mid",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          0.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -67.44883474914674,
+            55.462751821590004,
+            414.6455612941352
+          ]
+        ]
+      },
+      {
+        "name": "joint_2_max",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          80.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 190.143,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [
+          {
+            "part": "Wrist_Roll_Follower_SO101_draft",
+            "aabb_low_z_mm": -31.202
+          }
+        ],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -31.202441343776556
+          ],
+          [
+            -132.51111058884635,
+            55.462751821590004,
+            249.56918789342382
+          ]
+        ]
+      },
+      {
+        "name": "joint_3_min",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          -80.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 200.577,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -128.2792227913138,
+            55.462751821590004,
+            383.2479389867268
+          ]
+        ]
+      },
+      {
+        "name": "joint_3_mid",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -49.40182868014134,
+            55.462751821590004,
+            248.91397352542867
+          ]
+        ]
+      },
+      {
+        "name": "joint_3_max",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          80.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 181.41,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -160.4719534542727,
+            55.462751821590004,
+            248.91397352542867
+          ]
+        ]
+      },
+      {
+        "name": "joint_4_min",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          0.0,
+          -85.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -58.677138638580644,
+            -0.00026079756269877424
+          ],
+          [
+            -51.57336605108261,
+            55.462751821590004,
+            248.91397352542867
+          ]
+        ]
+      },
+      {
+        "name": "joint_4_mid",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -49.40182868014134,
+            55.462751821590004,
+            248.91397352542867
+          ]
+        ]
+      },
+      {
+        "name": "joint_4_max",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          0.0,
+          85.0,
+          20.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 69.729,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -50.676342062566974,
+            60.173911703487505,
+            248.91397352542867
+          ]
+        ]
+      },
+      {
+        "name": "joint_5_min",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -49.79984541135919,
+            55.462751821590004,
+            248.91397352542867
+          ]
+        ]
+      },
+      {
+        "name": "joint_5_mid",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          0.0,
+          0.0,
+          35.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 109.424,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -50.79363297682032,
+            55.462751821590004,
+            264.5480349296842
+          ]
+        ]
+      },
+      {
+        "name": "joint_5_max",
+        "angles_degrees": [
+          0.0,
+          -25.0,
+          35.0,
+          0.0,
+          0.0,
+          70.0
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 301.87,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 274.97,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 137.8,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 133.015,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -50.79363297682032,
+            55.462751821590004,
+            296.8146262401372
+          ]
+        ]
+      },
+      {
+        "name": "demo_00",
+        "angles_degrees": [
+          0.0,
+          -20.2057,
+          45.0977,
+          11.9699,
+          16.3674,
+          25.3862
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 261.347,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 292.216,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 117.093,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 121.999,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 83.311,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -54.525962382466254,
+            55.462751821590004,
+            250.24950982070766
+          ]
+        ]
+      },
+      {
+        "name": "demo_01",
+        "angles_degrees": [
+          6.8883,
+          -17.2123,
+          46.8102,
+          11.3836,
+          12.2549,
+          22.217
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 59.637,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 230.633,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 293.194,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 118.063,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 115.186,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 75.771,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -63.1935548546317,
+            -0.00026079756269877424
+          ],
+          [
+            -60.84178212256827,
+            55.462751821590004,
+            251.17531754834067
+          ]
+        ]
+      },
+      {
+        "name": "demo_02",
+        "angles_degrees": [
+          12.7279,
+          -15.4045,
+          46.7247,
+          9.0643,
+          6.2768,
+          18.7102
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 129.955,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 209.368,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 293.159,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 121.937,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 86.692,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 65.896,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -89.9915845772832,
+            -0.00026079756269877424
+          ],
+          [
+            -60.837890837148784,
+            55.462751821590004,
+            251.45286160907523
+          ]
+        ]
+      },
+      {
+        "name": "demo_03",
+        "angles_degrees": [
+          16.6298,
+          -15.0575,
+          44.8543,
+          5.3649,
+          -0.6569,
+          15.3998
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 169.165,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 205.001,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 292.029,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 128.253,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 37.382,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 54.932,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -114.37252322544686,
+            -0.00026079756269877424
+          ],
+          [
+            -58.354645989250926,
+            55.462751821590004,
+            251.35581412931535
+          ]
+        ]
+      },
+      {
+        "name": "demo_04",
+        "angles_degrees": [
+          18.0,
+          -16.2242,
+          41.4836,
+          0.8488,
+          -7.4906,
+          12.7897
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 181.873,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 219.303,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 288.251,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 136.254,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 45.082,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -127.46052290873095,
+            -0.00026079756269877424
+          ],
+          [
+            -53.735906065481416,
+            55.462751821590004,
+            250.88346544971262
+          ]
+        ]
+      },
+      {
+        "name": "demo_05",
+        "angles_degrees": [
+          16.6298,
+          -18.7269,
+          37.1259,
+          -3.7965,
+          -13.184,
+          11.2773
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 169.165,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 246.791,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 280.199,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 130.99,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 16.851,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 38.884,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -124.74461527379106,
+            -0.00026079756269877424
+          ],
+          [
+            -50.06641216913621,
+            55.462751821590004,
+            249.77442238727826
+          ]
+        ]
+      },
+      {
+        "name": "demo_06",
+        "angles_degrees": [
+          12.7279,
+          -22.1846,
+          32.4445,
+          -7.8638,
+          -16.8702,
+          11.0929
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 129.955,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 279.213,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 267.498,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 123.965,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 71.084,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 38.105,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -105.3742825070516,
+            -0.00026079756269877424
+          ],
+          [
+            -49.455413325688795,
+            55.462751821590004,
+            259.19965147943714
+          ]
+        ]
+      },
+      {
+        "name": "demo_07",
+        "angles_degrees": [
+          6.8883,
+          -26.071,
+          28.1522,
+          -10.7339,
+          -17.988,
+          12.2645
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 59.637,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 309.719,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 251.701,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 119.141,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 107.463,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 42.97,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -74.09371116365038,
+            -0.00026079756269877424
+          ],
+          [
+            -50.834636962835106,
+            55.462751821590004,
+            309.3539159566315
+          ]
+        ]
+      },
+      {
+        "name": "demo_08",
+        "angles_degrees": [
+          0.0,
+          -29.7943,
+          24.9023,
+          -11.9699,
+          -16.3674,
+          14.6138
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 334.016,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 236.687,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 117.091,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 122.019,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 52.08,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -57.71742127276906,
+            55.462751821590004,
+            347.3000497425438
+          ]
+        ]
+      },
+      {
+        "name": "demo_09",
+        "angles_degrees": [
+          -6.8883,
+          -32.7877,
+          23.1898,
+          -11.3836,
+          -12.2549,
+          17.783
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 59.386,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 350.457,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 227.614,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 118.061,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 115.204,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 62.992,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -66.67418884598337,
+            66.64059538656926,
+            368.71459263788125
+          ]
+        ]
+      },
+      {
+        "name": "demo_10",
+        "angles_degrees": [
+          -12.7279,
+          -34.5955,
+          23.2753,
+          -9.0643,
+          -6.2768,
+          21.2898
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 129.404,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 359.175,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 228.052,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 121.935,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 86.704,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 73.326,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -73.78030904421321,
+            91.53066438433711,
+            372.3371446683021
+          ]
+        ]
+      },
+      {
+        "name": "demo_11",
+        "angles_degrees": [
+          -16.6298,
+          -34.9425,
+          25.1457,
+          -5.3649,
+          0.6569,
+          24.6002
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 168.711,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 360.751,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 237.917,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 128.251,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 37.387,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 81.556,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -75.45736187182548,
+            106.96174362714756,
+            357.93999542010135
+          ]
+        ]
+      },
+      {
+        "name": "demo_12",
+        "angles_degrees": [
+          -18.0,
+          -33.7758,
+          28.5164,
+          -0.8488,
+          7.4906,
+          27.2103
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 181.512,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 355.328,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 253.212,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 136.253,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 87.104,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -72.91669602601864,
+            113.47106801065925,
+            329.8383902901747
+          ]
+        ]
+      },
+      {
+        "name": "demo_13",
+        "angles_degrees": [
+          -16.6298,
+          -31.2731,
+          32.8741,
+          3.7965,
+          13.184,
+          28.7227
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 168.711,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 342.465,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 268.851,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 130.991,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 16.849,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 89.956,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -68.35672335432987,
+            116.52393675477067,
+            288.0721369028383
+          ]
+        ]
+      },
+      {
+        "name": "demo_14",
+        "angles_degrees": [
+          -12.7279,
+          -27.8154,
+          37.5555,
+          7.8638,
+          16.8702,
+          28.9071
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 129.404,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 321.662,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 281.147,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 123.966,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 71.075,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 90.286,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -59.094770088375284,
+            104.6365988887066,
+            248.1960000315879
+          ]
+        ]
+      },
+      {
+        "name": "demo_15",
+        "angles_degrees": [
+          -6.8883,
+          -23.929,
+          41.8478,
+          10.7339,
+          17.988,
+          27.7355
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 59.386,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 293.609,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 288.763,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 119.143,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 107.447,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 88.124,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -54.09340613634338,
+            76.45467092142869,
+            249.10482344763173
+          ]
+        ]
+      },
+      {
+        "name": "combined_00",
+        "angles_degrees": [
+          -80.0547,
+          10.763,
+          17.878,
+          -13.6779,
+          57.5562,
+          17.6251
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 209.617,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 141.974,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 192.86,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 114.281,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 140.828,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 62.485,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -254.51987037750106,
+            367.2106322857985,
+            249.12120740043358
+          ]
+        ]
+      },
+      {
+        "name": "combined_01",
+        "angles_degrees": [
+          16.3531,
+          21.0399,
+          -77.8318,
+          42.6602,
+          -74.4723,
+          55.6562
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 166.546,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 269.02,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 209.514,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 68.285,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 279.62,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 149.049,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -173.1363909922762,
+            -0.00026079756269877424
+          ],
+          [
+            -31.303684711448042,
+            55.462751821590004,
+            404.0545039988253
+          ]
+        ]
+      },
+      {
+        "name": "combined_02",
+        "angles_degrees": [
+          -25.9788,
+          -49.5776,
+          72.1175,
+          52.1289,
+          -35.962,
+          39.0586
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 248.162,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 399.28,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 235.349,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 46.873,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 285.109,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 123.552,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [
+          {
+            "part": "Wrist_Roll_Follower_SO101_draft",
+            "aabb_low_z_mm": -5.127
+          }
+        ],
+        "assembly_aabb_mm": [
+          [
+            -445.4756903532914,
+            -62.06821379618302,
+            -5.126711999420976
+          ],
+          [
+            -166.4763849122175,
+            89.57470184778373,
+            232.39167255252727
+          ]
+        ]
+      },
+      {
+        "name": "combined_03",
+        "angles_degrees": [
+          83.3878,
+          -50.4126,
+          -50.8081,
+          -40.8768,
+          82.4175,
+          24.0902
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 176.395,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 399.729,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 293.295,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 71.365,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 276.481,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 80.377,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -316.9952450736069,
+            222.03623187694183,
+            468.93714934614945
+          ]
+        ]
+      },
+      {
+        "name": "combined_04",
+        "angles_degrees": [
+          -8.4779,
+          6.5285,
+          -79.6078,
+          -73.2904,
+          40.8452,
+          63.5937
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 79.984,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 68.954,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 198.715,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 237.881,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 144.467,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -234.5294691222203,
+            74.91422842166926,
+            485.2988068002292
+          ]
+        ]
+      },
+      {
+        "name": "combined_05",
+        "angles_degrees": [
+          62.6259,
+          -35.5049,
+          65.1424,
+          50.9194,
+          3.3165,
+          59.0327
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 315.367,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 363.239,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 264.888,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 50.003,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 285.178,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 148.395,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [
+          {
+            "part": "Wrist_Roll_Follower_SO101_draft",
+            "aabb_low_z_mm": -4.383
+          }
+        ],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -207.1948469750525,
+            -4.3826335601392685
+          ],
+          [
+            -237.62860651174637,
+            65.14660218406335,
+            244.65351756138818
+          ]
+        ]
+      },
+      {
+        "name": "combined_06",
+        "angles_degrees": [
+          -18.2316,
+          -22.6566,
+          18.3041,
+          -67.2395,
+          61.5532,
+          54.72
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 183.632,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 283.227,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 196.068,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 4.026,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 263.227,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 148.624,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -430.98287080403736,
+            -55.4625677474779,
+            -0.00026079756269877424
+          ],
+          [
+            -131.38564292165586,
+            137.03223585609325,
+            418.62023042112196
+          ]
+        ]
+      },
+      {
+        "name": "combined_07",
+        "angles_degrees": [
+          -40.4421,
+          -50.5988,
+          13.407,
+          -35.281,
+          -23.6675,
+          4.982
+        ],
+        "positive_volume_overlaps": [
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "Base_SO101_draft",
+            "b_instance": "follower_Base_SO101_1",
+            "volume_mm3": 1.656,
+            "same_link": true
+          },
+          {
+            "a": "Base_motor_holder_SO101_draft",
+            "a_instance": "follower_Base_motor_holder_SO101_0",
+            "b": "WaveShare_Mounting_Plate_SO101_draft",
+            "b_instance": "follower_WaveShare_Mounting_Plate_SO101_3",
+            "volume_mm3": 141.261,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_2",
+            "b": "Rotation_Pitch_SO101_draft",
+            "b_instance": "follower_Rotation_Pitch_SO101_6",
+            "volume_mm3": 335.538,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_4",
+            "b": "Upper_arm_SO101_draft",
+            "b_instance": "follower_Upper_arm_SO101_8",
+            "volume_mm3": 399.801,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_7",
+            "b": "Under_arm_SO101_draft",
+            "b_instance": "follower_Under_arm_SO101_9",
+            "volume_mm3": 152.472,
+            "same_link": false
+          },
+          {
+            "a": "Motor_holder_SO101_Wrist",
+            "a_instance": "follower_Motor_holder_SO101_Wrist_10",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_v1_11",
+            "volume_mm3": 1092.097,
+            "same_link": true
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "MG996R_nominal",
+            "b_instance": "follower_sts3215_03a_no_horn_v1_12",
+            "volume_mm3": 80.04,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_11",
+            "b": "Wrist_Roll_Pitch_SO101_draft",
+            "b_instance": "follower_Wrist_Roll_Pitch_SO101_13",
+            "volume_mm3": 264.971,
+            "same_link": false
+          },
+          {
+            "a": "MG996R_nominal",
+            "a_instance": "follower_sts3215_03a_v1_14",
+            "b": "Moving_Jaw_SO101_draft",
+            "b_instance": "follower_Moving_Jaw_SO101_16",
+            "volume_mm3": 9.965,
+            "same_link": false
+          }
+        ],
+        "conservative_floor_candidates": [],
+        "assembly_aabb_mm": [
+          [
+            -443.41995613733116,
+            -74.65475721340192,
+            -0.00026079756269877424
+          ],
+          [
+            -235.24624782429814,
+            115.86012448380083,
+            468.68247433638436
+          ]
+        ]
+      }
+    ]
+  },
+  "leader_status": "Original leader moves kinematically with follower. Encoder fit, trigger alignment and leader collision envelope not certified.",
+  "print_release_blockers": [
+    "Rejected wrist motor holder: source part remains in preview, MG996R conversion missing.",
+    "Open STL seams listed in mesh_checks.",
+    "Any positive-volume overlap above is unresolved; inspect exact pair and pose.",
+    "Mounting-tab fasteners, horn interfaces, opposite-side support, walls and cable paths remain incomplete.",
+    "Actual servo and horn measurements, load/temperature tests and one-joint physical fit test required."
+  ],
+  "exact_boolean_evaluations": 288,
+  "seconds": 245.09
+}

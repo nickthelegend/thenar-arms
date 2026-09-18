@@ -1,0 +1,1134 @@
+{
+  "revision": "R3",
+  "physical_tested": false,
+  "joints": [
+    {
+      "joint": 0,
+      "holder": "Base_motor_holder_SO101",
+      "driven": "Rotation_Pitch_SO101",
+      "insertion": [
+        {
+          "lift_mm": 0.0,
+          "intersection_mm3": 1.5614919448278087e-10
+        },
+        {
+          "lift_mm": 2.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 5.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 7.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 10.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 12.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 15.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 17.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 20.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 22.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 25.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 27.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 30.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 32.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 35.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 37.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 40.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 42.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 45.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 47.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 50.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 52.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 55.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 57.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 60.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 62.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 65.0,
+          "intersection_mm3": 0
+        }
+      ],
+      "tab_lands": [
+        {
+          "centre_mm": [
+            -22.7,
+            -5
+          ],
+          "mean_support_area_mm2": 23.977809352604165,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            -22.7,
+            5
+          ],
+          "mean_support_area_mm2": 23.979458668405606,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            -5
+          ],
+          "mean_support_area_mm2": 23.979687961689542,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            5
+          ],
+          "mean_support_area_mm2": 23.98074961174941,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "horn_lands": [
+        {
+          "centre_mm": [
+            19.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 23.103285534939147,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            5.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 23.10345654815116,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            7
+          ],
+          "mean_head_support_area_mm2": 23.10362833226483,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            -7
+          ],
+          "mean_head_support_area_mm2": 23.104498997778826,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "insertion_passed": true,
+      "four_tab_lands_present": true,
+      "four_horn_lands_present": true
+    },
+    {
+      "joint": 1,
+      "holder": "Motor_holder_SO101_Base",
+      "driven": "Upper_arm_SO101",
+      "insertion": [
+        {
+          "lift_mm": 0.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 2.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 5.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 7.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 10.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 12.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 15.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 17.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 20.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 22.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 25.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 27.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 30.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 32.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 35.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 37.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 40.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 42.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 45.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 47.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 50.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 52.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 55.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 57.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 60.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 62.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 65.0,
+          "intersection_mm3": 0
+        }
+      ],
+      "tab_lands": [
+        {
+          "centre_mm": [
+            -22.7,
+            -5
+          ],
+          "mean_support_area_mm2": 23.87459441810759,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            -22.7,
+            5
+          ],
+          "mean_support_area_mm2": 23.873791181121938,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            -5
+          ],
+          "mean_support_area_mm2": 23.741247593733753,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            5
+          ],
+          "mean_support_area_mm2": 23.740230278070946,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "horn_lands": [
+        {
+          "centre_mm": [
+            19.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 23.10413952564852,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            5.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 23.10379790358847,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            7
+          ],
+          "mean_head_support_area_mm2": 23.103968714618514,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            -7
+          ],
+          "mean_head_support_area_mm2": 23.101754100348614,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "insertion_passed": true,
+      "four_tab_lands_present": true,
+      "four_horn_lands_present": true
+    },
+    {
+      "joint": 2,
+      "holder": "Upper_arm_SO101",
+      "driven": "Under_arm_SO101",
+      "insertion": [
+        {
+          "lift_mm": 0.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 2.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 5.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 7.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 10.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 12.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 15.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 17.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 20.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 22.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 25.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 27.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 30.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 32.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 35.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 37.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 40.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 42.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 45.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 47.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 50.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 52.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 55.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 57.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 60.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 62.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 65.0,
+          "intersection_mm3": 0
+        }
+      ],
+      "tab_lands": [
+        {
+          "centre_mm": [
+            -22.7,
+            -5
+          ],
+          "mean_support_area_mm2": 23.97934494076081,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            -22.7,
+            5
+          ],
+          "mean_support_area_mm2": 23.98088100553483,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            -5
+          ],
+          "mean_support_area_mm2": 23.980209710501377,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            5
+          ],
+          "mean_support_area_mm2": 23.980896023674852,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "horn_lands": [
+        {
+          "centre_mm": [
+            19.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 23.10328637823793,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            5.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 23.10295706113764,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            7
+          ],
+          "mean_head_support_area_mm2": 23.102432342325734,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            -7
+          ],
+          "mean_head_support_area_mm2": 23.102260694103705,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "insertion_passed": true,
+      "four_tab_lands_present": true,
+      "four_horn_lands_present": true
+    },
+    {
+      "joint": 3,
+      "holder": "Motor_holder_SO101_Wrist",
+      "driven": "Wrist_Roll_Pitch_SO101",
+      "insertion": [
+        {
+          "lift_mm": 0.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 2.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 5.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 7.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 10.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 12.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 15.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 17.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 20.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 22.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 25.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 27.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 30.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 32.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 35.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 37.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 40.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 42.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 45.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 47.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 50.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 52.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 55.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 57.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 60.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 62.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 65.0,
+          "intersection_mm3": 0
+        }
+      ],
+      "tab_lands": [
+        {
+          "centre_mm": [
+            -22.7,
+            -5
+          ],
+          "mean_support_area_mm2": 23.732225445357425,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            -22.7,
+            5
+          ],
+          "mean_support_area_mm2": 23.73265096103878,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            -5
+          ],
+          "mean_support_area_mm2": 23.729683685239777,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            5
+          ],
+          "mean_support_area_mm2": 23.730231202041747,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "horn_lands": [
+        {
+          "centre_mm": [
+            19.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 22.566576014299812,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            5.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 22.566160004086502,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            7
+          ],
+          "mean_head_support_area_mm2": 20.17673048956637,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            -7
+          ],
+          "mean_head_support_area_mm2": 20.175726778171256,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "insertion_passed": true,
+      "four_tab_lands_present": true,
+      "four_horn_lands_present": true
+    },
+    {
+      "joint": 4,
+      "holder": "Wrist_Roll_Pitch_SO101",
+      "driven": "Wrist_Roll_Follower_SO101",
+      "insertion": [
+        {
+          "lift_mm": 0.0,
+          "intersection_mm3": 2.8622937353617317e-16
+        },
+        {
+          "lift_mm": 2.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 5.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 7.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 10.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 12.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 15.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 17.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 20.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 22.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 25.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 27.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 30.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 32.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 35.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 37.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 40.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 42.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 45.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 47.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 50.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 52.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 55.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 57.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 60.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 62.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 65.0,
+          "intersection_mm3": 0
+        }
+      ],
+      "tab_lands": [
+        {
+          "centre_mm": [
+            -22.7,
+            -5
+          ],
+          "mean_support_area_mm2": 23.9812318231037,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            -22.7,
+            5
+          ],
+          "mean_support_area_mm2": 23.980430479619077,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            -5
+          ],
+          "mean_support_area_mm2": 23.98139330546421,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            5
+          ],
+          "mean_support_area_mm2": 23.982828056351618,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "horn_lands": [
+        {
+          "centre_mm": [
+            19.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 23.113853844086957,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            5.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 23.111299023464028,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            7
+          ],
+          "mean_head_support_area_mm2": 23.11284644708547,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            -7
+          ],
+          "mean_head_support_area_mm2": 23.117260552440257,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "insertion_passed": true,
+      "four_tab_lands_present": true,
+      "four_horn_lands_present": true
+    },
+    {
+      "joint": 5,
+      "holder": "Wrist_Roll_Follower_SO101",
+      "driven": "Moving_Jaw_SO101",
+      "insertion": [
+        {
+          "lift_mm": 0.0,
+          "intersection_mm3": 5.852914435065684e-07
+        },
+        {
+          "lift_mm": 2.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 5.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 7.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 10.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 12.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 15.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 17.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 20.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 22.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 25.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 27.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 30.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 32.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 35.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 37.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 40.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 42.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 45.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 47.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 50.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 52.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 55.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 57.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 60.0,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 62.5,
+          "intersection_mm3": 0
+        },
+        {
+          "lift_mm": 65.0,
+          "intersection_mm3": 0
+        }
+      ],
+      "tab_lands": [
+        {
+          "centre_mm": [
+            -22.7,
+            -5
+          ],
+          "mean_support_area_mm2": 24.002632695881978,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            -22.7,
+            5
+          ],
+          "mean_support_area_mm2": 24.004069183800564,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            -5
+          ],
+          "mean_support_area_mm2": 24.002813038045044,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            26.8,
+            5
+          ],
+          "mean_support_area_mm2": 24.002915912553846,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "horn_lands": [
+        {
+          "centre_mm": [
+            19.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 23.104651477468085,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            5.5,
+            0
+          ],
+          "mean_head_support_area_mm2": 23.10243326549215,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            7
+          ],
+          "mean_head_support_area_mm2": 23.10379890037901,
+          "M3_shank_intersection_mm3": 0
+        },
+        {
+          "centre_mm": [
+            12.5,
+            -7
+          ],
+          "mean_head_support_area_mm2": 23.103694443138775,
+          "M3_shank_intersection_mm3": 0
+        }
+      ],
+      "insertion_passed": true,
+      "four_tab_lands_present": true,
+      "four_horn_lands_present": true
+    }
+  ],
+  "method": "Exported joined STL re-import. Hornless servo translated +Z at 27 heights; 7 mm tab-washer footprints through 4 mm ledges, and 6.4 mm horn-head footprints through 6 mm printed horn plates.",
+  "scope": "Nominal fit only; no strength/load proof. Servo is inserted before the driven link is attached.",
+  "all_checks_passed": true,
+  "files": {
+    "print-parts/Base_MG996R_R3.stl": "1358ebd4bc44dea44ba6125f3c1efd77de4d47f2f4de9ff0a151dd4e86a2416b",
+    "print-parts/Forearm_MG996R_R3.stl": "f83aab72bc14ca0fb9964d7303ce6860dcc816d3110205cd2aa9bf4151803439",
+    "print-parts/Gripper_body_MG996R_R3.stl": "6ff8bc14bbd57f45eafe951b41a8a5048c90b6c586ae795c7392747492220b82",
+    "print-parts/Moving_jaw_MG996R_R3.stl": "6cafcba6741b3a83b66ef9a93eb5e3c1d50f3e3de66b3592ee4f5299fc06a22d",
+    "print-parts/Shoulder_MG996R_R3.stl": "62b7bd8978a8cdd9bfd498d34c48f13afbda8868014c17b33a247a936d3f122d",
+    "print-parts/Upper_arm_MG996R_R3.stl": "532810011f7edca315fb046f8e837912bb5fe9803d9520b6d2b93e20b2fc79f8",
+    "print-parts/Wrist_pitch_roll_MG996R_R3.stl": "3356387425979f0f67b0aa7f650cadda22b4b5ac900a3d5acbb3c222dd4f5d75"
+  }
+}

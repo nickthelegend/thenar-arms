@@ -1,0 +1,746 @@
+{
+  "revision": "L1",
+  "status": "Passive encoder leader CAD; see verification report",
+  "source": "Exact original SO101 individual meshes, locally modified; no whole-part scaling.",
+  "wrist_axis_extension_mm": 14,
+  "parts": [
+    {
+      "file": "Base_motor_holder_SO101_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -22.350000381469727,
+          38.099998474121094,
+          -20.799999237060547
+        ],
+        [
+          25.29109001159668,
+          69.5,
+          74.75000762939453
+        ]
+      ],
+      "volume_mm3": 26067.79827226626,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 1.3608631037328502e-05,
+      "sha256": "1bef1529ada6b1afa44c0820221d8541ebdf04ad3e2b841eedf643295baa6434",
+      "part": "Base_motor_holder_SO101",
+      "source_sha256": "e10eb1296560bc00dca91af5f35d9be637be026a5b544c0ebfcac51501aa3c70",
+      "features": [
+        {
+          "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+          "joint": 0
+        }
+      ],
+      "discarded_nonstructural_fragments_mm3": [],
+      "structural_components": 1,
+      "source_volume_mm3": 23707.55919724728,
+      "removed_source_mm3": 1705.63194425922,
+      "added_mm3": 4065.7173660246685
+    },
+    {
+      "file": "Base_SO101_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -55.462501525878906,
+          2.9266571262807906e-13,
+          -16.0
+        ],
+        [
+          55.462501525878906,
+          72.0,
+          71.0
+        ]
+      ],
+      "volume_mm3": 118500.93685135905,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 5.021650603178785e-06,
+      "sha256": "334a1fbb75adf33b8cc15c21f2b8bd56c4527e0b3491da955e30e4019e722c6d",
+      "part": "Base_SO101",
+      "source_sha256": "19f3c6baafc23a3bc92805762e906df9514d1008be84d490a90a9096ffdcf3c8",
+      "features": [],
+      "discarded_nonstructural_fragments_mm3": [],
+      "structural_components": 1,
+      "source_volume_mm3": 122688.11643080195,
+      "removed_source_mm3": 4186.6274545231845,
+      "added_mm3": 0.0395285728753427
+    },
+    {
+      "file": "Motor_holder_SO101_Base_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -99.59989929199219,
+          -55.0970573425293,
+          -28.880443572998047
+        ],
+        [
+          -25.599899291992188,
+          -17.0,
+          26.200000762939453
+        ]
+      ],
+      "volume_mm3": 15508.351931100828,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 2.0602745152972766e-05,
+      "sha256": "5409d180e483d15f46d2d7f65f16fee2cdfd86a259848b7f63f01483da0d574d",
+      "part": "Motor_holder_SO101_Base",
+      "source_sha256": "f9971aa805e2d6fb61726d2787e752a6fe0ff21d3c66023296ee4c57a2b100a4",
+      "features": [
+        {
+          "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+          "joint": 1
+        }
+      ],
+      "discarded_nonstructural_fragments_mm3": [],
+      "structural_components": 1,
+      "source_volume_mm3": 13309.217878405632,
+      "removed_source_mm3": 2031.398107658176,
+      "added_mm3": 4230.2144073013
+    },
+    {
+      "file": "Rotation_Pitch_SO101_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -59.79999923706055,
+          0.20000000298023224,
+          -23.0
+        ],
+        [
+          1.7992000579833984,
+          84.4000015258789,
+          23.0
+        ]
+      ],
+      "volume_mm3": 60749.7479773002,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 1.534995595044075e-05,
+      "sha256": "95f3f5d4c6ec35e3030238df0e5657fc3340414e4ca897971c890886999fa4a8",
+      "part": "Rotation_Pitch_SO101",
+      "source_sha256": "5ef34a5420071627d01323be13e80b7ac8af0760c72d8382c0664c914f281800",
+      "features": [
+        {
+          "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+          "joint": 0
+        },
+        {
+          "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+          "joint": 0,
+          "step_degrees": 2
+        }
+      ],
+      "discarded_nonstructural_fragments_mm3": [],
+      "structural_components": 1,
+      "source_volume_mm3": 68787.19583742798,
+      "removed_source_mm3": 9695.685655573092,
+      "added_mm3": 1657.29769643012
+    },
+    {
+      "file": "Upper_arm_SO101_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -65.08499145507812,
+          -4.449999809265137,
+          -35.599998474121094
+        ],
+        [
+          79.08499908447266,
+          69.55000305175781,
+          31.700000762939453
+        ]
+      ],
+      "volume_mm3": 110121.22119009722,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 1.026447649560259e-05,
+      "sha256": "5c822479eca8a622e34fb3c5b70d09629c082edc8d58bfc631f5697f0d52b80a",
+      "part": "Upper_arm_SO101",
+      "source_sha256": "96333913c296b13ecb1c81e63e57e4352fb6b5dea7722c84ec1fbd5073e23865",
+      "features": [
+        {
+          "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+          "joint": 2
+        },
+        {
+          "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+          "joint": 1
+        },
+        {
+          "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+          "joint": 1,
+          "step_degrees": 2
+        }
+      ],
+      "discarded_nonstructural_fragments_mm3": [],
+      "structural_components": 1,
+      "source_volume_mm3": 117327.72352597798,
+      "removed_source_mm3": 12924.548204531293,
+      "added_mm3": 5716.936741255225
+    },
+    {
+      "file": "Under_arm_SO101_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -53.84990692138672,
+          -46.0,
+          -34.20000076293945
+        ],
+        [
+          78.84989929199219,
+          -18.0,
+          30.200000762939453
+        ]
+      ],
+      "volume_mm3": 86082.41753499636,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 7.962910751708986e-06,
+      "sha256": "3ce48b2d3f238a1d8a6c9690d0f18dfdea71911bf8407fecf86ac4be01f87f85",
+      "part": "Under_arm_SO101",
+      "source_sha256": "537b03e68ff7c061da4cc70bf0b5a61018a76c00bccc72d61f022d1644230db5",
+      "features": [
+        {
+          "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+          "joint": 2
+        },
+        {
+          "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+          "joint": 2,
+          "step_degrees": 2
+        }
+      ],
+      "discarded_nonstructural_fragments_mm3": [],
+      "structural_components": 1,
+      "source_volume_mm3": 92894.24896813529,
+      "removed_source_mm3": 8428.313779534557,
+      "added_mm3": 1615.8368041935594
+    },
+    {
+      "file": "Motor_holder_SO101_Wrist_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -98.82855987548828,
+          -53.900001525878906,
+          -30.19096565246582
+        ],
+        [
+          -25.600099563598633,
+          -17.0,
+          26.200000762939453
+        ]
+      ],
+      "volume_mm3": 15830.783265223627,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 2.0567583884078028e-05,
+      "sha256": "2f002253f7a91d2870ce446ed067ce2d637717f9ca81b3445486ab8d170b3230",
+      "part": "Motor_holder_SO101_Wrist",
+      "source_sha256": "936c84ed2c918b3ec14e2c3ec3f742f47bed10a4e3d0a2c9bf7869d0a2a55149",
+      "features": [
+        {
+          "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+          "joint": 3
+        }
+      ],
+      "discarded_nonstructural_fragments_mm3": [],
+      "structural_components": 1,
+      "source_volume_mm3": 13870.111163306025,
+      "removed_source_mm3": 2031.4106697856325,
+      "added_mm3": 3991.759281436075
+    },
+    {
+      "file": "Wrist_Roll_Pitch_SO101_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -29.549999237060547,
+          -20.0,
+          -51.82838821411133
+        ],
+        [
+          44.45000076293945,
+          15.659594535827637,
+          42.0
+        ]
+      ],
+      "volume_mm3": 33160.32590476269,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 5.998174332086276e-06,
+      "sha256": "290b0857ba8d2addc8b09f1a59f45836f0a3d5b2f8a61420d524e9ad5710face",
+      "part": "Wrist_Roll_Pitch_SO101",
+      "source_sha256": "14eb2f45ab1b279025ed2aea358f0091aad6aff967faef58527fd216f28fb6e5",
+      "features": [
+        {
+          "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+          "joint": 4
+        },
+        {
+          "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+          "joint": 3
+        },
+        {
+          "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+          "joint": 3,
+          "step_degrees": 2
+        }
+      ],
+      "discarded_nonstructural_fragments_mm3": [],
+      "structural_components": 1,
+      "source_volume_mm3": 32298.689769272474,
+      "removed_source_mm3": 16363.486831250513,
+      "added_mm3": 17224.896044698136
+    },
+    {
+      "file": "Wrist_Roll_SO101_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -35.20000076293945,
+          -24.0,
+          -1.9999994039535522
+        ],
+        [
+          49.75,
+          28.0,
+          41.849998474121094
+        ]
+      ],
+      "volume_mm3": 38414.151366945785,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 2.3840545057161168e-05,
+      "sha256": "a81bde131ab39ff2a1d6246bbfd55953439b74f1e5dac5ae79470a8b737ff0dc",
+      "part": "Wrist_Roll_SO101",
+      "source_sha256": "de3a65044dd4ae8bcb9659d8ca2b49598e3f5571edf89f45ad975e9776a7ffee",
+      "features": [
+        {
+          "feature": "4 mm MG996R tab ledge and four 5 x 3.4 mm slots",
+          "joint": 5
+        },
+        {
+          "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+          "joint": 4
+        },
+        {
+          "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+          "joint": 4,
+          "step_degrees": 2
+        }
+      ],
+      "discarded_nonstructural_fragments_mm3": [],
+      "structural_components": 1,
+      "source_volume_mm3": 39815.14321152389,
+      "removed_source_mm3": 6569.121892975811,
+      "added_mm3": 5167.248757568437
+    },
+    {
+      "file": "Handle_SO101_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -93.87895965576172,
+          -12.5,
+          36.70326232910156
+        ],
+        [
+          -5.754360675811768,
+          12.5,
+          96.7681655883789
+        ]
+      ],
+      "volume_mm3": 69626.01080443308,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 2.5452848955122334e-06,
+      "sha256": "67065d84473bb86598ddb773cfb1107b202ca9de2749ddfd8e91f695da1279d1",
+      "part": "Handle_SO101",
+      "source_sha256": "fb8757bdff009c04c207481dd664813ccdac2ad989acea6057df780b52327281",
+      "features": [],
+      "discarded_nonstructural_fragments_mm3": [],
+      "structural_components": 1,
+      "source_volume_mm3": 69626.18802291779,
+      "removed_source_mm3": 0.0,
+      "added_mm3": 0.0
+    },
+    {
+      "file": "Trigger_SO101_MG996R_R3.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -31.98978614807129,
+          -50.99993896484375,
+          -26.0
+        ],
+        [
+          13.998126029968262,
+          13.998126029968262,
+          6.0
+        ]
+      ],
+      "volume_mm3": 12188.859946766846,
+      "surface_simplification_tolerance_mm": 0.01,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 4.401954075691478e-05,
+      "sha256": "0bedb1423ebba9f1aa419fd15e0c976b4cc3b515d12158fff64317ede3203582",
+      "part": "Trigger_SO101",
+      "source_sha256": "48ecec3a3710cffdc0ae96d28547e49ddf4cbc93ccd915be7549f78e00ad2850",
+      "features": [
+        {
+          "feature": "20 mm metal horn interface, 14 mm PCD / four M3 holes",
+          "joint": 5
+        },
+        {
+          "feature": "Sampled moving MG996R body/tab relief; stock rear-idler pocket removed where intersecting",
+          "joint": 5,
+          "step_degrees": 2
+        }
+      ],
+      "discarded_nonstructural_fragments_mm3": [
+        6.938893903907228e-18,
+        5.421010862427522e-19,
+        2.1684043449709703e-19,
+        0.0,
+        0.0,
+        -1.9949319973733282e-17,
+        -4.163336342344337e-17
+      ],
+      "structural_components": 1,
+      "source_volume_mm3": 11164.28270555627,
+      "removed_source_mm3": 191.25744974720334,
+      "added_mm3": 1215.2980948316995
+    }
+  ],
+  "print_units": [
+    {
+      "file": "Base_Encoder_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -55.462501525878906,
+          2.9266571262807906e-13,
+          -20.79999923706056
+        ],
+        [
+          55.462501525878906,
+          72.0,
+          74.75000762939453
+        ]
+      ],
+      "volume_mm3": 143516.5427625276,
+      "surface_simplification_tolerance_mm": 0,
+      "stl_encoding": "ASCII float64",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 2.027907716874905e-16,
+      "sha256": "6854c8b3f5a49220d17dcd0a9bf4b1a98ae667f5b362ccaec5be502a455ad6d8",
+      "id": "Base_Encoder_L1",
+      "label": "Base \u00b7 encoder leader",
+      "source_parts": [
+        "Base_SO101",
+        "Base_motor_holder_SO101"
+      ],
+      "anchor_source_frame": "Base_SO101",
+      "registration_overlap": []
+    },
+    {
+      "file": "Shoulder_Encoder_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -62.76900100708008,
+          0.20000000298023224,
+          -26.371000289916992
+        ],
+        [
+          1.7992000579833984,
+          130.10299682617188,
+          28.709444046020508
+        ]
+      ],
+      "volume_mm3": 74137.57835881774,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 2.9454842928151784e-06,
+      "sha256": "0e0aa90af77e40488387736f55b5e4d0f6f4d9380b81b5bc1b7a3ea120b504be",
+      "id": "Shoulder_Encoder_L1",
+      "label": "Shoulder \u00b7 encoder leader",
+      "source_parts": [
+        "Rotation_Pitch_SO101",
+        "Motor_holder_SO101_Base"
+      ],
+      "anchor_source_frame": "Rotation_Pitch_SO101",
+      "registration_overlap": [
+        {
+          "source": "Motor_holder_SO101_Base",
+          "translation_mm": [
+            0.031,
+            -0.047,
+            0.029
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Upper_arm_Encoder_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -65.08499145507812,
+          -4.449999809265137,
+          -35.599998474121094
+        ],
+        [
+          79.08499908447266,
+          69.55000305175781,
+          31.700000762939453
+        ]
+      ],
+      "volume_mm3": 110121.31289850036,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 1.4708783740804326e-07,
+      "sha256": "df7ed8383f98b81d1379299673c4cfe3f97a0346e15e7ca26c66955a77b1a5c2",
+      "id": "Upper_arm_Encoder_L1",
+      "label": "Upper arm \u00b7 encoder leader",
+      "source_parts": [
+        "Upper_arm_SO101"
+      ],
+      "anchor_source_frame": "Upper_arm_SO101",
+      "registration_overlap": []
+    },
+    {
+      "file": "Forearm_Encoder_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -98.79756164550781,
+          -53.94700241088867,
+          -34.20000076293945
+        ],
+        [
+          78.84989929199219,
+          -17.047000885009766,
+          30.200000762939453
+        ]
+      ],
+      "volume_mm3": 101004.44343303466,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 1.837293841446856e-06,
+      "sha256": "b887f3cf51c065b9bf67fca63e7febf255d3a3a834bab73b288dc2b89f950f90",
+      "id": "Forearm_Encoder_L1",
+      "label": "Forearm \u00b7 encoder leader",
+      "source_parts": [
+        "Under_arm_SO101",
+        "Motor_holder_SO101_Wrist"
+      ],
+      "anchor_source_frame": "Under_arm_SO101",
+      "registration_overlap": [
+        {
+          "source": "Motor_holder_SO101_Wrist",
+          "translation_mm": [
+            0.031,
+            0.003,
+            0.029
+          ]
+        },
+        {
+          "source": "Motor_holder_SO101_Wrist",
+          "translation_mm": [
+            0,
+            -0.05,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Wrist_pitch_roll_Encoder_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -29.549999237060547,
+          -20.0,
+          -51.82838821411133
+        ],
+        [
+          44.45000076293945,
+          15.659594535827637,
+          42.0
+        ]
+      ],
+      "volume_mm3": 33160.31730191428,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 5.491089086252323e-08,
+      "sha256": "dfd685e68095250315d5cae9bb969020cfa46961dbe77cc065db1be778b954d4",
+      "id": "Wrist_pitch_roll_Encoder_L1",
+      "label": "Wrist pitch roll \u00b7 encoder leader",
+      "source_parts": [
+        "Wrist_Roll_Pitch_SO101"
+      ],
+      "anchor_source_frame": "Wrist_Roll_Pitch_SO101",
+      "registration_overlap": []
+    },
+    {
+      "file": "Handle_Encoder_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -93.84796142578125,
+          -24.0,
+          -1.9999994039535522
+        ],
+        [
+          49.75,
+          28.0,
+          96.79716491699219
+        ]
+      ],
+      "volume_mm3": 108015.47273408859,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 2.2239213183282788e-07,
+      "sha256": "eeb579202ec80a0cf825ec7e3c425308093427406019d2c6090e71de40044598",
+      "id": "Handle_Encoder_L1",
+      "label": "Handle \u00b7 encoder leader",
+      "source_parts": [
+        "Wrist_Roll_SO101",
+        "Handle_SO101"
+      ],
+      "anchor_source_frame": "Wrist_Roll_SO101",
+      "registration_overlap": [
+        {
+          "source": "Handle_SO101",
+          "translation_mm": [
+            0.031,
+            -0.047,
+            0.029
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Trigger_Encoder_L1.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -31.98978614807129,
+          -50.99993896484375,
+          -26.0
+        ],
+        [
+          13.998126029968262,
+          13.998126029968262,
+          6.0
+        ]
+      ],
+      "volume_mm3": 12188.873178363741,
+      "surface_simplification_tolerance_mm": 0.005,
+      "stl_encoding": "binary",
+      "bounded_mesh_repair": null,
+      "relative_volume_change": 1.4923359829313124e-16,
+      "sha256": "77069e895607b32970e5d7204bde6c82210160c1e1b4fba62ca61d6be3ceeaa5",
+      "id": "Trigger_Encoder_L1",
+      "label": "Trigger \u00b7 encoder leader",
+      "source_parts": [
+        "Trigger_SO101"
+      ],
+      "anchor_source_frame": "Trigger_SO101",
+      "registration_overlap": []
+    }
+  ],
+  "limits_degrees": [
+    [
+      -85,
+      85
+    ],
+    [
+      -80,
+      80
+    ],
+    [
+      -80,
+      80
+    ],
+    [
+      -80,
+      80
+    ],
+    [
+      -85,
+      85
+    ],
+    [
+      0,
+      70
+    ]
+  ],
+  "physical_fit_verified": false,
+  "complete_arm_release": false,
+  "pending": [
+    "Physical bearing/journal fit",
+    "Magnet field and calibration test",
+    "Strength and cable routing"
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "status": "WRIST SPACING PROTOTYPE \u2014 NOT A COMPLETE ARM OR PRINT RELEASE",
+  "extension_mm": 8.0,
+  "original_section_plane_z_mm": 18.0,
+  "original_source": "source/STEP/Wrist_Roll_Pitch_SO101.step",
+  "unscaled_extension_valid": true,
+  "unscaled_extension_solids": 1,
+  "clearance_cut_valid": true,
+  "clearance_cut_solids": 1,
+  "full_arm_verified": false,
+  "physical_tested": false,
+  "required_assembly_change": "Move follower roll-servo instance and gripper-link joint origin by 8 mm along roll output axis (wrist-link Y -= 8). Leader unchanged.",
+  "limitations": [
+    "Original horn, idler and flange mounting interfaces are not converted by an extension alone.",
+    "Two-servo pair checks are NOT full assembly motion checks.",
+    "No unchanged collision report may certify this changed geometry."
+  ],
+  "mesh_failure": "Non-watertight export: /Volumes/Extreme SSD/Projects/thenar-io/thenar-arms/so101-mg996r/output/wrist-spacing-r2/Wrist_Roll_Pitch_SO101_MG996R_spacing_PROTOTYPE.stl",
+  "pair_check": {
+    "samples": [
+      {
+        "wrist_pitch_degrees": -80,
+        "overlap_mm3": 0,
+        "distance_mm": 9.83068421007869
+      },
+      {
+        "wrist_pitch_degrees": -78,
+        "overlap_mm3": 0,
+        "distance_mm": 9.34218741300755
+      },
+      {
+        "wrist_pitch_degrees": -76,
+        "overlap_mm3": 0,
+        "distance_mm": 8.830125140009033
+      },
+      {
+        "wrist_pitch_degrees": -74,
+        "overlap_mm3": 0,
+        "distance_mm": 8.295121260085802
+      },
+      {
+        "wrist_pitch_degrees": -72,
+        "overlap_mm3": 0,
+        "distance_mm": 7.737827593054713
+      },
+      {
+        "wrist_pitch_degrees": -70,
+        "overlap_mm3": 0,
+        "distance_mm": 7.166863424625588
+      },
+      {
+        "wrist_pitch_degrees": -68,
+        "overlap_mm3": 0,
+        "distance_mm": 6.62413081451568
+      },
+      {
+        "wrist_pitch_degrees": -66,
+        "overlap_mm3": 0,
+        "distance_mm": 6.123931182997815
+      },
+      {
+        "wrist_pitch_degrees": -64,
+        "overlap_mm3": 0,
+        "distance_mm": 5.678201518225366
+      },
+      {
+        "wrist_pitch_degrees": -62,
+        "overlap_mm3": 0,
+        "distance_mm": 5.30067052755809
+      },
+      {
+        "wrist_pitch_degrees": -60,
+        "overlap_mm3": 0,
+        "distance_mm": 4.96465263589228
+      },
+      {
+        "wrist_pitch_degrees": -58,
+        "overlap_mm3": 0,
+        "distance_mm": 4.649267856299495
+      },
+      {
+        "wrist_pitch_degrees": -56,
+        "overlap_mm3": 0,
+        "distance_mm": 4.3549004365522945
+      },
+      {
+        "wrist_pitch_degrees": -54,
+        "overlap_mm3": 0,
+        "distance_mm": 4.081909018007911
+      },
+      {
+        "wrist_pitch_degrees": -52,
+        "overlap_mm3": 0,
+        "distance_mm": 3.8306261986587162
+      },
+      {
+        "wrist_pitch_degrees": -50,
+        "overlap_mm3": 0,
+        "distance_mm": 3.6013581279127758
+      },
+      {
+        "wrist_pitch_degrees": -48,
+        "overlap_mm3": 0,
+        "distance_mm": 3.3943841335985674
+      },
+      {
+        "wrist_pitch_degrees": -46,
+        "overlap_mm3": 0,
+        "distance_mm": 3.209956381645926
+      },
+      {
+        "wrist_pitch_degrees": -44,
+        "overlap_mm3": 0,
+        "distance_mm": 3.04829956886197
+      },
+      {
+        "wrist_pitch_degrees": -42,
+        "overlap_mm3": 0,
+        "distance_mm": 2.909610649171543
+      },
+      {
+        "wrist_pitch_degrees": -40,
+        "overlap_mm3": 0,
+        "distance_mm": 2.794058593659992
+      },
+      {
+        "wrist_pitch_degrees": -38,
+        "overlap_mm3": 0,
+        "distance_mm": 2.701784184707598
+      },
+      {
+        "wrist_pitch_degrees": -36,
+        "overlap_mm3": 0,
+        "distance_mm": 2.632899844467658
+      },
+      {
+        "wrist_pitch_degrees": -34,
+        "overlap_mm3": 0,
+        "distance_mm": 2.587489497898276
+      },
+      {
+        "wrist_pitch_degrees": -32,
+        "overlap_mm3": 0,
+        "distance_mm": 2.5656084705114353
+      },
+      {
+        "wrist_pitch_degrees": -30,
+        "overlap_mm3": 0,
+        "distance_mm": 2.5672834209688227
+      },
+      {
+        "wrist_pitch_degrees": -28,
+        "overlap_mm3": 0,
+        "distance_mm": 2.592512308601135
+      },
+      {
+        "wrist_pitch_degrees": -26,
+        "overlap_mm3": 0,
+        "distance_mm": 2.641264395895044
+      },
+      {
+        "wrist_pitch_degrees": -24,
+        "overlap_mm3": 0,
+        "distance_mm": 2.71348028594188
+      },
+      {
+        "wrist_pitch_degrees": -22,
+        "overlap_mm3": 0,
+        "distance_mm": 2.809071994803617
+      },
+      {
+        "wrist_pitch_degrees": -20,
+        "overlap_mm3": 0,
+        "distance_mm": 2.927923058707753
+      },
+      {
+        "wrist_pitch_degrees": -18,
+        "overlap_mm3": 0,
+        "distance_mm": 3.06988867594058
+      },
+      {
+        "wrist_pitch_degrees": -16,
+        "overlap_mm3": 0,
+        "distance_mm": 3.2347958832655928
+      },
+      {
+        "wrist_pitch_degrees": -14,
+        "overlap_mm3": 0,
+        "distance_mm": 3.4224437666526355
+      },
+      {
+        "wrist_pitch_degrees": -12,
+        "overlap_mm3": 0,
+        "distance_mm": 3.632603706060814
+      },
+      {
+        "wrist_pitch_degrees": -10,
+        "overlap_mm3": 0,
+        "distance_mm": 3.865019653976571
+      },
+      {
+        "wrist_pitch_degrees": -8,
+        "overlap_mm3": 0,
+        "distance_mm": 4.119408447368308
+      },
+      {
+        "wrist_pitch_degrees": -6,
+        "overlap_mm3": 0,
+        "distance_mm": 4.395460152676947
+      },
+      {
+        "wrist_pitch_degrees": -4,
+        "overlap_mm3": 0,
+        "distance_mm": 4.692838443421923
+      },
+      {
+        "wrist_pitch_degrees": -2,
+        "overlap_mm3": 0,
+        "distance_mm": 5.011181009963658
+      },
+      {
+        "wrist_pitch_degrees": 0,
+        "overlap_mm3": 0,
+        "distance_mm": 5.349900000921772
+      },
+      {
+        "wrist_pitch_degrees": 2,
+        "overlap_mm3": 0,
+        "distance_mm": 5.010992683531679
+      },
+      {
+        "wrist_pitch_degrees": 4,
+        "overlap_mm3": 0,
+        "distance_mm": 4.692662020004688
+      },
+      {
+        "wrist_pitch_degrees": 6,
+        "overlap_mm3": 0,
+        "distance_mm": 4.395295847219182
+      },
+      {
+        "wrist_pitch_degrees": 8,
+        "overlap_mm3": 0,
+        "distance_mm": 4.119256460051005
+      },
+      {
+        "wrist_pitch_degrees": 10,
+        "overlap_mm3": 0,
+        "distance_mm": 3.8648801699727797
+      },
+      {
+        "wrist_pitch_degrees": 12,
+        "overlap_mm3": 0,
+        "distance_mm": 3.6324768953103304
+      },
+      {
+        "wrist_pitch_degrees": 14,
+        "overlap_mm3": 0,
+        "distance_mm": 3.422329783654833
+      },
+      {
+        "wrist_pitch_degrees": 16,
+        "overlap_mm3": 0,
+        "distance_mm": 3.234694866891179
+      },
+      {
+        "wrist_pitch_degrees": 18,
+        "overlap_mm3": 0,
+        "distance_mm": 3.069800749262461
+      },
+      {
+        "wrist_pitch_degrees": 20,
+        "overlap_mm3": 0,
+        "distance_mm": 2.9278483288510064
+      },
+      {
+        "wrist_pitch_degrees": 22,
+        "overlap_mm3": 0,
+        "distance_mm": 2.809010552815078
+      },
+      {
+        "wrist_pitch_degrees": 24,
+        "overlap_mm3": 0,
+        "distance_mm": 2.7134322066792342
+      },
+      {
+        "wrist_pitch_degrees": 26,
+        "overlap_mm3": 0,
+        "distance_mm": 2.641229737935399
+      },
+      {
+        "wrist_pitch_degrees": 28,
+        "overlap_mm3": 0,
+        "distance_mm": 2.592491114169823
+      },
+      {
+        "wrist_pitch_degrees": 30,
+        "overlap_mm3": 0,
+        "distance_mm": 2.5672757158880493
+      },
+      {
+        "wrist_pitch_degrees": 32,
+        "overlap_mm3": 0,
+        "distance_mm": 2.5656142641687065
+      },
+      {
+        "wrist_pitch_degrees": 34,
+        "overlap_mm3": 0,
+        "distance_mm": 2.5875087832347394
+      },
+      {
+        "wrist_pitch_degrees": 36,
+        "overlap_mm3": 0,
+        "distance_mm": 2.632932597987375
+      },
+      {
+        "wrist_pitch_degrees": 38,
+        "overlap_mm3": 0,
+        "distance_mm": 2.7018303665051873
+      },
+      {
+        "wrist_pitch_degrees": 40,
+        "overlap_mm3": 0,
+        "distance_mm": 2.794118147470189
+      },
+      {
+        "wrist_pitch_degrees": 42,
+        "overlap_mm3": 0,
+        "distance_mm": 2.9096835024371677
+      },
+      {
+        "wrist_pitch_degrees": 44,
+        "overlap_mm3": 0,
+        "distance_mm": 3.04838563282248
+      },
+      {
+        "wrist_pitch_degrees": 46,
+        "overlap_mm3": 0,
+        "distance_mm": 3.2100555514458
+      },
+      {
+        "wrist_pitch_degrees": 48,
+        "overlap_mm3": 0,
+        "distance_mm": 3.394496288414471
+      },
+      {
+        "wrist_pitch_degrees": 50,
+        "overlap_mm3": 0,
+        "distance_mm": 3.6014831311015607
+      },
+      {
+        "wrist_pitch_degrees": 52,
+        "overlap_mm3": 0,
+        "distance_mm": 3.830763897923121
+      },
+      {
+        "wrist_pitch_degrees": 54,
+        "overlap_mm3": 0,
+        "distance_mm": 4.082059245582586
+      },
+      {
+        "wrist_pitch_degrees": 56,
+        "overlap_mm3": 0,
+        "distance_mm": 4.3550630094081715
+      },
+      {
+        "wrist_pitch_degrees": 58,
+        "overlap_mm3": 0,
+        "distance_mm": 4.649442576366459
+      },
+      {
+        "wrist_pitch_degrees": 60,
+        "overlap_mm3": 0,
+        "distance_mm": 4.964839290301001
+      },
+      {
+        "wrist_pitch_degrees": 62,
+        "overlap_mm3": 0,
+        "distance_mm": 5.300868888898812
+      },
+      {
+        "wrist_pitch_degrees": 64,
+        "overlap_mm3": 0,
+        "distance_mm": 5.678424581269279
+      },
+      {
+        "wrist_pitch_degrees": 66,
+        "overlap_mm3": 0,
+        "distance_mm": 6.124175478831709
+      },
+      {
+        "wrist_pitch_degrees": 68,
+        "overlap_mm3": 0,
+        "distance_mm": 6.624391326621979
+      },
+      {
+        "wrist_pitch_degrees": 70,
+        "overlap_mm3": 0,
+        "distance_mm": 7.167136230618313
+      },
+      {
+        "wrist_pitch_degrees": 72,
+        "overlap_mm3": 0,
+        "distance_mm": 7.738102849846923
+      },
+      {
+        "wrist_pitch_degrees": 74,
+        "overlap_mm3": 0,
+        "distance_mm": 8.295389371410886
+      },
+      {
+        "wrist_pitch_degrees": 76,
+        "overlap_mm3": 0,
+        "distance_mm": 8.830385779214565
+      },
+      {
+        "wrist_pitch_degrees": 78,
+        "overlap_mm3": 0,
+        "distance_mm": 9.342440262544844
+      },
+      {
+        "wrist_pitch_degrees": 80,
+        "overlap_mm3": 0,
+        "distance_mm": 9.83092896188959
+      }
+    ],
+    "all_sampled_overlap_free": true,
+    "minimum_sampled_distance_mm": 2.5656084705114353,
+    "continuous_sweep_certified": false
+  }
+}

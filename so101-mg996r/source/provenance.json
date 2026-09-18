@@ -1,0 +1,438 @@
+{
+  "repository": "https://github.com/TheRobotStudio/SO-ARM100",
+  "commit": "eecbe3e0a9ebb23e25ad7b2759b03884c6660903",
+  "files": [
+    {
+      "path": "Individual/Base_motor_holder_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Base_motor_holder_SO101.stl",
+      "sha256": "e10eb1296560bc00dca91af5f35d9be637be026a5b544c0ebfcac51501aa3c70",
+      "bytes": 340884,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -22.350000381469727,
+          38.099998474121094,
+          -20.799999237060547
+        ],
+        [
+          25.29109001159668,
+          69.5,
+          59.400001525878906
+        ]
+      ],
+      "size_mm": [
+        47.641090393066406,
+        31.400001525878906,
+        80.20000076293945
+      ],
+      "triangles": 6816,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Base_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Base_SO101.stl",
+      "sha256": "19f3c6baafc23a3bc92805762e906df9514d1008be84d490a90a9096ffdcf3c8",
+      "bytes": 477984,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -55.462501525878906,
+          2.9266571262807906e-13,
+          -16.0
+        ],
+        [
+          55.462501525878906,
+          72.0,
+          71.0
+        ]
+      ],
+      "size_mm": [
+        110.92500305175781,
+        71.9999999999997,
+        87.0
+      ],
+      "triangles": 9558,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Motor_holder_SO101_Base.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Motor_holder_SO101_Base.stl",
+      "sha256": "f9971aa805e2d6fb61726d2787e752a6fe0ff21d3c66023296ee4c57a2b100a4",
+      "bytes": 292784,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -53.84990692138672,
+          -55.0970573425293,
+          -28.880443572998047
+        ],
+        [
+          -25.84990692138672,
+          -17.0,
+          26.200000762939453
+        ]
+      ],
+      "size_mm": [
+        28.0,
+        38.0970573425293,
+        55.0804443359375
+      ],
+      "triangles": 5854,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Motor_holder_SO101_Wrist.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Motor_holder_SO101_Wrist.stl",
+      "sha256": "936c84ed2c918b3ec14e2c3ec3f742f47bed10a4e3d0a2c9bf7869d0a2a55149",
+      "bytes": 400584,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -53.84990692138672,
+          -53.900001525878906,
+          -30.19096565246582
+        ],
+        [
+          -25.84990692138672,
+          -17.0,
+          26.200000762939453
+        ]
+      ],
+      "size_mm": [
+        28.0,
+        36.900001525878906,
+        56.39096641540527
+      ],
+      "triangles": 8010,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Under_arm_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Under_arm_SO101.stl",
+      "sha256": "537b03e68ff7c061da4cc70bf0b5a61018a76c00bccc72d61f022d1644230db5",
+      "bytes": 525484,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -53.84990692138672,
+          -44.0,
+          -34.20000076293945
+        ],
+        [
+          76.84990692138672,
+          -20.0,
+          30.200000762939453
+        ]
+      ],
+      "size_mm": [
+        130.69981384277344,
+        24.0,
+        64.4000015258789
+      ],
+      "triangles": 10508,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Upper_arm_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Upper_arm_SO101.stl",
+      "sha256": "96333913c296b13ecb1c81e63e57e4352fb6b5dea7722c84ec1fbd5073e23865",
+      "bytes": 401984,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -65.08499145507812,
+          -1.6566609195578508e-13,
+          -35.599998474121094
+        ],
+        [
+          77.06130981445312,
+          24.5,
+          31.700000762939453
+        ]
+      ],
+      "size_mm": [
+        142.14630126953125,
+        24.500000000000167,
+        67.29999923706055
+      ],
+      "triangles": 8038,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Rotation_Pitch_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Rotation_Pitch_SO101.stl",
+      "sha256": "5ef34a5420071627d01323be13e80b7ac8af0760c72d8382c0664c914f281800",
+      "bytes": 334884,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -59.79999923706055,
+          0.20000000298023224,
+          -23.0
+        ],
+        [
+          0.0,
+          84.4000015258789,
+          23.0
+        ]
+      ],
+      "size_mm": [
+        59.79999923706055,
+        84.20000152289867,
+        46.0
+      ],
+      "triangles": 6696,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Wrist_Roll_Pitch_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Wrist_Roll_Pitch_SO101.stl",
+      "sha256": "14eb2f45ab1b279025ed2aea358f0091aad6aff967faef58527fd216f28fb6e5",
+      "bytes": 851884,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -27.100006103515625,
+          -20.0,
+          -37.82838821411133
+        ],
+        [
+          35.20000076293945,
+          15.659594535827637,
+          39.999324798583984
+        ]
+      ],
+      "size_mm": [
+        62.30000686645508,
+        35.65959453582764,
+        77.82771301269531
+      ],
+      "triangles": 17036,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/WaveShare_Mounting_Plate_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/WaveShare_Mounting_Plate_SO101.stl",
+      "sha256": "6275f05ef28cd407be13ea882735282c4a8b2ef64930c77a9e7b5a3811740be1",
+      "bytes": 37684,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -25.5,
+          -21.0,
+          0.0
+        ],
+        [
+          25.5,
+          21.0,
+          7.599999904632568
+        ]
+      ],
+      "size_mm": [
+        51.0,
+        42.0,
+        7.599999904632568
+      ],
+      "triangles": 752,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Handle_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Handle_SO101.stl",
+      "sha256": "fb8757bdff009c04c207481dd664813ccdac2ad989acea6057df780b52327281",
+      "bytes": 561084,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -93.87895965576172,
+          -12.5,
+          36.70326232910156
+        ],
+        [
+          -5.754360675811768,
+          12.5,
+          96.7681655883789
+        ]
+      ],
+      "size_mm": [
+        88.12459897994995,
+        25.0,
+        60.064903259277344
+      ],
+      "triangles": 11220,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Trigger_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Trigger_SO101.stl",
+      "sha256": "48ecec3a3710cffdc0ae96d28547e49ddf4cbc93ccd915be7549f78e00ad2850",
+      "bytes": 448084,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -31.98978614807129,
+          -50.99993896484375,
+          -26.0
+        ],
+        [
+          9.989919662475586,
+          10.0,
+          6.0
+        ]
+      ],
+      "size_mm": [
+        41.979705810546875,
+        60.99993896484375,
+        32.0
+      ],
+      "triangles": 8960,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Wrist_Roll_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Wrist_Roll_SO101.stl",
+      "sha256": "de3a65044dd4ae8bcb9659d8ca2b49598e3f5571edf89f45ad975e9776a7ffee",
+      "bytes": 307984,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -35.20000076293945,
+          -24.0,
+          -1.0
+        ],
+        [
+          30.0,
+          28.0,
+          41.849998474121094
+        ]
+      ],
+      "size_mm": [
+        65.20000076293945,
+        52.0,
+        42.849998474121094
+      ],
+      "triangles": 6158,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Moving_Jaw_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Moving_Jaw_SO101.stl",
+      "sha256": "403763bbab8656cc7ce5ea6374741d0860bd19426b5b4b0041de3a2c1275f90b",
+      "bytes": 563084,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -12.300000190734863,
+          -82.0,
+          -24.0
+        ],
+        [
+          9.999165534973145,
+          9.988959312438965,
+          24.0
+        ]
+      ],
+      "size_mm": [
+        22.299165725708008,
+        91.98895931243896,
+        48.0
+      ],
+      "triangles": 11260,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Individual/Wrist_Roll_Follower_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Individual/Wrist_Roll_Follower_SO101.stl",
+      "sha256": "3f47a4b889b95a4c71046bda9ddfc9399d96d80a57ad7fc079700e240323a302",
+      "bytes": 602884,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -35.20000076293945,
+          -24.21821403503418,
+          -0.05029354616999626
+        ],
+        [
+          30.0,
+          27.78178596496582,
+          105.375
+        ]
+      ],
+      "size_mm": [
+        65.20000076293945,
+        52.0,
+        105.42529354617
+      ],
+      "triangles": 12056,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Follower/Ender_Follower_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Follower/Ender_Follower_SO101.stl",
+      "sha256": "f39e984d51f5ffd716bc7af5fbce31d7ef02bcd067ad6308ef597a7999f0a086",
+      "bytes": 24823670,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -108.65885925292969,
+          -106.47090911865234,
+          -8.96453857421875e-05
+        ],
+        [
+          107.68504333496094,
+          108.81082153320312,
+          87.0
+        ]
+      ],
+      "size_mm": [
+        216.34390258789062,
+        215.28173065185547,
+        87.00008964538574
+      ],
+      "triangles": 96584,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    },
+    {
+      "path": "Leader/Ender_Leader_SO101.stl",
+      "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/eecbe3e0a9ebb23e25ad7b2759b03884c6660903/STL/SO101/Leader/Ender_Leader_SO101.stl",
+      "sha256": "b6d7599f0c326e3a3707530196629c2aa8d9768239dcd141d394e96fda103c85",
+      "bytes": 25489030,
+      "matches_workspace_upstream": true,
+      "bounds_mm": [
+        [
+          -108.65885925292969,
+          -105.38587951660156,
+          -7.43865966796875e-05
+        ],
+        [
+          107.68504333496094,
+          108.81082153320312,
+          88.12458801269531
+        ]
+      ],
+      "size_mm": [
+        216.34390258789062,
+        214.1967010498047,
+        88.12466239929199
+      ],
+      "triangles": 99606,
+      "watertight": true,
+      "geometry_status": "UNMODIFIED ORIGINAL \u2014 not MG996R converted"
+    }
+  ]
+}

@@ -1,0 +1,1039 @@
+{
+  "revision": "R3",
+  "plates": [
+    {
+      "id": "P1S_MG996R_R3_01",
+      "label": "MG996R follower \u00b7 plate 1",
+      "robot": "follower",
+      "prototype": true,
+      "file": "follower-r3/plates/P1S_MG996R_R3_01.3mf",
+      "entries": [
+        {
+          "part": "Forearm_MG996R_R3",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -3.4450928483976665e-16,
+            -1.0,
+            0.0,
+            0.0,
+            1.0,
+            -3.4450928483976665e-16,
+            0.0,
+            101.99166107177734,
+            75.20000076293945,
+            -17.049999999999997,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              11.0,
+              41.00000000000001,
+              0.0
+            ],
+            [
+              180.84156036376953,
+              105.40000152587892,
+              36.900001525878906
+            ]
+          ]
+        },
+        {
+          "part": "Upper_arm_MG996R_R3",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -3.4450928483976665e-16,
+            -1.0,
+            0.0,
+            0.0,
+            1.0,
+            -3.4450928483976665e-16,
+            0.0,
+            76.08499145507812,
+            153.0,
+            61.55,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              11.0,
+              117.4000015258789,
+              0.0
+            ],
+            [
+              155.16999145507813,
+              184.70000076293945,
+              64.0
+            ]
+          ]
+        },
+        {
+          "part": "Shoulder_MG996R_R3",
+          "matrix": [
+            -1.0,
+            4.440892098500626e-16,
+            0.0,
+            0.0,
+            -4.440892098500626e-16,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            168.96919151306156,
+            239.5029983520508,
+            26.371000289916992,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              167.16999145507813,
+              117.4000015258789,
+              0.0
+            ],
+            [
+              231.7381925201416,
+              239.30299834907058,
+              55.0423698425293
+            ]
+          ]
+        },
+        {
+          "part": "Moving_jaw_MG996R_R3",
+          "matrix": [
+            4.930380657631324e-32,
+            2.220446049250313e-16,
+            -1.0,
+            0.0,
+            -1.0,
+            2.220446049250313e-16,
+            0.0,
+            0.0,
+            2.220446049250313e-16,
+            1.0,
+            2.220446049250313e-16,
+            0.0,
+            25.000000000000007,
+            220.70000076293945,
+            14.000000000000005,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              11.000000000000002,
+              196.70000076293945,
+              0.0
+            ],
+            [
+              107.0,
+              243.8839874267578,
+              28.0
+            ]
+          ]
+        }
+      ],
+      "count": 4,
+      "height": 64.0,
+      "bed_mm": [
+        256,
+        256
+      ],
+      "part_spacing_mm": 12,
+      "front_reserve_mm": 35,
+      "slicer": {
+        "plate": "P1S_MG996R_R3_01",
+        "exit_code": 0,
+        "input_sha256": "af9724fcb82b62e60110e0073a69cb6d410cbd11d4be7d08cfea55174a6b2433",
+        "diagnostics": [
+          "[2026-09-18 11:35:37.761351] [0x000000016c2d7000] [error]   ZFiller: encounter idx from clip: 819",
+          "[2026-09-18 11:35:38.201136] [0x000000016d307000] [error]   ZFiller: encounter idx from clip: 17"
+        ],
+        "gcode_present": true,
+        "gcode_summary": [
+          "; model printing time: 10h 39m 44s; total estimated time: 10h 46m 0s",
+          "; total filament weight [g] : 277.89"
+        ],
+        "sliced_file": "slicing/P1S_MG996R_R3_01/P1S_MG996R_R3_01_sliced.3mf"
+      }
+    },
+    {
+      "id": "P1S_MG996R_R3_02",
+      "label": "MG996R follower \u00b7 plate 2",
+      "robot": "follower",
+      "prototype": true,
+      "file": "follower-r3/plates/P1S_MG996R_R3_02.3mf",
+      "entries": [
+        {
+          "part": "Base_MG996R_R3",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            66.4625015258789,
+            40.99999999999971,
+            20.79999923706056,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              11.0,
+              41.0,
+              0.0
+            ],
+            [
+              121.92500305175781,
+              112.99999999999972,
+              91.79999923706056
+            ]
+          ]
+        },
+        {
+          "part": "Gripper_body_MG996R_R3",
+          "matrix": [
+            2.220446049250313e-16,
+            1.2246467991473532e-16,
+            1.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.2246467991473532e-16,
+            0.0,
+            1.0,
+            -2.719262146893782e-32,
+            -2.220446049250313e-16,
+            0.0,
+            134.97529709339142,
+            68.78178596496582,
+            35.20000076293946,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              133.9250030517578,
+              41.0,
+              0.0
+            ],
+            [
+              240.35029709339142,
+              93.0,
+              76.95000076293945
+            ]
+          ]
+        },
+        {
+          "part": "Wrist_pitch_roll_MG996R_R3",
+          "matrix": [
+            2.220446049250313e-16,
+            1.2246467991473532e-16,
+            1.0,
+            0.0,
+            0.0,
+            -1.0,
+            1.2246467991473532e-16,
+            0.0,
+            1.0,
+            -2.719262146893782e-32,
+            -2.220446049250313e-16,
+            0.0,
+            179.75339126586914,
+            120.65959453582764,
+            27.100006103515625,
+            1.0
+          ],
+          "bounds_mm": [
+            [
+              133.9250030517578,
+              105.0,
+              0.0
+            ],
+            [
+              221.75339126586914,
+              140.65959453582764,
+              69.55000686645508
+            ]
+          ]
+        }
+      ],
+      "count": 3,
+      "height": 91.79999923706056,
+      "bed_mm": [
+        256,
+        256
+      ],
+      "part_spacing_mm": 12,
+      "front_reserve_mm": 35,
+      "slicer": {
+        "plate": "P1S_MG996R_R3_02",
+        "exit_code": 0,
+        "input_sha256": "7c3a0991bae602780a930b31f214772b21734efb43f9acdb6dbcca4282b70dd9",
+        "diagnostics": [],
+        "gcode_present": true,
+        "gcode_summary": [
+          "; model printing time: 9h 1m 47s; total estimated time: 9h 8m 3s",
+          "; total filament weight [g] : 218.99"
+        ],
+        "sliced_file": "slicing/P1S_MG996R_R3_02/P1S_MG996R_R3_02_sliced.3mf"
+      }
+    }
+  ],
+  "orientations": {
+    "Base_MG996R_R3": {
+      "bed_contact_area_mm2": 797.4348348834162,
+      "unsupported_down_face_area_mm2": 3616.6539686182805,
+      "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+    },
+    "Shoulder_MG996R_R3": {
+      "bed_contact_area_mm2": 172.00520789124025,
+      "unsupported_down_face_area_mm2": 3526.1111519084966,
+      "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+    },
+    "Upper_arm_MG996R_R3": {
+      "bed_contact_area_mm2": 116.0,
+      "unsupported_down_face_area_mm2": 5872.651967589212,
+      "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+    },
+    "Forearm_MG996R_R3": {
+      "bed_contact_area_mm2": 917.6085303707766,
+      "unsupported_down_face_area_mm2": 5640.4215585587335,
+      "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+    },
+    "Wrist_pitch_roll_MG996R_R3": {
+      "bed_contact_area_mm2": 582.8314321647339,
+      "unsupported_down_face_area_mm2": 1524.264403053066,
+      "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+    },
+    "Gripper_body_MG996R_R3": {
+      "bed_contact_area_mm2": 825.1879896680307,
+      "unsupported_down_face_area_mm2": 1661.5925842011507,
+      "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+    },
+    "Moving_jaw_MG996R_R3": {
+      "bed_contact_area_mm2": 12.461399532139136,
+      "unsupported_down_face_area_mm2": 1371.0340503659104,
+      "orientation_method": "Original layout principal print axis, choosing the side with greatest flat bed contact; Bambu support generation still required."
+    }
+  },
+  "sliced": true,
+  "globally_minimum_plate_count_proven": false,
+  "method": "16 rectangle-packing candidates; 12 mm part spacing, 35 mm front reserve, 5 mm outer reserve. Counts exclude the obsolete stock WaveShare controller mount.",
+  "settings": {
+    "printer": "Bambu Lab P1S",
+    "nozzle_mm": 0.4,
+    "layer_height_mm": 0.2,
+    "filament": "Generic PETG",
+    "bed": "Textured PEI",
+    "walls": 4,
+    "wall_generator": "arachne",
+    "infill": "25% gyroid",
+    "support": "normal(auto), 30 degrees",
+    "brim_mm": 5
+  },
+  "toolpath_screen": {
+    "method": "At each nominal 0.20 mm model layer, test whether each positive-winding mesh cross-section contour >2 mm\u00b2 intersects a non-support extrusion segment (0.3 mm tolerance; arcs approximated in 3-degree segments). Holes, fine features, exact bead widths, complete perimeter coverage and load strength are not certified.",
+    "files": {
+      "slicing/P1S_MG996R_R3_01/P1S_MG996R_R3_01_sliced.3mf": "25e86e7876584dd8383a9530b4b5656cc9b580df07376809467802f35e1ce7af",
+      "slicing/P1S_MG996R_R3_02/P1S_MG996R_R3_02_sliced.3mf": "08ca22168583c1840844c3e1dc7ebd7a0fa6c57e7d7548db34dfb10d635e8b61"
+    },
+    "plates": [
+      {
+        "plate": "P1S_MG996R_R3_01",
+        "cross_section_components_screened": 3277,
+        "missing_component_candidates": [
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 10.0,
+            "slice_z_mm": 9.9,
+            "outer_area_mm2": 3.48337857865954,
+            "bounds": [
+              52.765371941030025,
+              45.21000023186207,
+              58.40507507324219,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 10.2,
+            "slice_z_mm": 10.1,
+            "outer_area_mm2": 3.48347940529311,
+            "bounds": [
+              52.7659799978137,
+              45.21000023186207,
+              58.405930392444134,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 10.4,
+            "slice_z_mm": 10.3,
+            "outer_area_mm2": 3.483562155702657,
+            "bounds": [
+              52.76658806204796,
+              45.21000023186207,
+              58.4067857041955,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 10.6,
+            "slice_z_mm": 10.5,
+            "outer_area_mm2": 3.483427504157362,
+            "bounds": [
+              52.767196118831635,
+              45.21000023186207,
+              58.40128154307604,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 10.8,
+            "slice_z_mm": 10.700000000000001,
+            "outer_area_mm2": 3.4795912931881503,
+            "bounds": [
+              52.76780418306589,
+              45.21000023186207,
+              58.37504805624485,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 11.0,
+            "slice_z_mm": 10.9,
+            "outer_area_mm2": 3.469519157389186,
+            "bounds": [
+              52.76841223984957,
+              45.21000023186207,
+              58.3329828903079,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 11.2,
+            "slice_z_mm": 11.1,
+            "outer_area_mm2": 3.446548768847606,
+            "bounds": [
+              52.769020304083824,
+              45.21000023186207,
+              58.25817050784826,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 11.4,
+            "slice_z_mm": 11.3,
+            "outer_area_mm2": 3.408941373088055,
+            "bounds": [
+              52.76962836831808,
+              45.21000023186207,
+              58.171956196427345,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 11.6,
+            "slice_z_mm": 11.5,
+            "outer_area_mm2": 3.354524910041846,
+            "bounds": [
+              52.77023642510176,
+              45.21000023186207,
+              58.05003899335861,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 11.8,
+            "slice_z_mm": 11.700000000000001,
+            "outer_area_mm2": 3.285734595613121,
+            "bounds": [
+              52.770844489336014,
+              45.21000023186207,
+              57.9232479557395,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 12.0,
+            "slice_z_mm": 11.9,
+            "outer_area_mm2": 3.2013881435182157,
+            "bounds": [
+              52.79328737407923,
+              45.21000023186207,
+              57.76265939325094,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 12.2,
+            "slice_z_mm": 12.1,
+            "outer_area_mm2": 3.0956943273583875,
+            "bounds": [
+              52.82903112471104,
+              45.21000023186207,
+              57.57828500121832,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 12.4,
+            "slice_z_mm": 12.3,
+            "outer_area_mm2": 2.9647760293150895,
+            "bounds": [
+              52.872275821864605,
+              45.21000023186207,
+              57.37798362970352,
+              45.900000765919685
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 13.6,
+            "slice_z_mm": 13.5,
+            "outer_area_mm2": 18.189971222387612,
+            "bounds": [
+              145.47636952996254,
+              41.0,
+              155.8902122452855,
+              42.8615640103817
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 13.8,
+            "slice_z_mm": 13.700000000000001,
+            "outer_area_mm2": 16.053970062429016,
+            "bounds": [
+              145.50964465737343,
+              41.0,
+              155.85869309306145,
+              42.655747793614864
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 14.0,
+            "slice_z_mm": 13.9,
+            "outer_area_mm2": 13.930730180397859,
+            "bounds": [
+              145.54291978478432,
+              41.0,
+              155.8271739333868,
+              42.44993157684803
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 16.2,
+            "slice_z_mm": 16.099999999999998,
+            "outer_area_mm2": 7.291986399143752,
+            "bounds": [
+              150.1203737258911,
+              41.0,
+              155.82617373019457,
+              42.35301011055708
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 16.4,
+            "slice_z_mm": 16.299999999999997,
+            "outer_area_mm2": 15.049969550495007,
+            "bounds": [
+              145.54118764400482,
+              41.0,
+              155.8596130385995,
+              42.55867621302605
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 16.6,
+            "slice_z_mm": 16.5,
+            "outer_area_mm2": 17.178837623672734,
+            "bounds": [
+              145.50966718047857,
+              41.0,
+              155.8930523470044,
+              42.764342315495014
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 30.6,
+            "slice_z_mm": 30.5,
+            "outer_area_mm2": 105.35812743950919,
+            "bounds": [
+              48.141754150390625,
+              90.80000038444996,
+              59.577537536621094,
+              101.05448265373707
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 36.6,
+            "slice_z_mm": 36.5,
+            "outer_area_mm2": 36.52413863731272,
+            "bounds": [
+              48.141754150390625,
+              56.50985459238291,
+              74.65596771240234,
+              57.89119426161051
+            ]
+          },
+          {
+            "part": "Forearm_MG996R_R3",
+            "print_z_mm": 36.8,
+            "slice_z_mm": 36.699999999999996,
+            "outer_area_mm2": 27.411051367106438,
+            "bounds": [
+              48.141754150390625,
+              56.67361572384834,
+              74.45596943050623,
+              57.72797814011574
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 44.0,
+            "slice_z_mm": 43.9,
+            "outer_area_mm2": 2.0442143249074434,
+            "bounds": [
+              148.71266300231218,
+              121.93060091882944,
+              150.8183499649167,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 44.2,
+            "slice_z_mm": 44.1,
+            "outer_area_mm2": 2.175306309458392,
+            "bounds": [
+              148.75910986214876,
+              121.88652918487787,
+              150.92830102145672,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 44.4,
+            "slice_z_mm": 44.3,
+            "outer_area_mm2": 2.309946267569103,
+            "bounds": [
+              148.7988821491599,
+              121.84177597612143,
+              151.03825207054615,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 44.6,
+            "slice_z_mm": 44.5,
+            "outer_area_mm2": 2.4981456721852737,
+            "bounds": [
+              148.80297572910786,
+              121.79155734181404,
+              151.14820312708616,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 44.8,
+            "slice_z_mm": 44.699999999999996,
+            "outer_area_mm2": 2.694741185667226,
+            "bounds": [
+              148.80528773367405,
+              121.74133870750666,
+              151.25815418362617,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 45.0,
+            "slice_z_mm": 44.9,
+            "outer_area_mm2": 2.9128659787802462,
+            "bounds": [
+              148.79757477343082,
+              121.69085267931223,
+              151.34969196468592,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 45.2,
+            "slice_z_mm": 45.1,
+            "outer_area_mm2": 3.18351954744503,
+            "bounds": [
+              148.75737277418375,
+              121.63927701115608,
+              151.4285071119666,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 48.0,
+            "slice_z_mm": 47.9,
+            "outer_area_mm2": 16.087447387099928,
+            "bounds": [
+              114.74495273083448,
+              117.4000015258789,
+              125.09217323362827,
+              119.05929737538099
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 48.2,
+            "slice_z_mm": 48.1,
+            "outer_area_mm2": 13.966165478548646,
+            "bounds": [
+              114.78145033121109,
+              117.4000015258789,
+              125.05743981897831,
+              118.85363079607487
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 48.4,
+            "slice_z_mm": 48.3,
+            "outer_area_mm2": 5.15933869368655,
+            "bounds": [
+              114.8179479315877,
+              117.4000015258789,
+              119.35258690267801,
+              118.61694972217083
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 50.6,
+            "slice_z_mm": 50.5,
+            "outer_area_mm2": 12.916452006332293,
+            "bounds": [
+              114.89547508209944,
+              117.4000015258789,
+              125.13763063400984,
+              118.75543341040611
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 50.8,
+            "slice_z_mm": 50.699999999999996,
+            "outer_area_mm2": 15.078208108664512,
+            "bounds": [
+              114.86074171960354,
+              117.4000015258789,
+              125.17412944883108,
+              118.96160628646612
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 51.0,
+            "slice_z_mm": 50.9,
+            "outer_area_mm2": 17.206895985207666,
+            "bounds": [
+              114.82600835710764,
+              117.4000015258789,
+              125.21062825620174,
+              119.1672726944089
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 54.2,
+            "slice_z_mm": 54.1,
+            "outer_area_mm2": 3.0533251662927796,
+            "bounds": [
+              148.77579000592232,
+              121.66503317654133,
+              151.38950411230326,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 54.4,
+            "slice_z_mm": 54.3,
+            "outer_area_mm2": 2.791343096343553,
+            "bounds": [
+              148.80940113961697,
+              121.71640318632126,
+              151.31031814217567,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 54.6,
+            "slice_z_mm": 54.5,
+            "outer_area_mm2": 2.595835431051455,
+            "bounds": [
+              148.80419974774122,
+              121.76636093109846,
+              151.20317842066288,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 54.8,
+            "slice_z_mm": 54.699999999999996,
+            "outer_area_mm2": 2.4069597541965777,
+            "bounds": [
+              148.7988988161087,
+              121.81631867587566,
+              151.09322731941938,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 55.0,
+            "slice_z_mm": 54.9,
+            "outer_area_mm2": 2.2326218033940677,
+            "bounds": [
+              148.78581374138594,
+              121.86522714048624,
+              150.9832762181759,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 55.2,
+            "slice_z_mm": 55.1,
+            "outer_area_mm2": 2.1099386979731207,
+            "bounds": [
+              148.73622080683708,
+              121.90852931141853,
+              150.8733251169324,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 57.0,
+            "slice_z_mm": 56.9,
+            "outer_area_mm2": 2.0670515578767663,
+            "bounds": [
+              147.32460914552212,
+              122.0239035487175,
+              149.6002755984664,
+              123.59995900094509
+            ]
+          },
+          {
+            "part": "Upper_arm_MG996R_R3",
+            "print_z_mm": 57.2,
+            "slice_z_mm": 57.1,
+            "outer_area_mm2": 2.5888065379585896,
+            "bounds": [
+              146.79500173032284,
+              121.92525836825371,
+              149.41246215999126,
+              123.59995900094509
+            ]
+          }
+        ],
+        "slicer_diagnostics": [
+          "[2026-09-18 11:35:37.761351] [0x000000016c2d7000] [error]   ZFiller: encounter idx from clip: 819",
+          "[2026-09-18 11:35:38.201136] [0x000000016d307000] [error]   ZFiller: encounter idx from clip: 17"
+        ],
+        "coarse_screen_passed": false
+      },
+      {
+        "plate": "P1S_MG996R_R3_02",
+        "cross_section_components_screened": 5557,
+        "missing_component_candidates": [
+          {
+            "part": "Gripper_body_MG996R_R3",
+            "print_z_mm": 39.8,
+            "slice_z_mm": 39.699999999999996,
+            "outer_area_mm2": 11.37876554328659,
+            "bounds": [
+              140.9250007867813,
+              41.0,
+              146.9251155257225,
+              42.909618221223354
+            ]
+          },
+          {
+            "part": "Gripper_body_MG996R_R3",
+            "print_z_mm": 40.0,
+            "slice_z_mm": 39.9,
+            "outer_area_mm2": 10.144795375445483,
+            "bounds": [
+              140.9250007867813,
+              41.0,
+              146.92512913048267,
+              42.70395544171333
+            ]
+          },
+          {
+            "part": "Gripper_body_MG996R_R3",
+            "print_z_mm": 40.2,
+            "slice_z_mm": 40.1,
+            "outer_area_mm2": 8.910816425366193,
+            "bounds": [
+              140.9250007867813,
+              41.0,
+              146.92514273524284,
+              42.49829265475273
+            ]
+          },
+          {
+            "part": "Gripper_body_MG996R_R3",
+            "print_z_mm": 42.6,
+            "slice_z_mm": 42.5,
+            "outer_area_mm2": 8.933377172276323,
+            "bounds": [
+              140.92628347873688,
+              41.0,
+              146.92500126361847,
+              42.50240283459425
+            ]
+          },
+          {
+            "part": "Gripper_body_MG996R_R3",
+            "print_z_mm": 42.8,
+            "slice_z_mm": 42.699999999999996,
+            "outer_area_mm2": 10.167090541579455,
+            "bounds": [
+              140.92628347873688,
+              41.0,
+              146.92500126361847,
+              42.70806569606066
+            ]
+          },
+          {
+            "part": "Wrist_pitch_roll_MG996R_R3",
+            "print_z_mm": 0.8,
+            "slice_z_mm": 0.7000000000000001,
+            "outer_area_mm2": 2.7459012391591386,
+            "bounds": [
+              210.04615972191095,
+              111.4283909574151,
+              213.75032943487167,
+              113.66747942566872
+            ]
+          },
+          {
+            "part": "Wrist_pitch_roll_MG996R_R3",
+            "print_z_mm": 22.6,
+            "slice_z_mm": 22.5,
+            "outer_area_mm2": 17.660697564690054,
+            "bounds": [
+              151.1017393991351,
+              138.848871730268,
+              161.49958130717278,
+              140.65959453582764
+            ]
+          },
+          {
+            "part": "Wrist_pitch_roll_MG996R_R3",
+            "print_z_mm": 22.8,
+            "slice_z_mm": 22.7,
+            "outer_area_mm2": 15.528973805186979,
+            "bounds": [
+              151.1334235817194,
+              139.05453798174858,
+              161.46637284755707,
+              140.65959453582764
+            ]
+          },
+          {
+            "part": "Wrist_pitch_roll_MG996R_R3",
+            "print_z_mm": 23.0,
+            "slice_z_mm": 22.9,
+            "outer_area_mm2": 13.40990606152991,
+            "bounds": [
+              151.16510777175426,
+              139.26020424067974,
+              161.43316438049078,
+              140.65959453582764
+            ]
+          },
+          {
+            "part": "Wrist_pitch_roll_MG996R_R3",
+            "print_z_mm": 25.2,
+            "slice_z_mm": 25.099999999999998,
+            "outer_area_mm2": 13.461575405779513,
+            "bounds": [
+              151.14775516092777,
+              139.2551747635007,
+              161.41745945066214,
+              140.65959453582764
+            ]
+          },
+          {
+            "part": "Wrist_pitch_roll_MG996R_R3",
+            "print_z_mm": 25.4,
+            "slice_z_mm": 25.299999999999997,
+            "outer_area_mm2": 15.58098016508302,
+            "bounds": [
+              151.1143153682351,
+              139.04950853437185,
+              161.44897861778736,
+              140.65959453582764
+            ]
+          },
+          {
+            "part": "Wrist_pitch_roll_MG996R_R3",
+            "print_z_mm": 25.6,
+            "slice_z_mm": 25.5,
+            "outer_area_mm2": 17.713046449120156,
+            "bounds": [
+              151.08087558299303,
+              138.8438423126936,
+              161.48049779236317,
+              140.65959453582764
+            ]
+          }
+        ],
+        "slicer_diagnostics": [],
+        "coarse_screen_passed": false
+      }
+    ],
+    "all_coarse_screens_passed": false
+  },
+  "sliced_downloads_released": false
+}

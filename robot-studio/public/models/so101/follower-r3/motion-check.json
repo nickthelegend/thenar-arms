@@ -1,0 +1,1072 @@
+{
+  "revision": "R3",
+  "physical_tested": false,
+  "continuous_sweep_certified": false,
+  "method": "Re-imported exported printed STL / nominal body intersections, >0.5 mm\u00b3; all pairs including same-link pairs. Horns use a conservative solid rotational envelope (bores filled). Servo/horn intentional spline engagement is not a collision.",
+  "files": {
+    "print-parts/Base_MG996R_R3.stl": "1358ebd4bc44dea44ba6125f3c1efd77de4d47f2f4de9ff0a151dd4e86a2416b",
+    "print-parts/Forearm_MG996R_R3.stl": "f83aab72bc14ca0fb9964d7303ce6860dcc816d3110205cd2aa9bf4151803439",
+    "print-parts/Gripper_body_MG996R_R3.stl": "6ff8bc14bbd57f45eafe951b41a8a5048c90b6c586ae795c7392747492220b82",
+    "print-parts/Moving_jaw_MG996R_R3.stl": "6cafcba6741b3a83b66ef9a93eb5e3c1d50f3e3de66b3592ee4f5299fc06a22d",
+    "print-parts/Shoulder_MG996R_R3.stl": "62b7bd8978a8cdd9bfd498d34c48f13afbda8868014c17b33a247a936d3f122d",
+    "print-parts/Upper_arm_MG996R_R3.stl": "532810011f7edca315fb046f8e837912bb5fe9803d9520b6d2b93e20b2fc79f8",
+    "print-parts/Wrist_pitch_roll_MG996R_R3.stl": "3356387425979f0f67b0aa7f650cadda22b4b5ac900a3d5acbb3c222dd4f5d75",
+    "MG996R_body_reference.stl": "29035285507998295c854a77c73151d874d8042b25a16e37d01b3b13c507f828",
+    "metal_horn_reference.stl": "2e9e203756558ab45f3bda3de0adc3af3c91203d6b33ef1d422c83e4b9141b90",
+    "assembly-source.json": "5410483fef5cf186850a77de9d574794968f3c266d70bd41b01542b9c7970242"
+  },
+  "poses": [
+    {
+      "name": "home",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "zero",
+      "angles_degrees": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_-85",
+      "angles_degrees": [
+        -85.0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_-63.75",
+      "angles_degrees": [
+        -63.75,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_-42.5",
+      "angles_degrees": [
+        -42.5,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_-21.25",
+      "angles_degrees": [
+        -21.25,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_0",
+      "angles_degrees": [
+        0.0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_21.25",
+      "angles_degrees": [
+        21.25,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_42.5",
+      "angles_degrees": [
+        42.5,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_63.75",
+      "angles_degrees": [
+        63.75,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_0_85",
+      "angles_degrees": [
+        85.0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_-80",
+      "angles_degrees": [
+        0,
+        -80.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_-60",
+      "angles_degrees": [
+        0,
+        -60.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_-40",
+      "angles_degrees": [
+        0,
+        -40.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_-20",
+      "angles_degrees": [
+        0,
+        -20.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_0",
+      "angles_degrees": [
+        0,
+        0.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_1_20",
+      "angles_degrees": [
+        0,
+        20.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "instance": "follower_Gripper_body_MG996R_R3",
+          "volume_below_table_mm3": 11887.634
+        },
+        {
+          "instance": "follower_Moving_jaw_MG996R_R3",
+          "volume_below_table_mm3": 1134.317
+        }
+      ]
+    },
+    {
+      "name": "joint_1_40",
+      "angles_degrees": [
+        0,
+        40.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "instance": "follower_sts3215_03a_no_horn_v1_12",
+          "volume_below_table_mm3": 1320.532
+        },
+        {
+          "instance": "follower_sts3215_03a_v1_14",
+          "volume_below_table_mm3": 32340.094
+        },
+        {
+          "instance": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_below_table_mm3": 2382.236
+        },
+        {
+          "instance": "follower_Gripper_body_MG996R_R3",
+          "volume_below_table_mm3": 54119.542
+        },
+        {
+          "instance": "follower_Moving_jaw_MG996R_R3",
+          "volume_below_table_mm3": 19401.362
+        }
+      ]
+    },
+    {
+      "name": "joint_1_60",
+      "angles_degrees": [
+        0,
+        60.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "instance": "follower_sts3215_03a_v1_11",
+          "volume_below_table_mm3": 20.223
+        },
+        {
+          "instance": "follower_sts3215_03a_no_horn_v1_12",
+          "volume_below_table_mm3": 32340.094
+        },
+        {
+          "instance": "follower_sts3215_03a_v1_14",
+          "volume_below_table_mm3": 32340.094
+        },
+        {
+          "instance": "follower_Forearm_MG996R_R3",
+          "volume_below_table_mm3": 334.024
+        },
+        {
+          "instance": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_below_table_mm3": 23180.164
+        },
+        {
+          "instance": "follower_Gripper_body_MG996R_R3",
+          "volume_below_table_mm3": 54119.542
+        },
+        {
+          "instance": "follower_Moving_jaw_MG996R_R3",
+          "volume_below_table_mm3": 19401.362
+        }
+      ]
+    },
+    {
+      "name": "joint_1_80",
+      "angles_degrees": [
+        0,
+        80.0,
+        35,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "instance": "follower_sts3215_03a_v1_11",
+          "volume_below_table_mm3": 20144.463
+        },
+        {
+          "instance": "follower_sts3215_03a_no_horn_v1_12",
+          "volume_below_table_mm3": 32340.094
+        },
+        {
+          "instance": "follower_sts3215_03a_v1_14",
+          "volume_below_table_mm3": 32340.094
+        },
+        {
+          "instance": "follower_Forearm_MG996R_R3",
+          "volume_below_table_mm3": 2551.607
+        },
+        {
+          "instance": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_below_table_mm3": 28946.595
+        },
+        {
+          "instance": "follower_Gripper_body_MG996R_R3",
+          "volume_below_table_mm3": 54119.542
+        },
+        {
+          "instance": "follower_Moving_jaw_MG996R_R3",
+          "volume_below_table_mm3": 19401.362
+        }
+      ]
+    },
+    {
+      "name": "joint_2_-80",
+      "angles_degrees": [
+        0,
+        -25,
+        -80.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_-60",
+      "angles_degrees": [
+        0,
+        -25,
+        -60.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_-40",
+      "angles_degrees": [
+        0,
+        -25,
+        -40.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_-20",
+      "angles_degrees": [
+        0,
+        -25,
+        -20.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_0",
+      "angles_degrees": [
+        0,
+        -25,
+        0.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_20",
+      "angles_degrees": [
+        0,
+        -25,
+        20.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_40",
+      "angles_degrees": [
+        0,
+        -25,
+        40.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_60",
+      "angles_degrees": [
+        0,
+        -25,
+        60.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_2_80",
+      "angles_degrees": [
+        0,
+        -25,
+        80.0,
+        0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "instance": "follower_Gripper_body_MG996R_R3",
+          "volume_below_table_mm3": 3836.273
+        }
+      ]
+    },
+    {
+      "name": "joint_3_-80",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        -80.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_-60",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        -60.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_-40",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        -40.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_-20",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        -20.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_0",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_20",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        20.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_40",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        40.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_60",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        60.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_3_80",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        80.0,
+        0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_-85",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        -85.0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_-63.75",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        -63.75,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_-42.5",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        -42.5,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_-21.25",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        -21.25,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_0",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0.0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_21.25",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        21.25,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_42.5",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        42.5,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_63.75",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        63.75,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_4_85",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        85.0,
+        20
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_0",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        0.0
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_8.75",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        8.75
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_17.5",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        17.5
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_26.25",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        26.25
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_35",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        35.0
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_43.75",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        43.75
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_52.5",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        52.5
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_61.25",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        61.25
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "joint_5_70",
+      "angles_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        70.0
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_0",
+      "angles_degrees": [
+        -80.05471559446418,
+        10.762969689272719,
+        17.877974149222347,
+        -13.677878826746745,
+        57.55619769562891,
+        17.62514568451607
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_1",
+      "angles_degrees": [
+        16.353072377779572,
+        21.039898969801154,
+        -77.83180373770907,
+        42.660152499193075,
+        -74.47231601688323,
+        55.65623759255725
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_2",
+      "angles_degrees": [
+        -25.97881774206195,
+        -49.577594423496635,
+        72.11748179611743,
+        52.128908078431365,
+        -35.96196418630742,
+        39.0585977509054
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "instance": "follower_Gripper_body_MG996R_R3",
+          "volume_below_table_mm3": 93.577
+        }
+      ]
+    },
+    {
+      "name": "combined_3",
+      "angles_degrees": [
+        83.38777056243352,
+        -50.41261519457832,
+        -50.80810166043912,
+        -40.87676933613803,
+        82.41754875764055,
+        24.09023711820688
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_4",
+      "angles_degrees": [
+        -8.477946936317004,
+        6.528509657742916,
+        -79.60779525165543,
+        -73.29038206319801,
+        40.84519427370175,
+        63.59367937853705
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_5",
+      "angles_degrees": [
+        62.62588021243759,
+        -35.50489532194504,
+        65.14244455032069,
+        50.91944764934162,
+        3.3164895807515093,
+        59.03269713485994
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "instance": "follower_Gripper_body_MG996R_R3",
+          "volume_below_table_mm3": 434.94
+        }
+      ]
+    },
+    {
+      "name": "combined_6",
+      "angles_degrees": [
+        -18.231559264244893,
+        -22.65656171920158,
+        18.304051366008096,
+        -67.23949551831444,
+        61.553237473584964,
+        54.71995977693228
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_7",
+      "angles_degrees": [
+        -40.4421316028796,
+        -50.59876410174866,
+        13.407001210283838,
+        -35.28103578932768,
+        -23.66753900191628,
+        4.981962436197728
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_8",
+      "angles_degrees": [
+        -3.402236209480698,
+        41.839836064424446,
+        49.43322162679513,
+        -65.23768160017187,
+        1.8793835660695546,
+        17.165729401622436
+      ],
+      "overlaps": [],
+      "table_intersections": [
+        {
+          "instance": "follower_sts3215_03a_v1_14",
+          "volume_below_table_mm3": 1742.779
+        },
+        {
+          "instance": "follower_Gripper_body_MG996R_R3",
+          "volume_below_table_mm3": 36415.584
+        }
+      ]
+    },
+    {
+      "name": "combined_9",
+      "angles_degrees": [
+        29.075570338700626,
+        -54.487238194723666,
+        9.385559431177626,
+        20.820197410979837,
+        -33.92464448535829,
+        0.8777312391967751
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_10",
+      "angles_degrees": [
+        17.242744685675238,
+        46.742919571597206,
+        -0.8577414148086149,
+        -70.62716023353069,
+        8.067931514387576,
+        23.549407923656137
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_11",
+      "angles_degrees": [
+        33.85136630244452,
+        -44.305367732096634,
+        -19.57296029607697,
+        -3.052495703206155,
+        22.370597854129024,
+        6.354415148138633
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_12",
+      "angles_degrees": [
+        17.2986894545559,
+        -18.791206702046885,
+        30.60811301789645,
+        57.347846904909105,
+        -2.067640910998131,
+        12.156487050458306
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_13",
+      "angles_degrees": [
+        61.651572934540546,
+        -20.73181744543417,
+        33.712553417352055,
+        -36.29323757600584,
+        60.18916792800917,
+        35.57485527072696
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_14",
+      "angles_degrees": [
+        80.39859205794127,
+        -56.50304334143377,
+        55.32338284489782,
+        -75.44816084185315,
+        11.205685258911911,
+        8.367119940771804
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    },
+    {
+      "name": "combined_15",
+      "angles_degrees": [
+        -4.101297809125766,
+        56.574390871134014,
+        -73.4461881062176,
+        58.84507169797043,
+        38.0859638190039,
+        1.7853530615742175
+      ],
+      "overlaps": [],
+      "table_intersections": []
+    }
+  ],
+  "seconds": 2.2877211570739746,
+  "tested_poses": 72,
+  "failed_poses": 0,
+  "table_intersection_poses": 8
+}
