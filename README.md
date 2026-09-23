@@ -24,6 +24,36 @@ servos (four reported owned), matching metal-disc horns and ESP32 + PCA9685.
 Full BOMs are in the linked guides. Only AS5600 board geometry is specified;
 generic controller enclosures are not included.
 
+## SolidWorks assemblies and release
+
+The existing R3 follower and L1 leader have separate articulated SolidWorks
+assemblies. Download the [SolidWorks reconstruction release](https://github.com/nickthelegend/thenar-arms/releases/tag/solidworks-r3-l1-2026-09-23)
+for the native CAD files, validation evidence and simulation handoffs. Open the
+[follower master](solidworks/assemblies/SO101_Follower_Master.SLDASM) or
+[leader master](solidworks/assemblies/SO101_Leader_Master.SLDASM) with the
+`solidworks/parts/` and `solidworks/hardware/` folders kept alongside them.
+The [SolidWorks guide](solidworks/README.md) explains the saved poses and joint
+controls; the [reconstruction report](docs/final_report.md) gives measured
+geometry, motion and collision results.
+
+| Assembly | Components | Moving joints | Native motion checks |
+|---|---:|---:|---|
+| MG996R follower R3 | 19 | 6, including jaw | 28/28 poses passed |
+| Passive AS5600 leader L1 | 73 | 6, including trigger | 28/28 poses passed |
+
+**Already printed parts:** the original STL/3MF files were not modified. A
+hash check found all 330 original project files unchanged, so the SolidWorks
+work does not call for reprinting them. The CAD reconstruction is not a
+byte-identical STL copy: the largest sampled surface differences are
+0.00196 mm for the follower and 0.00338 mm for the leader. One leader forearm
+CAD solid has a documented 0.00001 mm internal separation needed for a valid
+solid body. These are CAD/export differences; physical fit remains untested.
+
+The ROS 2 description and MuJoCo kinematics pass the recorded pose checks.
+ROS 2 visualization, Isaac import and physical dynamics have not been tested.
+The release's ZIP contains all 593 files added for this reconstruction;
+GitHub's source archive contains the complete repository at that release.
+
 ![Encoder cartridge exploded CAD](docs/images/encoder-exploded.png)
 ![Actual P1S layout geometry](docs/images/print-plates.png)
 
