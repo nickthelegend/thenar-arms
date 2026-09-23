@@ -1,0 +1,21 @@
+{
+  "part": "AS5600_chip_L1",
+  "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\hardware\\leader\\AS5600_chip_L1.SLDPRT",
+  "source": "build_encoder_leader.py cartridge_parts() and encoder-build.json",
+  "native_features": true,
+  "solids": [
+    {
+      "kernel_faults": 0,
+      "box_m": [
+        0.01,
+        -0.002,
+        -0.02255,
+        0.015,
+        0.002,
+        -0.0208
+      ],
+      "volume_m3": 3.500000000000002e-08
+    }
+  ],
+  "surface_bodies": 0
+}

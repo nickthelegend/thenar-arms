@@ -1,0 +1,1152 @@
+{
+  "status": "CAD-measured rigid layout; physical dynamics UNVERIFIED",
+  "units": "transforms explicitly millimetres, joint origins SI",
+  "cad_world_from_robot_base_m": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.232595164407831e-32,
+      1.0,
+      -1.2325951644161468e-32,
+      -1.2067746162167798e-18
+    ],
+    [
+      0.0,
+      -1.232595164399515e-32,
+      1.0,
+      0.0024
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "links": [
+    {
+      "name": "base_link",
+      "components": [
+        {
+          "id": "follower_sts3215_03a_v1_2",
+          "source_part": "MG996R_body_R3",
+          "local_transform_mm": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              26.3353
+            ],
+            [
+              -1.232595164407831e-32,
+              1.0,
+              1.2325951644161468e-32,
+              -8.976569998793225e-06
+            ],
+            [
+              -1.5192908393113176e-64,
+              1.232595164399515e-32,
+              1.0,
+              43.7
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_Base_MG996R_R3",
+          "source_part": "Base_MG996R_R3",
+          "local_transform_mm": [
+            [
+              -1.1102230246251565e-16,
+              1.1102230246251565e-16,
+              1.0,
+              -6.36471
+            ],
+            [
+              1.0,
+              6.746714298344614e-12,
+              1.1102230246251564e-16,
+              -8.97657e-06
+            ],
+            [
+              -6.746714298344614e-12,
+              1.0,
+              -1.1102230246251565e-16,
+              -2.4
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "cad_zero_world_transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.232595164407831e-32,
+          1.0,
+          -1.2325951644161468e-32,
+          -1.2067746162167797e-15
+        ],
+        [
+          0.0,
+          -1.232595164399515e-32,
+          1.0,
+          2.4
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "shoulder_link",
+      "components": [
+        {
+          "id": "follower_sts3215_03a_v1_4",
+          "source_part": "MG996R_body_R3",
+          "local_transform_mm": [
+            [
+              2.220446049250313e-16,
+              1.0,
+              1.2312415523166242e-32,
+              -30.3992
+            ],
+            [
+              -2.220446049250313e-16,
+              -1.2339498913358962e-32,
+              -1.0,
+              0.42224100000000214
+            ],
+            [
+              -1.0,
+              2.2204460492503128e-16,
+              2.220446049250313e-16,
+              -41.7
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_Shoulder_MG996R_R3",
+          "source_part": "Shoulder_MG996R_R3",
+          "local_transform_mm": [
+            [
+              1.0,
+              0.0,
+              -1.2312415523533152e-32,
+              12.200800000000001
+            ],
+            [
+              -1.2312415523349697e-32,
+              2.220446049250313e-16,
+              1.0,
+              0.0222413
+            ],
+            [
+              0.0,
+              -1.0,
+              2.220446049250313e-16,
+              46.4
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_metal_horn_0",
+          "source_part": "metal_horn_R3",
+          "local_transform_mm": [
+            [
+              -1.0,
+              -1.2246063538223773e-16,
+              -2.465190328815662e-32,
+              12.500000000000014
+            ],
+            [
+              -1.2246063538223773e-16,
+              1.0,
+              1.2246063538223773e-16,
+              1.3996406301747949e-15
+            ],
+            [
+              0.0,
+              1.2246063538223773e-16,
+              -1.0,
+              18.699999999999996
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "cad_zero_world_transform_mm": [
+        [
+          -1.0,
+          -1.2246063538228733e-16,
+          -1.1102230246251565e-16,
+          38.835300000000004
+        ],
+        [
+          -1.2246063538228735e-16,
+          1.0,
+          -6.746714176371869e-12,
+          -8.976570001210243e-06
+        ],
+        [
+          1.1102230246334186e-16,
+          -6.746714176371869e-12,
+          -1.0,
+          64.8
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "upper_arm_link",
+      "components": [
+        {
+          "id": "follower_sts3215_03a_v1_7",
+          "source_part": "MG996R_body_R3",
+          "local_transform_mm": [
+            [
+              2.220446049250313e-16,
+              -1.0,
+              0.0,
+              -112.57000000000002
+            ],
+            [
+              -1.0,
+              -2.220446049250313e-16,
+              -1.2246063538223773e-16,
+              -15.5
+            ],
+            [
+              1.2246063538223775e-16,
+              0.0,
+              -1.0,
+              18.700000000000006
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_Upper_arm_MG996R_R3",
+          "source_part": "Upper_arm_MG996R_R3",
+          "local_transform_mm": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -65.08500000000001
+            ],
+            [
+              0.0,
+              -1.0,
+              -1.2246063538223773e-16,
+              12.000000000000007
+            ],
+            [
+              0.0,
+              1.2246063538223773e-16,
+              -1.0,
+              18.2
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_metal_horn_1",
+          "source_part": "metal_horn_R3",
+          "local_transform_mm": [
+            [
+              -1.0,
+              1.224606353822377e-16,
+              4.440892098500626e-16,
+              12.499999999999957
+            ],
+            [
+              1.2246063538223773e-16,
+              1.0,
+              -1.2246063538223773e-16,
+              2.842170943040401e-14
+            ],
+            [
+              -4.440892098500626e-16,
+              -1.2246063538223773e-16,
+              -1.0,
+              18.700041000000006
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "cad_zero_world_transform_mm": [
+        [
+          -2.2204460492452195e-16,
+          -1.0,
+          -1.734723475977303e-16,
+          69.23450000000001
+        ],
+        [
+          -6.7469362209767944e-12,
+          -1.7347234759623221e-16,
+          1.0,
+          -18.27780897620432
+        ],
+        [
+          -1.0,
+          2.2204460492534813e-16,
+          -6.7469362209767944e-12,
+          119.00000000012328
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "lower_arm_link",
+      "components": [
+        {
+          "id": "follower_sts3215_03a_v1_11",
+          "source_part": "MG996R_body_R3",
+          "local_transform_mm": [
+            [
+              -1.0,
+              -1.2246063538223773e-16,
+              8.302880804839615e-39,
+              -122.39999999999999
+            ],
+            [
+              -1.2246063538223773e-16,
+              1.0,
+              -1.2246063538223773e-16,
+              5.19999999999996
+            ],
+            [
+              6.520631259558823e-32,
+              -1.2246063538223773e-16,
+              -1.0,
+              18.7
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_Forearm_MG996R_R3",
+          "source_part": "Forearm_MG996R_R3",
+          "local_transform_mm": [
+            [
+              1.0,
+              0.0,
+              8.302880804839615e-39,
+              -64.8499
+            ],
+            [
+              6.726232628759122e-44,
+              -1.0,
+              -1.2246063538223773e-16,
+              -31.99999999999997
+            ],
+            [
+              -4.061186482306228e-40,
+              1.2246063538223773e-16,
+              -1.0,
+              18.199999999999996
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_metal_horn_2",
+          "source_part": "metal_horn_R3",
+          "local_transform_mm": [
+            [
+              -1.0,
+              -5.665498452323004e-16,
+              8.302334302004055e-39,
+              12.499999999999972
+            ],
+            [
+              -5.665498452323004e-16,
+              1.0,
+              -5.665498452323003e-16,
+              0.0
+            ],
+            [
+              3.1675081892612254e-31,
+              -5.665498452323003e-16,
+              -1.0,
+              18.699999999999825
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "cad_zero_world_transform_mm": [
+        [
+          -1.0,
+          -7.660622186998541e-28,
+          -2.9593298297996803e-16,
+          97.23450000000004
+        ],
+        [
+          -2.959329829799681e-16,
+          6.747058681612177e-12,
+          1.0,
+          -18.27780897544481
+        ],
+        [
+          6.019195436041217e-29,
+          1.0,
+          -6.747058681612177e-12,
+          231.5700000001233
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "wrist_link",
+      "components": [
+        {
+          "id": "follower_sts3215_03a_no_horn_v1_12",
+          "source_part": "MG996R_body_R3",
+          "local_transform_mm": [
+            [
+              2.220446049250313e-16,
+              1.0,
+              4.930380657631324e-32,
+              8.526512829121202e-14
+            ],
+            [
+              -2.2204460492503128e-16,
+              -2.465190328815662e-32,
+              -1.0,
+              -50.39999999999998
+            ],
+            [
+              -1.0,
+              2.220446049250313e-16,
+              2.2204460492503128e-16,
+              30.6
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_Wrist_pitch_roll_MG996R_R3",
+          "source_part": "Wrist_pitch_roll_MG996R_R3",
+          "local_transform_mm": [
+            [
+              2.220446049250313e-16,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -2.220446049250313e-16,
+              -2.465190328815662e-32,
+              1.0,
+              -28.0
+            ],
+            [
+              1.0,
+              -2.220446049250313e-16,
+              2.2204460492503136e-16,
+              18.100000000000005
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_metal_horn_3",
+          "source_part": "metal_horn_R3",
+          "local_transform_mm": [
+            [
+              2.2204460492503136e-16,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -1.0,
+              -2.2204460492503136e-16,
+              1.2246063538223773e-16,
+              12.499999999999972
+            ],
+            [
+              -1.2246063538223773e-16,
+              0.0,
+              -1.0,
+              18.699999999999974
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "cad_zero_world_transform_mm": [
+        [
+          -2.2204460492349944e-16,
+          -1.0,
+          -1.7103289270963792e-16,
+          232.13450000000006
+        ],
+        [
+          -6.7469362209767944e-12,
+          -1.7103289270813985e-16,
+          1.0,
+          -18.277808975409695
+        ],
+        [
+          -1.0,
+          2.2204460492432567e-16,
+          -6.7469362209767944e-12,
+          236.77000000012328
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "gripper_link",
+      "components": [
+        {
+          "id": "follower_sts3215_03a_v1_14",
+          "source_part": "MG996R_body_R3",
+          "local_transform_mm": [
+            [
+              1.0,
+              -5.791792478870802e-32,
+              -2.2286687069170586e-19,
+              7.699999999999989
+            ],
+            [
+              6.7160270332155225e-18,
+              2.220446049250313e-16,
+              1.0,
+              0.10000000000000142
+            ],
+            [
+              2.5197120478886596e-32,
+              -1.0,
+              2.2204460492503123e-16,
+              -23.399999999999977
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_Gripper_body_MG996R_R3",
+          "source_part": "Gripper_body_MG996R_R3",
+          "local_transform_mm": [
+            [
+              1.0,
+              2.2286687069170586e-19,
+              -2.889349336399112e-32,
+              8.526512829121202e-14
+            ],
+            [
+              6.7160270332155225e-18,
+              -1.0,
+              1.2246063538223773e-16,
+              -0.2182139999999979
+            ],
+            [
+              2.5197120478886596e-32,
+              -1.2246063538223773e-16,
+              -1.0,
+              0.949705999999992
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_metal_horn_4",
+          "source_part": "metal_horn_R3",
+          "local_transform_mm": [
+            [
+              0.04866027635022075,
+              -0.9988153870988974,
+              -7.217386373795209e-32,
+              -0.6082534543777172
+            ],
+            [
+              -0.9988153870988973,
+              -0.04866027635022076,
+              1.0106390550823628e-15,
+              12.485192338736216
+            ],
+            [
+              -1.0094418390193541e-15,
+              -4.917797571063372e-17,
+              -1.0,
+              18.69999999999999
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "cad_zero_world_transform_mm": [
+        [
+          2.2080164247732156e-16,
+          -1.4745771203123164e-17,
+          -1.0,
+          301.2345
+        ],
+        [
+          -0.048660276343482134,
+          0.9988153870992257,
+          2.8189256484624594e-18,
+          -0.17780897540968046
+        ],
+        [
+          0.9988153870992257,
+          0.048660276343482134,
+          2.2204460492502796e-16,
+          236.77000000000103
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "moving_jaw_so101_v1_link",
+      "components": [
+        {
+          "id": "follower_Moving_jaw_MG996R_R3",
+          "source_part": "Moving_jaw_MG996R_R3",
+          "local_transform_mm": [
+            [
+              1.0,
+              1.9367285032844238e-32,
+              2.2286687069170586e-19,
+              0.0
+            ],
+            [
+              1.0738169147226908e-32,
+              1.0,
+              2.860535294388595e-33,
+              -5.684341886080802e-14
+            ],
+            [
+              -6.7160270332155225e-18,
+              -1.6038195722013792e-33,
+              1.0,
+              18.900000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "id": "follower_metal_horn_5",
+          "source_part": "metal_horn_R3",
+          "local_transform_mm": [
+            [
+              1.0,
+              -2.8951505729305316e-32,
+              -2.2286687069170586e-19,
+              -12.499999999999915
+            ],
+            [
+              1.0738169147226908e-32,
+              -1.0,
+              5.665498452323003e-16,
+              0.0
+            ],
+            [
+              -6.7160270332155225e-18,
+              -5.665498452323003e-16,
+              -1.0,
+              18.7
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "cad_zero_world_transform_mm": [
+        [
+          2.2105487884979324e-16,
+          -1.0,
+          -2.0973828861000053e-16,
+          324.6345
+        ],
+        [
+          -0.048660276343482134,
+          2.2702473619644786e-16,
+          -0.9988153870992257,
+          17.616982719917424
+        ],
+        [
+          0.9988153870992257,
+          2.3322099769565564e-16,
+          -0.048660276343482134,
+          257.8608840146629
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "joints": [
+    {
+      "joint_name": "shoulder_pan",
+      "parent_link": "base_link",
+      "child_link": "shoulder_link",
+      "joint_type": "revolute",
+      "origin_xyz_m": [
+        0.0388353,
+        -8.97657000000347e-09,
+        0.0624
+      ],
+      "origin_rpy_rad": [
+        -3.1415926535830465,
+        0.0,
+        -3.141592653589793
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "positive_direction": "right-hand rule about local +Z",
+      "mechanical_zero": "manifest q=0; physical horn indexing UNVERIFIED",
+      "software_zero_degrees": 0,
+      "home_degrees": 0,
+      "minimum_degrees": -85,
+      "maximum_degrees": 85,
+      "limits_status": "SOURCE VERIFIED software/preview limits; mechanical collision-free range UNVERIFIED",
+      "servo_channel": 0,
+      "MG996R_identifier": "MG996R_1",
+      "servo_sign": 1,
+      "servo_sign_status": "source default, physical direction UNVERIFIED",
+      "servo_zero_us": 1500,
+      "us_per_degree": 5.555556,
+      "gear_ratio": 1,
+      "firmware_variable": "current[0], goal[0], SERVO_SIGN[0], SERVO_ZERO_US[0]",
+      "solidworks_components": [
+        "follower_sts3215_03a_v1_2",
+        "follower_sts3215_03a_v1_4",
+        "follower_Base_MG996R_R3",
+        "follower_Shoulder_MG996R_R3",
+        "follower_metal_horn_0"
+      ],
+      "evidence": "CAD measured ZERO component transforms + native joint datum readback; 28 mate-driven pose comparisons",
+      "velocity_limit_rad_s": 0.17453292519943295,
+      "velocity_status": "SOURCE VERIFIED firmware command slew ceiling: 0.2 degrees per 20 ms; not physical speed capability",
+      "effort_limit_Nm": null,
+      "physical_inertias": "UNVERIFIED"
+    },
+    {
+      "joint_name": "shoulder_lift",
+      "parent_link": "shoulder_link",
+      "child_link": "upper_arm_link",
+      "joint_type": "revolute",
+      "origin_xyz_m": [
+        -0.0303992,
+        -0.018277799999999993,
+        -0.05419999999999998
+      ],
+      "origin_rpy_rad": [
+        -1.5707963267948966,
+        -1.5707963267948963,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "positive_direction": "right-hand rule about local +Z",
+      "mechanical_zero": "manifest q=0; physical horn indexing UNVERIFIED",
+      "software_zero_degrees": 0,
+      "home_degrees": -25,
+      "minimum_degrees": -80,
+      "maximum_degrees": 80,
+      "limits_status": "SOURCE VERIFIED software/preview limits; mechanical collision-free range UNVERIFIED",
+      "servo_channel": 1,
+      "MG996R_identifier": "MG996R_2",
+      "servo_sign": 1,
+      "servo_sign_status": "source default, physical direction UNVERIFIED",
+      "servo_zero_us": 1500,
+      "us_per_degree": 5.555556,
+      "gear_ratio": 1,
+      "firmware_variable": "current[1], goal[1], SERVO_SIGN[1], SERVO_ZERO_US[1]",
+      "solidworks_components": [
+        "follower_sts3215_03a_v1_4",
+        "follower_sts3215_03a_v1_7",
+        "follower_Shoulder_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3",
+        "follower_metal_horn_0",
+        "follower_metal_horn_1"
+      ],
+      "evidence": "CAD measured ZERO component transforms + native joint datum readback; 28 mate-driven pose comparisons",
+      "velocity_limit_rad_s": 0.17453292519943295,
+      "velocity_status": "SOURCE VERIFIED firmware command slew ceiling: 0.2 degrees per 20 ms; not physical speed capability",
+      "effort_limit_Nm": null,
+      "physical_inertias": "UNVERIFIED"
+    },
+    {
+      "joint_name": "elbow_flex",
+      "parent_link": "upper_arm_link",
+      "child_link": "lower_arm_link",
+      "joint_type": "revolute",
+      "origin_xyz_m": [
+        -0.11257000000000002,
+        -0.028,
+        3.552713678800501e-18
+      ],
+      "origin_rpy_rad": [
+        2.220446049250313e-16,
+        0.0,
+        1.5707963267948963
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "positive_direction": "right-hand rule about local +Z",
+      "mechanical_zero": "manifest q=0; physical horn indexing UNVERIFIED",
+      "software_zero_degrees": 0,
+      "home_degrees": 35,
+      "minimum_degrees": -80,
+      "maximum_degrees": 80,
+      "limits_status": "SOURCE VERIFIED software/preview limits; mechanical collision-free range UNVERIFIED",
+      "servo_channel": 2,
+      "MG996R_identifier": "MG996R_3",
+      "servo_sign": 1,
+      "servo_sign_status": "source default, physical direction UNVERIFIED",
+      "servo_zero_us": 1500,
+      "us_per_degree": 5.555556,
+      "gear_ratio": 1,
+      "firmware_variable": "current[2], goal[2], SERVO_SIGN[2], SERVO_ZERO_US[2]",
+      "solidworks_components": [
+        "follower_sts3215_03a_v1_7",
+        "follower_sts3215_03a_v1_11",
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Forearm_MG996R_R3",
+        "follower_metal_horn_1",
+        "follower_metal_horn_2"
+      ],
+      "evidence": "CAD measured ZERO component transforms + native joint datum readback; 28 mate-driven pose comparisons",
+      "velocity_limit_rad_s": 0.17453292519943295,
+      "velocity_status": "SOURCE VERIFIED firmware command slew ceiling: 0.2 degrees per 20 ms; not physical speed capability",
+      "effort_limit_Nm": null,
+      "physical_inertias": "UNVERIFIED"
+    },
+    {
+      "joint_name": "wrist_flex",
+      "parent_link": "lower_arm_link",
+      "child_link": "wrist_link",
+      "joint_type": "revolute",
+      "origin_xyz_m": [
+        -0.13490000000000005,
+        0.0051999999999999885,
+        -1.0658141036401503e-17
+      ],
+      "origin_rpy_rad": [
+        2.220446049250313e-16,
+        0.0,
+        -1.5707963267948963
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "positive_direction": "right-hand rule about local +Z",
+      "mechanical_zero": "manifest q=0; physical horn indexing UNVERIFIED",
+      "software_zero_degrees": 0,
+      "home_degrees": 0,
+      "minimum_degrees": -80,
+      "maximum_degrees": 80,
+      "limits_status": "SOURCE VERIFIED software/preview limits; mechanical collision-free range UNVERIFIED",
+      "servo_channel": 3,
+      "MG996R_identifier": "MG996R_4",
+      "servo_sign": 1,
+      "servo_sign_status": "source default, physical direction UNVERIFIED",
+      "servo_zero_us": 1500,
+      "us_per_degree": 5.555556,
+      "gear_ratio": 1,
+      "firmware_variable": "current[3], goal[3], SERVO_SIGN[3], SERVO_ZERO_US[3]",
+      "solidworks_components": [
+        "follower_sts3215_03a_v1_11",
+        "follower_sts3215_03a_no_horn_v1_12",
+        "follower_Forearm_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_metal_horn_2",
+        "follower_metal_horn_3"
+      ],
+      "evidence": "CAD measured ZERO component transforms + native joint datum readback; 28 mate-driven pose comparisons",
+      "velocity_limit_rad_s": 0.17453292519943295,
+      "velocity_status": "SOURCE VERIFIED firmware command slew ceiling: 0.2 degrees per 20 ms; not physical speed capability",
+      "effort_limit_Nm": null,
+      "physical_inertias": "UNVERIFIED"
+    },
+    {
+      "joint_name": "wrist_roll",
+      "parent_link": "wrist_link",
+      "child_link": "gripper_link",
+      "joint_type": "revolute",
+      "origin_xyz_m": [
+        1.1368683772161603e-16,
+        -0.06909999999999997,
+        0.018100000000000005
+      ],
+      "origin_rpy_rad": [
+        1.5707963267948966,
+        0.0486794999899367,
+        3.141592653589793
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "positive_direction": "right-hand rule about local +Z",
+      "mechanical_zero": "manifest q=0; physical horn indexing UNVERIFIED",
+      "software_zero_degrees": 0,
+      "home_degrees": 0,
+      "minimum_degrees": -85,
+      "maximum_degrees": 85,
+      "limits_status": "SOURCE VERIFIED software/preview limits; mechanical collision-free range UNVERIFIED",
+      "servo_channel": 4,
+      "MG996R_identifier": "MG996R_5",
+      "servo_sign": 1,
+      "servo_sign_status": "source default, physical direction UNVERIFIED",
+      "servo_zero_us": 1500,
+      "us_per_degree": 5.555556,
+      "gear_ratio": 1,
+      "firmware_variable": "current[4], goal[4], SERVO_SIGN[4], SERVO_ZERO_US[4]",
+      "solidworks_components": [
+        "follower_sts3215_03a_no_horn_v1_12",
+        "follower_sts3215_03a_v1_14",
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3",
+        "follower_metal_horn_3",
+        "follower_metal_horn_4"
+      ],
+      "evidence": "CAD measured ZERO component transforms + native joint datum readback; 28 mate-driven pose comparisons",
+      "velocity_limit_rad_s": 0.17453292519943295,
+      "velocity_status": "SOURCE VERIFIED firmware command slew ceiling: 0.2 degrees per 20 ms; not physical speed capability",
+      "effort_limit_Nm": null,
+      "physical_inertias": "UNVERIFIED"
+    },
+    {
+      "joint_name": "gripper",
+      "parent_link": "gripper_link",
+      "child_link": "moving_jaw_so101_v1_link",
+      "joint_type": "revolute",
+      "origin_xyz_m": [
+        0.020200000000000017,
+        0.018800000000000004,
+        -0.023399999999999976
+      ],
+      "origin_rpy_rad": [
+        1.5707963267948963,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "positive_direction": "right-hand rule about local +Z",
+      "mechanical_zero": "manifest q=0; physical horn indexing UNVERIFIED",
+      "software_zero_degrees": 0,
+      "home_degrees": 20,
+      "minimum_degrees": 0,
+      "maximum_degrees": 70,
+      "limits_status": "SOURCE VERIFIED software/preview limits; mechanical collision-free range UNVERIFIED",
+      "servo_channel": 5,
+      "MG996R_identifier": "MG996R_6",
+      "servo_sign": 1,
+      "servo_sign_status": "source default, physical direction UNVERIFIED",
+      "servo_zero_us": 1500,
+      "us_per_degree": 5.555556,
+      "gear_ratio": 1,
+      "firmware_variable": "current[5], goal[5], SERVO_SIGN[5], SERVO_ZERO_US[5]",
+      "solidworks_components": [
+        "follower_sts3215_03a_v1_14",
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Moving_jaw_MG996R_R3",
+        "follower_metal_horn_4",
+        "follower_metal_horn_5"
+      ],
+      "evidence": "CAD measured ZERO component transforms + native joint datum readback; 28 mate-driven pose comparisons",
+      "velocity_limit_rad_s": 0.17453292519943295,
+      "velocity_status": "SOURCE VERIFIED firmware command slew ceiling: 0.2 degrees per 20 ms; not physical speed capability",
+      "effort_limit_Nm": null,
+      "physical_inertias": "UNVERIFIED"
+    }
+  ],
+  "tool_frame": {
+    "name": "gripper_frame_link",
+    "parent": "gripper_link",
+    "local_transform_mm": [
+      [
+        -1.0,
+        -1.2246063538223773e-16,
+        0.0,
+        -7.9
+      ],
+      [
+        -1.2246063538223773e-16,
+        1.0,
+        1.2246063538223773e-16,
+        -0.21812099999999998
+      ],
+      [
+        -1.4996607218221374e-32,
+        1.2246063538223773e-16,
+        -1.0,
+        -98.12740000000001
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_status": "SOURCE VERIFIED fixed tool datum; not a physical component"
+  },
+  "software_home_degrees": [
+    0,
+    -25,
+    35,
+    0,
+    0,
+    20
+  ]
+}

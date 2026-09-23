@@ -1,0 +1,252 @@
+[
+  {
+    "part": "Base_Encoder_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Base_Encoder_L1_body0.stl",
+    "CAD_volume_mm3": 69500.41277405052,
+    "mesh_volume_mm3": 69500.41023507415,
+    "relative_volume_error": -3.653181723795029e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Base_Encoder_L1",
+    "body": 1,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Base_Encoder_L1_body1.stl",
+    "CAD_volume_mm3": 17.792268339652594,
+    "mesh_volume_mm3": 17.792262464140368,
+    "relative_volume_error": -3.302283955175511e-07,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Base_Encoder_L1",
+    "body": 2,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Base_Encoder_L1_body2.stl",
+    "CAD_volume_mm3": 13.601192408781527,
+    "mesh_volume_mm3": 13.60119299940743,
+    "relative_volume_error": 4.342456794148575e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Base_Encoder_L1",
+    "body": 3,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Base_Encoder_L1_body3.stl",
+    "CAD_volume_mm3": 73984.74143491867,
+    "mesh_volume_mm3": 73984.73866219576,
+    "relative_volume_error": -3.7476956205040324e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Shoulder_Encoder_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Shoulder_Encoder_L1_body0.stl",
+    "CAD_volume_mm3": 74137.58036791999,
+    "mesh_volume_mm3": 74137.58167777541,
+    "relative_volume_error": 1.7667900920059765e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Upper_arm_Encoder_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Upper_arm_Encoder_L1_body0.stl",
+    "CAD_volume_mm3": 110121.31243643866,
+    "mesh_volume_mm3": 110121.3132934392,
+    "relative_volume_error": 7.782331445937984e-09,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Forearm_Encoder_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Forearm_Encoder_L1_body0.stl",
+    "CAD_volume_mm3": 29846.57823268397,
+    "mesh_volume_mm3": 29846.576072987576,
+    "relative_volume_error": -7.235993271237362e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Forearm_Encoder_L1",
+    "body": 1,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Forearm_Encoder_L1_body1.stl",
+    "CAD_volume_mm3": 3954.72297224905,
+    "mesh_volume_mm3": 3954.7227892211426,
+    "relative_volume_error": -4.628084160351875e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Forearm_Encoder_L1",
+    "body": 2,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Forearm_Encoder_L1_body2.stl",
+    "CAD_volume_mm3": 60495.87717350689,
+    "mesh_volume_mm3": 60495.87923221583,
+    "relative_volume_error": 3.403056614281752e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Forearm_Encoder_L1",
+    "body": 3,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Forearm_Encoder_L1_body3.stl",
+    "CAD_volume_mm3": 6707.240305345053,
+    "mesh_volume_mm3": 6707.239986948105,
+    "relative_volume_error": -4.747063364618498e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Wrist_pitch_roll_Encoder_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Wrist_pitch_roll_Encoder_L1_body0.stl",
+    "CAD_volume_mm3": 33160.3443365333,
+    "mesh_volume_mm3": 33160.34431450815,
+    "relative_volume_error": -6.642015826230363e-10,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Handle_Encoder_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Handle_Encoder_L1_body0.stl",
+    "CAD_volume_mm3": 108015.47295001721,
+    "mesh_volume_mm3": 108015.47272386176,
+    "relative_volume_error": -2.093731965580048e-09,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Trigger_Encoder_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Trigger_Encoder_L1_body0.stl",
+    "CAD_volume_mm3": 12188.873406953951,
+    "mesh_volume_mm3": 12188.873305786825,
+    "relative_volume_error": -8.299957166002514e-09,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Encoder_cartridge_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Encoder_cartridge_L1_body0.stl",
+    "CAD_volume_mm3": 10895.57254101475,
+    "mesh_volume_mm3": 10895.572423985957,
+    "relative_volume_error": -1.0740949352161522e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Bearing_cap_front_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Bearing_cap_front_L1_body0.stl",
+    "CAD_volume_mm3": 751.0991395758828,
+    "mesh_volume_mm3": 751.1182464224457,
+    "relative_volume_error": 2.5438514779541066e-05,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Bearing_cap_rear_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Bearing_cap_rear_L1_body0.stl",
+    "CAD_volume_mm3": 892.3702780225086,
+    "mesh_volume_mm3": 892.3803468353541,
+    "relative_volume_error": 1.1283222999924902e-05,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Encoder_rotor_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Encoder_rotor_L1_body0.stl",
+    "CAD_volume_mm3": 2291.182201666142,
+    "mesh_volume_mm3": 2291.1819765015603,
+    "relative_volume_error": -9.827441127541192e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Magnet_cup_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Magnet_cup_L1_body0.stl",
+    "CAD_volume_mm3": 637.0946881199147,
+    "mesh_volume_mm3": 637.0946981608718,
+    "relative_volume_error": 1.576054109442282e-08,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "AS5600_PCB_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\AS5600_PCB_L1_body0.stl",
+    "CAD_volume_mm3": 691.1632734641007,
+    "mesh_volume_mm3": 691.1663900146315,
+    "relative_volume_error": 4.509137927932727e-06,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "AS5600_chip_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\AS5600_chip_L1_body0.stl",
+    "CAD_volume_mm3": 35.00000000000002,
+    "mesh_volume_mm3": 35.0,
+    "relative_volume_error": -5.551115123125783e-16,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "AS5600_connectors_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\AS5600_connectors_L1_body0.stl",
+    "CAD_volume_mm3": 63.00000000000002,
+    "mesh_volume_mm3": 62.999982833862305,
+    "relative_volume_error": -2.724783764174177e-07,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "AS5600_connectors_L1",
+    "body": 1,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\AS5600_connectors_L1_body1.stl",
+    "CAD_volume_mm3": 62.99999999999997,
+    "mesh_volume_mm3": 62.999999821186066,
+    "relative_volume_error": -2.838315915631995e-09,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "688_bearing_front_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\688_bearing_front_L1_body0.stl",
+    "CAD_volume_mm3": 753.9822368615505,
+    "mesh_volume_mm3": 753.9323422984894,
+    "relative_volume_error": -6.617471953818121e-05,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "688_bearing_rear_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\688_bearing_rear_L1_body0.stl",
+    "CAD_volume_mm3": 753.9822368615504,
+    "mesh_volume_mm3": 753.9323782487851,
+    "relative_volume_error": -6.612703897757033e-05,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  },
+  {
+    "part": "Diametric_magnet_L1",
+    "body": 0,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\leader_collision_check_meshes\\Diametric_magnet_L1_body0.stl",
+    "CAD_volume_mm3": 56.548667764616184,
+    "mesh_volume_mm3": 56.54492729559587,
+    "relative_volume_error": -6.614601489618455e-05,
+    "positive_volume": true,
+    "weld_decimal_places_mm": 5
+  }
+]

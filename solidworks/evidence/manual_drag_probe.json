@@ -1,0 +1,110 @@
+{
+  "drag_as_ui_result": true,
+  "source_joint_degrees": [
+    10,
+    -25,
+    35,
+    0,
+    0,
+    20
+  ],
+  "components": [
+    {
+      "id": "follower_sts3215_03a_v1_2",
+      "position_error_mm": 0.0,
+      "angle_error_deg": 0.0
+    },
+    {
+      "id": "follower_sts3215_03a_v1_4",
+      "position_error_mm": 5.299440842902687,
+      "angle_error_deg": 10.000000000000002
+    },
+    {
+      "id": "follower_sts3215_03a_v1_7",
+      "position_error_mm": 0.5500466912762558,
+      "angle_error_deg": 10.000000000000007
+    },
+    {
+      "id": "follower_sts3215_03a_v1_11",
+      "position_error_mm": 22.598753254169203,
+      "angle_error_deg": 10.000000000000005
+    },
+    {
+      "id": "follower_sts3215_03a_no_horn_v1_12",
+      "position_error_mm": 197.76458457500857,
+      "angle_error_deg": 80.16676766718018
+    },
+    {
+      "id": "follower_sts3215_03a_v1_14",
+      "position_error_mm": 197.53627082977067,
+      "angle_error_deg": 126.29208357126447
+    },
+    {
+      "id": "follower_Base_MG996R_R3",
+      "position_error_mm": 1.2067746162167797e-15,
+      "angle_error_deg": 0.0
+    },
+    {
+      "id": "follower_Shoulder_MG996R_R3",
+      "position_error_mm": 3.66205343881779e-15,
+      "angle_error_deg": 1.3474361947720424e-15
+    },
+    {
+      "id": "follower_Upper_arm_MG996R_R3",
+      "position_error_mm": 1.391525472650279,
+      "angle_error_deg": 10.000000000000009
+    },
+    {
+      "id": "follower_Forearm_MG996R_R3",
+      "position_error_mm": 11.593399105212011,
+      "angle_error_deg": 10.000000000000007
+    },
+    {
+      "id": "follower_Wrist_pitch_roll_MG996R_R3",
+      "position_error_mm": 29.55101341909095,
+      "angle_error_deg": 9.999999999999998
+    },
+    {
+      "id": "follower_Gripper_body_MG996R_R3",
+      "position_error_mm": 36.87760367833385,
+      "angle_error_deg": 178.26565518146163
+    },
+    {
+      "id": "follower_Moving_jaw_MG996R_R3",
+      "position_error_mm": 58.79533976869798,
+      "angle_error_deg": 178.26565518146163
+    },
+    {
+      "id": "follower_metal_horn_0",
+      "position_error_mm": 496.17356167847737,
+      "angle_error_deg": 171.78933751504573
+    },
+    {
+      "id": "follower_metal_horn_1",
+      "position_error_mm": 459.1456617401479,
+      "angle_error_deg": 18.157721743947345
+    },
+    {
+      "id": "follower_metal_horn_2",
+      "position_error_mm": 378.23321607371884,
+      "angle_error_deg": 91.72794107273135
+    },
+    {
+      "id": "follower_metal_horn_3",
+      "position_error_mm": 305.19500536110695,
+      "angle_error_deg": 139.78347135193238
+    },
+    {
+      "id": "follower_metal_horn_4",
+      "position_error_mm": 43.95151856816198,
+      "angle_error_deg": 89.38151100661301
+    },
+    {
+      "id": "follower_metal_horn_5",
+      "position_error_mm": 249.26838004847536,
+      "angle_error_deg": 95.61461257584615
+    }
+  ],
+  "max_position_error_mm": 496.17356167847737,
+  "max_angle_error_deg": 178.26565518146163
+}

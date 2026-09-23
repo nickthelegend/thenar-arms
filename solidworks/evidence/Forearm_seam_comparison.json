@@ -1,0 +1,12 @@
+{
+  "representation": "Three nonoverlapping closed CAD bodies in one rigid part. Extra partition faces at Z=-23 mm and X=0 below Z=-23 mm; native union failed.",
+  "source_volume_mm3": 99079.49542170028,
+  "cad_export_signed_volume_sum_mm3": 99079.49690531821,
+  "relative_volume_delta": 1.49740158050804e-08,
+  "bounds_max_delta_mm": 7.629394502828291e-07,
+  "source_all_vertices_and_50000_samples_to_cad_max_mm": 0.0002719167475460294,
+  "cad_exterior_vertices_and_50000_samples_to_source_max_mm": 0.0001876751597436055,
+  "excluded_partition_triangles": 1018,
+  "export_triangles": 21060,
+  "status": "ACCEPTED bounded geometric preservation as partitioned solid part; not a single fused CAD body"
+}

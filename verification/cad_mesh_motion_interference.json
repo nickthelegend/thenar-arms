@@ -1,0 +1,1113 @@
+{
+  "method": "Manifold3D intersections of SolidWorks-exported closed CAD tessellation, 0.00001 mm vertex welding, at 19 measured mate-solved transforms. Forearm three solid regions retained independently. All component pairs included, no intentional-intersection exclusions. Discrete poses, not swept-motion certification.",
+  "volume_reporting_threshold_mm3": 1e-05,
+  "source_significance_threshold_mm3": 0.5,
+  "tested_poses": [
+    {
+      "pose": "ZERO",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J1_MIN",
+      "joint_degrees": [
+        -85,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.03147771662398,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J1_MAX",
+      "joint_degrees": [
+        85,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623936,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J2_MIN",
+      "joint_degrees": [
+        0,
+        -80,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623028,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J2_MAX",
+      "joint_degrees": [
+        0,
+        80,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716622966,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": [
+        {
+          "id": "follower_sts3215_03a_v1_11",
+          "lowest_vertex_z_mm": -39.00968641954182
+        },
+        {
+          "id": "follower_sts3215_03a_no_horn_v1_12",
+          "lowest_vertex_z_mm": -85.11415581305668
+        },
+        {
+          "id": "follower_sts3215_03a_v1_14",
+          "lowest_vertex_z_mm": -124.9228338352845
+        },
+        {
+          "id": "follower_Forearm_MG996R_R3",
+          "lowest_vertex_z_mm": -41.90751166188344
+        },
+        {
+          "id": "follower_Wrist_pitch_roll_MG996R_R3",
+          "lowest_vertex_z_mm": -92.78001753732889
+        },
+        {
+          "id": "follower_Gripper_body_MG996R_R3",
+          "lowest_vertex_z_mm": -193.7836859116772
+        },
+        {
+          "id": "follower_Moving_jaw_MG996R_R3",
+          "lowest_vertex_z_mm": -191.29570060742543
+        },
+        {
+          "id": "follower_metal_horn_3",
+          "lowest_vertex_z_mm": -30.97451350405462
+        },
+        {
+          "id": "follower_metal_horn_4",
+          "lowest_vertex_z_mm": -88.79169643012322
+        },
+        {
+          "id": "follower_metal_horn_5",
+          "lowest_vertex_z_mm": -118.44462763666746
+        }
+      ]
+    },
+    {
+      "pose": "J3_MIN",
+      "joint_degrees": [
+        0,
+        0,
+        -80,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623028,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J3_MAX",
+      "joint_degrees": [
+        0,
+        0,
+        80,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716622966,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": [
+        {
+          "id": "follower_sts3215_03a_v1_14",
+          "lowest_vertex_z_mm": -4.3257921109088
+        },
+        {
+          "id": "follower_Gripper_body_MG996R_R3",
+          "lowest_vertex_z_mm": -73.18664418730157
+        },
+        {
+          "id": "follower_Moving_jaw_MG996R_R3",
+          "lowest_vertex_z_mm": -70.69865888304993
+        }
+      ]
+    },
+    {
+      "pose": "J4_MIN",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        -80,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623028,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J4_MAX",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        80,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716622966,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J5_MIN",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        0,
+        -85,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.03147771662398,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J5_MAX",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        0,
+        85,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623936,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J6_MIN",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J6_MAX",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        70
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716622833,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "HOME",
+      "joint_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716622952,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.0314777166239,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716623975,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716622872,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "MULTI",
+      "joint_degrees": [
+        20,
+        -30,
+        40,
+        -20,
+        30,
+        25
+      ],
+      "intersections": [
+        {
+          "a": "follower_sts3215_03a_v1_2",
+          "b": "follower_metal_horn_0",
+          "volume_mm3": 9.031477716622872,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_4",
+          "b": "follower_metal_horn_1",
+          "volume_mm3": 9.031477716622996,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_7",
+          "b": "follower_metal_horn_2",
+          "volume_mm3": 9.031477716623804,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_11",
+          "b": "follower_metal_horn_3",
+          "volume_mm3": 9.031477716624078,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_Wrist_pitch_roll_MG996R_R3",
+          "volume_mm3": 0.00015656134756764927,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_no_horn_v1_12",
+          "b": "follower_metal_horn_4",
+          "volume_mm3": 9.031477716625291,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_Gripper_body_MG996R_R3",
+          "volume_mm3": 1.0815029896048892e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "follower_sts3215_03a_v1_14",
+          "b": "follower_metal_horn_5",
+          "volume_mm3": 9.031477716622534,
+          "same_rigid_link": false,
+          "above_source_report_threshold": true
+        }
+      ],
+      "table_penetrations": []
+    }
+  ],
+  "relative_pair_cache_count": 114,
+  "elapsed_seconds": 0.32155466079711914
+}

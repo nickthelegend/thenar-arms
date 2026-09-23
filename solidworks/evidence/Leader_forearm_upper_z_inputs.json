@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Leader_forearm_upper_z0",
+    "volume_mm3": 29846.60217929554,
+    "faces": 6780,
+    "plane": [
+      0,
+      0,
+      1
+    ],
+    "offset_mm": 16.2
+  },
+  {
+    "name": "Leader_forearm_upper_z1",
+    "volume_mm3": 60495.87773908422,
+    "faces": 7348,
+    "plane": [
+      0,
+      0,
+      1
+    ],
+    "offset_mm": 16.2
+  }
+]

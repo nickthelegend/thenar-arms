@@ -1,0 +1,85 @@
+{
+  "part": "Upper_arm_Encoder_L1",
+  "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\leader\\Upper_arm_Encoder_L1.SLDPRT",
+  "source": "D:\\Project\\so-101-mg996r\\thenar-arms\\robot-studio\\public\\models\\so101\\encoder-leader-l1\\print-parts\\Upper_arm_Encoder_L1.stl",
+  "geometry": "Preserved imported L1 source, native joint datums; no recovered custom feature history",
+  "kernel_faults_before": [
+    0
+  ],
+  "import_diagnosis_result": null,
+  "solids": [
+    {
+      "kernel_faults": 0,
+      "box_m": [
+        -0.06508499383926392,
+        -0.004449999891221524,
+        -0.035599999129772186,
+        0.07908499985933304,
+        0.06955000013113023,
+        0.031700000166893005
+      ],
+      "volume_m3": 0.00011012131243643871
+    }
+  ],
+  "surface_bodies": 0,
+  "datums": [
+    {
+      "name": "J2",
+      "matrix_mm": [
+        [
+          1.0,
+          -2.465190328815662e-32,
+          0.0,
+          65.085
+        ],
+        [
+          0.0,
+          -1.0,
+          1.2246063538223775e-16,
+          12.0
+        ],
+        [
+          0.0,
+          -1.2246063538223768e-16,
+          -1.0,
+          18.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "J3",
+      "matrix_mm": [
+        [
+          2.2204460492503128e-16,
+          -1.0,
+          0.0,
+          -47.485000000000014
+        ],
+        [
+          -1.0,
+          -2.220446049250313e-16,
+          1.2246063538223775e-16,
+          40.0
+        ],
+        [
+          -1.2246063538223768e-16,
+          -2.465190328815662e-32,
+          -1.0,
+          18.19999999999983
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

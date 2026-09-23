@@ -1,0 +1,197 @@
+[
+  {
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Base_MG996R_R3.SLDPRT",
+    "part": "Base_MG996R_R3",
+    "bodies": [
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 143126.81919361762,
+        "bounds_m": [
+          -0.05546250194311142,
+          2.9267432150037803e-16,
+          -0.020800000056624413,
+          0.05546250194311142,
+          0.07199999690055847,
+          0.07100000232458115
+        ]
+      }
+    ],
+    "surface_count": 0
+  },
+  {
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Forearm_MG996R_R3.SLDPRT",
+    "part": "Forearm_MG996R_R3",
+    "bodies": [
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 89326.87774487816,
+        "bounds_m": [
+          -0.09099166095256805,
+          -0.053950000554323196,
+          -0.023000000044703487,
+          0.0788498967885971,
+          -0.0170499999076128,
+          0.030200000852346424
+        ]
+      },
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 2820.3885164712533,
+        "bounds_m": [
+          -0.05384990572929382,
+          -0.05090855434536934,
+          -0.029990000650286674,
+          8.673617379884035e-19,
+          -0.018815375864505768,
+          -0.02300000004470345
+        ]
+      },
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 6932.229437543354,
+        "bounds_m": [
+          -3.469446951953614e-18,
+          -0.04399999976158142,
+          -0.03420000150799751,
+          0.05770990625023842,
+          -0.01999999955296516,
+          -0.023000000044703484
+        ]
+      }
+    ],
+    "surface_count": 0
+  },
+  {
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Gripper_body_MG996R_R3.SLDPRT",
+    "part": "Gripper_body_MG996R_R3",
+    "bodies": [
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 54119.54247501773,
+        "bounds_m": [
+          -0.03519999980926514,
+          -0.02421821467578411,
+          -0.0010502940276637678,
+          0.041749998927116394,
+          0.027781786397099495,
+          0.10537499934434891
+        ]
+      }
+    ],
+    "surface_count": 0
+  },
+  {
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Moving_jaw_MG996R_R3.SLDPRT",
+    "part": "Moving_jaw_MG996R_R3",
+    "bodies": [
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 19401.36273826169,
+        "bounds_m": [
+          -0.014000000432133675,
+          -0.0820000022649765,
+          -0.024000000208616257,
+          0.014000000432133675,
+          0.014000000432133675,
+          0.02318398654460907
+        ]
+      }
+    ],
+    "surface_count": 0
+  },
+  {
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Shoulder_MG996R_R3.SLDPRT",
+    "part": "Shoulder_MG996R_R3",
+    "bodies": [
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 73467.20885033085,
+        "bounds_m": [
+          -0.06276900321245193,
+          0.00020000000949948983,
+          -0.026371000334620476,
+          0.0017992000794038177,
+          0.1221029981970787,
+          0.028671368956565857
+        ]
+      }
+    ],
+    "surface_count": 0
+  },
+  {
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Upper_arm_MG996R_R3.SLDPRT",
+    "part": "Upper_arm_MG996R_R3",
+    "bodies": [
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 108278.26267919577,
+        "bounds_m": [
+          -0.06508499383926392,
+          -0.002450025029057264,
+          -0.035599999129772186,
+          0.07908499985933304,
+          0.06154999881982803,
+          0.031700000166893005
+        ]
+      }
+    ],
+    "surface_count": 0
+  },
+  {
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Wrist_pitch_roll_MG996R_R3.SLDPRT",
+    "part": "Wrist_pitch_roll_MG996R_R3",
+    "bodies": [
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 28958.303768106955,
+        "bounds_m": [
+          -0.02710010360812198,
+          -0.019999999552965164,
+          -0.04582838714122772,
+          0.04244999960064888,
+          0.015659594908356667,
+          0.041999999433755875
+        ]
+      }
+    ],
+    "surface_count": 0
+  },
+  {
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\hardware\\Metal_Horn_D20_PCD14_R3.SLDPRT",
+    "part": "Metal_Horn_D20_PCD14_R3",
+    "bodies": [
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 819.4648087348127,
+        "bounds_m": [
+          0.0025000000000000022,
+          -0.009999999999999998,
+          0.012199999999999999,
+          0.0225,
+          0.009999999999999998,
+          0.0167
+        ]
+      }
+    ],
+    "surface_count": 0
+  },
+  {
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\hardware\\MG996R_Nominal_R3.SLDPRT",
+    "part": "MG996R_Nominal_R3",
+    "bodies": [
+      {
+        "kernel_faults": 0,
+        "volume_mm3": 31421.737570324745,
+        "bounds_m": [
+          -0.02495,
+          -0.01,
+          -0.0285,
+          0.02905,
+          0.01,
+          0.0142
+        ]
+      }
+    ],
+    "surface_count": 0
+  }
+]

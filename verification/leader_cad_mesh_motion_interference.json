@@ -1,0 +1,1630 @@
+{
+  "method": "All component pairs of individually exported SolidWorks solid bodies at 73 measured mate-solved transforms. 0.00001 mm tessellation vertex welding. Source zero-thickness surface artifacts have no volume and are excluded here, retained in visual comparison. Discrete poses, not swept-motion certification.",
+  "volume_reporting_threshold_mm3": 1e-05,
+  "source_significance_threshold_mm3": 0.5,
+  "tested_poses": [
+    {
+      "pose": "ZERO",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J1_MIN",
+      "joint_degrees": [
+        -85,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Handle_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_rotor_L1",
+          "volume_mm3": 0.0001831701915457215,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J1_MAX",
+      "joint_degrees": [
+        85,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Handle_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_rotor_L1",
+          "volume_mm3": 0.0001831701915457215,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J2_MIN",
+      "joint_degrees": [
+        0,
+        -80,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Handle_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_rotor_L1",
+          "volume_mm3": 0.0001831701915457215,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J2_MAX",
+      "joint_degrees": [
+        0,
+        80,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Handle_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_rotor_L1",
+          "volume_mm3": 0.0001831701915457215,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": [
+        {
+          "id": "leader_follower_Forearm_Encoder_L1",
+          "lowest_vertex_z_mm": -49.71440775753232
+        },
+        {
+          "id": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "lowest_vertex_z_mm": -98.68886405540204
+        },
+        {
+          "id": "leader_follower_Handle_Encoder_L1",
+          "lowest_vertex_z_mm": -203.5815957425021
+        },
+        {
+          "id": "leader_follower_Trigger_Encoder_L1",
+          "lowest_vertex_z_mm": -169.2847432108864
+        },
+        {
+          "id": "leader_encoder_3_Encoder_cartridge_L1",
+          "lowest_vertex_z_mm": -46.88814844363907
+        },
+        {
+          "id": "leader_encoder_3_Bearing_cap_front_L1",
+          "lowest_vertex_z_mm": -35.51361964763671
+        },
+        {
+          "id": "leader_encoder_3_Bearing_cap_rear_L1",
+          "lowest_vertex_z_mm": -35.51361964776895
+        },
+        {
+          "id": "leader_encoder_3_Encoder_rotor_L1",
+          "lowest_vertex_z_mm": -30.972258226239916
+        },
+        {
+          "id": "leader_encoder_3_Magnet_cup_L1",
+          "lowest_vertex_z_mm": -25.973447654214695
+        },
+        {
+          "id": "leader_encoder_3_AS5600_PCB_L1",
+          "lowest_vertex_z_mm": -35.025428655700324
+        },
+        {
+          "id": "leader_encoder_3_AS5600_chip_L1",
+          "lowest_vertex_z_mm": -23.7839528198738
+        },
+        {
+          "id": "leader_encoder_3_AS5600_connectors_L1",
+          "lowest_vertex_z_mm": -32.9822171576341
+        },
+        {
+          "id": "leader_encoder_3_688_bearing_front_L1",
+          "lowest_vertex_z_mm": -28.974538236238324
+        },
+        {
+          "id": "leader_encoder_3_688_bearing_rear_L1",
+          "lowest_vertex_z_mm": -28.97453823630714
+        },
+        {
+          "id": "leader_encoder_3_Diametric_magnet_L1",
+          "lowest_vertex_z_mm": -23.974600014881887
+        },
+        {
+          "id": "leader_encoder_4_Encoder_cartridge_L1",
+          "lowest_vertex_z_mm": -85.39698624878446
+        },
+        {
+          "id": "leader_encoder_4_Bearing_cap_front_L1",
+          "lowest_vertex_z_mm": -87.31450726837386
+        },
+        {
+          "id": "leader_encoder_4_Bearing_cap_rear_L1",
+          "lowest_vertex_z_mm": -69.831539163418
+        },
+        {
+          "id": "leader_encoder_4_Encoder_rotor_L1",
+          "lowest_vertex_z_mm": -94.70056692532063
+        },
+        {
+          "id": "leader_encoder_4_Magnet_cup_L1",
+          "lowest_vertex_z_mm": -69.35985299895827
+        },
+        {
+          "id": "leader_encoder_4_AS5600_PCB_L1",
+          "lowest_vertex_z_mm": -55.85411263182717
+        },
+        {
+          "id": "leader_encoder_4_AS5600_chip_L1",
+          "lowest_vertex_z_mm": -56.381090195787195
+        },
+        {
+          "id": "leader_encoder_4_AS5600_connectors_L1",
+          "lowest_vertex_z_mm": -57.69892397594835
+        },
+        {
+          "id": "leader_encoder_4_688_bearing_front_L1",
+          "lowest_vertex_z_mm": -84.89909750274903
+        },
+        {
+          "id": "leader_encoder_4_688_bearing_rear_L1",
+          "lowest_vertex_z_mm": -74.85405837506522
+        },
+        {
+          "id": "leader_encoder_4_Diametric_magnet_L1",
+          "lowest_vertex_z_mm": -60.49396349719458
+        },
+        {
+          "id": "leader_encoder_5_Encoder_cartridge_L1",
+          "lowest_vertex_z_mm": -131.1785661980215
+        },
+        {
+          "id": "leader_encoder_5_Bearing_cap_front_L1",
+          "lowest_vertex_z_mm": -126.5158097499812
+        },
+        {
+          "id": "leader_encoder_5_Bearing_cap_rear_L1",
+          "lowest_vertex_z_mm": -126.68142521200696
+        },
+        {
+          "id": "leader_encoder_5_Encoder_rotor_L1",
+          "lowest_vertex_z_mm": -124.38062474912223
+        },
+        {
+          "id": "leader_encoder_5_Magnet_cup_L1",
+          "lowest_vertex_z_mm": -119.6355083644114
+        },
+        {
+          "id": "leader_encoder_5_AS5600_PCB_L1",
+          "lowest_vertex_z_mm": -125.63554098632073
+        },
+        {
+          "id": "leader_encoder_5_AS5600_chip_L1",
+          "lowest_vertex_z_mm": -117.06758237108076
+        },
+        {
+          "id": "leader_encoder_5_AS5600_connectors_L1",
+          "lowest_vertex_z_mm": -119.16467600251303
+        },
+        {
+          "id": "leader_encoder_5_688_bearing_front_L1",
+          "lowest_vertex_z_mm": -122.45578804094197
+        },
+        {
+          "id": "leader_encoder_5_688_bearing_rear_L1",
+          "lowest_vertex_z_mm": -122.54197568008318
+        },
+        {
+          "id": "leader_encoder_5_Diametric_magnet_L1",
+          "lowest_vertex_z_mm": -117.6325668350692
+        }
+      ]
+    },
+    {
+      "pose": "J3_MIN",
+      "joint_degrees": [
+        0,
+        0,
+        -80,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Handle_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_rotor_L1",
+          "volume_mm3": 0.0001831701915457215,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J3_MAX",
+      "joint_degrees": [
+        0,
+        0,
+        80,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Handle_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_rotor_L1",
+          "volume_mm3": 0.0001831701915457215,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": [
+        {
+          "id": "leader_follower_Handle_Encoder_L1",
+          "lowest_vertex_z_mm": -82.98455401812674
+        },
+        {
+          "id": "leader_follower_Trigger_Encoder_L1",
+          "lowest_vertex_z_mm": -48.687701486511074
+        },
+        {
+          "id": "leader_encoder_5_Encoder_cartridge_L1",
+          "lowest_vertex_z_mm": -10.581524473646041
+        },
+        {
+          "id": "leader_encoder_5_Bearing_cap_front_L1",
+          "lowest_vertex_z_mm": -5.918768025605732
+        },
+        {
+          "id": "leader_encoder_5_Bearing_cap_rear_L1",
+          "lowest_vertex_z_mm": -6.084383487631501
+        },
+        {
+          "id": "leader_encoder_5_Encoder_rotor_L1",
+          "lowest_vertex_z_mm": -3.783583024746948
+        },
+        {
+          "id": "leader_encoder_5_AS5600_PCB_L1",
+          "lowest_vertex_z_mm": -5.038499261945268
+        },
+        {
+          "id": "leader_encoder_5_688_bearing_front_L1",
+          "lowest_vertex_z_mm": -1.8587463165665072
+        },
+        {
+          "id": "leader_encoder_5_688_bearing_rear_L1",
+          "lowest_vertex_z_mm": -1.9449339557077234
+        }
+      ]
+    },
+    {
+      "pose": "J4_MIN",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        -80,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Handle_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_rotor_L1",
+          "volume_mm3": 0.0001831701915457215,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J4_MAX",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        80,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Handle_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_rotor_L1",
+          "volume_mm3": 0.0001831701915457215,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J5_MIN",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        0,
+        -85,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J5_MAX",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        0,
+        85,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J6_MIN",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "J6_MAX",
+      "joint_degrees": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        70
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "HOME",
+      "joint_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Handle_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_rotor_L1",
+          "volume_mm3": 0.0001831701915457215,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    },
+    {
+      "pose": "MULTI",
+      "joint_degrees": [
+        20,
+        -30,
+        40,
+        -20,
+        30,
+        25
+      ],
+      "intersections": [
+        {
+          "a": "leader_follower_Base_Encoder_L1",
+          "b": "leader_encoder_0_Encoder_cartridge_L1",
+          "volume_mm3": 0.0003600460379481479,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Upper_arm_Encoder_L1",
+          "b": "leader_encoder_1_Encoder_rotor_L1",
+          "volume_mm3": 0.00023613182607292487,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_3_Encoder_rotor_L1",
+          "volume_mm3": 9.366730412673475e-05,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Wrist_pitch_roll_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_cartridge_L1",
+          "volume_mm3": 0.00019687853017912035,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Handle_Encoder_L1",
+          "b": "leader_encoder_4_Encoder_rotor_L1",
+          "volume_mm3": 0.0001831701915457215,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_follower_Trigger_Encoder_L1",
+          "b": "leader_encoder_5_Encoder_rotor_L1",
+          "volume_mm3": 0.00018738153734500375,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_0_Encoder_cartridge_L1",
+          "b": "leader_encoder_0_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_1_Encoder_cartridge_L1",
+          "b": "leader_encoder_1_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_2_Encoder_cartridge_L1",
+          "b": "leader_encoder_2_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_3_Encoder_cartridge_L1",
+          "b": "leader_encoder_3_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_4_Encoder_cartridge_L1",
+          "b": "leader_encoder_4_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        },
+        {
+          "a": "leader_encoder_5_Encoder_cartridge_L1",
+          "b": "leader_encoder_5_AS5600_PCB_L1",
+          "volume_mm3": 0.00010055461169875124,
+          "same_rigid_link": true,
+          "above_source_report_threshold": false
+        }
+      ],
+      "table_penetrations": []
+    }
+  ],
+  "relative_pair_cache_count": 553,
+  "elapsed_seconds": 1.0096251964569092
+}

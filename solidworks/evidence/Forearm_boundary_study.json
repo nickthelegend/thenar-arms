@@ -1,0 +1,16 @@
+{
+  "status": "STUDY ONLY; not accepted as geometry",
+  "opposing_coplanar_area_mm2": 129.6058987502312,
+  "source_plane_z_mm": -23,
+  "source_plane_faces": 432,
+  "candidate_watertight": false,
+  "candidate_positive_volume": false,
+  "volume_relative_delta": 1.8657237976782426e-09,
+  "bounds_delta_mm": 0.0,
+  "edge_incidence_histogram": {
+    "1": 402,
+    "2": 29868,
+    "3": 2
+  },
+  "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\checkpoints\\import_transport\\Forearm_boundary_candidate.stl"
+}

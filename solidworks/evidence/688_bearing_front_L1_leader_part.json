@@ -1,0 +1,21 @@
+{
+  "part": "688_bearing_front_L1",
+  "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\hardware\\leader\\688_bearing_front_L1.SLDPRT",
+  "source": "build_encoder_leader.py cartridge_parts() and encoder-build.json",
+  "native_features": true,
+  "solids": [
+    {
+      "kernel_faults": 0,
+      "box_m": [
+        0.0045000000000000005,
+        -0.008,
+        0.0021000000000000003,
+        0.0205,
+        0.008,
+        0.0071
+      ],
+      "volume_m3": 7.539822368615504e-07
+    }
+  ],
+  "surface_bodies": 0
+}

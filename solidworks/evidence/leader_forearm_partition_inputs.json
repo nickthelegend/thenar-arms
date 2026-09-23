@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Leader_forearm_upper",
+    "source": "D:\\Project\\so-101-mg996r\\thenar-arms\\so101-mg996r\\output\\encoder-leader-l1\\print-parts\\Forearm_Encoder_L1.stl",
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\checkpoints\\import_transport\\Leader_forearm_upper.stl",
+    "volume_mm3": 90342.48058082326,
+    "before_simplify_volume_mm3": 90342.48059724823,
+    "faces": 13590,
+    "conditioning": "Manifold simplify 0.0001mm after exact Z=-23 and lower X=0 sectioning; exterior comparison pending"
+  },
+  {
+    "name": "Leader_forearm_lower_right",
+    "source": "D:\\Project\\so-101-mg996r\\thenar-arms\\so101-mg996r\\output\\encoder-leader-l1\\print-parts\\Forearm_Encoder_L1.stl",
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\checkpoints\\import_transport\\Leader_forearm_lower_right.stl",
+    "volume_mm3": 6707.239985634437,
+    "before_simplify_volume_mm3": 6707.239993339578,
+    "faces": 3012,
+    "conditioning": "Manifold simplify 0.0001mm after exact Z=-23 and lower X=0 sectioning; exterior comparison pending"
+  },
+  {
+    "name": "Leader_forearm_lower_left",
+    "source": "D:\\Project\\so-101-mg996r\\thenar-arms\\so101-mg996r\\output\\encoder-leader-l1\\print-parts\\Forearm_Encoder_L1.stl",
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\checkpoints\\import_transport\\Leader_forearm_lower_left.stl",
+    "volume_mm3": 3954.7228185589215,
+    "before_simplify_volume_mm3": 3954.722842446844,
+    "faces": 2390,
+    "conditioning": "Manifold simplify 0.0001mm after exact Z=-23 and lower X=0 sectioning; exterior comparison pending"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "classification": "CALCULATED from the native mate topology and CAD-measured HOME component frames; not a SolidWorks mouse-drag test or kernel DOF diagnostic",
+  "instances": 73,
+  "grounded_components": 1,
+  "rigid_lock_mates": 66,
+  "revolute_chains": 6,
+  "constraints_per_hinge": "Two angular + three joint-point coincidence constraints; source limit angles bound each remaining rotation",
+  "twist_variables": 438,
+  "constraint_rows": 432,
+  "rank": 432,
+  "remaining_DOF": 6,
+  "joint_rate_mapping_rank": 6,
+  "nullspace_constraint_residual": 1.0958130685476688e-15,
+  "pass": true,
+  "scope": "Six independent rotational freedoms, with no additional infinitesimal freedoms in this graph at HOME. Actual native mate-driven movement is checked separately; free mouse dragging remains unverified."
+}

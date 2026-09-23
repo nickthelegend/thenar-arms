@@ -1,0 +1,4 @@
+{
+  "expected_rejection": true,
+  "error": "Error: mass and inertia of moving bodies must be larger than mjMINVAL\nElement name 'shoulder_link', id 2, line 21"
+}

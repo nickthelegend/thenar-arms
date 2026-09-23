@@ -1,0 +1,780 @@
+status: Geometry prepared; physical dynamics incomplete. Unit-density integrals are
+  not assigned material densities.
+manufacturer_reference:
+  component: Genuine TowerPro MG996R
+  mass_kg: 0.055
+  source: https://towerpro.com.tw/product/mg996r/
+  applicability_to_users_generic_units: UNVERIFIED
+  COM_and_inertia: UNVERIFIED
+printed_material:
+  source: R3-PRINT.md and plate-report.json
+  type: Generic PETG
+  infill: 25% gyroid, 4 walls
+  plate_filament_total_g: 496.88
+  includes: Supports and brim; cannot distribute this total among rigid links
+  physical_mass_COM_inertia: UNVERIFIED
+part_geometry:
+- part: Base_MG996R_R3
+  status: CAD MEASURED geometric integrals only; physical mass/COM/inertia UNVERIFIED
+  physical_mass_kg: null
+  physical_com_m: null
+  physical_inertia_kg_m2: null
+  bodies:
+  - centroid_uniform_density_m:
+    - -6.774487136028393e-05
+    - 0.025290713471440268
+    - 0.01454196267152208
+    volume_m3: 0.00014312681919360006
+    surface_area_m2: 0.061245413650864756
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - -6.774487136028393e-05
+    - 0.025290713471440268
+    - 0.01454196267152208
+    - 0.00014312681919360006
+    - 0.061245413650864756
+    - 0.00014312681919360006
+    - 1.4047477798939484e-07
+    - 1.681036927948107e-07
+    - 1.5584383898756474e-07
+    - -2.1528225994990813e-10
+    - 5.185214346729481e-10
+    - -2.367299994017488e-08
+- part: Forearm_MG996R_R3
+  status: CAD MEASURED geometric integrals only; physical mass/COM/inertia UNVERIFIED
+  physical_mass_kg: null
+  physical_com_m: null
+  physical_inertia_kg_m2: null
+  bodies:
+  - centroid_uniform_density_m:
+    - 0.0002504926575780721
+    - -0.03211372673152513
+    - 0.003697699137403688
+    volume_m3: 8.932687774487818e-05
+    surface_area_m2: 0.028239640882695014
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - 0.0002504926575780721
+    - -0.03211372673152513
+    - 0.003697699137403688
+    - 8.932687774487818e-05
+    - 0.028239640882695014
+    - 8.932687774487818e-05
+    - 3.103524624293166e-08
+    - 1.1674910867187578e-07
+    - 9.860370447203586e-08
+    - 5.678472097308681e-10
+    - 1.2092956512101947e-08
+    - 1.8746008172773725e-10
+  - centroid_uniform_density_m:
+    - -0.023069856966642106
+    - -0.03203455017838803
+    - -0.024487170145745776
+    volume_m3: 2.820388516471254e-06
+    surface_area_m2: 0.002820881135054472
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - -0.023069856966642106
+    - -0.03203455017838803
+    - -0.024487170145745776
+    - 2.820388516471254e-06
+    - 0.002820881135054472
+    - 2.820388516471254e-06
+    - 1.6767751950357229e-10
+    - 5.45056682972323e-10
+    - 7.065965297533799e-10
+    - -2.6044475446707548e-11
+    - 4.741282310294403e-12
+    - -1.8862499212689763e-12
+  - centroid_uniform_density_m:
+    - 0.0319226784012845
+    - -0.03199338551616251
+    - -0.026381423710880536
+    volume_m3: 6.932229437543353e-06
+    surface_area_m2: 0.003599212177940368
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - 0.0319226784012845
+    - -0.03199338551616251
+    - -0.026381423710880536
+    - 6.932229437543353e-06
+    - 0.003599212177940368
+    - 6.932229437543353e-06
+    - 3.301213155855728e-10
+    - 1.3694525978629421e-09
+    - 1.6194071249859386e-09
+    - 7.490512506790578e-13
+    - -9.646842341038574e-11
+    - 8.02490893910545e-14
+- part: Gripper_body_MG996R_R3
+  status: CAD MEASURED geometric integrals only; physical mass/COM/inertia UNVERIFIED
+  physical_mass_kg: null
+  physical_com_m: null
+  physical_inertia_kg_m2: null
+  bodies:
+  - centroid_uniform_density_m:
+    - -0.013115692346625579
+    - 0.0003272998423183806
+    - 0.02959273394915169
+    volume_m3: 5.411954247501736e-05
+    surface_area_m2: 0.02050446184924796
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - -0.013115692346625579
+    - 0.0003272998423183806
+    - 0.02959273394915169
+    - 5.411954247501736e-05
+    - 0.02050446184924796
+    - 5.411954247501736e-05
+    - 3.554301844791698e-08
+    - 4.5721578147846526e-08
+    - 2.1686260579457314e-08
+    - 3.2543608122906277e-10
+    - -7.3066154160245055e-09
+    - -1.829296087008926e-10
+- part: Moving_jaw_MG996R_R3
+  status: CAD MEASURED geometric integrals only; physical mass/COM/inertia UNVERIFIED
+  physical_mass_kg: null
+  physical_com_m: null
+  physical_inertia_kg_m2: null
+  bodies:
+  - centroid_uniform_density_m:
+    - -0.0016031143113531964
+    - -0.030338592853601503
+    - -0.0036388836027582737
+    volume_m3: 1.94013627382617e-05
+    surface_area_m2: 0.008378056623431471
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - -0.0016031143113531964
+    - -0.030338592853601503
+    - -0.0036388836027582737
+    - 1.94013627382617e-05
+    - 0.008378056623431471
+    - 1.94013627382617e-05
+    - 1.1289689384769304e-08
+    - 2.8269146608658503e-09
+    - 9.545155786779887e-09
+    - 5.788582739343736e-10
+    - -1.1533902549450086e-10
+    - -2.0685946732837223e-09
+- part: Shoulder_MG996R_R3
+  status: CAD MEASURED geometric integrals only; physical mass/COM/inertia UNVERIFIED
+  physical_mass_kg: null
+  physical_com_m: null
+  physical_inertia_kg_m2: null
+  bodies:
+  - centroid_uniform_density_m:
+    - -0.0447704761468049
+    - 0.045318157463870086
+    - 0.0001860341020198168
+    volume_m3: 7.346720885033083e-05
+    surface_area_m2: 0.024947041239613103
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - -0.0447704761468049
+    - 0.045318157463870086
+    - 0.0001860341020198168
+    - 7.346720885033083e-05
+    - 0.024947041239613103
+    - 7.346720885033083e-05
+    - 5.32464108271315e-08
+    - 2.1365406508479913e-08
+    - 5.638009982912952e-08
+    - 1.5662423356601186e-10
+    - -2.6606644104468647e-11
+    - 7.242632278343122e-10
+- part: Upper_arm_MG996R_R3
+  status: CAD MEASURED geometric integrals only; physical mass/COM/inertia UNVERIFIED
+  physical_mass_kg: null
+  physical_com_m: null
+  physical_inertia_kg_m2: null
+  bodies:
+  - centroid_uniform_density_m:
+    - 0.003833311307126535
+    - 0.012220436529203517
+    - 0.0006446968322302054
+    volume_m3: 0.00010827826267919572
+    surface_area_m2: 0.02937208507035903
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - 0.003833311307126535
+    - 0.012220436529203517
+    - 0.0006446968322302054
+    - 0.00010827826267919572
+    - 0.02937208507035903
+    - 0.00010827826267919572
+    - 4.7501107339516766e-08
+    - 1.502811595833427e-07
+    - 1.1885472352540864e-07
+    - -1.7450729919358925e-09
+    - 7.148830771964046e-09
+    - -2.4987036607185356e-10
+- part: Wrist_pitch_roll_MG996R_R3
+  status: CAD MEASURED geometric integrals only; physical mass/COM/inertia UNVERIFIED
+  physical_mass_kg: null
+  physical_com_m: null
+  physical_inertia_kg_m2: null
+  bodies:
+  - centroid_uniform_density_m:
+    - -0.00270827258039705
+    - -0.00032625716347858087
+    - -0.006398076520728556
+    volume_m3: 2.8958303768106948e-05
+    surface_area_m2: 0.018168955147427713
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - -0.00270827258039705
+    - -0.00032625716347858087
+    - -0.006398076520728556
+    - 2.8958303768106948e-05
+    - 0.018168955147427713
+    - 2.8958303768106948e-05
+    - 1.4090934194765202e-08
+    - 2.3595778647377422e-08
+    - 1.55522070217477e-08
+    - -3.5201660227765623e-11
+    - -4.725223257516526e-09
+    - 1.7358950637217312e-10
+- part: Metal_Horn_D20_PCD14_R3
+  status: CAD MEASURED geometric integrals only; physical mass/COM/inertia UNVERIFIED
+  physical_mass_kg: null
+  physical_com_m: null
+  physical_inertia_kg_m2: null
+  bodies:
+  - centroid_uniform_density_m:
+    - 0.0125
+    - 0.0
+    - 0.01505860189289565
+    volume_m3: 8.194648087348127e-07
+    surface_area_m2: 0.0009240209392370976
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - 0.0125
+    - 0.0
+    - 0.01505860189289565
+    - 8.194648087348127e-07
+    - 0.0009240209392370976
+    - 8.194648087348127e-07
+    - 2.064458294218342e-11
+    - 2.064458294218342e-11
+    - 3.929676817346829e-11
+    - -4.273960316190692e-44
+    - -3.0091920738664647e-28
+    - -0.0
+- part: MG996R_Nominal_R3
+  status: CAD MEASURED geometric integrals only; physical mass/COM/inertia UNVERIFIED
+  physical_mass_kg: null
+  physical_com_m: null
+  physical_inertia_kg_m2: null
+  bodies:
+  - centroid_uniform_density_m:
+    - 0.002207818058240091
+    - 3.0119375443193656e-16
+    - -0.009482910759807645
+    volume_m3: 3.1421737570322786e-05
+    surface_area_m2: 0.006908135914477738
+    calculation_density_kg_m3: 1
+    raw_mass_properties_SI_density_1:
+    - 0.002207818058240091
+    - 3.0119375443193656e-16
+    - -0.009482910759807645
+    - 3.1421737570322786e-05
+    - 0.006908135914477738
+    - 3.1421737570322786e-05
+    - 4.7430417412615225e-09
+    - 8.367478419536684e-09
+    - 5.696338786952506e-09
+    - -1.2466102222401532e-23
+    - 9.888776620068323e-11
+    - 3.458822962196889e-23
+translation_invariance_checks:
+- part: Base_MG996R_R3
+  centroid_translation_error_m: 4.440892098500626e-16
+  central_moment_translation_delta: 8.205631676526035e-22
+- part: Forearm_MG996R_R3
+  centroid_translation_error_m: 4.440892098500626e-16
+  central_moment_translation_delta: 1.1911400820763599e-22
+- part: Forearm_MG996R_R3
+  centroid_translation_error_m: 2.220446049250313e-16
+  central_moment_translation_delta: 7.237830359838992e-25
+- part: Forearm_MG996R_R3
+  centroid_translation_error_m: 4.440892098500626e-16
+  central_moment_translation_delta: 2.455692443516801e-25
+- part: Gripper_body_MG996R_R3
+  centroid_translation_error_m: 4.440892098500626e-16
+  central_moment_translation_delta: 3.9042924912502906e-22
+- part: Moving_jaw_MG996R_R3
+  centroid_translation_error_m: 4.440892098500626e-16
+  central_moment_translation_delta: 9.926167350636332e-24
+- part: Shoulder_MG996R_R3
+  centroid_translation_error_m: 2.220446049250313e-16
+  central_moment_translation_delta: 4.632211430296955e-23
+- part: Upper_arm_MG996R_R3
+  centroid_translation_error_m: 0.0
+  central_moment_translation_delta: 1.0587911840678754e-22
+- part: Wrist_pitch_roll_MG996R_R3
+  centroid_translation_error_m: 4.440892098500626e-16
+  central_moment_translation_delta: 2.3161057151484775e-23
+- part: Metal_Horn_D20_PCD14_R3
+  centroid_translation_error_m: 0.0
+  central_moment_translation_delta: 4.976008372389307e-25
+- part: MG996R_Nominal_R3
+  centroid_translation_error_m: 4.440892098500626e-16
+  central_moment_translation_delta: 1.373119816838026e-22
+rigid_links:
+- link: base_link
+  mass_kg: null
+  center_of_mass_m: null
+  inertia_kg_m2: null
+  inertial_frame: base_link
+  status: UNVERIFIED physical properties; geometric coefficients below are not physical
+    assignments
+  geometric_terms:
+  - component: follower_sts3215_03a_v1_2
+    part: MG996R_Nominal_R3
+    body: 0
+    volume_m3: 3.1421737570322786e-05
+    uniform_geometry_centroid_in_link_m:
+    - 0.02854311805824009
+    - -8.97656969759947e-09
+    - 0.03421708924019236
+    central_inertia_per_density_m5:
+    - - 4.7430417412615225e-09
+      - 1.2466102222401532e-23
+      - -9.888776620068323e-11
+    - - 1.2466102222401532e-23
+      - 8.367478419536684e-09
+      - -3.458822962196889e-23
+    - - -9.888776620068323e-11
+      - -3.458822962196889e-23
+      - 5.696338786952506e-09
+    physical_density_kg_m3: null
+  - component: follower_Base_MG996R_R3
+    part: Base_MG996R_R3
+    body: 0
+    volume_m3: 0.00014312681919360006
+    uniform_geometry_centroid_in_link_m:
+    - 0.008177252671522084
+    - -6.77538477596531e-05
+    - 0.022890713471440727
+    central_inertia_per_density_m5:
+    - - 1.5584383898756474e-07
+      - -5.185214345132315e-10
+      - 2.367299994017838e-08
+    - - -5.185214345132315e-10
+      - 1.4047477798939775e-07
+      - 2.1528226013631522e-10
+    - - 2.367299994017838e-08
+      - 2.1528226013631522e-10
+      - 1.6810369279480778e-07
+    physical_density_kg_m3: null
+- link: shoulder_link
+  mass_kg: null
+  center_of_mass_m: null
+  inertia_kg_m2: null
+  inertial_frame: shoulder_link
+  status: UNVERIFIED physical properties; geometric coefficients below are not physical
+    assignments
+  geometric_terms:
+  - component: follower_sts3215_03a_v1_4
+    part: MG996R_Nominal_R3
+    body: 0
+    volume_m3: 3.1421737570322786e-05
+    uniform_geometry_centroid_in_link_m:
+    - -0.0303991999999997
+    - 0.009905151759807647
+    - -0.043907818058240095
+    central_inertia_per_density_m5:
+    - - 8.367478419536684e-09
+      - 3.4610187116946834e-23
+      - -1.1661315612098139e-23
+    - - 3.461018711694684e-23
+      - 5.696338786952506e-09
+      - -9.888776620068345e-11
+    - - -1.1661315612098139e-23
+      - -9.888776620068345e-11
+      - 4.7430417412615225e-09
+    physical_density_kg_m3: null
+  - component: follower_Shoulder_MG996R_R3
+    part: Shoulder_MG996R_R3
+    body: 0
+    volume_m3: 7.346720885033083e-05
+    uniform_geometry_centroid_in_link_m:
+    - -0.03256967614680489
+    - 0.00020827540201982683
+    - 0.0010818425361299108
+    central_inertia_per_density_m5:
+    - - 5.32464108271315e-08
+      - 2.660664410446861e-11
+      - 1.5662423356601186e-10
+    - - 2.660664410446861e-11
+      - 5.638009982912952e-08
+      - 7.242632278343199e-10
+    - - 1.5662423356601186e-10
+      - 7.242632278343199e-10
+      - 2.1365406508479913e-08
+    physical_density_kg_m3: null
+  - component: follower_metal_horn_0
+    part: Metal_Horn_D20_PCD14_R3
+    body: 0
+    volume_m3: 8.194648087348127e-07
+    uniform_geometry_centroid_in_link_m:
+    - 1.3877787807814457e-17
+    - 1.7129686436689922e-18
+    - 0.003641398107104345
+    central_inertia_per_density_m5:
+    - - 2.064458294218342e-11
+      - -3.955831642024414e-43
+      - 3.0091920738664714e-28
+    - - -1.4205663182092845e-43
+      - 2.064458294218342e-11
+      - -2.2841584546903357e-27
+    - - 3.0091920738664714e-28
+      - -2.2841584546903357e-27
+      - 3.929676817346829e-11
+    physical_density_kg_m3: null
+- link: upper_arm_link
+  mass_kg: null
+  center_of_mass_m: null
+  inertia_kg_m2: null
+  inertial_frame: upper_arm_link
+  status: UNVERIFIED physical properties; geometric coefficients below are not physical
+    assignments
+  geometric_terms:
+  - component: follower_sts3215_03a_v1_7
+    part: MG996R_Nominal_R3
+    body: 0
+    volume_m3: 3.1421737570322786e-05
+    uniform_geometry_centroid_in_link_m:
+    - -0.11257000000000032
+    - -0.01770781805824009
+    - 0.028182910759807653
+    central_inertia_per_density_m5:
+    - - 8.367478419536684e-09
+      - 1.327088883270493e-23
+      - -3.4566272126990937e-23
+    - - 1.327088883270493e-23
+      - 4.7430417412615225e-09
+      - -9.888776620068311e-11
+    - - -3.4566272126990937e-23
+      - -9.888776620068311e-11
+      - 5.696338786952506e-09
+    physical_density_kg_m3: null
+  - component: follower_Upper_arm_MG996R_R3
+    part: Upper_arm_MG996R_R3
+    body: 0
+    volume_m3: 0.00010827826267919572
+    uniform_geometry_centroid_in_link_m:
+    - -0.061251688692873466
+    - -0.00022043652920351008
+    - 0.017555303167769796
+    central_inertia_per_density_m5:
+    - - 4.7501107339516766e-08
+      - -1.7450729919358917e-09
+      - 7.148830771964046e-09
+    - - -1.7450729919358917e-09
+      - 1.502811595833427e-07
+      - 2.4987036607184974e-10
+    - - 7.148830771964046e-09
+      - 2.4987036607184974e-10
+      - 1.1885472352540864e-07
+    physical_density_kg_m3: null
+  - component: follower_metal_horn_1
+    part: Metal_Horn_D20_PCD14_R3
+    body: 0
+    volume_m3: 8.194648087348127e-07
+    uniform_geometry_centroid_in_link_m:
+    - -3.642919299551295e-17
+    - 2.8108381416909814e-17
+    - 0.003641439107104353
+    central_inertia_per_density_m5:
+    - - 2.064458294218342e-11
+      - -2.4589753510877347e-42
+      - -7.982314993951658e-27
+    - - -2.5039653318499747e-42
+      - 2.064458294218342e-11
+      - 2.2841584546903343e-27
+    - - -7.982314993951658e-27
+      - 2.2841584546903346e-27
+      - 3.929676817346829e-11
+    physical_density_kg_m3: null
+- link: lower_arm_link
+  mass_kg: null
+  center_of_mass_m: null
+  inertia_kg_m2: null
+  inertial_frame: lower_arm_link
+  status: UNVERIFIED physical properties; geometric coefficients below are not physical
+    assignments
+  geometric_terms:
+  - component: follower_sts3215_03a_v1_11
+    part: MG996R_Nominal_R3
+    body: 0
+    volume_m3: 3.1421737570322786e-05
+    uniform_geometry_centroid_in_link_m:
+    - -0.12460781805824009
+    - 0.005200000000000263
+    - 0.028182910759807646
+    central_inertia_per_density_m5:
+    - - 4.7430417412615225e-09
+      - -1.2922062899606262e-23
+      - -9.888776620068323e-11
+    - - -1.2922062899606262e-23
+      - 8.367478419536684e-09
+      - 3.424901030668749e-23
+    - - -9.888776620068323e-11
+      - 3.424901030668749e-23
+      - 5.696338786952506e-09
+    physical_density_kg_m3: null
+  - component: follower_Forearm_MG996R_R3
+    part: Forearm_MG996R_R3
+    body: 0
+    volume_m3: 8.932687774487818e-05
+    uniform_geometry_centroid_in_link_m:
+    - -0.06459940734242194
+    - 0.00011372673152515445
+    - 0.014502300862596306
+    central_inertia_per_density_m5:
+    - - 3.103524624293166e-08
+      - 5.678472097308696e-10
+      - 1.2092956512101947e-08
+    - - 5.678472097308696e-10
+      - 1.1674910867187578e-07
+      - -1.8746008172773947e-10
+    - - 1.2092956512101947e-08
+      - -1.8746008172773947e-10
+      - 9.860370447203586e-08
+    physical_density_kg_m3: null
+  - component: follower_Forearm_MG996R_R3
+    part: Forearm_MG996R_R3
+    body: 1
+    volume_m3: 2.820388516471254e-06
+    uniform_geometry_centroid_in_link_m:
+    - -0.08791975696664212
+    - 3.4550178388055575e-05
+    - 0.04268717014574577
+    central_inertia_per_density_m5:
+    - - 1.6767751950357229e-10
+      - -2.6044475446707548e-11
+      - 4.741282310294406e-12
+    - - -2.6044475446707548e-11
+      - 5.45056682972323e-10
+      - 1.886249921268996e-12
+    - - 4.741282310294406e-12
+      - 1.886249921268996e-12
+      - 7.065965297533799e-10
+    physical_density_kg_m3: null
+  - component: follower_Forearm_MG996R_R3
+    part: Forearm_MG996R_R3
+    body: 2
+    volume_m3: 6.932229437543353e-06
+    uniform_geometry_centroid_in_link_m:
+    - -0.0329272215987155
+    - -6.614483837465157e-06
+    - 0.04458142371088053
+    central_inertia_per_density_m5:
+    - - 3.301213155855728e-10
+      - 7.49051250679046e-13
+      - -9.646842341038574e-11
+    - - 7.49051250679046e-13
+      - 1.3694525978629421e-09
+      - -8.024908939102389e-14
+    - - -9.646842341038574e-11
+      - -8.024908939102389e-14
+      - 1.6194071249859386e-09
+    physical_density_kg_m3: null
+  - component: follower_metal_horn_2
+    part: Metal_Horn_D20_PCD14_R3
+    body: 0
+    volume_m3: 8.194648087348127e-07
+    uniform_geometry_centroid_in_link_m:
+    - -2.949029909160572e-17
+    - -1.561332163723861e-17
+    - 0.003641398107104175
+    central_inertia_per_density_m5:
+    - - 2.064458294218342e-11
+      - 1.7048573037233105e-43
+      - 3.0091920738664656e-28
+    - - 3.3335716778900975e-43
+      - 2.064458294218342e-11
+      - 1.0567392656028642e-26
+    - - 3.0091920738664656e-28
+      - 1.0567392656028642e-26
+      - 3.929676817346829e-11
+    physical_density_kg_m3: null
+- link: wrist_link
+  mass_kg: null
+  center_of_mass_m: null
+  inertia_kg_m2: null
+  inertial_frame: wrist_link
+  status: UNVERIFIED physical properties; geometric coefficients below are not physical
+    assignments
+  geometric_terms:
+  - component: follower_sts3215_03a_no_horn_v1_12
+    part: MG996R_Nominal_R3
+    body: 0
+    volume_m3: 3.1421737570322786e-05
+    uniform_geometry_centroid_in_link_m:
+    - 3.869491168116369e-16
+    - -0.040917089240192335
+    - 0.02839218194175991
+    central_inertia_per_density_m5:
+    - - 8.367478419536684e-09
+      - 3.4610187116946834e-23
+      - -1.1661315612098137e-23
+    - - 3.4610187116946834e-23
+      - 5.696338786952506e-09
+      - -9.888776620068345e-11
+    - - -1.1661315612098139e-23
+      - -9.888776620068345e-11
+      - 4.7430417412615225e-09
+    physical_density_kg_m3: null
+  - component: follower_Wrist_pitch_roll_MG996R_R3
+    part: Wrist_pitch_roll_MG996R_R3
+    body: 0
+    volume_m3: 2.8958303768106948e-05
+    uniform_geometry_centroid_in_link_m:
+    - -0.00032625716347858147
+    - -0.03439807652072856
+    - 0.015391727419602954
+    central_inertia_per_density_m5:
+    - - 2.3595778647377422e-08
+      - -1.7358950637217206e-10
+      - 3.520166022776347e-11
+    - - -1.7358950637217206e-10
+      - 1.55522070217477e-08
+      - 4.725223257516526e-09
+    - - 3.520166022776347e-11
+      - 4.725223257516526e-09
+      - 1.4090934194765205e-08
+    physical_density_kg_m3: null
+  - component: follower_metal_horn_3
+    part: Metal_Horn_D20_PCD14_R3
+    body: 0
+    volume_m3: 8.194648087348127e-07
+    uniform_geometry_centroid_in_link_m:
+    - 2.7755575615628923e-18
+    - -2.7755575615628914e-17
+    - 0.0036413981071043225
+    central_inertia_per_density_m5:
+    - - 2.064458294218342e-11
+      - 3.003917104957607e-43
+      - -6.2817927563857075e-43
+    - - 0.0
+      - 2.064458294218342e-11
+      - -1.9832392473036895e-27
+    - - -6.281792756385708e-43
+      - -1.983239247303689e-27
+      - 3.929676817346829e-11
+    physical_density_kg_m3: null
+- link: gripper_link
+  mass_kg: null
+  center_of_mass_m: null
+  inertia_kg_m2: null
+  inertial_frame: gripper_link
+  status: UNVERIFIED physical properties; geometric coefficients below are not physical
+    assignments
+  geometric_terms:
+  - component: follower_sts3215_03a_v1_14
+    part: MG996R_Nominal_R3
+    body: 0
+    volume_m3: 3.1421737570322786e-05
+    uniform_geometry_centroid_in_link_m:
+    - 0.00990781805824008
+    - -0.009382910759807643
+    - -0.023400000000000278
+    central_inertia_per_density_m5:
+    - - 4.7430417412615225e-09
+      - -9.88877662006832e-11
+      - -1.2488059717379482e-23
+    - - -9.88877662006832e-11
+      - 5.696338786952506e-09
+      - 3.399511747755214e-23
+    - - -1.2488059717379482e-23
+      - 3.399511747755214e-23
+      - 8.367478419536684e-09
+    physical_density_kg_m3: null
+  - component: follower_Gripper_body_MG996R_R3
+    part: Gripper_body_MG996R_R3
+    body: 0
+    volume_m3: 5.411954247501736e-05
+    uniform_geometry_centroid_in_link_m:
+    - -0.013115692346625494
+    - -0.000545513842318375
+    - -0.0286430279491517
+    central_inertia_per_density_m5:
+    - - 3.554301844791698e-08
+      - 3.254360812290639e-10
+      - -7.3066154160245055e-09
+    - - 3.254360812290639e-10
+      - 4.5721578147846526e-08
+      - 1.829296087008955e-10
+    - - -7.3066154160245055e-09
+      - 1.829296087008955e-10
+      - 2.1686260579457314e-08
+    physical_density_kg_m3: null
+  - component: follower_metal_horn_4
+    part: Metal_Horn_D20_PCD14_R3
+    body: 0
+    volume_m3: 8.194648087348127e-07
+    uniform_geometry_centroid_in_link_m:
+    - 4.217546450968612e-17
+    - 1.3877787807814457e-17
+    - 0.003641398107104326
+    central_inertia_per_density_m5:
+    - - 2.0644582942183424e-11
+      - 1.8090366018686053e-28
+      - -1.4642811790521326e-29
+    - - 2.510811086447205e-28
+      - 2.064458294218342e-11
+      - -1.8550064122755553e-26
+    - - -1.4642811790521363e-29
+      - -1.8550064122755553e-26
+      - 3.929676817346829e-11
+    physical_density_kg_m3: null
+- link: moving_jaw_so101_v1_link
+  mass_kg: null
+  center_of_mass_m: null
+  inertia_kg_m2: null
+  inertial_frame: moving_jaw_so101_v1_link
+  status: UNVERIFIED physical properties; geometric coefficients below are not physical
+    assignments
+  geometric_terms:
+  - component: follower_Moving_jaw_MG996R_R3
+    part: Moving_jaw_MG996R_R3
+    body: 0
+    volume_m3: 1.94013627382617e-05
+    uniform_geometry_centroid_in_link_m:
+    - -0.0016031143113531964
+    - -0.03033859285360156
+    - 0.01526111639724173
+    central_inertia_per_density_m5:
+    - - 1.1289689384769304e-08
+      - -5.788582739343736e-10
+      - 1.1533902549450078e-10
+    - - -5.788582739343736e-10
+      - 2.8269146608658503e-09
+      - 2.0685946732837223e-09
+    - - 1.1533902549450078e-10
+      - 2.0685946732837223e-09
+      - 9.545155786779887e-09
+    physical_density_kg_m3: null
+  - component: follower_metal_horn_5
+    part: Metal_Horn_D20_PCD14_R3
+    body: 0
+    volume_m3: 8.194648087348127e-07
+    uniform_geometry_centroid_in_link_m:
+    - 8.500145032286355e-17
+    - 8.531448571834855e-18
+    - 0.003641398107104352
+    central_inertia_per_density_m5:
+    - - 2.064458294218342e-11
+      - 9.421610982043385e-43
+      - -4.308108367646921e-28
+    - - 9.421610982043385e-43
+      - 2.064458294218342e-11
+      - -1.0567392656028642e-26
+    - - -4.30810836764692e-28
+      - -1.0567392656028642e-26
+      - 3.929676817346829e-11
+    physical_density_kg_m3: null

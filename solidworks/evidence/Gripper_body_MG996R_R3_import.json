@@ -1,0 +1,33 @@
+{
+  "source": "D:\\Project\\so-101-mg996r\\thenar-arms\\so101-mg996r\\output\\follower-r3\\print-parts\\Gripper_body_MG996R_R3.stl",
+  "body_count": 1,
+  "bodies": [
+    {
+      "box_m": [
+        -0.03519999980926514,
+        -0.02421821467578411,
+        -0.0010502940276637708,
+        0.04174999892711641,
+        0.027781786397099495,
+        0.10537499934434891
+      ],
+      "mass_properties_density_1": [
+        -0.01311569234662527,
+        0.00032729984231828497,
+        0.02959273394914979,
+        5.411954247501773e-05,
+        0.020504461849247754,
+        5.411954247501773e-05,
+        3.5543018447913506e-08,
+        4.572157814784296e-08,
+        2.1686260579458326e-08,
+        3.2543608122893663e-10,
+        -7.306615416024681e-09,
+        -1.8292960870077205e-10
+      ]
+    }
+  ],
+  "save_error": 0,
+  "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\checkpoints\\mesh_reference\\Gripper_body_MG996R_R3_REFERENCE.SLDPRT",
+  "native_features": false
+}

@@ -1,0 +1,2 @@
+from real_limit_mates import *
+s,d,a,m,b,p=connect_robot('leader');s.CommandInProgress=False;d.ClearSelection2(True);ext=typed(d.Extension,'IModelDocExtension');f=typed(a.FeatureByName('Leader_Joint_Poses'),'IFeature');print('multi',ext.MultiSelect2(com.VARIANT(pythoncom.VT_ARRAY|pythoncom.VT_DISPATCH,[f]),False,None));print('delete',ext.DeleteSelection2(0));print('exists',a.FeatureByName('Leader_Joint_Poses') is not None)

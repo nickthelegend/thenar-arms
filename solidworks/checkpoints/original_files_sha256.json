@@ -1,0 +1,1982 @@
+[
+  {
+    "path": "so101-mg996r/BOM.md",
+    "bytes": 7619,
+    "sha256": "cfeaeea106057198b036920f9afa271965b6293f1899a7d312b9060ea9e3c033",
+    "extension": ".md"
+  },
+  {
+    "path": "so101-mg996r/ENCODER-LEADER.md",
+    "bytes": 11926,
+    "sha256": "a64eb56969b65cb82018a8039ba157b5346cca3dc47030672bfa499cae36dc47",
+    "extension": ".md"
+  },
+  {
+    "path": "so101-mg996r/firmware/bridge.py",
+    "bytes": 4424,
+    "sha256": "1ef306d268bcc465e6c4589a0fb2d94967ba3b232828e70cfa2199dbecea8ea0",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/firmware/test_model.cpp",
+    "bytes": 670,
+    "sha256": "49575dca144dc202865b650e147adc2de9b6850eca0e710288159c8fd2f9eee5",
+    "extension": ".cpp"
+  },
+  {
+    "path": "so101-mg996r/firmware/thenar/calibration.h",
+    "bytes": 515,
+    "sha256": "841c3a0826f7977f0a637fec9cf32cc4870bad9fab9855099d1c5d528bf1b252",
+    "extension": ".h"
+  },
+  {
+    "path": "so101-mg996r/firmware/thenar/model.h",
+    "bytes": 789,
+    "sha256": "528aa4ecd0cee0fbcb19dcf2ee5386163d3161aa2cfb73df93311efa36689b05",
+    "extension": ".h"
+  },
+  {
+    "path": "so101-mg996r/firmware/thenar/thenar.ino",
+    "bytes": 5413,
+    "sha256": "8e4d65bb0c753d315d7c3bcedad56fad7e4d70de24d9ce08d5aa491e864985eb",
+    "extension": ".ino"
+  },
+  {
+    "path": "so101-mg996r/FIT-TEST.md",
+    "bytes": 5432,
+    "sha256": "5288875570ed0ae8533daaa342dfdcd239079d537b42975f628095722837f356",
+    "extension": ".md"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/fit-analysis.json",
+    "bytes": 11907,
+    "sha256": "c5d70fdf67d4f2e19eff7a4c1084392d8f2c6d156ab2303651dcad4618e739e9",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/reference/MG996R_nominal_envelope.stl",
+    "bytes": 52684,
+    "sha256": "55634e36942368637b4e0b24633ab4895ab8b31c19e5895b2ce2dca62c858ecc",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/step/Base_motor_holder_SO101_MG996R_clearance_DRAFT.step",
+    "bytes": 978880,
+    "sha256": "7de7b27510b6194c8af09002d8693893de9e099de2e91352684b97a336e9e402",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/step/Base_SO101_MG996R_clearance_DRAFT.step",
+    "bytes": 2863360,
+    "sha256": "03c1d2d2d57c3179725140fb940c71a83d97d5d942eaf0ff6f4ff93c7ba25e03",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/step/Motor_holder_SO101_Base_MG996R_clearance_DRAFT.step",
+    "bytes": 1008995,
+    "sha256": "33684fee00f5b7ad9ad9c53849539de0662be2c8cd6ac1bd7a88c96c31f9ea64",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/step/Moving_Jaw_SO101_MG996R_clearance_DRAFT.step",
+    "bytes": 1452987,
+    "sha256": "d7d439a328f4ded0ebe31eaa0253254a82722dff903b7ed772cea7594b9be217",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/step/Rotation_Pitch_SO101_MG996R_clearance_DRAFT.step",
+    "bytes": 1083320,
+    "sha256": "4265904bb70b066f36a85dd99dc443f8296db89a176d265d2439d57e865d284a",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/step/Under_arm_SO101_MG996R_clearance_DRAFT.step",
+    "bytes": 1577578,
+    "sha256": "72d56ccc1a62bb7f29d207aadeae9c13cc592d6d1dd99258fe32677b4be750dd",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/step/Upper_arm_SO101_MG996R_clearance_DRAFT.step",
+    "bytes": 1652203,
+    "sha256": "de1380782879714bf819ce67fad3943705f61459e2e292d257b8dac2537ab8f2",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/step/Wrist_Roll_Follower_SO101_MG996R_clearance_DRAFT.step",
+    "bytes": 2337176,
+    "sha256": "e20e99f1e138fc92a6bd738a6059af79ba739ee30c2c627a2696ad6e8305644a",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/step/Wrist_Roll_Pitch_SO101_MG996R_clearance_DRAFT.step",
+    "bytes": 3497633,
+    "sha256": "a30bbb11a4f63d3e32da4716e629a6db63725bd26751f7bb7a05849c289d1bf0",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Base_motor_holder_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1127084,
+    "sha256": "f2cae20a8d936c5679092fb59bdb5c528f259e1f434f024e2c4b8d6d4e178c1f",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Base_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1489984,
+    "sha256": "aed1861c968d5270e79d029bf4860c851300d92aed34773085d1347b90bc8352",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Handle_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 561084,
+    "sha256": "fb8757bdff009c04c207481dd664813ccdac2ad989acea6057df780b52327281",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Motor_holder_SO101_Base_MG996R_clearance_DRAFT.stl",
+    "bytes": 915184,
+    "sha256": "67eacad81986de06ea33302b8b43460a4f8ec036299440fe40ca56f4a2d06c65",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Moving_Jaw_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1113384,
+    "sha256": "b48a7d555dcf1fe2aa52be2a060046b839ac1ffe4359f8874b0226afc126b36b",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Rotation_Pitch_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 815984,
+    "sha256": "acb0128861d84c51095f3a0a2af6679fd78656f3c6be0f91dada53199cd6057c",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Trigger_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 448084,
+    "sha256": "48ecec3a3710cffdc0ae96d28547e49ddf4cbc93ccd915be7549f78e00ad2850",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Under_arm_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1357284,
+    "sha256": "f067cec78de28b91489b1921b0e355011e7214219220600fcfc0eceff3047190",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Upper_arm_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1418784,
+    "sha256": "6ba375d2283733c6bd374b16be8e8ef59fd997c52002bb3703e4a4650208e8f8",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/WaveShare_Mounting_Plate_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 37684,
+    "sha256": "6275f05ef28cd407be13ea882735282c4a8b2ef64930c77a9e7b5a3811740be1",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Wrist_Roll_Follower_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1476684,
+    "sha256": "8b0c31dc1d36118ab40dbbed7fe0eba3766f81af337bbd5335b2f126d42587cd",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Wrist_Roll_Pitch_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 2278784,
+    "sha256": "b2c3a3f088532ef3635a93196bc5aa58593256e35f08b8b3c9e7cf3b750c3283",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/clearance-study/stl/Wrist_Roll_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 307984,
+    "sha256": "de3a65044dd4ae8bcb9659d8ca2b49598e3f5571edf89f45ad975e9776a7ffee",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/assembly-source.json",
+    "bytes": 41779,
+    "sha256": "12831930b1451b959c2337128d2587ea9caedcff1241b0d77ea91dd362d43d17",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/assembly.json",
+    "bytes": 65046,
+    "sha256": "d4f7ac622bb2d95b27de6e846954d85831dcc51d0294da8ced64fdb4c4058492",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/build-report.json",
+    "bytes": 22468,
+    "sha256": "25d803625690a0163a9ac2636ebec168fb95222db59b463bf14420c511bea4b0",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/cartridge-fit/plate-report.json",
+    "bytes": 4542,
+    "sha256": "d53723b076c1a56166db891652c745206247b608d99d98f5a090bf5955a9f609",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/cartridge-fit/plates/P1S_ENCODER_CARTRIDGE_FIT.3mf",
+    "bytes": 198949,
+    "sha256": "e38375ad343baddd9be32eb2898f59caff7c4c3f24bd3b1edc941ec4e83e2588",
+    "extension": ".3mf"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/cartridge-fit/print-parts/Bearing_cap_front_L1.stl",
+    "bytes": 48484,
+    "sha256": "6c5918d297ace4d15e6f692f1f321d567235557512829bab84fbce5e7c09aa28",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/cartridge-fit/print-parts/Bearing_cap_rear_L1.stl",
+    "bytes": 74084,
+    "sha256": "f60586404dd1db3a79c50f2a85a1ee477850a8752820337535d3e582610294f7",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/cartridge-fit/print-parts/Encoder_cartridge_L1.stl",
+    "bytes": 520484,
+    "sha256": "25636259ca2cb772a9b5c1de4788df2dbc2c92d6b8887c8e440e8d59c8c4e2c8",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/cartridge-fit/print-parts/Encoder_rotor_L1.stl",
+    "bytes": 141884,
+    "sha256": "ac54e3515316dbf72023abf350fd907080aaf0c6e69ba8777bb39e52a740173d",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/cartridge-fit/print-parts/Magnet_cup_L1.stl",
+    "bytes": 91384,
+    "sha256": "f25ee6905538c502604c6bb193905e5e855c7420cac6f02cb695cc6d1f36a304",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/cartridge-fit/toolpath-screen.json",
+    "bytes": 784,
+    "sha256": "65d92f4b93336e812d5099d7b64492bac1233acbe8b508e9fe2885ebbe5b3b3c",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/encoder-build.json",
+    "bytes": 9026,
+    "sha256": "a0dd52db0873c4bd8fb74f11bae05d903aa230117f19fc981fc540f1ef576d9e",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/forearm-no-recut.stl",
+    "bytes": 4650037,
+    "sha256": "b99989b0f34b572f2a2b89ea489fd9e80e317b7a2314ab46c5ca754277807e6c",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/forearm-offset.stl",
+    "bytes": 838484,
+    "sha256": "c72700bfc47c0536ff6c6174260639d0c4341981d5e19cef51031606ece64fdc",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/handle-seam-test.stl",
+    "bytes": 1002684,
+    "sha256": "d97a8f963235ff8bf0317ad7210e77ce4e76f4022c919eb11a16da19444752b9",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/MG996R_body_reference.stl",
+    "bytes": 27684,
+    "sha256": "a6fd484ac68bb4220ef221433ae8c362256ba870504ebdd6af76087b1aeb2f75",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/plate-report.json",
+    "bytes": 31879,
+    "sha256": "f144d5793babe539a27505dddf9db3bb95d5548f81b7658ad560bb29d6433296",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/plates/P1S_ENCODER_L1_01.3mf",
+    "bytes": 1200470,
+    "sha256": "7fd4a5f21966698e406b1296e0ba2324e2160e546729d95dbb62d5ee163083d4",
+    "extension": ".3mf"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/plates/P1S_ENCODER_L1_02.3mf",
+    "bytes": 1413177,
+    "sha256": "786889753b6ad1a795bda69b272d46854ca0b08cf721aa7f45d6ba2cb8ee16da",
+    "extension": ".3mf"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/plates/P1S_ENCODER_L1_03.3mf",
+    "bytes": 211146,
+    "sha256": "7fd3c23d68893214edc5f8584845306fc3347de2d56733c980516e76c0b6dd41",
+    "extension": ".3mf"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Base_Encoder_L1.stl",
+    "bytes": 5027933,
+    "sha256": "6854c8b3f5a49220d17dcd0a9bf4b1a98ae667f5b362ccaec5be502a455ad6d8",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Bearing_cap_front_L1.stl",
+    "bytes": 48484,
+    "sha256": "6c5918d297ace4d15e6f692f1f321d567235557512829bab84fbce5e7c09aa28",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Bearing_cap_rear_L1.stl",
+    "bytes": 74084,
+    "sha256": "f60586404dd1db3a79c50f2a85a1ee477850a8752820337535d3e582610294f7",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Encoder_cartridge_L1.stl",
+    "bytes": 520484,
+    "sha256": "25636259ca2cb772a9b5c1de4788df2dbc2c92d6b8887c8e440e8d59c8c4e2c8",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Encoder_rotor_L1.stl",
+    "bytes": 141884,
+    "sha256": "ac54e3515316dbf72023abf350fd907080aaf0c6e69ba8777bb39e52a740173d",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Forearm_Encoder_L1.stl",
+    "bytes": 900784,
+    "sha256": "b887f3cf51c065b9bf67fca63e7febf255d3a3a834bab73b288dc2b89f950f90",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Handle_Encoder_L1.stl",
+    "bytes": 976684,
+    "sha256": "eeb579202ec80a0cf825ec7e3c425308093427406019d2c6090e71de40044598",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Magnet_cup_L1.stl",
+    "bytes": 91384,
+    "sha256": "f25ee6905538c502604c6bb193905e5e855c7420cac6f02cb695cc6d1f36a304",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Shoulder_Encoder_L1.stl",
+    "bytes": 872784,
+    "sha256": "0e0aa90af77e40488387736f55b5e4d0f6f4d9380b81b5bc1b7a3ea120b504be",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Trigger_Encoder_L1.stl",
+    "bytes": 388484,
+    "sha256": "77069e895607b32970e5d7204bde6c82210160c1e1b4fba62ca61d6be3ceeaa5",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Upper_arm_Encoder_L1.stl",
+    "bytes": 594384,
+    "sha256": "df7ed8383f98b81d1379299673c4cfe3f97a0346e15e7ca26c66955a77b1a5c2",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/print-parts/Wrist_pitch_roll_Encoder_L1.stl",
+    "bytes": 772384,
+    "sha256": "dfd685e68095250315d5cae9bb969020cfa46961dbe77cc065db1be778b954d4",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/reference/688_bearing_front_L1.stl",
+    "bytes": 51284,
+    "sha256": "a5c3825d8ed5ba8fff9f43c8ed8f890e56e01308dab9c69a61226e5610bd6e74",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/reference/688_bearing_rear_L1.stl",
+    "bytes": 51284,
+    "sha256": "5be8a3a41b3e4e58870961da4d392368ee6c1fbde0cba3407b95713daa465573",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/reference/AS5600_chip_L1.stl",
+    "bytes": 684,
+    "sha256": "7b5521617395f60f38fcc2841f214319f99000d176b77c97c7bf086265a55c02",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/reference/AS5600_connectors_L1.stl",
+    "bytes": 1284,
+    "sha256": "1e62d31d178ea7154724077d5881349fe73078359a5354cf4e41c6b4670b26cc",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/reference/AS5600_PCB_L1.stl",
+    "bytes": 43884,
+    "sha256": "e701f92dbcb8a34b6f5bc07542c24808d906bb82827ad6ede515c6feeb84de98",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/reference/Diametric_magnet_L1.stl",
+    "bytes": 25484,
+    "sha256": "90b4294f90a9e596023ae6b271412649ef478389daecfe7d79106d1f1a015511",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/SO101-AS5600-LEADER-L1.zip",
+    "bytes": 5542009,
+    "sha256": "6347d7b3072e18b490311b035b81a651f2702bc083a184b3649c83995ff0f660",
+    "extension": ".zip"
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/verification.json",
+    "bytes": 44161,
+    "sha256": "de883625d20d6192e14ba6168e07af07398dd21db9e5540a2828d42ddf5944be",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/BENCH_FIT_ASSEMBLY.step",
+    "bytes": 1208333,
+    "sha256": "af4e73f1150175a3ebf3dab3b4d7d22e386c21f7ff48585c9a9c149665b02fe0",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/Horn_14mm_PCD_gauge.step",
+    "bytes": 29724,
+    "sha256": "8ea1a229a03952ab6633cd2e4d2efc357fb0f48599e4495941257bf825ccf5a8",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/Horn_14mm_PCD_gauge.stl",
+    "bytes": 190484,
+    "sha256": "dd340680cd71c825323b4eba71d5e516e423aa89ffd0c07b68ab687630742dec",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/MG996R-BENCH-FIT-R1.zip",
+    "bytes": 2842201,
+    "sha256": "99dbb4b45b65bf227781a34f8116982eabfa76dc0e9ba98fe6d2e39422d3c566",
+    "extension": ".zip"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/MG996R_body_tab_gauge.step",
+    "bytes": 128168,
+    "sha256": "7350736d01c1bce6854d5e0340e4fdc3e8e82e170df7728f882844d29ba4827f",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/MG996R_body_tab_gauge.stl",
+    "bytes": 132084,
+    "sha256": "2925aa719e977a5f08862083977621605fb362afb01eb725382d183d46785ab0",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/MG996R_REFERENCE_DO_NOT_PRINT.stl",
+    "bytes": 97084,
+    "sha256": "8226ecea847a041b6e17483dbf601a44b7a7684455a74f0e7246965618640496",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/P1S_FIT_TEST_ONLY.3mf",
+    "bytes": 734506,
+    "sha256": "3d9698c5544c8e6b57d72510fae1fbf42fa0e65675fffc47ed8e3476d91eb4ab",
+    "extension": ".3mf"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/P1S_FIT_TEST_ONLY.stl",
+    "bytes": 2305084,
+    "sha256": "6f306daac0d1afc9aef085ef279f4ff7ad33cefec9be0ffc743712a03dfcadeb",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/P1S_QUICK_GAUGES_ONLY.3mf",
+    "bytes": 69322,
+    "sha256": "6627c3f5883b53c8c41a883883be244056a34c764c7f63998b8d875ecd549227",
+    "extension": ".3mf"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/SO101_wrist_holder_MG996R_BENCH_ONLY.step",
+    "bytes": 1145271,
+    "sha256": "213e47768436ce8a9f8ac27b138c5acc29bce1a79538688e25879d75e47c9550",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/SO101_wrist_holder_MG996R_BENCH_ONLY.stl",
+    "bytes": 1982684,
+    "sha256": "d81df90454b09638997e4111ba8caa61953f5f6c5a32fbb648332cade8ce353e",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/verification.json",
+    "bytes": 8210,
+    "sha256": "414719567a19a4c3e8fe4ce58ef45830b8dbe632bc4c672183ac0d4d5994f979",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/wrist_holder_original_frame.step",
+    "bytes": 1127147,
+    "sha256": "6b81fe44047f1057c76f36f3aaa8691df742a263121f4e40596df25f2fbad146",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/assembly-source.json",
+    "bytes": 51455,
+    "sha256": "0ca9c1bf55d4e7e4ffad950adb63ecb37e0e601e2a56cb6bd9d9b3c044ec3464",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/build-report.json",
+    "bytes": 21892,
+    "sha256": "bfa9c047a16bbba95f7e5bfe224d06fc1904570428ab73afb5b5d1a5969a2bb6",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/interface-check.json",
+    "bytes": 26288,
+    "sha256": "22928ee93b3e2698d3459957dd26f76d8a9efb87b6a04781b3c27e9de2c098eb",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/metal_horn_reference.stl",
+    "bytes": 122484,
+    "sha256": "2e9e203756558ab45f3bda3de0adc3af3c91203d6b33ef1d422c83e4b9141b90",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/MG996R_body_reference.stl",
+    "bytes": 53484,
+    "sha256": "29035285507998295c854a77c73151d874d8042b25a16e37d01b3b13c507f828",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/motion-check.json",
+    "bytes": 21935,
+    "sha256": "2f3588e57b5ab411fc5ddd4afe25533373237f04c019ec8a5fd1f527adae4b45",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/Base_motor_holder_SO101_MG996R_R3.stl",
+    "bytes": 345884,
+    "sha256": "03350ccd06e3a8555a96ba55b39703e1f173e63693f862f0a7d743282100a65c",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/Base_SO101_MG996R_R3.stl",
+    "bytes": 453984,
+    "sha256": "07bc6b604613b0578fc6de639392970463d0cdd85b48b83cfb2b994d7c2e497b",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/Motor_holder_SO101_Base_MG996R_R3.stl",
+    "bytes": 333584,
+    "sha256": "e85a10ddef7dbe7e94d4093e9d9f991315813809b3d1b3c3be2d2ce889868bcb",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/Motor_holder_SO101_Wrist_MG996R_R3.stl",
+    "bytes": 290484,
+    "sha256": "60d67de67c7c74edec913f5dbfa5a081b9bbf753c3c73443416680856d98a954",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/Moving_Jaw_SO101_MG996R_R3.stl",
+    "bytes": 538784,
+    "sha256": "715aa63e67bcb91f1b95e8377f1833c7413ea5b56577f3fd3b44f914a9c3002b",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/Rotation_Pitch_SO101_MG996R_R3.stl",
+    "bytes": 386084,
+    "sha256": "9ac2c85d29377bc67fdb123db44e2a40c47b3f732f9855a03557c7c8c075d7a1",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/Under_arm_SO101_MG996R_R3.stl",
+    "bytes": 546784,
+    "sha256": "8b132cd0bab828636fb8b3f055033863ac382157546f7b0cd1b68c5a2aadd379",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/Upper_arm_SO101_MG996R_R3.stl",
+    "bytes": 4805194,
+    "sha256": "bf650555c68c9f40e6fba33c9ac25a65d08384af656401f56a8a1975000bfee4",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/WaveShare_Mounting_Plate_SO101_MG996R_R3.stl",
+    "bytes": 37484,
+    "sha256": "e00f88019f821995cd9e75aba1d47302cbaeeedcfec45e913050bf0227ccb2d8",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/Wrist_Roll_Follower_SO101_MG996R_R3.stl",
+    "bytes": 713384,
+    "sha256": "b3593496150f3cf97774a0a12a0a1547fac0ba15217436f108fcf28311ea966c",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/parts/Wrist_Roll_Pitch_SO101_MG996R_R3.stl",
+    "bytes": 855484,
+    "sha256": "4b022865d3a0db3d43f45537fef5c9e75ba48bf7a38bce54df26dea684c8520f",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/plate-report.json",
+    "bytes": 31710,
+    "sha256": "ea2a181dd796199e4c0d9bf6e7c5444f5f5cc3f0ab0d1db3f077e3b5d4b9d956",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/plates/P1S_MG996R_R3_01.3mf",
+    "bytes": 907539,
+    "sha256": "af9724fcb82b62e60110e0073a69cb6d410cbd11d4be7d08cfea55174a6b2433",
+    "extension": ".3mf"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/plates/P1S_MG996R_R3_02.3mf",
+    "bytes": 835332,
+    "sha256": "7c3a0991bae602780a930b31f214772b21734efb43f9acdb6dbcca4282b70dd9",
+    "extension": ".3mf"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/print-parts/Base_MG996R_R3.stl",
+    "bytes": 5549368,
+    "sha256": "1358ebd4bc44dea44ba6125f3c1efd77de4d47f2f4de9ff0a151dd4e86a2416b",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/print-parts/Forearm_MG996R_R3.stl",
+    "bytes": 5471276,
+    "sha256": "f83aab72bc14ca0fb9964d7303ce6860dcc816d3110205cd2aa9bf4151803439",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/print-parts/Gripper_body_MG996R_R3.stl",
+    "bytes": 575184,
+    "sha256": "6ff8bc14bbd57f45eafe951b41a8a5048c90b6c586ae795c7392747492220b82",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/print-parts/Moving_jaw_MG996R_R3.stl",
+    "bytes": 534684,
+    "sha256": "6cafcba6741b3a83b66ef9a93eb5e3c1d50f3e3de66b3592ee4f5299fc06a22d",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/print-parts/Shoulder_MG996R_R3.stl",
+    "bytes": 891584,
+    "sha256": "62b7bd8978a8cdd9bfd498d34c48f13afbda8868014c17b33a247a936d3f122d",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/print-parts/Upper_arm_MG996R_R3.stl",
+    "bytes": 3972880,
+    "sha256": "532810011f7edca315fb046f8e837912bb5fe9803d9520b6d2b93e20b2fc79f8",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/print-parts/Wrist_pitch_roll_MG996R_R3.stl",
+    "bytes": 5777071,
+    "sha256": "3356387425979f0f67b0aa7f650cadda22b4b5ac900a3d5acbb3c222dd4f5d75",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/SO101-MG996R-R3-PROTOTYPE.zip",
+    "bytes": 5501890,
+    "sha256": "3b6e06f1d343bc748f4a78e4647dfb1ce0b58fcb7af04ba6487eaa9b9c5f6ad0",
+    "extension": ".zip"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/test_Base.stl",
+    "bytes": 696884,
+    "sha256": "01110545c6d5b5c75ee4f6459584cfe1d8a9e00917ec32cccb6622e2096ab33a",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/test_Base_ascii.stl",
+    "bytes": 4443246,
+    "sha256": "877a93c9838f451051ff8c58586d446595a9e34f529a56f84fd167dcd8e49596",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/test_Forearm_ascii.stl",
+    "bytes": 4738724,
+    "sha256": "045634d046d6406eded54b3d26e8389aff0e5aaf8fca639867350b52f6760cdc",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/test_Forearm_shift-0.05.stl",
+    "bytes": 4735058,
+    "sha256": "fb78bf8b9e0e8cb357ee4c5c545174bc79b8929c3f83f0a0d639fc1d12ff36af",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/test_Forearm_shift0.05.stl",
+    "bytes": 4675513,
+    "sha256": "6e14e019b01614927ad2c63a4f740f1688e32169d7cc3aededdc110ba7dee96e",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/test_rotation.stl",
+    "bytes": 434884,
+    "sha256": "0c7e41b605d0aac0721f815a8eee5fcaa0f7468091e4f52e5a19e4681856be70",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/toolpath-screen.json",
+    "bytes": 20156,
+    "sha256": "359386745b7b526b383aa34c25410f09d2f486f1ab76dcd89836a4f474eece73",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/manifest.json",
+    "bytes": 48092,
+    "sha256": "cee73e3c6e7a0c5377ce9eb93159c113a6672d07e691bd1e208bb0aa6ce809a2",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/motion-progress.json",
+    "bytes": 55,
+    "sha256": "997ea42b352bb18fbb46a750eaf401a5379ce1292137ffbe70347fcf359e2558",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/motion-verification.json",
+    "bytes": 138554,
+    "sha256": "6f66cdc68c49f6a29dd7e65cb31c97c207e0c2070109eb8917a89619e98651c9",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/sts3215_03a_no_horn_v1.stl",
+    "bytes": 865884,
+    "sha256": "7c9022b5b40d23069e0aa1ed641cbe725629168fc765c375bb85821a86f2dc12",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/sts3215_03a_v1.stl",
+    "bytes": 954084,
+    "sha256": "53c89e984017803aade0cedd1803cf96d0446507f9b7fc738c94c9536bea6aed",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/output/wrist-spacing-r2/verification.json",
+    "bytes": 11297,
+    "sha256": "fc3abd7795bc3a08342040a7d0aec6d83f2fac1b02fda75040267fa3f94f8038",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/output/wrist-spacing-r2/Wrist_Roll_Pitch_SO101_extended_8mm.step",
+    "bytes": 3002048,
+    "sha256": "73fc5ba84df3daea10eedb5253955a589d8b2605c1f717108f60d480be1707cb",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/wrist-spacing-r2/Wrist_Roll_Pitch_SO101_MG996R_spacing_PROTOTYPE.step",
+    "bytes": 3586891,
+    "sha256": "9cd7905d0d3cac8eb7a381ac8f42f065a7d040604bd1560f52e1237f0dd8abec",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/output/wrist-spacing-r2/Wrist_Roll_Pitch_SO101_MG996R_spacing_PROTOTYPE.stl",
+    "bytes": 8368534,
+    "sha256": "d188ad6f5dd0999fe328af06ae3b42e29ad10ee957fb32d7ff47dd3e702c48a4",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/preview-config.json",
+    "bytes": 416,
+    "sha256": "7b8725efea1a92657463b7f81222497e3dd29e2d4558d99c8c96b12e7f4a5e0c",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/purchased-hardware.json",
+    "bytes": 860,
+    "sha256": "086ca1f718ce909c8c06a95bfc8f4efce0a2b3b4222258f970be55cbfaaab02e",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/R3-PRINT.md",
+    "bytes": 9461,
+    "sha256": "8644c488072639169384bd4385ae1cd1e3671d3dcee33a8f0975098f7ab5afe8",
+    "extension": ".md"
+  },
+  {
+    "path": "so101-mg996r/README.md",
+    "bytes": 12454,
+    "sha256": "eb78e29b866bc45b8ab63cddbe35f8d57d5a6ce8870b9a116d96755ae1d63d14",
+    "extension": ".md"
+  },
+  {
+    "path": "so101-mg996r/requirements-cad.txt",
+    "bytes": 190,
+    "sha256": "72f63dc37e7a9e409d59c49ad447f11dee517cde409cd0acaa291890aea0447d",
+    "extension": ".txt"
+  },
+  {
+    "path": "so101-mg996r/source/encoder/adafruit-as5600.brd",
+    "bytes": 893096,
+    "sha256": "2ce49eeb2b481a9199b1cb28d149d7427b70dfaa574ab404d3590fe8608d1337",
+    "extension": ".brd"
+  },
+  {
+    "path": "so101-mg996r/source/encoder/LICENSE.txt",
+    "bytes": 22597,
+    "sha256": "1f63e1f4676a433423b2c2ff1ccd9e80093f341f10b81f0ac0106342bc7bbe89",
+    "extension": ".txt"
+  },
+  {
+    "path": "so101-mg996r/source/encoder/README-upstream.md",
+    "bytes": 2409,
+    "sha256": "9268fb56d9205f621a80d03bb5efe0ab33b6ac4b0850a9734018c79a2c71a382",
+    "extension": ".md"
+  },
+  {
+    "path": "so101-mg996r/source/Follower/Ender_Follower_SO101.stl",
+    "bytes": 24823670,
+    "sha256": "f39e984d51f5ffd716bc7af5fbce31d7ef02bcd067ad6308ef597a7999f0a086",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Base_motor_holder_SO101.stl",
+    "bytes": 340884,
+    "sha256": "e10eb1296560bc00dca91af5f35d9be637be026a5b544c0ebfcac51501aa3c70",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Base_SO101.stl",
+    "bytes": 477984,
+    "sha256": "19f3c6baafc23a3bc92805762e906df9514d1008be84d490a90a9096ffdcf3c8",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Handle_SO101.stl",
+    "bytes": 561084,
+    "sha256": "fb8757bdff009c04c207481dd664813ccdac2ad989acea6057df780b52327281",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Motor_holder_SO101_Base.stl",
+    "bytes": 292784,
+    "sha256": "f9971aa805e2d6fb61726d2787e752a6fe0ff21d3c66023296ee4c57a2b100a4",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Motor_holder_SO101_Wrist.stl",
+    "bytes": 400584,
+    "sha256": "936c84ed2c918b3ec14e2c3ec3f742f47bed10a4e3d0a2c9bf7869d0a2a55149",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Moving_Jaw_SO101.stl",
+    "bytes": 563084,
+    "sha256": "403763bbab8656cc7ce5ea6374741d0860bd19426b5b4b0041de3a2c1275f90b",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Rotation_Pitch_SO101.stl",
+    "bytes": 334884,
+    "sha256": "5ef34a5420071627d01323be13e80b7ac8af0760c72d8382c0664c914f281800",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Trigger_SO101.stl",
+    "bytes": 448084,
+    "sha256": "48ecec3a3710cffdc0ae96d28547e49ddf4cbc93ccd915be7549f78e00ad2850",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Under_arm_SO101.stl",
+    "bytes": 525484,
+    "sha256": "537b03e68ff7c061da4cc70bf0b5a61018a76c00bccc72d61f022d1644230db5",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Upper_arm_SO101.stl",
+    "bytes": 401984,
+    "sha256": "96333913c296b13ecb1c81e63e57e4352fb6b5dea7722c84ec1fbd5073e23865",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/WaveShare_Mounting_Plate_SO101.stl",
+    "bytes": 37684,
+    "sha256": "6275f05ef28cd407be13ea882735282c4a8b2ef64930c77a9e7b5a3811740be1",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Wrist_Roll_Follower_SO101.stl",
+    "bytes": 602884,
+    "sha256": "3f47a4b889b95a4c71046bda9ddfc9399d96d80a57ad7fc079700e240323a302",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Wrist_Roll_Pitch_SO101.stl",
+    "bytes": 851884,
+    "sha256": "14eb2f45ab1b279025ed2aea358f0091aad6aff967faef58527fd216f28fb6e5",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Individual/Wrist_Roll_SO101.stl",
+    "bytes": 307984,
+    "sha256": "de3a65044dd4ae8bcb9659d8ca2b49598e3f5571edf89f45ad975e9776a7ffee",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/Leader/Ender_Leader_SO101.stl",
+    "bytes": 25489030,
+    "sha256": "b6d7599f0c326e3a3707530196629c2aa8d9768239dcd141d394e96fda103c85",
+    "extension": ".stl"
+  },
+  {
+    "path": "so101-mg996r/source/LICENSE",
+    "bytes": 11558,
+    "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "extension": ""
+  },
+  {
+    "path": "so101-mg996r/source/provenance.json",
+    "bytes": 13714,
+    "sha256": "bd30eb04d2e8a83777cf67cf1df6f9baa640cc1073e1c1cfe678ac527ba11d0b",
+    "extension": ".json"
+  },
+  {
+    "path": "so101-mg996r/source/so101_new_calib.urdf",
+    "bytes": 16683,
+    "sha256": "651ea00a3efe02a3c984b21a1b52273bd1b320ed635b3eae92fd52e99d0a393b",
+    "extension": ".urdf"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Base_motor_holder_SO101.step",
+    "bytes": 300211,
+    "sha256": "f13462eea875727ae7cec7d190c59642444b9076c76cf2423bbe3c5b6c469587",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Base_SO101.step",
+    "bytes": 1092553,
+    "sha256": "95209ec6a3ca06b1ec084f72d9c73324bdcf9d0e17213ef293f45f95a3993288",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Handle_SO101.step",
+    "bytes": 373582,
+    "sha256": "c90c3a9ff0cf0f1d322835324cd1519ffa835a5da14044d0f945f2e682220919",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Motor_holder_SO101_Base.step",
+    "bytes": 352248,
+    "sha256": "fb2ef4603324ddea53ab655f6ecd48c7f5a72dd7603e57e92c60c0a8e67a9083",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Motor_holder_SO101_Wrist.step",
+    "bytes": 346197,
+    "sha256": "e58d86502535a5a4936677e9d934f1bda9417e83f7480f475061728c146739c4",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Moving_Jaw_SO101.step",
+    "bytes": 620823,
+    "sha256": "dff53ace072470c9a6c84dbb68dd84f9fd0959429f181905d9d05fe3007549b5",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Rotation_Pitch_SO101.step",
+    "bytes": 370844,
+    "sha256": "a392681efb05bf4009c17115a9b3e37bbee9d2fcfe25e2066b11b95aaa380915",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Trigger_SO101.step",
+    "bytes": 254925,
+    "sha256": "e5f63da605172762306773cc447e1e83a8fcd77ae399bc83c8aa49d64899a055",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Under_arm_SO101.step",
+    "bytes": 626245,
+    "sha256": "677a1a57efeddc439d97ebdc309b1c2853cfcb83f14c7d695c312fcf13a89713",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Upper_arm_SO101.step",
+    "bytes": 551437,
+    "sha256": "efa19a6dd2ccb459248500c76629cfa840630e7e15d9e146394d31da1525dd61",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/WaveShare_Mounting_Plate_SO101.step",
+    "bytes": 49079,
+    "sha256": "16510f5aedf04186d34aa279207d0d354d4b08c1d179a46a9974b1430d0702f8",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Wrist_Roll_Follower_SO101.step",
+    "bytes": 870092,
+    "sha256": "b7f9d59f7991f425fff784eab07f0bf65471903dd6d6177e7cb109bebcd02b35",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Wrist_Roll_Pitch_SO101.step",
+    "bytes": 1203030,
+    "sha256": "39c5e78647d471ab4e4328ec6d00f06ad90dc48a0b1ffe4baf1a951c1304f74b",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/source/STEP/Wrist_Roll_SO101.step",
+    "bytes": 375158,
+    "sha256": "6456ef0daa2506c1ffe6a0b3848c79b521a4e0545fb7191e83e627a4acbc4fe5",
+    "extension": ".step"
+  },
+  {
+    "path": "so101-mg996r/tools/build_encoder_leader.py",
+    "bytes": 10363,
+    "sha256": "410bdc57be66fe11adb4a19a476e47ee6d836a3ae3c0d4eafc9df8814bc9178b",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/build_fit_test.py",
+    "bytes": 9612,
+    "sha256": "fa05c769e6754412612287fa4466e7df6c101d4ed9bca7f1478c4ead5395567c",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/build_follower_r3.py",
+    "bytes": 19472,
+    "sha256": "07214f5d29446443ba6d31a507867456a2ea20470846bcaf3269f3a0d12b16d9",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/check_follower_r3.py",
+    "bytes": 3622,
+    "sha256": "af17d0115f24171841de5af436c7e6dfa7af68735d64d41eb14be25b1ea6264a",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/check_toolpaths_r3.py",
+    "bytes": 4960,
+    "sha256": "0cec27d3774658b2cde4ebe9eae623058dd6193e13d2774d3d9b3129c100b104",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/clearance_study.py",
+    "bytes": 9130,
+    "sha256": "6d2e2a8133a4131562d6b735a6a72b4acdac30b6e607cd4027dd87a4b61141dd",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/encoder_fit_plate.py",
+    "bytes": 1561,
+    "sha256": "322e01f1b4962377c3fcd4290ce47e1993d1ac526bc3730a749805fd0e9c58b8",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/import_sources.py",
+    "bytes": 9451,
+    "sha256": "9678ebb73a3f830032284b3e40a9774ee8550e46f5a518ef510287c6e1759303",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/pack_encoder_leader.py",
+    "bytes": 3592,
+    "sha256": "520cf2a0538cf08fe04a454b1663858d4f657893c13ded522530a82a75b6a434",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/pack_follower_r3.py",
+    "bytes": 4271,
+    "sha256": "29d758213aaaaf3fe7f2d2521d002996c940a9260b58d5e4d2aa672189c92e54",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/package_fit_test.py",
+    "bytes": 1750,
+    "sha256": "fb49cf60b0efbde9374d82a871a46cdc9003c8b9129b2230fd72247116da188e",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/package_results.py",
+    "bytes": 1060,
+    "sha256": "13ba1103c8552e4222d7a6f70193a9f53e2bfdb34a8e74bb65f1d1c8fb47da7d",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/publish_encoder_project.py",
+    "bytes": 5594,
+    "sha256": "9302a5736d19911055d33881bca02b8207ca80c68145868a7edb2fa41913f6ad",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/publish_follower_r3.py",
+    "bytes": 7460,
+    "sha256": "8e4af806eaee782e6fad37f0b01eefc619f9b35875d796688be1ee5bafb54d46",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/render_project.py",
+    "bytes": 4040,
+    "sha256": "6e2a9d8e1f98648ac817988a83e998dc903dba2492cc77bcb91974d79d51790d",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/repair_tessellation.py",
+    "bytes": 2212,
+    "sha256": "c5cfb5112ad3259c3c6acbd9e8a5fa7189cb3f63185930874eaf9f8a29ee5493",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/slice_encoder_leader.py",
+    "bytes": 219,
+    "sha256": "26a623d9e3119aa2f2d632ae8db4ac89fb480c6422024d5f03740ac5488d9ea4",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/slice_fit_test.py",
+    "bytes": 3825,
+    "sha256": "2dbc9688e53263a5f3764c5b86baf9dc32ad5d0c38996c116c2b6b759ff00e0e",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/slice_follower_r3.py",
+    "bytes": 3731,
+    "sha256": "dd6441cc97e632774008476fa86ed5d752cbcc47423d119343b5202617dbea92",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/sync_preview.py",
+    "bytes": 1343,
+    "sha256": "3709cc3faaafece7c190cb3d16aa27fde389520ab9aef08143941a93031b82f6",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/verify_encoder_leader.py",
+    "bytes": 6760,
+    "sha256": "c2955df13066daf166258fe97c6df7bd46edd2d32aebb812f6ebddffa5c11e42",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/verify_fit_test.py",
+    "bytes": 2483,
+    "sha256": "faeb319ccebeb4efe9e659b2572faa023a10a3c08405c76c5d7eae402adb7696",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/verify_interfaces_r3.py",
+    "bytes": 3102,
+    "sha256": "e1e1f54a4760ca5576611e23a76b7aa432e297e70eb5a901d0956f1ff19b2957",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/verify_motion.py",
+    "bytes": 6940,
+    "sha256": "4f3f4dc9205d6487b800d57d09eb46dde9ed29c17d4cd8b00d8894cafd681aa2",
+    "extension": ".py"
+  },
+  {
+    "path": "so101-mg996r/tools/wrist_spacing_prototype.py",
+    "bytes": 4729,
+    "sha256": "103a0fb0478db2dcb18084ab4503ec292711c7146f056999e994db5817e5ba3c",
+    "extension": ".py"
+  },
+  {
+    "path": "robot-studio/.gitignore",
+    "bytes": 50,
+    "sha256": "4a6ab9b871137b2c7002e06b574c973405714ffb44a033e21c0740d40094b2c9",
+    "extension": ""
+  },
+  {
+    "path": "robot-studio/DESIGN.md",
+    "bytes": 934,
+    "sha256": "3279860cc3b7cd57d46d9629d1902092586cbbfdad623d8c90ab35b772905a71",
+    "extension": ".md"
+  },
+  {
+    "path": "robot-studio/index.html",
+    "bytes": 526,
+    "sha256": "be8ff3c75518b9006621e7f7c6f81a12d058208bf7a6fe6a6c2db08cc1666b07",
+    "extension": ".html"
+  },
+  {
+    "path": "robot-studio/package-lock.json",
+    "bytes": 38331,
+    "sha256": "aeab0f64cf9a9be9761213588d5ba39c480a49977868c1fc92a621aa1ce0828f",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/package.json",
+    "bytes": 335,
+    "sha256": "9717695aa29555f047ae2291d8cbe1390972c24697295e87914e47ed0dcb33f8",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/PRODUCT.md",
+    "bytes": 961,
+    "sha256": "c321bd22a37352ba3b24c7ab66fce63ce33b5b1dd38c6719a16b2441dbb71250",
+    "extension": ".md"
+  },
+  {
+    "path": "robot-studio/public/favicon.svg",
+    "bytes": 279,
+    "sha256": "d98f8c80479bf0764d91892cc6ac9f3c60a4ada461ce841080b950da3c017e35",
+    "extension": ".svg"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Base_motor_holder_SO101.stl",
+    "bytes": 340884,
+    "sha256": "e10eb1296560bc00dca91af5f35d9be637be026a5b544c0ebfcac51501aa3c70",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Base_SO101.stl",
+    "bytes": 477984,
+    "sha256": "19f3c6baafc23a3bc92805762e906df9514d1008be84d490a90a9096ffdcf3c8",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/BOM.md",
+    "bytes": 6904,
+    "sha256": "038ce902b5a9396f5318f3dafa414d3acc4b58663202b3f98236d1a15499bd4d",
+    "extension": ".md"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Base_motor_holder_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1127084,
+    "sha256": "f2cae20a8d936c5679092fb59bdb5c528f259e1f434f024e2c4b8d6d4e178c1f",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Base_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1489984,
+    "sha256": "aed1861c968d5270e79d029bf4860c851300d92aed34773085d1347b90bc8352",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Handle_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 561084,
+    "sha256": "fb8757bdff009c04c207481dd664813ccdac2ad989acea6057df780b52327281",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/MG996R_nominal_envelope.stl",
+    "bytes": 52684,
+    "sha256": "55634e36942368637b4e0b24633ab4895ab8b31c19e5895b2ce2dca62c858ecc",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Motor_holder_SO101_Base_MG996R_clearance_DRAFT.stl",
+    "bytes": 915184,
+    "sha256": "67eacad81986de06ea33302b8b43460a4f8ec036299440fe40ca56f4a2d06c65",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Moving_Jaw_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1113384,
+    "sha256": "b48a7d555dcf1fe2aa52be2a060046b839ac1ffe4359f8874b0226afc126b36b",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Rotation_Pitch_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 815984,
+    "sha256": "acb0128861d84c51095f3a0a2af6679fd78656f3c6be0f91dada53199cd6057c",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Trigger_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 448084,
+    "sha256": "48ecec3a3710cffdc0ae96d28547e49ddf4cbc93ccd915be7549f78e00ad2850",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Under_arm_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1357284,
+    "sha256": "f067cec78de28b91489b1921b0e355011e7214219220600fcfc0eceff3047190",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Upper_arm_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1418784,
+    "sha256": "6ba375d2283733c6bd374b16be8e8ef59fd997c52002bb3703e4a4650208e8f8",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/WaveShare_Mounting_Plate_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 37684,
+    "sha256": "6275f05ef28cd407be13ea882735282c4a8b2ef64930c77a9e7b5a3811740be1",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Wrist_Roll_Follower_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 1476684,
+    "sha256": "8b0c31dc1d36118ab40dbbed7fe0eba3766f81af337bbd5335b2f126d42587cd",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Wrist_Roll_Pitch_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 2278784,
+    "sha256": "b2c3a3f088532ef3635a93196bc5aa58593256e35f08b8b3c9e7cf3b750c3283",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/clearance/Wrist_Roll_SO101_MG996R_clearance_DRAFT.stl",
+    "bytes": 307984,
+    "sha256": "de3a65044dd4ae8bcb9659d8ca2b49598e3f5571edf89f45ad975e9776a7ffee",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/build-report.json",
+    "bytes": 22468,
+    "sha256": "25d803625690a0163a9ac2636ebec168fb95222db59b463bf14420c511bea4b0",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/cartridge-fit-report.json",
+    "bytes": 4542,
+    "sha256": "d53723b076c1a56166db891652c745206247b608d99d98f5a090bf5955a9f609",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/cartridge-toolpath-screen.json",
+    "bytes": 784,
+    "sha256": "65d92f4b93336e812d5099d7b64492bac1233acbe8b508e9fe2885ebbe5b3b3c",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/encoder-build.json",
+    "bytes": 9026,
+    "sha256": "a0dd52db0873c4bd8fb74f11bae05d903aa230117f19fc981fc540f1ef576d9e",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/manifest.json",
+    "bytes": 333006,
+    "sha256": "9bab6f43caa32f3e6cb381fb05e83a9221deb1c4d59ea44057aaa9484bd14a5e",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/P1S_ENCODER_CARTRIDGE_FIT.3mf",
+    "bytes": 198949,
+    "sha256": "e38375ad343baddd9be32eb2898f59caff7c4c3f24bd3b1edc941ec4e83e2588",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/plate-report.json",
+    "bytes": 31879,
+    "sha256": "f144d5793babe539a27505dddf9db3bb95d5548f81b7658ad560bb29d6433296",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/plates/P1S_ENCODER_L1_01.3mf",
+    "bytes": 1200470,
+    "sha256": "7fd4a5f21966698e406b1296e0ba2324e2160e546729d95dbb62d5ee163083d4",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/plates/P1S_ENCODER_L1_02.3mf",
+    "bytes": 1413177,
+    "sha256": "786889753b6ad1a795bda69b272d46854ca0b08cf721aa7f45d6ba2cb8ee16da",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/plates/P1S_ENCODER_L1_03.3mf",
+    "bytes": 211146,
+    "sha256": "7fd3c23d68893214edc5f8584845306fc3347de2d56733c980516e76c0b6dd41",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Base_Encoder_L1.stl",
+    "bytes": 5027933,
+    "sha256": "6854c8b3f5a49220d17dcd0a9bf4b1a98ae667f5b362ccaec5be502a455ad6d8",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Bearing_cap_front_L1.stl",
+    "bytes": 48484,
+    "sha256": "6c5918d297ace4d15e6f692f1f321d567235557512829bab84fbce5e7c09aa28",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Bearing_cap_rear_L1.stl",
+    "bytes": 74084,
+    "sha256": "f60586404dd1db3a79c50f2a85a1ee477850a8752820337535d3e582610294f7",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Encoder_cartridge_L1.stl",
+    "bytes": 520484,
+    "sha256": "25636259ca2cb772a9b5c1de4788df2dbc2c92d6b8887c8e440e8d59c8c4e2c8",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Encoder_rotor_L1.stl",
+    "bytes": 141884,
+    "sha256": "ac54e3515316dbf72023abf350fd907080aaf0c6e69ba8777bb39e52a740173d",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Forearm_Encoder_L1.stl",
+    "bytes": 900784,
+    "sha256": "b887f3cf51c065b9bf67fca63e7febf255d3a3a834bab73b288dc2b89f950f90",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Handle_Encoder_L1.stl",
+    "bytes": 976684,
+    "sha256": "eeb579202ec80a0cf825ec7e3c425308093427406019d2c6090e71de40044598",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Magnet_cup_L1.stl",
+    "bytes": 91384,
+    "sha256": "f25ee6905538c502604c6bb193905e5e855c7420cac6f02cb695cc6d1f36a304",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Shoulder_Encoder_L1.stl",
+    "bytes": 872784,
+    "sha256": "0e0aa90af77e40488387736f55b5e4d0f6f4d9380b81b5bc1b7a3ea120b504be",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Trigger_Encoder_L1.stl",
+    "bytes": 388484,
+    "sha256": "77069e895607b32970e5d7204bde6c82210160c1e1b4fba62ca61d6be3ceeaa5",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Upper_arm_Encoder_L1.stl",
+    "bytes": 594384,
+    "sha256": "df7ed8383f98b81d1379299673c4cfe3f97a0346e15e7ca26c66955a77b1a5c2",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Wrist_pitch_roll_Encoder_L1.stl",
+    "bytes": 772384,
+    "sha256": "dfd685e68095250315d5cae9bb969020cfa46961dbe77cc065db1be778b954d4",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/READ-ME-FIRST.md",
+    "bytes": 11926,
+    "sha256": "a64eb56969b65cb82018a8039ba157b5346cca3dc47030672bfa499cae36dc47",
+    "extension": ".md"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/reference/688_bearing_front_L1.stl",
+    "bytes": 51284,
+    "sha256": "a5c3825d8ed5ba8fff9f43c8ed8f890e56e01308dab9c69a61226e5610bd6e74",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/reference/688_bearing_rear_L1.stl",
+    "bytes": 51284,
+    "sha256": "5be8a3a41b3e4e58870961da4d392368ee6c1fbde0cba3407b95713daa465573",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/reference/AS5600_chip_L1.stl",
+    "bytes": 684,
+    "sha256": "7b5521617395f60f38fcc2841f214319f99000d176b77c97c7bf086265a55c02",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/reference/AS5600_connectors_L1.stl",
+    "bytes": 1284,
+    "sha256": "1e62d31d178ea7154724077d5881349fe73078359a5354cf4e41c6b4670b26cc",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/reference/AS5600_PCB_L1.stl",
+    "bytes": 43884,
+    "sha256": "e701f92dbcb8a34b6f5bc07542c24808d906bb82827ad6ede515c6feeb84de98",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/reference/Diametric_magnet_L1.stl",
+    "bytes": 25484,
+    "sha256": "90b4294f90a9e596023ae6b271412649ef478389daecfe7d79106d1f1a015511",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/SO101-AS5600-LEADER-L1.zip",
+    "bytes": 5542009,
+    "sha256": "6347d7b3072e18b490311b035b81a651f2702bc083a184b3649c83995ff0f660",
+    "extension": ".zip"
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/verification.json",
+    "bytes": 44161,
+    "sha256": "de883625d20d6192e14ba6168e07af07398dd21db9e5540a2828d42ddf5944be",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Ender_Follower_SO101.stl",
+    "bytes": 24823670,
+    "sha256": "f39e984d51f5ffd716bc7af5fbce31d7ef02bcd067ad6308ef597a7999f0a086",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Ender_Follower_SO101_P1S.3mf",
+    "bytes": 1415277,
+    "sha256": "4fc707766af64ba136ae27b5206c2df45af4680534b4b3b595071891eb28d6c5",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Ender_Leader_SO101.stl",
+    "bytes": 25489030,
+    "sha256": "b6d7599f0c326e3a3707530196629c2aa8d9768239dcd141d394e96fda103c85",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Ender_Leader_SO101_P1S.3mf",
+    "bytes": 1423658,
+    "sha256": "7797f4be8936dbed23558303ffd865765c4cbfde08af7be8b59833a29122259a",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-analysis.json",
+    "bytes": 11907,
+    "sha256": "c5d70fdf67d4f2e19eff7a4c1084392d8f2c6d156ab2303651dcad4618e739e9",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/BENCH_FIT_ASSEMBLY.step",
+    "bytes": 1208333,
+    "sha256": "af4e73f1150175a3ebf3dab3b4d7d22e386c21f7ff48585c9a9c149665b02fe0",
+    "extension": ".step"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/Horn_14mm_PCD_gauge.step",
+    "bytes": 29724,
+    "sha256": "8ea1a229a03952ab6633cd2e4d2efc357fb0f48599e4495941257bf825ccf5a8",
+    "extension": ".step"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/Horn_14mm_PCD_gauge.stl",
+    "bytes": 190484,
+    "sha256": "dd340680cd71c825323b4eba71d5e516e423aa89ffd0c07b68ab687630742dec",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/MG996R-BENCH-FIT-R1.zip",
+    "bytes": 2842201,
+    "sha256": "99dbb4b45b65bf227781a34f8116982eabfa76dc0e9ba98fe6d2e39422d3c566",
+    "extension": ".zip"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/MG996R_body_tab_gauge.step",
+    "bytes": 128168,
+    "sha256": "7350736d01c1bce6854d5e0340e4fdc3e8e82e170df7728f882844d29ba4827f",
+    "extension": ".step"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/MG996R_body_tab_gauge.stl",
+    "bytes": 132084,
+    "sha256": "2925aa719e977a5f08862083977621605fb362afb01eb725382d183d46785ab0",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/MG996R_REFERENCE_DO_NOT_PRINT.stl",
+    "bytes": 97084,
+    "sha256": "8226ecea847a041b6e17483dbf601a44b7a7684455a74f0e7246965618640496",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/P1S_FIT_TEST_ONLY.3mf",
+    "bytes": 734506,
+    "sha256": "3d9698c5544c8e6b57d72510fae1fbf42fa0e65675fffc47ed8e3476d91eb4ab",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/P1S_FIT_TEST_ONLY.stl",
+    "bytes": 2305084,
+    "sha256": "6f306daac0d1afc9aef085ef279f4ff7ad33cefec9be0ffc743712a03dfcadeb",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/P1S_FIT_TEST_ONLY_sliced.3mf",
+    "bytes": 1204129,
+    "sha256": "b36cefb270cfcfef1860022e8522d790a4d987bc908b346518ee4e7017f1e9f5",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/P1S_QUICK_GAUGES_ONLY.3mf",
+    "bytes": 69322,
+    "sha256": "6627c3f5883b53c8c41a883883be244056a34c764c7f63998b8d875ecd549227",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/P1S_QUICK_GAUGES_ONLY_sliced.3mf",
+    "bytes": 293941,
+    "sha256": "ea72dba57dd7f70d96b189eaf2bbd3db97eee0a3874daadef603c4de69ce45dc",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/SO101_wrist_holder_MG996R_BENCH_ONLY.step",
+    "bytes": 1145271,
+    "sha256": "213e47768436ce8a9f8ac27b138c5acc29bce1a79538688e25879d75e47c9550",
+    "extension": ".step"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/SO101_wrist_holder_MG996R_BENCH_ONLY.stl",
+    "bytes": 1982684,
+    "sha256": "d81df90454b09638997e4111ba8caa61953f5f6c5a32fbb648332cade8ce353e",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/verification.json",
+    "bytes": 8210,
+    "sha256": "414719567a19a4c3e8fe4ce58ef45830b8dbe632bc4c672183ac0d4d5994f979",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/wrist_holder_original_frame.step",
+    "bytes": 1127147,
+    "sha256": "6b81fe44047f1057c76f36f3aaa8691df742a263121f4e40596df25f2fbad146",
+    "extension": ".step"
+  },
+  {
+    "path": "robot-studio/public/models/so101/FIT-TEST.md",
+    "bytes": 5432,
+    "sha256": "5288875570ed0ae8533daaa342dfdcd239079d537b42975f628095722837f356",
+    "extension": ".md"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/build-report.json",
+    "bytes": 21892,
+    "sha256": "bfa9c047a16bbba95f7e5bfe224d06fc1904570428ab73afb5b5d1a5969a2bb6",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/interface-check.json",
+    "bytes": 26288,
+    "sha256": "22928ee93b3e2698d3459957dd26f76d8a9efb87b6a04781b3c27e9de2c098eb",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/manifest.json",
+    "bytes": 153081,
+    "sha256": "3434aab1a3d330daaca1d607a104cbfad9f74135d06d968bbfeff812dff4e1b1",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/metal_horn_reference.stl",
+    "bytes": 122484,
+    "sha256": "2e9e203756558ab45f3bda3de0adc3af3c91203d6b33ef1d422c83e4b9141b90",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/MG996R_body_reference.stl",
+    "bytes": 53484,
+    "sha256": "29035285507998295c854a77c73151d874d8042b25a16e37d01b3b13c507f828",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/motion-check.json",
+    "bytes": 21935,
+    "sha256": "2f3588e57b5ab411fc5ddd4afe25533373237f04c019ec8a5fd1f527adae4b45",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/plate-report.json",
+    "bytes": 31710,
+    "sha256": "ea2a181dd796199e4c0d9bf6e7c5444f5f5cc3f0ab0d1db3f077e3b5d4b9d956",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/plates/P1S_MG996R_R3_01.3mf",
+    "bytes": 907539,
+    "sha256": "af9724fcb82b62e60110e0073a69cb6d410cbd11d4be7d08cfea55174a6b2433",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/plates/P1S_MG996R_R3_02.3mf",
+    "bytes": 835332,
+    "sha256": "7c3a0991bae602780a930b31f214772b21734efb43f9acdb6dbcca4282b70dd9",
+    "extension": ".3mf"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/print-parts/Base_MG996R_R3.stl",
+    "bytes": 5549368,
+    "sha256": "1358ebd4bc44dea44ba6125f3c1efd77de4d47f2f4de9ff0a151dd4e86a2416b",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/print-parts/Forearm_MG996R_R3.stl",
+    "bytes": 5471276,
+    "sha256": "f83aab72bc14ca0fb9964d7303ce6860dcc816d3110205cd2aa9bf4151803439",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/print-parts/Gripper_body_MG996R_R3.stl",
+    "bytes": 575184,
+    "sha256": "6ff8bc14bbd57f45eafe951b41a8a5048c90b6c586ae795c7392747492220b82",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/print-parts/Moving_jaw_MG996R_R3.stl",
+    "bytes": 534684,
+    "sha256": "6cafcba6741b3a83b66ef9a93eb5e3c1d50f3e3de66b3592ee4f5299fc06a22d",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/print-parts/Shoulder_MG996R_R3.stl",
+    "bytes": 891584,
+    "sha256": "62b7bd8978a8cdd9bfd498d34c48f13afbda8868014c17b33a247a936d3f122d",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/print-parts/Upper_arm_MG996R_R3.stl",
+    "bytes": 3972880,
+    "sha256": "532810011f7edca315fb046f8e837912bb5fe9803d9520b6d2b93e20b2fc79f8",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/print-parts/Wrist_pitch_roll_MG996R_R3.stl",
+    "bytes": 5777071,
+    "sha256": "3356387425979f0f67b0aa7f650cadda22b4b5ac900a3d5acbb3c222dd4f5d75",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/READ-ME-FIRST.md",
+    "bytes": 9461,
+    "sha256": "8644c488072639169384bd4385ae1cd1e3671d3dcee33a8f0975098f7ab5afe8",
+    "extension": ".md"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/SO101-MG996R-R3-PROTOTYPE.zip",
+    "bytes": 5501890,
+    "sha256": "3b6e06f1d343bc748f4a78e4647dfb1ce0b58fcb7af04ba6487eaa9b9c5f6ad0",
+    "extension": ".zip"
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/toolpath-screen.json",
+    "bytes": 20156,
+    "sha256": "359386745b7b526b383aa34c25410f09d2f486f1ab76dcd89836a4f474eece73",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Handle_SO101.stl",
+    "bytes": 561084,
+    "sha256": "fb8757bdff009c04c207481dd664813ccdac2ad989acea6057df780b52327281",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/manifest.json",
+    "bytes": 48092,
+    "sha256": "cee73e3c6e7a0c5377ce9eb93159c113a6672d07e691bd1e208bb0aa6ce809a2",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/MG996R-clearance-study-NOT-PRINT-RELEASE.zip",
+    "bytes": 8553691,
+    "sha256": "80eddf86dfa37d527b44bd5a665d8244cf1eed3d3df796f14f8cfb2ff57572a2",
+    "extension": ".zip"
+  },
+  {
+    "path": "robot-studio/public/models/so101/motion-verification.json",
+    "bytes": 72473,
+    "sha256": "493a4072b7d432c4be78825d5f1d796aa2ce81dadb0e11dcbbfebc26c3566185",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Motor_holder_SO101_Base.stl",
+    "bytes": 292784,
+    "sha256": "f9971aa805e2d6fb61726d2787e752a6fe0ff21d3c66023296ee4c57a2b100a4",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Motor_holder_SO101_Wrist.stl",
+    "bytes": 400584,
+    "sha256": "936c84ed2c918b3ec14e2c3ec3f742f47bed10a4e3d0a2c9bf7869d0a2a55149",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Moving_Jaw_SO101.stl",
+    "bytes": 563084,
+    "sha256": "403763bbab8656cc7ce5ea6374741d0860bd19426b5b4b0041de3a2c1275f90b",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/provenance.json",
+    "bytes": 13714,
+    "sha256": "bd30eb04d2e8a83777cf67cf1df6f9baa640cc1073e1c1cfe678ac527ba11d0b",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/purchased-hardware.json",
+    "bytes": 858,
+    "sha256": "4c1b7ad5c2187e4c399b3bf37703b29141bd0768b777113963bde6ff198d966f",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/README.md",
+    "bytes": 10336,
+    "sha256": "6a81a8dbb809d741a1602733e593a187ca8cea6a66d9b4d4381797566f7d049d",
+    "extension": ".md"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Rotation_Pitch_SO101.stl",
+    "bytes": 334884,
+    "sha256": "5ef34a5420071627d01323be13e80b7ac8af0760c72d8382c0664c914f281800",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/SO101-originals.zip",
+    "bytes": 7754225,
+    "sha256": "a5572926b8d6584deca842c7edc1faf9d7959ab4dc8acc3a5a3f8e8b70d2b213",
+    "extension": ".zip"
+  },
+  {
+    "path": "robot-studio/public/models/so101/sts3215_03a_no_horn_v1.stl",
+    "bytes": 865884,
+    "sha256": "7c9022b5b40d23069e0aa1ed641cbe725629168fc765c375bb85821a86f2dc12",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/sts3215_03a_v1.stl",
+    "bytes": 954084,
+    "sha256": "53c89e984017803aade0cedd1803cf96d0446507f9b7fc738c94c9536bea6aed",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/study-manifest.json",
+    "bytes": 333006,
+    "sha256": "9bab6f43caa32f3e6cb381fb05e83a9221deb1c4d59ea44057aaa9484bd14a5e",
+    "extension": ".json"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Trigger_SO101.stl",
+    "bytes": 448084,
+    "sha256": "48ecec3a3710cffdc0ae96d28547e49ddf4cbc93ccd915be7549f78e00ad2850",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Under_arm_SO101.stl",
+    "bytes": 525484,
+    "sha256": "537b03e68ff7c061da4cc70bf0b5a61018a76c00bccc72d61f022d1644230db5",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Upper_arm_SO101.stl",
+    "bytes": 401984,
+    "sha256": "96333913c296b13ecb1c81e63e57e4352fb6b5dea7722c84ec1fbd5073e23865",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/WaveShare_Mounting_Plate_SO101.stl",
+    "bytes": 37684,
+    "sha256": "6275f05ef28cd407be13ea882735282c4a8b2ef64930c77a9e7b5a3811740be1",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Wrist_Roll_Follower_SO101.stl",
+    "bytes": 602884,
+    "sha256": "3f47a4b889b95a4c71046bda9ddfc9399d96d80a57ad7fc079700e240323a302",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Wrist_Roll_Pitch_SO101.stl",
+    "bytes": 851884,
+    "sha256": "14eb2f45ab1b279025ed2aea358f0091aad6aff967faef58527fd216f28fb6e5",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/public/models/so101/Wrist_Roll_SO101.stl",
+    "bytes": 307984,
+    "sha256": "de3a65044dd4ae8bcb9659d8ca2b49598e3f5571edf89f45ad975e9776a7ffee",
+    "extension": ".stl"
+  },
+  {
+    "path": "robot-studio/scripts/verify-encoder.mjs",
+    "bytes": 2063,
+    "sha256": "135d4a6f7f08599b1acefb547a775e499810e990b737d8c25f9aa71554a44b07",
+    "extension": ".mjs"
+  },
+  {
+    "path": "robot-studio/scripts/verify-fit-test.mjs",
+    "bytes": 1385,
+    "sha256": "87277aed3c4e7ff32dee3f6905407ddec3c86b90ac454f6b49764b6126b2152e",
+    "extension": ".mjs"
+  },
+  {
+    "path": "robot-studio/scripts/verify-preview.mjs",
+    "bytes": 3715,
+    "sha256": "2564c10e42248a889baa8fafcc14f3500e13e0ec35f8f80465de4b0e289fe1f6",
+    "extension": ".mjs"
+  },
+  {
+    "path": "robot-studio/scripts/verify-r3.mjs",
+    "bytes": 3638,
+    "sha256": "38945989ad5d4c7c210f15f3413f45f3ee0178efaeab4ab9baf61ca7899f743e",
+    "extension": ".mjs"
+  },
+  {
+    "path": "robot-studio/src/assembly-guard.js",
+    "bytes": 2332,
+    "sha256": "827f374837c7408d5d28cabd2d4fdac62c1681516dfab3edea4583e905b1c38d",
+    "extension": ".js"
+  },
+  {
+    "path": "robot-studio/src/encoder-ui.js",
+    "bytes": 3954,
+    "sha256": "93b4686807a77451d8761fdbce6e27b05fb8a133e94f54d99b747ed4107f23c0",
+    "extension": ".js"
+  },
+  {
+    "path": "robot-studio/src/fit-test.js",
+    "bytes": 1299,
+    "sha256": "61096bed8f5fda997e70664d46a305e1dad6d45643cb5fd38d822bdc1abde1bb",
+    "extension": ".js"
+  },
+  {
+    "path": "robot-studio/src/kinematics.js",
+    "bytes": 668,
+    "sha256": "adb96aeefdc352e268f0cafb76d87999c09704e06359f30a4f6b91dd9ec472eb",
+    "extension": ".js"
+  },
+  {
+    "path": "robot-studio/src/main.js",
+    "bytes": 35739,
+    "sha256": "6f3c22f90bc6ed9dc8bec9b658af96f27dc0e2ef07a983b948a758b2084bfca9",
+    "extension": ".js"
+  },
+  {
+    "path": "robot-studio/src/r3-ui.js",
+    "bytes": 6813,
+    "sha256": "73127f70c05d518afcc17cceeec022ee6755528bec8b3e596ccfb6659a09ae01",
+    "extension": ".js"
+  },
+  {
+    "path": "robot-studio/src/style.css",
+    "bytes": 10509,
+    "sha256": "ccde4d726c27987280cd07dbd9b76ab8a5367765613bf2d4358e3d76d64b43d9",
+    "extension": ".css"
+  },
+  {
+    "path": "robot-studio/src/view-layout.js",
+    "bytes": 949,
+    "sha256": "d0965d998db05bd45b8950f4fdd2d80f3343240108997023a306b49e25ddca40",
+    "extension": ".js"
+  },
+  {
+    "path": "docs/images/assembly.png",
+    "bytes": 96412,
+    "sha256": "3690737b25a9add70c07c066b33a8ce3a0cb44666e3b426157a180f175ba5acd",
+    "extension": ".png"
+  },
+  {
+    "path": "docs/images/encoder-exploded.png",
+    "bytes": 30884,
+    "sha256": "88aadc3104a67b2a4f3d0a437ecbb0afbf60a0c51de42e365e93ae54ca2fb40d",
+    "extension": ".png"
+  },
+  {
+    "path": "docs/images/leader.png",
+    "bytes": 54196,
+    "sha256": "c516e8cb01ccb313d376c0b8d49ab7317690a86b1f1f884ca8ac93ab5b6ef01b",
+    "extension": ".png"
+  },
+  {
+    "path": "docs/images/print-plates.png",
+    "bytes": 82114,
+    "sha256": "6a8c627ba7002baa7d84d80e5b0a88f0e381b8336951890303cab344f8d866cf",
+    "extension": ".png"
+  }
+]

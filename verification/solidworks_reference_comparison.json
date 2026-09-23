@@ -1,0 +1,58 @@
+[
+  {
+    "part": "Base_MG996R_R3",
+    "source_sha256": "1358ebd4bc44dea44ba6125f3c1efd77de4d47f2f4de9ff0a151dd4e86a2416b",
+    "cad_solid_measured": true,
+    "bounds_max_delta_mm": 3.0994415283203125e-06,
+    "volume_relative_delta": 4.891394178585529e-09,
+    "native_parametric_reconstruction_complete": false
+  },
+  {
+    "part": "Shoulder_MG996R_R3",
+    "source_sha256": "62b7bd8978a8cdd9bfd498d34c48f13afbda8868014c17b33a247a936d3f122d",
+    "cad_solid_measured": true,
+    "bounds_max_delta_mm": 2.205371856689453e-06,
+    "volume_relative_delta": 3.90553780427183e-08,
+    "native_parametric_reconstruction_complete": false
+  },
+  {
+    "part": "Upper_arm_MG996R_R3",
+    "source_sha256": "532810011f7edca315fb046f8e837912bb5fe9803d9520b6d2b93e20b2fc79f8",
+    "cad_solid_measured": true,
+    "bounds_max_delta_mm": 2.5029057261427567e-05,
+    "volume_relative_delta": -7.507656163419085e-09,
+    "native_parametric_reconstruction_complete": false
+  },
+  {
+    "part": "Forearm_MG996R_R3",
+    "source_sha256": "f83aab72bc14ca0fb9964d7303ce6860dcc816d3110205cd2aa9bf4151803439",
+    "cad_solid_measured": false,
+    "bounds_max_delta_mm": null,
+    "volume_relative_delta": null,
+    "native_parametric_reconstruction_complete": false
+  },
+  {
+    "part": "Wrist_pitch_roll_MG996R_R3",
+    "source_sha256": "3356387425979f0f67b0aa7f650cadda22b4b5ac900a3d5acbb3c222dd4f5d75",
+    "cad_solid_measured": true,
+    "bounds_max_delta_mm": 9.750460635515878e-05,
+    "volume_relative_delta": 6.865201032102419e-07,
+    "native_parametric_reconstruction_complete": false
+  },
+  {
+    "part": "Gripper_body_MG996R_R3",
+    "source_sha256": "6ff8bc14bbd57f45eafe951b41a8a5048c90b6c586ae795c7392747492220b82",
+    "cad_solid_measured": true,
+    "bounds_max_delta_mm": 1.0728835917461765e-06,
+    "volume_relative_delta": -3.3112431130355446e-08,
+    "native_parametric_reconstruction_complete": false
+  },
+  {
+    "part": "Moving_jaw_MG996R_R3",
+    "source_sha256": "6cafcba6741b3a83b66ef9a93eb5e3c1d50f3e3de66b3592ee4f5299fc06a22d",
+    "cad_solid_measured": true,
+    "bounds_max_delta_mm": 2.2649765014648438e-06,
+    "volume_relative_delta": 2.381424835107282e-08,
+    "native_parametric_reconstruction_complete": false
+  }
+]

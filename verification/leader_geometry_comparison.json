@@ -1,0 +1,627 @@
+[
+  {
+    "part": "Base_Encoder_L1",
+    "native_features": false,
+    "source_volume_mm3": 143516.54276252762,
+    "CAD_solid_volume_mm3": 143516.54766971766,
+    "relative_volume_delta": 3.4192504605456975e-08,
+    "bounds_delta_mm": 1.4210854715202004e-14,
+    "bidirectional_surface_error_mm": [
+      0.0003775864065195526,
+      5.320117901419508e-05
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "Shoulder_Encoder_L1",
+    "native_features": false,
+    "source_volume_mm3": 74137.57835881774,
+    "CAD_solid_volume_mm3": 74137.58036791997,
+    "relative_volume_delta": 2.7099647414985384e-08,
+    "bounds_delta_mm": 3.814697265625e-06,
+    "bidirectional_surface_error_mm": [
+      0.000153231625031378,
+      2.4760407177412504e-05
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "Upper_arm_Encoder_L1",
+    "native_features": false,
+    "source_volume_mm3": 110121.31289850036,
+    "CAD_solid_volume_mm3": 110121.31243643872,
+    "relative_volume_delta": -4.1959329344365415e-09,
+    "bounds_delta_mm": 0.0,
+    "bidirectional_surface_error_mm": [
+      2.585380728732498e-05,
+      3.0104763004505394e-05
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "Forearm_Encoder_L1",
+    "native_features": false,
+    "source_volume_mm3": 101004.44343303464,
+    "CAD_solid_volume_mm3": 101004.41868378494,
+    "relative_volume_delta": -2.450312962531953e-07,
+    "bounds_delta_mm": 0.0,
+    "bidirectional_surface_error_mm": [
+      0.000345229448471089,
+      4.177618392139746e-05
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [
+      {
+        "features": [
+          "Source_zero_thickness_patch_13_facet_1",
+          "Source_zero_thickness_patch_13_facet_2",
+          "Source_zero_thickness_patch_13_facet_3",
+          "Source_zero_thickness_patch_13_facet_4",
+          "Source_zero_thickness_patch_13_facet_5",
+          "Source_zero_thickness_patch_13_facet_6",
+          "Source_zero_thickness_patch_13_facet_7",
+          "Source_zero_thickness_patch_13_facet_9"
+        ],
+        "source_plane_z_mm": 16.2,
+        "area_mm2": 0.11838097368771516,
+        "source_polygon_xy_mm": [
+          [
+            66.44433405761542,
+            -25.58393687744799
+          ],
+          [
+            66.37972356620297,
+            -24.26087617809889
+          ],
+          [
+            66.38668060302734,
+            -24.273157119750977
+          ],
+          [
+            66.47669982910156,
+            -24.506515502929688
+          ],
+          [
+            66.53150177001953,
+            -24.750558853149414
+          ],
+          [
+            66.5478515625,
+            -24.916584014892578
+          ],
+          [
+            66.55084991455078,
+            -24.98158836364746
+          ],
+          [
+            66.55096435546875,
+            -25.022863388061523
+          ],
+          [
+            66.5172348022461,
+            -25.331653594970703
+          ],
+          [
+            66.47669982910156,
+            -25.493484497070312
+          ],
+          [
+            66.42049407958984,
+            -25.650562286376953
+          ],
+          [
+            66.44433405761542,
+            -25.58393687744799
+          ]
+        ],
+        "omitted_numerical_slivers": [
+          {
+            "triangle": 7,
+            "altitude_mm": 3.2857997164525524e-15,
+            "reason": "Below native sheet feature tolerance; acceptance still requires full sampled exterior comparison"
+          }
+        ],
+        "physical_thickness": "ZERO in source geometry; manufacturability UNVERIFIED"
+      }
+    ],
+    "surface_body_faults": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "pass": true
+  },
+  {
+    "part": "Wrist_pitch_roll_Encoder_L1",
+    "native_features": false,
+    "source_volume_mm3": 33160.31730191428,
+    "CAD_solid_volume_mm3": 33160.34433653331,
+    "relative_volume_delta": 8.152702153374491e-07,
+    "bounds_delta_mm": 0.0,
+    "bidirectional_surface_error_mm": [
+      0.0005016161117768088,
+      0.0004565767970129848
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "Handle_Encoder_L1",
+    "native_features": false,
+    "source_volume_mm3": 108015.47273408859,
+    "CAD_solid_volume_mm3": 108015.4729500172,
+    "relative_volume_delta": 1.999052479106922e-09,
+    "bounds_delta_mm": 0.0,
+    "bidirectional_surface_error_mm": [
+      3.4024424972699114e-06,
+      3.389038366683845e-06
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "Trigger_Encoder_L1",
+    "native_features": false,
+    "source_volume_mm3": 12188.873178363741,
+    "CAD_solid_volume_mm3": 12188.873406953951,
+    "relative_volume_delta": 1.8754006791965594e-08,
+    "bounds_delta_mm": 0.0,
+    "bidirectional_surface_error_mm": [
+      1.8934200432247135e-06,
+      1.901142627014276e-06
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [
+      {
+        "feature": "Source_zero_thickness_patch_1_UNVERIFIED_physical",
+        "source_plane_z_mm": 6,
+        "area_mm2": 0.2434304180200968,
+        "source_polygon_xy_mm": [
+          [
+            2.161820888519287,
+            1.4444825649261475
+          ],
+          [
+            2.187495470046997,
+            2.3355650901794434
+          ],
+          [
+            2.2994611263275146,
+            2.225416421890259
+          ],
+          [
+            2.4058873653411865,
+            2.1099066734313965
+          ],
+          [
+            2.5065176486968994,
+            1.9893138408660889
+          ],
+          [
+            2.601109504699707,
+            1.8639286756515503
+          ],
+          [
+            2.689434766769409,
+            1.7340530157089233
+          ],
+          [
+            2.161820888519287,
+            1.4444825649261475
+          ]
+        ],
+        "physical_thickness": "ZERO in source geometry; manufacturability UNVERIFIED"
+      },
+      {
+        "feature": "Source_zero_thickness_patch_3_UNVERIFIED_physical",
+        "source_plane_z_mm": 6,
+        "area_mm2": 1.9825732458337342,
+        "source_polygon_xy_mm": [
+          [
+            -0.7768388986587524,
+            -5.412780284881592
+          ],
+          [
+            -0.7119078636169434,
+            -5.465184688568115
+          ],
+          [
+            -0.6496263742446899,
+            -5.520711898803711
+          ],
+          [
+            -0.5901445746421814,
+            -5.579228401184082
+          ],
+          [
+            -0.5336056351661682,
+            -5.6405930519104
+          ],
+          [
+            -0.4801458418369293,
+            -5.704658031463623
+          ],
+          [
+            -0.42989394068717957,
+            -5.771268844604492
+          ],
+          [
+            -0.38297104835510254,
+            -5.840265274047852
+          ],
+          [
+            -0.3394901156425476,
+            -5.911480903625488
+          ],
+          [
+            -0.2995559871196747,
+            -5.984744071960449
+          ],
+          [
+            -0.26326480507850647,
+            -6.059878826141357
+          ],
+          [
+            -0.23070403933525085,
+            -6.1367034912109375
+          ],
+          [
+            -0.20195209980010986,
+            -6.215033531188965
+          ],
+          [
+            -0.1770782619714737,
+            -6.294680118560791
+          ],
+          [
+            -0.156142458319664,
+            -6.37545108795166
+          ],
+          [
+            -0.13919509947299957,
+            -6.457151889801025
+          ],
+          [
+            -0.12627704441547394,
+            -6.539586067199707
+          ],
+          [
+            -0.11741940677165985,
+            -6.622554779052734
+          ],
+          [
+            -0.1126435175538063,
+            -6.70585823059082
+          ],
+          [
+            -0.11196088045835495,
+            -6.789295673370361
+          ],
+          [
+            -0.1153731495141983,
+            -6.872665882110596
+          ],
+          [
+            -0.12287209182977676,
+            -6.955768585205078
+          ],
+          [
+            -0.1344396471977234,
+            -7.038403034210205
+          ],
+          [
+            -0.15004795789718628,
+            -7.120370388031006
+          ],
+          [
+            -0.16965940594673157,
+            -7.201473236083984
+          ],
+          [
+            -0.19322676956653595,
+            -7.281516075134277
+          ],
+          [
+            -0.22069324553012848,
+            -7.3603057861328125
+          ],
+          [
+            -0.25199267268180847,
+            -7.437653064727783
+          ],
+          [
+            -0.28704965114593506,
+            -7.513371467590332
+          ],
+          [
+            -0.3257797360420227,
+            -7.587278366088867
+          ],
+          [
+            -0.36808961629867554,
+            -7.659195899963379
+          ],
+          [
+            -0.41387733817100525,
+            -7.7289509773254395
+          ],
+          [
+            -0.46303263306617737,
+            -7.796375274658203
+          ],
+          [
+            -0.5154370665550232,
+            -7.861306190490723
+          ],
+          [
+            -1.0542796850204468,
+            -7.583774566650391
+          ],
+          [
+            -1.2639902870557342,
+            -8.366425157055383
+          ],
+          [
+            -1.3449326753616333,
+            -8.396136283874512
+          ],
+          [
+            -1.506340137660065,
+            -8.429616676458945
+          ],
+          [
+            -0.7768388986587524,
+            -5.412780284881592
+          ]
+        ],
+        "physical_thickness": "ZERO in source geometry; manufacturability UNVERIFIED"
+      },
+      {
+        "feature": "Source_zero_thickness_patch_11_UNVERIFIED_physical",
+        "source_plane_z_mm": 6,
+        "area_mm2": 0.02798681831464478,
+        "source_polygon_xy_mm": [
+          [
+            5.530005931854248,
+            -1.0768431425094604
+          ],
+          [
+            5.579228401184082,
+            -0.5901445746421814
+          ],
+          [
+            5.6405930519104,
+            -0.5336056351661682
+          ],
+          [
+            5.704658031463623,
+            -0.4801458418369293
+          ],
+          [
+            5.530005931854248,
+            -1.0768431425094604
+          ]
+        ],
+        "physical_thickness": "ZERO in source geometry; manufacturability UNVERIFIED"
+      }
+    ],
+    "surface_body_faults": [
+      0,
+      0,
+      0
+    ],
+    "pass": true
+  },
+  {
+    "part": "Encoder_cartridge_L1",
+    "native_features": false,
+    "source_volume_mm3": 10895.57241793106,
+    "CAD_solid_volume_mm3": 10895.572541014753,
+    "relative_volume_delta": 1.1296670709981527e-08,
+    "bounds_delta_mm": 0.0,
+    "bidirectional_surface_error_mm": [
+      1.280872914391843e-06,
+      1.1999977265653983e-06
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "Bearing_cap_front_L1",
+    "native_features": true,
+    "source_volume_mm3": 751.2523117561485,
+    "CAD_solid_volume_mm3": 751.0991395758828,
+    "relative_volume_delta": -0.0002038891300150114,
+    "bounds_delta_mm": 0.0,
+    "bidirectional_surface_error_mm": [
+      0.002966298812094284,
+      0.0029755161109252977
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": false,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "Bearing_cap_rear_L1",
+    "native_features": true,
+    "source_volume_mm3": 892.4667057302595,
+    "CAD_solid_volume_mm3": 892.3702780225085,
+    "relative_volume_delta": -0.00010804628019378537,
+    "bounds_delta_mm": 9.5367431640625e-07,
+    "bidirectional_surface_error_mm": [
+      0.002977185644796347,
+      0.002976023019138355
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": false,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "Encoder_rotor_L1",
+    "native_features": false,
+    "source_volume_mm3": 2291.181987276253,
+    "CAD_solid_volume_mm3": 2291.182201666143,
+    "relative_volume_delta": 9.357174213242558e-08,
+    "bounds_delta_mm": 0.0,
+    "bidirectional_surface_error_mm": [
+      8.297798158125958e-07,
+      8.284704763061799e-07
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "Magnet_cup_L1",
+    "native_features": false,
+    "source_volume_mm3": 637.0946926216624,
+    "CAD_solid_volume_mm3": 637.0946881199147,
+    "relative_volume_delta": -7.066057405857862e-09,
+    "bounds_delta_mm": 0.0,
+    "bidirectional_surface_error_mm": [
+      6.365317017699734e-07,
+      9.533870555205236e-07
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "AS5600_PCB_L1",
+    "native_features": true,
+    "source_volume_mm3": 691.2564404920475,
+    "CAD_solid_volume_mm3": 691.1632734641007,
+    "relative_volume_delta": -0.0001347792548312965,
+    "bounds_delta_mm": 1.9073486328125e-06,
+    "bidirectional_surface_error_mm": [
+      0.003380988133163739,
+      0.003381282045878959
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": false,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "AS5600_chip_L1",
+    "native_features": true,
+    "source_volume_mm3": 35.0,
+    "CAD_solid_volume_mm3": 35.00000000000002,
+    "relative_volume_delta": 6.661338147750939e-16,
+    "bounds_delta_mm": 0.0,
+    "bidirectional_surface_error_mm": [
+      1.9860273225978185e-15,
+      3.580361673049448e-15
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "AS5600_connectors_L1",
+    "native_features": true,
+    "source_volume_mm3": 126.00001037120819,
+    "CAD_solid_volume_mm3": 125.99999999999999,
+    "relative_volume_delta": -8.231116943591132e-08,
+    "bounds_delta_mm": 1.9073486328125e-06,
+    "bidirectional_surface_error_mm": [
+      1.9073486328125e-06,
+      1.9073486328125e-06
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "688_bearing_front_L1",
+    "native_features": true,
+    "source_volume_mm3": 753.6794733654011,
+    "CAD_solid_volume_mm3": 753.9822368615504,
+    "relative_volume_delta": 0.00040171386756404637,
+    "bounds_delta_mm": 9.918212890625e-05,
+    "bidirectional_surface_error_mm": [
+      0.0024083032964712,
+      0.002409430976468948
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": false,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "688_bearing_rear_L1",
+    "native_features": true,
+    "source_volume_mm3": 753.6795452418768,
+    "CAD_solid_volume_mm3": 753.9822368615504,
+    "relative_volume_delta": 0.0004016184618311769,
+    "bounds_delta_mm": 9.918212890625e-05,
+    "bidirectional_surface_error_mm": [
+      0.0024083032964712,
+      0.002409430976468948
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": false,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  },
+  {
+    "part": "Diametric_magnet_L1",
+    "native_features": true,
+    "source_volume_mm3": 56.52596123302146,
+    "CAD_solid_volume_mm3": 56.548667764616184,
+    "relative_volume_delta": 0.00040170093704583465,
+    "bounds_delta_mm": 3.719329833984375e-05,
+    "bidirectional_surface_error_mm": [
+      0.0009025142066553543,
+      0.0009037901558266304
+    ],
+    "comparison_tolerance_mm": 0.005,
+    "strict_1_micron_surface_pass": true,
+    "surface_sheet_artifacts": [],
+    "surface_body_faults": [],
+    "pass": true
+  }
+]

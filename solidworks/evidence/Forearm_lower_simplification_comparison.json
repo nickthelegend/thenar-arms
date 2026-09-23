@@ -1,0 +1,10 @@
+{
+  "volume_relative_delta": -2.462863468721821e-08,
+  "bounds_max_delta_mm": 0.0,
+  "bidirectional_vertices_30000_samples_mm": [
+    2.854134520501191e-06,
+    1.2684968637125927e-06
+  ],
+  "watertight": true,
+  "is_volume": true
+}

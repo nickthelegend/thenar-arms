@@ -1,0 +1,89 @@
+[
+  {
+    "pose": "HOME",
+    "joint_degrees": [
+      0,
+      -25,
+      35,
+      0,
+      0,
+      20
+    ],
+    "interferences": [
+      {
+        "components": [
+          "MG996R_Nominal_R3-2",
+          "Metal_Horn_D20_PCD14_R3-2"
+        ],
+        "source_ids": [
+          "follower_sts3215_03a_v1_4",
+          "follower_metal_horn_1"
+        ],
+        "volume_mm3": 9.032078879071046,
+        "possible_interference": false
+      },
+      {
+        "components": [
+          "MG996R_Nominal_R3-1",
+          "Metal_Horn_D20_PCD14_R3-1"
+        ],
+        "source_ids": [
+          "follower_sts3215_03a_v1_2",
+          "follower_metal_horn_0"
+        ],
+        "volume_mm3": 9.032078879070854,
+        "possible_interference": false
+      },
+      {
+        "components": [
+          "MG996R_Nominal_R3-4",
+          "Metal_Horn_D20_PCD14_R3-4"
+        ],
+        "source_ids": [
+          "follower_sts3215_03a_v1_11",
+          "follower_metal_horn_3"
+        ],
+        "volume_mm3": 9.032078879070601,
+        "possible_interference": false
+      },
+      {
+        "components": [
+          "MG996R_Nominal_R3-3",
+          "Metal_Horn_D20_PCD14_R3-3"
+        ],
+        "source_ids": [
+          "follower_sts3215_03a_v1_7",
+          "follower_metal_horn_2"
+        ],
+        "volume_mm3": 9.032078879070111,
+        "possible_interference": false
+      },
+      {
+        "components": [
+          "MG996R_Nominal_R3-6",
+          "Metal_Horn_D20_PCD14_R3-6"
+        ],
+        "source_ids": [
+          "follower_sts3215_03a_v1_14",
+          "follower_metal_horn_5"
+        ],
+        "volume_mm3": 9.032078879069742,
+        "possible_interference": false
+      },
+      {
+        "components": [
+          "MG996R_Nominal_R3-5",
+          "Metal_Horn_D20_PCD14_R3-5"
+        ],
+        "source_ids": [
+          "follower_sts3215_03a_no_horn_v1_12",
+          "follower_metal_horn_4"
+        ],
+        "volume_mm3": 9.03207887906947,
+        "possible_interference": false
+      }
+    ],
+    "seconds": 189.04092526435852,
+    "method": "SolidWorks InterferenceDetectionManager on current solid bodies at recorded mate-solved transforms. Coincident faces excluded; multibody checks included."
+  }
+]

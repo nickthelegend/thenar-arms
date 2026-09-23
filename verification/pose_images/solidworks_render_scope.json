@@ -1,0 +1,75 @@
+{
+  "method": "Native SolidWorks SaveBMP from isolated master copy; all 19 transforms measured at each captured mate-driven pose. Delivered master never modified by this script.",
+  "poses": [
+    {
+      "pose": "ZERO",
+      "q_degrees": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_position_error_mm": 1.2961445929845332e-09,
+      "max_angle_error_deg": 3.865655972074122e-10,
+      "mate_errors": []
+    },
+    {
+      "pose": "J1_MAX",
+      "q_degrees": [
+        85,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_position_error_mm": 2.318087513427121e-09,
+      "max_angle_error_deg": 3.866365898523335e-10,
+      "mate_errors": []
+    },
+    {
+      "pose": "J2_MIN",
+      "q_degrees": [
+        0,
+        -80,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_position_error_mm": 2.2239922483375785e-09,
+      "max_angle_error_deg": 3.865682858563183e-10,
+      "mate_errors": []
+    },
+    {
+      "pose": "MULTI",
+      "q_degrees": [
+        20,
+        -30,
+        40,
+        -20,
+        30,
+        25
+      ],
+      "max_position_error_mm": 1.3028180812688458e-09,
+      "max_angle_error_deg": 3.865832938174833e-10,
+      "mate_errors": []
+    },
+    {
+      "pose": "HOME",
+      "q_degrees": [
+        0,
+        -25,
+        35,
+        0,
+        0,
+        20
+      ],
+      "max_position_error_mm": 1.1482736926472593e-09,
+      "max_angle_error_deg": 3.865719662930618e-10,
+      "mate_errors": []
+    }
+  ]
+}

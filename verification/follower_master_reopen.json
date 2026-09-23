@@ -1,0 +1,746 @@
+{
+  "assembly": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\assemblies\\SO101_Follower_Master.SLDASM",
+  "pose_controller_positions_native_degrees": {
+    "ZERO": [
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "HOME": [
+      90.0,
+      65.0,
+      125.00000000000001,
+      90.0,
+      90.0,
+      110.0
+    ],
+    "MID_RANGE": [
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      125.00000000000001
+    ],
+    "J1_MIN": [
+      5.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "J1_MAX": [
+      175.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "J2_MIN": [
+      90.0,
+      10.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "J2_MAX": [
+      90.0,
+      170.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "J3_MIN": [
+      90.0,
+      90.0,
+      10.0,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "J3_MAX": [
+      90.0,
+      90.0,
+      170.0,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "J4_MIN": [
+      90.0,
+      90.0,
+      90.0,
+      10.0,
+      90.0,
+      90.0
+    ],
+    "J4_MAX": [
+      90.0,
+      90.0,
+      90.0,
+      170.0,
+      90.0,
+      90.0
+    ],
+    "J5_MIN": [
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      5.0,
+      90.0
+    ],
+    "J5_MAX": [
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      175.0,
+      90.0
+    ],
+    "J6_MIN": [
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "J6_MAX": [
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      90.0,
+      160.0
+    ]
+  },
+  "configurations": [
+    {
+      "configuration": "ZERO",
+      "components": [
+        {
+          "id": "follower_sts3215_03a_v1_2",
+          "position_error_mm": 0.0,
+          "angle_error_deg": 0.0,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_4",
+          "position_error_mm": 2.812725777746368e-10,
+          "angle_error_deg": 3.865095697079351e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_7",
+          "position_error_mm": 1.125030158096431e-09,
+          "angle_error_deg": 3.8651575439572847e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_11",
+          "position_error_mm": 1.1599858677955341e-09,
+          "angle_error_deg": 3.8651672453173607e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_no_horn_v1_12",
+          "position_error_mm": 1.1629180248188199e-09,
+          "angle_error_deg": 3.865092628282848e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_14",
+          "position_error_mm": 1.2116712434334433e-09,
+          "angle_error_deg": 3.8650412934366703e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Base_MG996R_R3",
+          "position_error_mm": 1.2067746162167797e-15,
+          "angle_error_deg": 0.0,
+          "fixed": true
+        },
+        {
+          "id": "follower_Shoulder_MG996R_R3",
+          "position_error_mm": 3.1304346726877063e-10,
+          "angle_error_deg": 3.8650956970793503e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Upper_arm_MG996R_R3",
+          "position_error_mm": 8.04725057040464e-10,
+          "angle_error_deg": 3.8651575479767156e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Forearm_MG996R_R3",
+          "position_error_mm": 9.090343416597212e-10,
+          "angle_error_deg": 3.865167243814455e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Wrist_pitch_roll_MG996R_R3",
+          "position_error_mm": 1.1599131154725603e-09,
+          "angle_error_deg": 3.8650992121693736e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Gripper_body_MG996R_R3",
+          "position_error_mm": 1.1598413593701146e-09,
+          "angle_error_deg": 3.8650552007695653e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Moving_jaw_MG996R_R3",
+          "position_error_mm": 1.295996719464228e-09,
+          "angle_error_deg": 3.865034224235342e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_0",
+          "position_error_mm": 1.2620582013806698e-10,
+          "angle_error_deg": 3.8650956970680427e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_1",
+          "position_error_mm": 2.8134175119520916e-10,
+          "angle_error_deg": 3.8651575519231643e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_2",
+          "position_error_mm": 1.1249124937551077e-09,
+          "angle_error_deg": 3.8651672450306356e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_3",
+          "position_error_mm": 1.1599647455599106e-09,
+          "angle_error_deg": 3.8650918027153575e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_4",
+          "position_error_mm": 1.1629470414817862e-09,
+          "angle_error_deg": 3.8650308191118274e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_5",
+          "position_error_mm": 1.2118483266565646e-09,
+          "angle_error_deg": 3.8650421733533525e-10,
+          "fixed": false
+        }
+      ],
+      "mate_errors": [],
+      "max_position_error_mm": 1.295996719464228e-09,
+      "max_angle_error_deg": 3.8651672453173607e-10,
+      "fixed_count": 1,
+      "pass": true,
+      "native_limits": [
+        {
+          "joint": 1,
+          "advanced": true,
+          "lower_degrees": -85.0,
+          "upper_degrees": 85.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 2,
+          "advanced": true,
+          "lower_degrees": -80.00000000000001,
+          "upper_degrees": 80.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 3,
+          "advanced": true,
+          "lower_degrees": -80.00000000000001,
+          "upper_degrees": 80.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 4,
+          "advanced": true,
+          "lower_degrees": -80.00000000000001,
+          "upper_degrees": 80.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 5,
+          "advanced": true,
+          "lower_degrees": -85.0,
+          "upper_degrees": 85.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 6,
+          "advanced": true,
+          "lower_degrees": 0.0,
+          "upper_degrees": 69.99999999999997,
+          "active": false,
+          "current_angle_driven_state": 2
+        }
+      ]
+    },
+    {
+      "configuration": "MID_RANGE",
+      "components": [
+        {
+          "id": "follower_sts3215_03a_v1_2",
+          "position_error_mm": 0.0,
+          "angle_error_deg": 0.0,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_4",
+          "position_error_mm": 2.812725777746368e-10,
+          "angle_error_deg": 3.865095697079351e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_7",
+          "position_error_mm": 1.1250333225817545e-09,
+          "angle_error_deg": 3.8651695038996115e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_11",
+          "position_error_mm": 1.159982843938776e-09,
+          "angle_error_deg": 3.8651672453173607e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_no_horn_v1_12",
+          "position_error_mm": 1.1629286657140486e-09,
+          "angle_error_deg": 3.865092629951348e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_14",
+          "position_error_mm": 1.211682379940114e-09,
+          "angle_error_deg": 3.865045705405749e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Base_MG996R_R3",
+          "position_error_mm": 1.2067746162167797e-15,
+          "angle_error_deg": 0.0,
+          "fixed": true
+        },
+        {
+          "id": "follower_Shoulder_MG996R_R3",
+          "position_error_mm": 3.1304346726877063e-10,
+          "angle_error_deg": 3.8650956970793503e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Upper_arm_MG996R_R3",
+          "position_error_mm": 8.047245160264215e-10,
+          "angle_error_deg": 3.8651695084847264e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Forearm_MG996R_R3",
+          "position_error_mm": 9.090313306246138e-10,
+          "angle_error_deg": 3.865167243814455e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Wrist_pitch_roll_MG996R_R3",
+          "position_error_mm": 1.1599240234077225e-09,
+          "angle_error_deg": 3.8650992121693746e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Gripper_body_MG996R_R3",
+          "position_error_mm": 1.1598523608535816e-09,
+          "angle_error_deg": 3.86505762680664e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Moving_jaw_MG996R_R3",
+          "position_error_mm": 1.2960144789083655e-09,
+          "angle_error_deg": 3.865063980652426e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_0",
+          "position_error_mm": 1.2620582013806698e-10,
+          "angle_error_deg": 3.8650956970680427e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_1",
+          "position_error_mm": 2.8134115127263483e-10,
+          "angle_error_deg": 3.8651695143401353e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_2",
+          "position_error_mm": 1.1249095109728453e-09,
+          "angle_error_deg": 3.8651672445783756e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_3",
+          "position_error_mm": 1.1599755606039817e-09,
+          "angle_error_deg": 3.8650918027153575e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_4",
+          "position_error_mm": 1.162953914212619e-09,
+          "angle_error_deg": 3.8650313944827145e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_5",
+          "position_error_mm": 1.2270956421369823e-09,
+          "angle_error_deg": 3.865067479088487e-10,
+          "fixed": false
+        }
+      ],
+      "mate_errors": [],
+      "max_position_error_mm": 1.2960144789083655e-09,
+      "max_angle_error_deg": 3.8651695143401353e-10,
+      "fixed_count": 1,
+      "pass": true,
+      "native_limits": [
+        {
+          "joint": 1,
+          "advanced": true,
+          "lower_degrees": -85.0,
+          "upper_degrees": 85.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 2,
+          "advanced": true,
+          "lower_degrees": -80.00000000000001,
+          "upper_degrees": 80.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 3,
+          "advanced": true,
+          "lower_degrees": -80.00000000000001,
+          "upper_degrees": 80.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 4,
+          "advanced": true,
+          "lower_degrees": -80.00000000000001,
+          "upper_degrees": 80.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 5,
+          "advanced": true,
+          "lower_degrees": -85.0,
+          "upper_degrees": 85.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 6,
+          "advanced": true,
+          "lower_degrees": 0.0,
+          "upper_degrees": 69.99999999999997,
+          "active": false,
+          "current_angle_driven_state": 2
+        }
+      ]
+    },
+    {
+      "configuration": "HOME",
+      "components": [
+        {
+          "id": "follower_sts3215_03a_v1_2",
+          "position_error_mm": 0.0,
+          "angle_error_deg": 0.0,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_4",
+          "position_error_mm": 2.812725777746368e-10,
+          "angle_error_deg": 3.865095697079351e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_7",
+          "position_error_mm": 1.098052019244762e-09,
+          "angle_error_deg": 3.865126285073741e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_11",
+          "position_error_mm": 1.0247497054038732e-09,
+          "angle_error_deg": 3.8651661782801594e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_no_horn_v1_12",
+          "position_error_mm": 9.546449134973964e-10,
+          "angle_error_deg": 3.8651058245369924e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_sts3215_03a_v1_14",
+          "position_error_mm": 9.526461676203911e-10,
+          "angle_error_deg": 3.86506598907898e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Base_MG996R_R3",
+          "position_error_mm": 1.2067746162167797e-15,
+          "angle_error_deg": 0.0,
+          "fixed": true
+        },
+        {
+          "id": "follower_Shoulder_MG996R_R3",
+          "position_error_mm": 3.1304346726877063e-10,
+          "angle_error_deg": 3.8650956970793503e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Upper_arm_MG996R_R3",
+          "position_error_mm": 7.293661645999259e-10,
+          "angle_error_deg": 3.865143091215109e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Forearm_MG996R_R3",
+          "position_error_mm": 8.450241177017993e-10,
+          "angle_error_deg": 3.8651661798286917e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Wrist_pitch_roll_MG996R_R3",
+          "position_error_mm": 9.772324571891635e-10,
+          "angle_error_deg": 3.8651116349492245e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Gripper_body_MG996R_R3",
+          "position_error_mm": 9.301289944028952e-10,
+          "angle_error_deg": 3.8650835104639514e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_Moving_jaw_MG996R_R3",
+          "position_error_mm": 1.0357052820607768e-09,
+          "angle_error_deg": 3.865077312069462e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_0",
+          "position_error_mm": 1.2620582013806698e-10,
+          "angle_error_deg": 3.8650956970680427e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_1",
+          "position_error_mm": 2.8924200131226775e-10,
+          "angle_error_deg": 3.8651430966922775e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_2",
+          "position_error_mm": 1.1482336292042162e-09,
+          "angle_error_deg": 3.8651703199280386e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_3",
+          "position_error_mm": 1.0247274635318392e-09,
+          "angle_error_deg": 3.8650997139484516e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_4",
+          "position_error_mm": 9.54680606893489e-10,
+          "angle_error_deg": 3.8650262790838096e-10,
+          "fixed": false
+        },
+        {
+          "id": "follower_metal_horn_5",
+          "position_error_mm": 9.528200903818936e-10,
+          "angle_error_deg": 3.86508318054933e-10,
+          "fixed": false
+        }
+      ],
+      "mate_errors": [],
+      "max_position_error_mm": 1.1482336292042162e-09,
+      "max_angle_error_deg": 3.8651703199280386e-10,
+      "fixed_count": 1,
+      "pass": true,
+      "native_limits": [
+        {
+          "joint": 1,
+          "advanced": true,
+          "lower_degrees": -85.0,
+          "upper_degrees": 85.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 2,
+          "advanced": true,
+          "lower_degrees": -80.00000000000001,
+          "upper_degrees": 80.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 3,
+          "advanced": true,
+          "lower_degrees": -80.00000000000001,
+          "upper_degrees": 80.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 4,
+          "advanced": true,
+          "lower_degrees": -80.00000000000001,
+          "upper_degrees": 80.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 5,
+          "advanced": true,
+          "lower_degrees": -85.0,
+          "upper_degrees": 85.0,
+          "active": false,
+          "current_angle_driven_state": 2
+        },
+        {
+          "joint": 6,
+          "advanced": true,
+          "lower_degrees": 0.0,
+          "upper_degrees": 69.99999999999997,
+          "active": false,
+          "current_angle_driven_state": 2
+        }
+      ]
+    }
+  ],
+  "parts": {
+    "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Base_MG996R_R3.SLDPRT": {
+      "solid_faults": [
+        0
+      ],
+      "surface_faults": []
+    },
+    "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\hardware\\MG996R_Nominal_R3.SLDPRT": {
+      "solid_faults": [
+        0
+      ],
+      "surface_faults": []
+    },
+    "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Shoulder_MG996R_R3.SLDPRT": {
+      "solid_faults": [
+        0
+      ],
+      "surface_faults": []
+    },
+    "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Upper_arm_MG996R_R3.SLDPRT": {
+      "solid_faults": [
+        0
+      ],
+      "surface_faults": []
+    },
+    "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Forearm_MG996R_R3.SLDPRT": {
+      "solid_faults": [
+        0,
+        0,
+        0
+      ],
+      "surface_faults": []
+    },
+    "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Wrist_pitch_roll_MG996R_R3.SLDPRT": {
+      "solid_faults": [
+        0
+      ],
+      "surface_faults": []
+    },
+    "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Gripper_body_MG996R_R3.SLDPRT": {
+      "solid_faults": [
+        0
+      ],
+      "surface_faults": []
+    },
+    "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Moving_jaw_MG996R_R3.SLDPRT": {
+      "solid_faults": [
+        0
+      ],
+      "surface_faults": []
+    },
+    "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\hardware\\Metal_Horn_D20_PCD14_R3.SLDPRT": {
+      "solid_faults": [
+        0
+      ],
+      "surface_faults": []
+    }
+  },
+  "limits": [
+    {
+      "joint": 1,
+      "logical_min_deg": -85.0,
+      "logical_max_deg": 85.0
+    },
+    {
+      "joint": 2,
+      "logical_min_deg": -80.00000000000001,
+      "logical_max_deg": 80.0
+    },
+    {
+      "joint": 3,
+      "logical_min_deg": -80.00000000000001,
+      "logical_max_deg": 80.0
+    },
+    {
+      "joint": 4,
+      "logical_min_deg": -80.00000000000001,
+      "logical_max_deg": 80.0
+    },
+    {
+      "joint": 5,
+      "logical_min_deg": -85.0,
+      "logical_max_deg": 85.0
+    },
+    {
+      "joint": 6,
+      "logical_min_deg": 0.0,
+      "logical_max_deg": 69.99999999999997
+    }
+  ],
+  "component_count": 19,
+  "mate_count": 36,
+  "active_mate_count_FREE_MOTION": 30,
+  "native_rebuild_diagnostic_count": 0,
+  "solid_body_count_unique_parts": 11,
+  "surface_body_count_unique_parts": 0,
+  "status": "PASS; configurations, mate errors, limits, loaded-reference body kernel checks; free mouse drag not tested"
+}

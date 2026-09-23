@@ -1,0 +1,594 @@
+{
+  "classification": "CAD MEASURED native mate entity components, compared with source rigid groups and joint adjacency",
+  "mates": [
+    {
+      "feature": "Rigid_follower_sts3215_03a_v1_2",
+      "actual_component_entities": [
+        "follower_Base_MG996R_R3",
+        "follower_sts3215_03a_v1_2"
+      ],
+      "source_expected_components": [
+        "follower_Base_MG996R_R3",
+        "follower_sts3215_03a_v1_2"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_sts3215_03a_v1_4",
+      "actual_component_entities": [
+        "follower_sts3215_03a_v1_4",
+        "follower_Shoulder_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_sts3215_03a_v1_4"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_sts3215_03a_v1_7",
+      "actual_component_entities": [
+        "follower_sts3215_03a_v1_7",
+        "follower_Upper_arm_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_sts3215_03a_v1_7"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_sts3215_03a_v1_11",
+      "actual_component_entities": [
+        "follower_sts3215_03a_v1_11",
+        "follower_Forearm_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Forearm_MG996R_R3",
+        "follower_sts3215_03a_v1_11"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_sts3215_03a_no_horn_v1_12",
+      "actual_component_entities": [
+        "follower_sts3215_03a_no_horn_v1_12",
+        "follower_Wrist_pitch_roll_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_sts3215_03a_no_horn_v1_12"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_sts3215_03a_v1_14",
+      "actual_component_entities": [
+        "follower_sts3215_03a_v1_14",
+        "follower_Gripper_body_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_sts3215_03a_v1_14"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_metal_horn_0",
+      "actual_component_entities": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_metal_horn_0"
+      ],
+      "source_expected_components": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_metal_horn_0"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_metal_horn_1",
+      "actual_component_entities": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_metal_horn_1"
+      ],
+      "source_expected_components": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_metal_horn_1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_metal_horn_2",
+      "actual_component_entities": [
+        "follower_Forearm_MG996R_R3",
+        "follower_metal_horn_2"
+      ],
+      "source_expected_components": [
+        "follower_Forearm_MG996R_R3",
+        "follower_metal_horn_2"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_metal_horn_3",
+      "actual_component_entities": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_metal_horn_3"
+      ],
+      "source_expected_components": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_metal_horn_3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_metal_horn_4",
+      "actual_component_entities": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_metal_horn_4"
+      ],
+      "source_expected_components": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_metal_horn_4"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_follower_metal_horn_5",
+      "actual_component_entities": [
+        "follower_Moving_jaw_MG996R_R3",
+        "follower_metal_horn_5"
+      ],
+      "source_expected_components": [
+        "follower_Moving_jaw_MG996R_R3",
+        "follower_metal_horn_5"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J1_Revolute_axis",
+      "actual_component_entities": [
+        "follower_Base_MG996R_R3",
+        "follower_Shoulder_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Base_MG996R_R3",
+        "follower_Shoulder_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J1_Axial_location",
+      "actual_component_entities": [
+        "follower_Base_MG996R_R3",
+        "follower_Shoulder_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Base_MG996R_R3",
+        "follower_Shoulder_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J1_Pose_driver",
+      "actual_component_entities": [
+        "follower_Base_MG996R_R3",
+        "follower_Shoulder_MG996R_R3",
+        "follower_Base_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Base_MG996R_R3",
+        "follower_Shoulder_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J2_Revolute_axis",
+      "actual_component_entities": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J2_Axial_location",
+      "actual_component_entities": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J2_Pose_driver",
+      "actual_component_entities": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Shoulder_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J3_Revolute_axis",
+      "actual_component_entities": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Forearm_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Forearm_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J3_Axial_location",
+      "actual_component_entities": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Forearm_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Forearm_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J3_Pose_driver",
+      "actual_component_entities": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Forearm_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Forearm_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J4_Revolute_axis",
+      "actual_component_entities": [
+        "follower_Forearm_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Forearm_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J4_Axial_location",
+      "actual_component_entities": [
+        "follower_Forearm_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Forearm_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J4_Pose_driver",
+      "actual_component_entities": [
+        "follower_Forearm_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Forearm_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Forearm_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J5_Revolute_axis",
+      "actual_component_entities": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J5_Axial_location",
+      "actual_component_entities": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J5_Pose_driver",
+      "actual_component_entities": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J6_Revolute_axis",
+      "actual_component_entities": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Moving_jaw_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Moving_jaw_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J6_Axial_location",
+      "actual_component_entities": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Moving_jaw_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Moving_jaw_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J6_Pose_driver",
+      "actual_component_entities": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Moving_jaw_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Moving_jaw_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J1_Source_preview_limits",
+      "actual_component_entities": [
+        "follower_Base_MG996R_R3",
+        "follower_Shoulder_MG996R_R3",
+        "follower_Base_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Base_MG996R_R3",
+        "follower_Shoulder_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J2_Source_preview_limits",
+      "actual_component_entities": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Shoulder_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Shoulder_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J3_Source_preview_limits",
+      "actual_component_entities": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Forearm_MG996R_R3",
+        "follower_Upper_arm_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Upper_arm_MG996R_R3",
+        "follower_Forearm_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J4_Source_preview_limits",
+      "actual_component_entities": [
+        "follower_Forearm_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Forearm_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Forearm_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J5_Source_preview_limits",
+      "actual_component_entities": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Wrist_pitch_roll_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Wrist_pitch_roll_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J6_Source_preview_limits",
+      "actual_component_entities": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Moving_jaw_MG996R_R3",
+        "follower_Gripper_body_MG996R_R3"
+      ],
+      "source_expected_components": [
+        "follower_Gripper_body_MG996R_R3",
+        "follower_Moving_jaw_MG996R_R3"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,452 @@
+[
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/cartridge-fit/plates/P1S_ENCODER_CARTRIDGE_FIT.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/plates/P1S_ENCODER_L1_01.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/plates/P1S_ENCODER_L1_02.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/plates/P1S_ENCODER_L1_03.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "so101-mg996r/output/encoder-leader-l1/SO101-AS5600-LEADER-L1.zip",
+    "entries": [
+      "print-parts/Base_Encoder_L1.stl",
+      "print-parts/Shoulder_Encoder_L1.stl",
+      "print-parts/Upper_arm_Encoder_L1.stl",
+      "print-parts/Forearm_Encoder_L1.stl",
+      "print-parts/Wrist_pitch_roll_Encoder_L1.stl",
+      "print-parts/Handle_Encoder_L1.stl",
+      "print-parts/Trigger_Encoder_L1.stl",
+      "print-parts/Encoder_cartridge_L1.stl",
+      "print-parts/Bearing_cap_front_L1.stl",
+      "print-parts/Bearing_cap_rear_L1.stl",
+      "print-parts/Encoder_rotor_L1.stl",
+      "print-parts/Magnet_cup_L1.stl",
+      "reference/AS5600_PCB_L1.stl",
+      "reference/AS5600_chip_L1.stl",
+      "reference/AS5600_connectors_L1.stl",
+      "reference/688_bearing_front_L1.stl",
+      "reference/688_bearing_rear_L1.stl",
+      "reference/Diametric_magnet_L1.stl",
+      "plates/P1S_ENCODER_L1_01.3mf",
+      "plates/P1S_ENCODER_L1_02.3mf",
+      "plates/P1S_ENCODER_L1_03.3mf",
+      "test-first/P1S_ENCODER_CARTRIDGE_FIT.3mf",
+      "test-first/plate-report.json",
+      "test-first/toolpath-screen.json",
+      "verification/verification.json",
+      "verification/build-report.json",
+      "verification/encoder-build.json",
+      "verification/plate-report.json",
+      "firmware/test_model.cpp",
+      "firmware/bridge.py",
+      "firmware/thenar/thenar.ino",
+      "firmware/thenar/calibration.h",
+      "firmware/thenar/model.h",
+      "licenses/SO101-Apache-2.0.txt",
+      "licenses/Adafruit-AS5600.txt",
+      "licenses/Adafruit-attribution.md",
+      "READ-ME-FIRST.md"
+    ]
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/MG996R-BENCH-FIT-R1.zip",
+    "entries": [
+      "BOM.md",
+      "FIT-TEST.md",
+      "LICENSE-original-SO101.txt",
+      "SO101_wrist_holder_MG996R_BENCH_ONLY.stl",
+      "SO101_wrist_holder_MG996R_BENCH_ONLY.step",
+      "MG996R_body_tab_gauge.stl",
+      "MG996R_body_tab_gauge.step",
+      "Horn_14mm_PCD_gauge.stl",
+      "Horn_14mm_PCD_gauge.step",
+      "P1S_FIT_TEST_ONLY.3mf",
+      "P1S_FIT_TEST_ONLY.stl",
+      "P1S_QUICK_GAUGES_ONLY.3mf",
+      "BENCH_FIT_ASSEMBLY.step",
+      "MG996R_REFERENCE_DO_NOT_PRINT.stl",
+      "verification.json",
+      "tools/build_fit_test.py",
+      "tools/slice_fit_test.py",
+      "tools/verify_fit_test.py",
+      "tools/REPRODUCING.txt"
+    ]
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/P1S_FIT_TEST_ONLY.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "so101-mg996r/output/fit-test-r1/P1S_QUICK_GAUGES_ONLY.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/plates/P1S_MG996R_R3_01.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/plates/P1S_MG996R_R3_02.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "so101-mg996r/output/follower-r3/SO101-MG996R-R3-PROTOTYPE.zip",
+    "entries": [
+      "READ-ME-FIRST.md",
+      "LICENSE",
+      "print-parts/Base_MG996R_R3.stl",
+      "print-parts/Forearm_MG996R_R3.stl",
+      "print-parts/Gripper_body_MG996R_R3.stl",
+      "print-parts/Moving_jaw_MG996R_R3.stl",
+      "print-parts/Shoulder_MG996R_R3.stl",
+      "print-parts/Upper_arm_MG996R_R3.stl",
+      "print-parts/Wrist_pitch_roll_MG996R_R3.stl",
+      "plates/P1S_MG996R_R3_01.3mf",
+      "plates/P1S_MG996R_R3_02.3mf",
+      "verification/build-report.json",
+      "verification/interface-check.json",
+      "verification/motion-check.json",
+      "verification/plate-report.json",
+      "reference/MG996R_body_reference.stl",
+      "reference/metal_horn_reference.stl",
+      "verification/toolpath-screen.json"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/P1S_ENCODER_CARTRIDGE_FIT.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/plates/P1S_ENCODER_L1_01.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/plates/P1S_ENCODER_L1_02.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/plates/P1S_ENCODER_L1_03.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/encoder-leader-l1/SO101-AS5600-LEADER-L1.zip",
+    "entries": [
+      "print-parts/Base_Encoder_L1.stl",
+      "print-parts/Shoulder_Encoder_L1.stl",
+      "print-parts/Upper_arm_Encoder_L1.stl",
+      "print-parts/Forearm_Encoder_L1.stl",
+      "print-parts/Wrist_pitch_roll_Encoder_L1.stl",
+      "print-parts/Handle_Encoder_L1.stl",
+      "print-parts/Trigger_Encoder_L1.stl",
+      "print-parts/Encoder_cartridge_L1.stl",
+      "print-parts/Bearing_cap_front_L1.stl",
+      "print-parts/Bearing_cap_rear_L1.stl",
+      "print-parts/Encoder_rotor_L1.stl",
+      "print-parts/Magnet_cup_L1.stl",
+      "reference/AS5600_PCB_L1.stl",
+      "reference/AS5600_chip_L1.stl",
+      "reference/AS5600_connectors_L1.stl",
+      "reference/688_bearing_front_L1.stl",
+      "reference/688_bearing_rear_L1.stl",
+      "reference/Diametric_magnet_L1.stl",
+      "plates/P1S_ENCODER_L1_01.3mf",
+      "plates/P1S_ENCODER_L1_02.3mf",
+      "plates/P1S_ENCODER_L1_03.3mf",
+      "test-first/P1S_ENCODER_CARTRIDGE_FIT.3mf",
+      "test-first/plate-report.json",
+      "test-first/toolpath-screen.json",
+      "verification/verification.json",
+      "verification/build-report.json",
+      "verification/encoder-build.json",
+      "verification/plate-report.json",
+      "firmware/test_model.cpp",
+      "firmware/bridge.py",
+      "firmware/thenar/thenar.ino",
+      "firmware/thenar/calibration.h",
+      "firmware/thenar/model.h",
+      "licenses/SO101-Apache-2.0.txt",
+      "licenses/Adafruit-AS5600.txt",
+      "licenses/Adafruit-attribution.md",
+      "READ-ME-FIRST.md"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/Ender_Follower_SO101_P1S.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/Ender_Leader_SO101_P1S.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/MG996R-BENCH-FIT-R1.zip",
+    "entries": [
+      "BOM.md",
+      "FIT-TEST.md",
+      "LICENSE-original-SO101.txt",
+      "SO101_wrist_holder_MG996R_BENCH_ONLY.stl",
+      "SO101_wrist_holder_MG996R_BENCH_ONLY.step",
+      "MG996R_body_tab_gauge.stl",
+      "MG996R_body_tab_gauge.step",
+      "Horn_14mm_PCD_gauge.stl",
+      "Horn_14mm_PCD_gauge.step",
+      "P1S_FIT_TEST_ONLY.3mf",
+      "P1S_FIT_TEST_ONLY.stl",
+      "P1S_QUICK_GAUGES_ONLY.3mf",
+      "BENCH_FIT_ASSEMBLY.step",
+      "MG996R_REFERENCE_DO_NOT_PRINT.stl",
+      "verification.json",
+      "tools/build_fit_test.py",
+      "tools/slice_fit_test.py",
+      "tools/verify_fit_test.py",
+      "tools/REPRODUCING.txt"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/P1S_FIT_TEST_ONLY.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/P1S_FIT_TEST_ONLY_sliced.3mf",
+    "entries": [
+      "[Content_Types].xml",
+      "Metadata/plate_1.png",
+      "Metadata/plate_1_small.png",
+      "Metadata/plate_no_light_1.png",
+      "Metadata/top_1.png",
+      "Metadata/pick_1.png",
+      "Metadata/plate_1.json",
+      "3D/3dmodel.model",
+      "3D/_rels/3dmodel.model.rels",
+      "3D/Objects/object_2.model",
+      "3D/Objects/object_3.model",
+      "3D/Objects/object_1.model",
+      "Metadata/project_settings.config",
+      "Metadata/plate_1.gcode.md5",
+      "Metadata/plate_1.gcode",
+      "Metadata/_rels/model_settings.config.rels",
+      "Metadata/model_settings.config",
+      "Metadata/cut_information.xml",
+      "Metadata/slice_info.config",
+      "Metadata/filament_sequence.json",
+      "_rels/.rels"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/P1S_QUICK_GAUGES_ONLY.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/fit-test/P1S_QUICK_GAUGES_ONLY_sliced.3mf",
+    "entries": [
+      "[Content_Types].xml",
+      "Metadata/plate_1.png",
+      "Metadata/plate_1_small.png",
+      "Metadata/plate_no_light_1.png",
+      "Metadata/top_1.png",
+      "Metadata/pick_1.png",
+      "Metadata/plate_1.json",
+      "3D/3dmodel.model",
+      "3D/_rels/3dmodel.model.rels",
+      "3D/Objects/object_1.model",
+      "3D/Objects/object_2.model",
+      "Metadata/project_settings.config",
+      "Metadata/plate_1.gcode.md5",
+      "Metadata/plate_1.gcode",
+      "Metadata/_rels/model_settings.config.rels",
+      "Metadata/model_settings.config",
+      "Metadata/cut_information.xml",
+      "Metadata/slice_info.config",
+      "Metadata/filament_sequence.json",
+      "_rels/.rels"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/plates/P1S_MG996R_R3_01.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/plates/P1S_MG996R_R3_02.3mf",
+    "entries": [
+      "3D/3dmodel.model",
+      "_rels/.rels",
+      "[Content_Types].xml"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/follower-r3/SO101-MG996R-R3-PROTOTYPE.zip",
+    "entries": [
+      "READ-ME-FIRST.md",
+      "LICENSE",
+      "print-parts/Base_MG996R_R3.stl",
+      "print-parts/Forearm_MG996R_R3.stl",
+      "print-parts/Gripper_body_MG996R_R3.stl",
+      "print-parts/Moving_jaw_MG996R_R3.stl",
+      "print-parts/Shoulder_MG996R_R3.stl",
+      "print-parts/Upper_arm_MG996R_R3.stl",
+      "print-parts/Wrist_pitch_roll_MG996R_R3.stl",
+      "plates/P1S_MG996R_R3_01.3mf",
+      "plates/P1S_MG996R_R3_02.3mf",
+      "verification/build-report.json",
+      "verification/interface-check.json",
+      "verification/motion-check.json",
+      "verification/plate-report.json",
+      "reference/MG996R_body_reference.stl",
+      "reference/metal_horn_reference.stl",
+      "verification/toolpath-screen.json"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/MG996R-clearance-study-NOT-PRINT-RELEASE.zip",
+    "entries": [
+      "README.md",
+      "purchased-hardware.json",
+      "preview-config.json",
+      "output/motion-verification.json",
+      "fit-analysis.json",
+      "step/Upper_arm_SO101_MG996R_clearance_DRAFT.step",
+      "step/Wrist_Roll_Follower_SO101_MG996R_clearance_DRAFT.step",
+      "step/Wrist_Roll_Pitch_SO101_MG996R_clearance_DRAFT.step",
+      "step/Under_arm_SO101_MG996R_clearance_DRAFT.step",
+      "step/Base_motor_holder_SO101_MG996R_clearance_DRAFT.step",
+      "step/Rotation_Pitch_SO101_MG996R_clearance_DRAFT.step",
+      "step/Base_SO101_MG996R_clearance_DRAFT.step",
+      "step/Moving_Jaw_SO101_MG996R_clearance_DRAFT.step",
+      "step/Motor_holder_SO101_Base_MG996R_clearance_DRAFT.step",
+      "stl/WaveShare_Mounting_Plate_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Moving_Jaw_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Rotation_Pitch_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Base_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Base_motor_holder_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Wrist_Roll_Follower_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Handle_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Under_arm_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Trigger_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Upper_arm_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Wrist_Roll_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Wrist_Roll_Pitch_SO101_MG996R_clearance_DRAFT.stl",
+      "stl/Motor_holder_SO101_Base_MG996R_clearance_DRAFT.stl",
+      "reference/MG996R_nominal_envelope.stl",
+      "tools/import_sources.py",
+      "tools/verify_motion.py",
+      "tools/sync_preview.py",
+      "tools/clearance_study.py",
+      "tools/package_results.py"
+    ]
+  },
+  {
+    "path": "robot-studio/public/models/so101/SO101-originals.zip",
+    "entries": [
+      "READ-ME-FIRST.md",
+      "source/provenance.json",
+      "source/LICENSE",
+      "source/so101_new_calib.urdf",
+      "source/Follower/Ender_Follower_SO101.stl",
+      "source/STEP/Base_SO101.step",
+      "source/STEP/Motor_holder_SO101_Wrist.step",
+      "source/STEP/Under_arm_SO101.step",
+      "source/STEP/WaveShare_Mounting_Plate_SO101.step",
+      "source/STEP/Upper_arm_SO101.step",
+      "source/STEP/Base_motor_holder_SO101.step",
+      "source/STEP/Wrist_Roll_Pitch_SO101.step",
+      "source/STEP/Motor_holder_SO101_Base.step",
+      "source/STEP/Wrist_Roll_SO101.step",
+      "source/STEP/Handle_SO101.step",
+      "source/STEP/Rotation_Pitch_SO101.step",
+      "source/STEP/Trigger_SO101.step",
+      "source/STEP/Moving_Jaw_SO101.step",
+      "source/STEP/Wrist_Roll_Follower_SO101.step",
+      "source/Leader/Ender_Leader_SO101.stl",
+      "source/Individual/Handle_SO101.stl",
+      "source/Individual/Base_motor_holder_SO101.stl",
+      "source/Individual/Under_arm_SO101.stl",
+      "source/Individual/Upper_arm_SO101.stl",
+      "source/Individual/WaveShare_Mounting_Plate_SO101.stl",
+      "source/Individual/Trigger_SO101.stl",
+      "source/Individual/Motor_holder_SO101_Wrist.stl",
+      "source/Individual/Motor_holder_SO101_Base.stl",
+      "source/Individual/Wrist_Roll_Follower_SO101.stl",
+      "source/Individual/Base_SO101.stl",
+      "source/Individual/Moving_Jaw_SO101.stl",
+      "source/Individual/Rotation_Pitch_SO101.stl",
+      "source/Individual/Wrist_Roll_Pitch_SO101.stl",
+      "source/Individual/Wrist_Roll_SO101.stl"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "part": "Base_Encoder_L1",
+  "candidate": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\checkpoints\\Base_Encoder_L1_partition_candidate.SLDPRT",
+  "CAD_bodies": 4,
+  "source_volume_mm3": 143516.54276252762,
+  "CAD_volume_mm3": 143516.54235273344,
+  "relative_volume_delta": -2.855379488408971e-09,
+  "bounds_delta_mm": 1.4210854715202004e-14,
+  "bidirectional_exterior_error_mm": [
+    0.0003775864065195526,
+    3.528388160134455e-05
+  ],
+  "excluded_internal_partition_triangles": 404,
+  "status": "ACCEPTED",
+  "method": "All source vertices plus 50000 samples compared to CAD; reverse uses exterior excluding only internal cut planes. Original unchanged."
+}

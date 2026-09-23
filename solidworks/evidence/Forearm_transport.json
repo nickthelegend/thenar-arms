@@ -1,0 +1,17 @@
+{
+  "original_sha256": "f83aab72bc14ca0fb9964d7303ce6860dcc816d3110205cd2aa9bf4151803439",
+  "source": "D:\\Project\\so-101-mg996r\\thenar-arms\\robot-studio\\public\\models\\so101\\follower-r3\\print-parts\\Forearm_MG996R_R3.stl",
+  "transport": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\checkpoints\\import_transport\\Forearm_MG996R_R3.stl",
+  "sha256": "7806ca895341745ca85bcff256bd706b633e5126d23704be6ad5a7dde5c6f49a",
+  "watertight": true,
+  "positive_volume": true,
+  "shells": 1,
+  "relative_volume_change": 0.06215965642133814,
+  "bounds_delta_mm": 0.03407402038574503,
+  "bidirectional_vertex_and_30000_surface_sample_distance_mm": [
+    10.678045371979175,
+    10.266118397684789
+  ],
+  "conditioning": "merge at 0.0001mm rounding, remove collapsed facets, repair residual topology; original untouched",
+  "status": "REJECTED"
+}

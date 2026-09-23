@@ -1,0 +1,44 @@
+[
+  {
+    "requested_q1": 15,
+    "drag_result": true,
+    "corrected": true,
+    "angle_property_deg": 0.0,
+    "limits": [
+      4.999999999999995,
+      175.0
+    ],
+    "advanced": true,
+    "max_position_difference_from_requested_mm": 63.862986380296306,
+    "max_angle_difference_from_requested_deg": 30.00000000000001,
+    "mate_errors": []
+  },
+  {
+    "requested_q1": 100,
+    "drag_result": true,
+    "corrected": true,
+    "angle_property_deg": -1.4210854715202004e-14,
+    "limits": [
+      4.999999999999995,
+      175.0
+    ],
+    "advanced": true,
+    "max_position_difference_from_requested_mm": 374.8051253477393,
+    "max_angle_difference_from_requested_deg": 145.0,
+    "mate_errors": []
+  },
+  {
+    "requested_q1": 0,
+    "drag_result": true,
+    "corrected": true,
+    "angle_property_deg": -1.4210854715202004e-14,
+    "limits": [
+      4.999999999999995,
+      175.0
+    ],
+    "advanced": true,
+    "max_position_difference_from_requested_mm": 51.281796625199796,
+    "max_angle_difference_from_requested_deg": 115.00000000000003,
+    "mate_errors": []
+  }
+]

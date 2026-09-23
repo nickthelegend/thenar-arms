@@ -1,0 +1,70 @@
+{
+  "part": "Upper_arm_MG996R_R3",
+  "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\Upper_arm_MG996R_R3.SLDPRT",
+  "geometry": "source import with native reference sketches, axes and planes",
+  "solid_bodies": 1,
+  "surface_bodies": 0,
+  "status": "Imported solid reference; parametric reconstruction incomplete",
+  "datums": [
+    {
+      "name": "J2",
+      "matrix_mm": [
+        [
+          1.0,
+          -2.465190328815662e-32,
+          0.0,
+          65.085
+        ],
+        [
+          0.0,
+          -1.0,
+          1.2246063538223775e-16,
+          12.0
+        ],
+        [
+          0.0,
+          -1.2246063538223768e-16,
+          -1.0,
+          18.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "J3",
+      "matrix_mm": [
+        [
+          2.2204460492503128e-16,
+          -1.0,
+          0.0,
+          -47.485000000000014
+        ],
+        [
+          -1.0,
+          -2.220446049250313e-16,
+          1.2246063538223775e-16,
+          40.0
+        ],
+        [
+          -1.2246063538223768e-16,
+          -2.465190328815662e-32,
+          -1.0,
+          18.19999999999983
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "sketch_inference_disabled": true,
+  "datum_coordinates_readback_checked": true
+}

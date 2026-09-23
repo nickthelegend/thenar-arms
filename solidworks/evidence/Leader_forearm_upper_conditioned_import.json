@@ -1,0 +1,20 @@
+{
+  "candidate": "Leader_forearm_upper_conditioned",
+  "load_error": 0,
+  "solid_bodies": [
+    {
+      "volume_mm3": 29846.578232683984,
+      "box_m": [
+        -0.05384990572929382,
+        -0.052646998316049576,
+        0.01620000973343849,
+        0.0788498967885971,
+        -0.01704700104892254,
+        0.030200000852346424
+      ],
+      "kernel_faults": 0
+    }
+  ],
+  "surfaces": 0,
+  "save_error": 0
+}

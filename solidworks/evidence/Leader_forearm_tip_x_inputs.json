@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Leader_forearm_tip_x0",
+    "volume_mm3": 2050.1364436281806,
+    "faces": 1890,
+    "plane": [
+      1,
+      0,
+      0
+    ],
+    "offset_mm": 66.5
+  },
+  {
+    "name": "Leader_forearm_tip_x1",
+    "volume_mm3": 27796.464183448563,
+    "faces": 5042,
+    "plane": [
+      1,
+      0,
+      0
+    ],
+    "offset_mm": 66.5
+  }
+]

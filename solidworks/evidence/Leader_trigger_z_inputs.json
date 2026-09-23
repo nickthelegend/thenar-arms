@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Leader_trigger_z0",
+    "volume_mm3": 0.0,
+    "faces": 782,
+    "plane": [
+      0,
+      0,
+      1
+    ],
+    "offset_mm": 6.0
+  },
+  {
+    "name": "Leader_trigger_z1",
+    "volume_mm3": 12188.873178363743,
+    "faces": 7748,
+    "plane": [
+      0,
+      0,
+      1
+    ],
+    "offset_mm": 6.0
+  }
+]

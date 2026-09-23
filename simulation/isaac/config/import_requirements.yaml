@@ -1,0 +1,10 @@
+status: 'NOT RUN: Isaac Sim not available in this task environment'
+distance_unit: metre
+fix_base: true
+merge_fixed_joints: false
+physical_inertials: BLOCKED; do not accept importer defaults
+joint_drive: No measured actuator model; no default gains accepted
+collision: Preserve exact reference meshes; validated convex decomposition required
+  for dynamic links
+validation_reference: ../validation/canonical_pose_reference.json
+root_world_z_for_CAD_scene_m: 0.0024

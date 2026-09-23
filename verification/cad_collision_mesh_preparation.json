@@ -1,0 +1,112 @@
+[
+  {
+    "part": "Base_MG996R_R3",
+    "body": 0,
+    "source_mesh_volume_mm3": 143126.81379209415,
+    "welded_volume_mm3": 143126.81379212785,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\Base_MG996R_R3_body0.stl"
+  },
+  {
+    "part": "Forearm_MG996R_R3",
+    "body": 0,
+    "source_mesh_volume_mm3": 89326.8793089693,
+    "welded_volume_mm3": 89326.8793089693,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\Forearm_MG996R_R3_body0.stl"
+  },
+  {
+    "part": "Forearm_MG996R_R3",
+    "body": 1,
+    "source_mesh_volume_mm3": 6932.229332826505,
+    "welded_volume_mm3": 6932.229332826503,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\Forearm_MG996R_R3_body1.stl"
+  },
+  {
+    "part": "Forearm_MG996R_R3",
+    "body": 2,
+    "source_mesh_volume_mm3": 2820.388263522415,
+    "welded_volume_mm3": 2820.388263522415,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\Forearm_MG996R_R3_body2.stl"
+  },
+  {
+    "part": "Gripper_body_MG996R_R3",
+    "body": 0,
+    "source_mesh_volume_mm3": 54119.54488461971,
+    "welded_volume_mm3": 54119.54488461971,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\Gripper_body_MG996R_R3_body0.stl"
+  },
+  {
+    "part": "Metal_Horn_D20_PCD14_R3",
+    "body": 0,
+    "source_mesh_volume_mm3": 819.4106662814696,
+    "welded_volume_mm3": 819.4106662814696,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\Metal_Horn_D20_PCD14_R3_body0.stl"
+  },
+  {
+    "part": "MG996R_Nominal_R3",
+    "body": 0,
+    "source_mesh_volume_mm3": 31421.70581278289,
+    "welded_volume_mm3": 31421.70581278289,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\MG996R_Nominal_R3_body0.stl"
+  },
+  {
+    "part": "Moving_jaw_MG996R_R3",
+    "body": 0,
+    "source_mesh_volume_mm3": 19401.36227554418,
+    "welded_volume_mm3": 19401.36227554418,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\Moving_jaw_MG996R_R3_body0.stl"
+  },
+  {
+    "part": "Shoulder_MG996R_R3",
+    "body": 0,
+    "source_mesh_volume_mm3": 73467.20933460438,
+    "welded_volume_mm3": 73467.20933460438,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\Shoulder_MG996R_R3_body0.stl"
+  },
+  {
+    "part": "Upper_arm_MG996R_R3",
+    "body": 0,
+    "source_mesh_volume_mm3": 108278.26311019134,
+    "welded_volume_mm3": 108278.26311019134,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\Upper_arm_MG996R_R3_body0.stl"
+  },
+  {
+    "part": "Wrist_pitch_roll_MG996R_R3",
+    "body": 0,
+    "source_mesh_volume_mm3": 28958.304760093077,
+    "welded_volume_mm3": 28958.304760093077,
+    "watertight": true,
+    "positive_volume": true,
+    "vertex_weld_decimal_places_mm": 5,
+    "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\verification\\cad_collision_check_meshes\\Wrist_pitch_roll_MG996R_R3_body0.stl"
+  }
+]

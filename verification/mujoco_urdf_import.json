@@ -1,0 +1,165 @@
+{
+  "mujoco_version": "3.14.0",
+  "source_urdf": "D:\\Project\\so-101-mg996r\\thenar-arms\\simulation\\mujoco\\so101_import_test.urdf",
+  "actual_physical_mass_COM_inertia": "UNVERIFIED; no importer-generated values will be accepted as physical robot data",
+  "import_result": "LOADED for kinematic inspection only",
+  "njnt": 6,
+  "nbody": 9,
+  "ngeom": 58,
+  "engine_body_mass_kg": [
+    0.0,
+    0.5104237285151724,
+    0.17733282878967965,
+    0.2651892781489295,
+    0.23401897420901013,
+    0.1397200014550948,
+    0.14953886795842128,
+    0.034785165251842505,
+    0.0
+  ],
+  "physical_model_status": "REJECTED for dynamics: importer inferred mass/inertia from collision geometry",
+  "kinematic_regression": [
+    {
+      "pose": "ZERO",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J1_MIN",
+      "max_position_or_rotation_matrix_error": 9.992007221626409e-16,
+      "pass": true
+    },
+    {
+      "pose": "J1_ZERO_AFTER_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J1_MAX",
+      "max_position_or_rotation_matrix_error": 9.992007221626409e-16,
+      "pass": true
+    },
+    {
+      "pose": "J1_ZERO_AFTER_MAX",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J2_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J2_ZERO_AFTER_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J2_MAX",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J2_ZERO_AFTER_MAX",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J3_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J3_ZERO_AFTER_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J3_MAX",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J3_ZERO_AFTER_MAX",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J4_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J4_ZERO_AFTER_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J4_MAX",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J4_ZERO_AFTER_MAX",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J5_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J5_ZERO_AFTER_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J5_MAX",
+      "max_position_or_rotation_matrix_error": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "pose": "J5_ZERO_AFTER_MAX",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J6_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J6_ZERO_AFTER_MIN",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J6_MAX",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "J6_ZERO_AFTER_MAX",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "pose": "HOME",
+      "max_position_or_rotation_matrix_error": 4.163336342344337e-16,
+      "pass": true
+    },
+    {
+      "pose": "MULTI",
+      "max_position_or_rotation_matrix_error": 1.2212453270876722e-15,
+      "pass": true
+    },
+    {
+      "pose": "ZERO_FINAL",
+      "max_position_or_rotation_matrix_error": 7.771561172376096e-16,
+      "pass": true
+    }
+  ],
+  "kinematic_pass": true,
+  "dynamic_sanity_test": "NOT RUN: required physical inertias are unknown"
+}

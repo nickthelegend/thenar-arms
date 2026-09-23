@@ -1,0 +1,542 @@
+[
+  {
+    "id": "Base_MG996R_R3",
+    "source": "robot-studio/public/models/so101/follower-r3/print-parts/Base_MG996R_R3.stl",
+    "sha256": "1358ebd4bc44dea44ba6125f3c1efd77de4d47f2f4de9ff0a151dd4e86a2416b",
+    "triangles": 20156,
+    "watertight": true,
+    "volume_mm3": 143126.81849352794,
+    "bounds_mm": [
+      [
+        -55.462501525878906,
+        2.9266571262807906e-13,
+        -20.79999923706056
+      ],
+      [
+        55.462501525878906,
+        72.0,
+        71.0
+      ]
+    ]
+  },
+  {
+    "id": "Shoulder_MG996R_R3",
+    "source": "robot-studio/public/models/so101/follower-r3/print-parts/Shoulder_MG996R_R3.stl",
+    "sha256": "62b7bd8978a8cdd9bfd498d34c48f13afbda8868014c17b33a247a936d3f122d",
+    "triangles": 17830,
+    "watertight": true,
+    "volume_mm3": 73467.20598104133,
+    "bounds_mm": [
+      [
+        -62.76900100708008,
+        0.20000000298023224,
+        -26.371000289916992
+      ],
+      [
+        1.7992000579833984,
+        122.10299682617188,
+        28.671369552612305
+      ]
+    ]
+  },
+  {
+    "id": "Upper_arm_MG996R_R3",
+    "source": "robot-studio/public/models/so101/follower-r3/print-parts/Upper_arm_MG996R_R3.stl",
+    "sha256": "532810011f7edca315fb046f8e837912bb5fe9803d9520b6d2b93e20b2fc79f8",
+    "triangles": 14652,
+    "watertight": true,
+    "volume_mm3": 108278.26349211176,
+    "bounds_mm": [
+      [
+        -65.08499145507812,
+        -2.450000000000003,
+        -35.599998474121094
+      ],
+      [
+        79.08500000000001,
+        61.55,
+        31.700000762939453
+      ]
+    ]
+  },
+  {
+    "id": "Forearm_MG996R_R3",
+    "source": "robot-studio/public/models/so101/follower-r3/print-parts/Forearm_MG996R_R3.stl",
+    "sha256": "f83aab72bc14ca0fb9964d7303ce6860dcc816d3110205cd2aa9bf4151803439",
+    "triangles": 19954,
+    "watertight": true,
+    "volume_mm3": 99079.49542170028,
+    "bounds_mm": [
+      [
+        -90.99166107177734,
+        -53.950001525878896,
+        -34.20000076293945
+      ],
+      [
+        78.84989929199219,
+        -17.049999999999997,
+        30.200000762939453
+      ]
+    ]
+  },
+  {
+    "id": "Wrist_pitch_roll_MG996R_R3",
+    "source": "robot-studio/public/models/so101/follower-r3/print-parts/Wrist_pitch_roll_MG996R_R3.stl",
+    "sha256": "3356387425979f0f67b0aa7f650cadda22b4b5ac900a3d5acbb3c222dd4f5d75",
+    "triangles": 20702,
+    "watertight": true,
+    "volume_mm3": 28958.28388766292,
+    "bounds_mm": [
+      [
+        -27.100006103515625,
+        -20.0,
+        -45.82838821411133
+      ],
+      [
+        42.45000076293945,
+        15.659594535827637,
+        42.0
+      ]
+    ]
+  },
+  {
+    "id": "Gripper_body_MG996R_R3",
+    "source": "robot-studio/public/models/so101/follower-r3/print-parts/Gripper_body_MG996R_R3.stl",
+    "sha256": "6ff8bc14bbd57f45eafe951b41a8a5048c90b6c586ae795c7392747492220b82",
+    "triangles": 11502,
+    "watertight": true,
+    "volume_mm3": 54119.54426704741,
+    "bounds_mm": [
+      [
+        -35.20000076293945,
+        -24.21821403503418,
+        -1.050294041633606
+      ],
+      [
+        41.75,
+        27.78178596496582,
+        105.375
+      ]
+    ]
+  },
+  {
+    "id": "Moving_jaw_MG996R_R3",
+    "source": "robot-studio/public/models/so101/follower-r3/print-parts/Moving_jaw_MG996R_R3.stl",
+    "sha256": "6cafcba6741b3a83b66ef9a93eb5e3c1d50f3e3de66b3592ee4f5299fc06a22d",
+    "triangles": 10692,
+    "watertight": true,
+    "volume_mm3": 19401.36227623283,
+    "bounds_mm": [
+      [
+        -14.0,
+        -82.0,
+        -24.0
+      ],
+      [
+        14.0,
+        14.0,
+        23.18398666381836
+      ]
+    ]
+  },
+  {
+    "id": "MG996R_body_R3",
+    "source": "robot-studio/public/models/so101/follower-r3/MG996R_body_reference.stl",
+    "sha256": "29035285507998295c854a77c73151d874d8042b25a16e37d01b3b13c507f828",
+    "triangles": 1068,
+    "watertight": true,
+    "volume_mm3": 31421.54675991919,
+    "bounds_mm": [
+      [
+        -24.950000762939453,
+        -10.0,
+        -28.5
+      ],
+      [
+        29.049999237060547,
+        10.0,
+        14.199999809265137
+      ]
+    ]
+  },
+  {
+    "id": "metal_horn_R3",
+    "source": "robot-studio/public/models/so101/follower-r3/metal_horn_reference.stl",
+    "sha256": "2e9e203756558ab45f3bda3de0adc3af3c91203d6b33ef1d422c83e4b9141b90",
+    "triangles": 2448,
+    "watertight": true,
+    "volume_mm3": 819.2523100696972,
+    "bounds_mm": [
+      [
+        2.5,
+        -10.0,
+        12.199999809265137
+      ],
+      [
+        22.5,
+        10.0,
+        16.700000762939453
+      ]
+    ]
+  },
+  {
+    "id": "Base_Encoder_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Base_Encoder_L1.stl",
+    "sha256": "6854c8b3f5a49220d17dcd0a9bf4b1a98ae667f5b362ccaec5be502a455ad6d8",
+    "triangles": 18244,
+    "watertight": true,
+    "volume_mm3": 143516.54276252762,
+    "bounds_mm": [
+      [
+        -55.462501525878906,
+        2.9266571262807906e-13,
+        -20.79999923706056
+      ],
+      [
+        55.462501525878906,
+        72.0,
+        74.75000762939453
+      ]
+    ]
+  },
+  {
+    "id": "Shoulder_Encoder_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Shoulder_Encoder_L1.stl",
+    "sha256": "0e0aa90af77e40488387736f55b5e4d0f6f4d9380b81b5bc1b7a3ea120b504be",
+    "triangles": 17454,
+    "watertight": true,
+    "volume_mm3": 74137.57835881774,
+    "bounds_mm": [
+      [
+        -62.76900100708008,
+        0.20000000298023224,
+        -26.371000289916992
+      ],
+      [
+        1.7992000579833984,
+        130.10299682617188,
+        28.709444046020508
+      ]
+    ]
+  },
+  {
+    "id": "Upper_arm_Encoder_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Upper_arm_Encoder_L1.stl",
+    "sha256": "df7ed8383f98b81d1379299673c4cfe3f97a0346e15e7ca26c66955a77b1a5c2",
+    "triangles": 11886,
+    "watertight": true,
+    "volume_mm3": 110121.31289850036,
+    "bounds_mm": [
+      [
+        -65.08499145507812,
+        -4.449999809265137,
+        -35.599998474121094
+      ],
+      [
+        79.08499908447266,
+        69.55000305175781,
+        31.700000762939453
+      ]
+    ]
+  },
+  {
+    "id": "Forearm_Encoder_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Forearm_Encoder_L1.stl",
+    "sha256": "b887f3cf51c065b9bf67fca63e7febf255d3a3a834bab73b288dc2b89f950f90",
+    "triangles": 18014,
+    "watertight": true,
+    "volume_mm3": 101004.44343303464,
+    "bounds_mm": [
+      [
+        -98.79756164550781,
+        -53.94700241088867,
+        -34.20000076293945
+      ],
+      [
+        78.84989929199219,
+        -17.047000885009766,
+        30.200000762939453
+      ]
+    ]
+  },
+  {
+    "id": "Wrist_pitch_roll_Encoder_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Wrist_pitch_roll_Encoder_L1.stl",
+    "sha256": "dfd685e68095250315d5cae9bb969020cfa46961dbe77cc065db1be778b954d4",
+    "triangles": 15446,
+    "watertight": true,
+    "volume_mm3": 33160.31730191428,
+    "bounds_mm": [
+      [
+        -29.549999237060547,
+        -20.0,
+        -51.82838821411133
+      ],
+      [
+        44.45000076293945,
+        15.659594535827637,
+        42.0
+      ]
+    ]
+  },
+  {
+    "id": "Handle_Encoder_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Handle_Encoder_L1.stl",
+    "sha256": "eeb579202ec80a0cf825ec7e3c425308093427406019d2c6090e71de40044598",
+    "triangles": 19532,
+    "watertight": true,
+    "volume_mm3": 108015.47273408859,
+    "bounds_mm": [
+      [
+        -93.84796142578125,
+        -24.0,
+        -1.9999994039535522
+      ],
+      [
+        49.75,
+        28.0,
+        96.79716491699219
+      ]
+    ]
+  },
+  {
+    "id": "Trigger_Encoder_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Trigger_Encoder_L1.stl",
+    "sha256": "77069e895607b32970e5d7204bde6c82210160c1e1b4fba62ca61d6be3ceeaa5",
+    "triangles": 7768,
+    "watertight": true,
+    "volume_mm3": 12188.873178363741,
+    "bounds_mm": [
+      [
+        -31.98978614807129,
+        -50.99993896484375,
+        -26.0
+      ],
+      [
+        13.998126029968262,
+        13.998126029968262,
+        6.0
+      ]
+    ]
+  },
+  {
+    "id": "Encoder_cartridge_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Encoder_cartridge_L1.stl",
+    "sha256": "25636259ca2cb772a9b5c1de4788df2dbc2c92d6b8887c8e440e8d59c8c4e2c8",
+    "triangles": 10408,
+    "watertight": true,
+    "volume_mm3": 10895.57241793106,
+    "bounds_mm": [
+      [
+        -26.950000762939453,
+        -10.300000190734863,
+        -26.649999618530273
+      ],
+      [
+        37.04999923706055,
+        10.300000190734863,
+        7.199999809265137
+      ]
+    ]
+  },
+  {
+    "id": "Bearing_cap_front_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Bearing_cap_front_L1.stl",
+    "sha256": "6c5918d297ace4d15e6f692f1f321d567235557512829bab84fbce5e7c09aa28",
+    "triangles": 968,
+    "watertight": true,
+    "volume_mm3": 751.2523117561485,
+    "bounds_mm": [
+      [
+        -0.5,
+        -10.0,
+        7.199999809265137
+      ],
+      [
+        25.5,
+        10.0,
+        9.199999809265137
+      ]
+    ]
+  },
+  {
+    "id": "Bearing_cap_rear_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Bearing_cap_rear_L1.stl",
+    "sha256": "f60586404dd1db3a79c50f2a85a1ee477850a8752820337535d3e582610294f7",
+    "triangles": 1480,
+    "watertight": true,
+    "volume_mm3": 892.4667057302595,
+    "bounds_mm": [
+      [
+        -0.5,
+        -10.0,
+        -12.399999618530273
+      ],
+      [
+        25.5,
+        10.0,
+        -8.199999809265137
+      ]
+    ]
+  },
+  {
+    "id": "Encoder_rotor_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Encoder_rotor_L1.stl",
+    "sha256": "ac54e3515316dbf72023abf350fd907080aaf0c6e69ba8777bb39e52a740173d",
+    "triangles": 2836,
+    "watertight": true,
+    "volume_mm3": 2291.181987276253,
+    "bounds_mm": [
+      [
+        2.5,
+        -10.0,
+        -10.149999618530273
+      ],
+      [
+        22.5,
+        10.0,
+        16.700000762939453
+      ]
+    ]
+  },
+  {
+    "id": "Magnet_cup_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/print-parts/Magnet_cup_L1.stl",
+    "sha256": "f25ee6905538c502604c6bb193905e5e855c7420cac6f02cb695cc6d1f36a304",
+    "triangles": 1826,
+    "watertight": true,
+    "volume_mm3": 637.0946926216624,
+    "bounds_mm": [
+      [
+        7.5,
+        -5.0,
+        -19.299999237060547
+      ],
+      [
+        17.5,
+        5.0,
+        -8.149999618530273
+      ]
+    ]
+  },
+  {
+    "id": "AS5600_PCB_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/reference/AS5600_PCB_L1.stl",
+    "sha256": "e701f92dbcb8a34b6f5bc07542c24808d906bb82827ad6ede515c6feeb84de98",
+    "triangles": 876,
+    "watertight": true,
+    "volume_mm3": 691.2564404920475,
+    "bounds_mm": [
+      [
+        -0.20000000298023224,
+        -8.890000343322754,
+        -24.149999618530273
+      ],
+      [
+        25.200000762939453,
+        8.890000343322754,
+        -22.549999237060547
+      ]
+    ]
+  },
+  {
+    "id": "AS5600_chip_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/reference/AS5600_chip_L1.stl",
+    "sha256": "7b5521617395f60f38fcc2841f214319f99000d176b77c97c7bf086265a55c02",
+    "triangles": 12,
+    "watertight": true,
+    "volume_mm3": 35.0,
+    "bounds_mm": [
+      [
+        10.0,
+        -2.0,
+        -22.549999237060547
+      ],
+      [
+        15.0,
+        2.0,
+        -20.799999237060547
+      ]
+    ]
+  },
+  {
+    "id": "AS5600_connectors_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/reference/AS5600_connectors_L1.stl",
+    "sha256": "1e62d31d178ea7154724077d5881349fe73078359a5354cf4e41c6b4670b26cc",
+    "triangles": 24,
+    "watertight": true,
+    "volume_mm3": 126.00001037120819,
+    "bounds_mm": [
+      [
+        0.7480000257492065,
+        -2.5,
+        -22.549999237060547
+      ],
+      [
+        24.25200080871582,
+        2.5,
+        -19.549999237060547
+      ]
+    ]
+  },
+  {
+    "id": "688_bearing_front_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/reference/688_bearing_front_L1.stl",
+    "sha256": "a5c3825d8ed5ba8fff9f43c8ed8f890e56e01308dab9c69a61226e5610bd6e74",
+    "triangles": 1024,
+    "watertight": true,
+    "volume_mm3": 753.6794733654011,
+    "bounds_mm": [
+      [
+        4.5,
+        -8.0,
+        2.0999999046325684
+      ],
+      [
+        20.5,
+        8.0,
+        7.099999904632568
+      ]
+    ]
+  },
+  {
+    "id": "688_bearing_rear_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/reference/688_bearing_rear_L1.stl",
+    "sha256": "5be8a3a41b3e4e58870961da4d392368ee6c1fbde0cba3407b95713daa465573",
+    "triangles": 1024,
+    "watertight": true,
+    "volume_mm3": 753.6795452418768,
+    "bounds_mm": [
+      [
+        4.5,
+        -8.0,
+        -8.100000381469727
+      ],
+      [
+        20.5,
+        8.0,
+        -3.0999999046325684
+      ]
+    ]
+  },
+  {
+    "id": "Diametric_magnet_L1",
+    "source": "robot-studio/public/models/so101/encoder-leader-l1/reference/Diametric_magnet_L1.stl",
+    "sha256": "90b4294f90a9e596023ae6b271412649ef478389daecfe7d79106d1f1a015511",
+    "triangles": 508,
+    "watertight": true,
+    "volume_mm3": 56.52596123302146,
+    "bounds_mm": [
+      [
+        9.5,
+        -3.0,
+        -18.799999237060547
+      ],
+      [
+        15.5,
+        3.0,
+        -16.799999237060547
+      ]
+    ]
+  }
+]

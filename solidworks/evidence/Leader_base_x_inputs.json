@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Leader_base_x0",
+    "volume_mm3": 74002.53120135436,
+    "faces": 10466,
+    "plane": [
+      1,
+      0,
+      0
+    ],
+    "offset_mm": -4.0
+  },
+  {
+    "name": "Leader_base_x1",
+    "volume_mm3": 69514.01172041433,
+    "faces": 7634,
+    "plane": [
+      1,
+      0,
+      0
+    ],
+    "offset_mm": -4.0
+  }
+]

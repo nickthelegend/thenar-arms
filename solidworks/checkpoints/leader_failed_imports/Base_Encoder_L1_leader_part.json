@@ -1,0 +1,54 @@
+{
+  "part": "Base_Encoder_L1",
+  "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\parts\\leader\\Base_Encoder_L1.SLDPRT",
+  "source": "D:\\Project\\so-101-mg996r\\thenar-arms\\robot-studio\\public\\models\\so101\\encoder-leader-l1\\print-parts\\Base_Encoder_L1.stl",
+  "geometry": "Preserved imported L1 source, native joint datums; no recovered custom feature history",
+  "kernel_faults_before": [],
+  "import_diagnosis_result": 0,
+  "solids": [
+    {
+      "kernel_faults": 3,
+      "box_m": [
+        -0.05546250194311142,
+        2.926657122045626e-16,
+        -0.020800000056624413,
+        0.05546250194311142,
+        0.07199999690055847,
+        0.07475000619888306
+      ],
+      "volume_m3": 0.00014351653287024833
+    }
+  ],
+  "surface_bodies": 0,
+  "datums": [
+    {
+      "name": "J1",
+      "matrix_mm": [
+        [
+          -1.1438332918973048e-17,
+          1.0,
+          6.746836758979996e-12,
+          -4.371921047418187e-10
+        ],
+        [
+          -1.1102230246259284e-16,
+          6.746836758979996e-12,
+          -1.0,
+          64.8
+        ],
+        [
+          -1.0,
+          -1.1438332920471121e-17,
+          1.110223024632647e-16,
+          45.20001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

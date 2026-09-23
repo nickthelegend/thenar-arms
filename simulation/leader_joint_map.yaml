@@ -1,0 +1,220 @@
+status: CAD MEASURED kinematics and SOURCE VERIFIED firmware defaults; physical sensor
+  calibration UNVERIFIED
+source_revision: L1; wrist extension 14mm, trigger mesh mounting index +15deg
+joints:
+- joint_name: shoulder_pan
+  parent_link: base_link
+  child_link: shoulder_link
+  joint_type: passive revolute
+  axis:
+  - 0
+  - 0
+  - 1
+  origin_xyz_m:
+  - 0.03883529999999999
+  - -8.976569986781406e-09
+  - 0.06240000000000007
+  origin_rpy_rad:
+  - -3.141592653583048
+  - 0.0
+  - -3.1415926535897927
+  sensor: AS5600_1
+  sensor_i2c_address: '0x36'
+  mux_i2c_address: '0x70'
+  mux_channel: 0
+  geometric_zero_degrees: 0
+  firmware_zero_capture_pose: HOME
+  home_degrees: 0
+  raw_zero_counts: null
+  default_sensor_sign: 1
+  physical_sensor_sign: UNVERIFIED
+  source_range_degrees:
+  - -85
+  - 85
+  physical_range: UNVERIFIED; source software limits are not hard-stop measurements
+  follower_target_joint: shoulder_pan
+  conversion: q = home + sign * signed_wrap_12bit(raw - zero_counts) * 360/4096
+  drive_ratio: 1
+  trigger_index_degrees: null
+  evidence: CAD measured ZERO plus 28 native mate-driven pose tests; firmware thenar/model.h,
+    calibration.h and thenar.ino
+- joint_name: shoulder_lift
+  parent_link: shoulder_link
+  child_link: upper_arm_link
+  joint_type: passive revolute
+  axis:
+  - 0
+  - 0
+  - 1
+  origin_xyz_m:
+  - -0.030399200000000022
+  - -0.01827779999999998
+  - -0.05419999999999995
+  origin_rpy_rad:
+  - -1.5707963267948966
+  - -1.5707963267948963
+  - 0.0
+  sensor: AS5600_2
+  sensor_i2c_address: '0x36'
+  mux_i2c_address: '0x70'
+  mux_channel: 1
+  geometric_zero_degrees: 0
+  firmware_zero_capture_pose: HOME
+  home_degrees: -25
+  raw_zero_counts: null
+  default_sensor_sign: 1
+  physical_sensor_sign: UNVERIFIED
+  source_range_degrees:
+  - -80
+  - 80
+  physical_range: UNVERIFIED; source software limits are not hard-stop measurements
+  follower_target_joint: shoulder_lift
+  conversion: q = home + sign * signed_wrap_12bit(raw - zero_counts) * 360/4096
+  drive_ratio: 1
+  trigger_index_degrees: null
+  evidence: CAD measured ZERO plus 28 native mate-driven pose tests; firmware thenar/model.h,
+    calibration.h and thenar.ino
+- joint_name: elbow_flex
+  parent_link: upper_arm_link
+  child_link: lower_arm_link
+  joint_type: passive revolute
+  axis:
+  - 0
+  - 0
+  - 1
+  origin_xyz_m:
+  - -0.11257000000000005
+  - -0.027999999999999914
+  - -4.263256414560601e-17
+  origin_rpy_rad:
+  - 1.1102230246251565e-16
+  - -2.220446049250313e-16
+  - 1.5707963267948966
+  sensor: AS5600_3
+  sensor_i2c_address: '0x36'
+  mux_i2c_address: '0x70'
+  mux_channel: 2
+  geometric_zero_degrees: 0
+  firmware_zero_capture_pose: HOME
+  home_degrees: 35
+  raw_zero_counts: null
+  default_sensor_sign: 1
+  physical_sensor_sign: UNVERIFIED
+  source_range_degrees:
+  - -80
+  - 80
+  physical_range: UNVERIFIED; source software limits are not hard-stop measurements
+  follower_target_joint: elbow_flex
+  conversion: q = home + sign * signed_wrap_12bit(raw - zero_counts) * 360/4096
+  drive_ratio: 1
+  trigger_index_degrees: null
+  evidence: CAD measured ZERO plus 28 native mate-driven pose tests; firmware thenar/model.h,
+    calibration.h and thenar.ino
+- joint_name: wrist_flex
+  parent_link: lower_arm_link
+  child_link: wrist_link
+  joint_type: passive revolute
+  axis:
+  - 0
+  - 0
+  - 1
+  origin_xyz_m:
+  - -0.1349000000000001
+  - 0.005200000000000017
+  - 7.105427357601002e-18
+  origin_rpy_rad:
+  - 0.0
+  - -2.220446049250313e-16
+  - -1.5707963267948966
+  sensor: AS5600_4
+  sensor_i2c_address: '0x36'
+  mux_i2c_address: '0x70'
+  mux_channel: 3
+  geometric_zero_degrees: 0
+  firmware_zero_capture_pose: HOME
+  home_degrees: 0
+  raw_zero_counts: null
+  default_sensor_sign: 1
+  physical_sensor_sign: UNVERIFIED
+  source_range_degrees:
+  - -80
+  - 80
+  physical_range: UNVERIFIED; source software limits are not hard-stop measurements
+  follower_target_joint: wrist_flex
+  conversion: q = home + sign * signed_wrap_12bit(raw - zero_counts) * 360/4096
+  drive_ratio: 1
+  trigger_index_degrees: null
+  evidence: CAD measured ZERO plus 28 native mate-driven pose tests; firmware thenar/model.h,
+    calibration.h and thenar.ino
+- joint_name: wrist_roll
+  parent_link: wrist_link
+  child_link: gripper_link
+  joint_type: passive revolute
+  axis:
+  - 0
+  - 0
+  - 1
+  origin_xyz_m:
+  - 1.7053025658242405e-16
+  - -0.0751000005790537
+  - 0.018100000000000005
+  origin_rpy_rad:
+  - 1.5707963267948966
+  - 0.04867949998993626
+  - 3.141592653589793
+  sensor: AS5600_5
+  sensor_i2c_address: '0x36'
+  mux_i2c_address: '0x70'
+  mux_channel: 4
+  geometric_zero_degrees: 0
+  firmware_zero_capture_pose: HOME
+  home_degrees: 0
+  raw_zero_counts: null
+  default_sensor_sign: 1
+  physical_sensor_sign: UNVERIFIED
+  source_range_degrees:
+  - -85
+  - 85
+  physical_range: UNVERIFIED; source software limits are not hard-stop measurements
+  follower_target_joint: wrist_roll
+  conversion: q = home + sign * signed_wrap_12bit(raw - zero_counts) * 360/4096
+  drive_ratio: 1
+  trigger_index_degrees: null
+  evidence: CAD measured ZERO plus 28 native mate-driven pose tests; firmware thenar/model.h,
+    calibration.h and thenar.ino
+- joint_name: gripper
+  parent_link: gripper_link
+  child_link: moving_jaw_so101_v1_link
+  joint_type: passive revolute
+  axis:
+  - 0
+  - 0
+  - 1
+  origin_xyz_m:
+  - 0.02019999999999999
+  - 0.0188
+  - -0.02340000000000009
+  origin_rpy_rad:
+  - 1.5707963267948963
+  - 0.0
+  - 2.220446049250313e-16
+  sensor: AS5600_6
+  sensor_i2c_address: '0x36'
+  mux_i2c_address: '0x70'
+  mux_channel: 5
+  geometric_zero_degrees: 0
+  firmware_zero_capture_pose: HOME
+  home_degrees: 20
+  raw_zero_counts: null
+  default_sensor_sign: 1
+  physical_sensor_sign: UNVERIFIED
+  source_range_degrees:
+  - 0
+  - 70
+  physical_range: UNVERIFIED; source software limits are not hard-stop measurements
+  follower_target_joint: gripper
+  conversion: q = home + sign * signed_wrap_12bit(raw - zero_counts) * 360/4096
+  drive_ratio: 1
+  trigger_index_degrees: 15
+  evidence: CAD measured ZERO plus 28 native mate-driven pose tests; firmware thenar/model.h,
+    calibration.h and thenar.ino

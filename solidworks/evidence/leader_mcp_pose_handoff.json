@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"name\": \"MCP_REQUESTED\",\n  \"command_deg\": [\n    0.0,\n    -25.0,\n    35.0,\n    0.0,\n    0.0,\n    20.0\n  ],\n  \"native_limits\": [\n    {\n      \"joint\": 1,\n      \"active\": true,\n      \"advanced\": true,\n      \"minimum_degrees\": -85.0,\n      \"maximum_degrees\": 85.0,\n      \"current_dimension_driven_state\": 2,\n      \"pass\": true\n    },\n    {\n      \"joint\": 2,\n      \"active\": true,\n      \"advanced\": true,\n      \"minimum_degrees\": -80.00000000000001,\n      \"maximum_degrees\": 80.0,\n      \"current_dimension_driven_state\": 2,\n      \"pass\": true\n    },\n    {\n      \"joint\": 3,\n      \"active\": true,\n      \"advanced\": true,\n      \"minimum_degrees\": -80.00000000000001,\n      \"maximum_degrees\": 80.0,\n      \"current_dimension_driven_state\": 2,\n      \"pass\": true\n    },\n    {\n      \"joint\": 4,\n      \"active\": true,\n      \"advanced\": true,\n      \"minimum_degrees\": -80.00000000000001,\n      \"maximum_degrees\": 80.0,\n      \"current_dimension_driven_state\": 2,\n      \"pass\": true\n    },\n    {\n      \"joint\": 5,\n      \"active\": true,\n      \"advanced\": true,\n      \"minimum_degrees\": -85.0,\n      \"maximum_degrees\": 85.0,\n      \"current_dimension_driven_state\": 2,\n      \"pass\": true\n    },\n    {\n      \"joint\": 6,\n      \"active\": true,\n      \"advanced\": true,\n      \"minimum_degrees\": 0.0,\n      \"maximum_degrees\": 70.0,\n      \"current_dimension_driven_state\": 2,\n      \"pass\": true\n    }\n  ],\n  \"mate_errors\": [],\n  \"max_position_error_mm\": 5.790800364975672e-7,\n  \"max_angle_error_deg\": 3.8656916469492813e-10,\n  \"kinematic_pass\": true\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

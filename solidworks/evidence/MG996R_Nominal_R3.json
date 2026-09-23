@@ -1,0 +1,135 @@
+{
+  "path": "D:\\Project\\so-101-mg996r\\thenar-arms\\solidworks\\hardware\\MG996R_Nominal_R3.SLDPRT",
+  "save_error": 0,
+  "body_count": 1,
+  "features": [
+    {
+      "name": "Comments",
+      "type": "CommentsFolder"
+    },
+    {
+      "name": "Favorites",
+      "type": "FavoriteFolder"
+    },
+    {
+      "name": "History",
+      "type": "HistoryFolder"
+    },
+    {
+      "name": "Selection Sets",
+      "type": "SelectionSetFolder"
+    },
+    {
+      "name": "Sensors",
+      "type": "SensorFolder"
+    },
+    {
+      "name": "Design Binder",
+      "type": "DocsFolder"
+    },
+    {
+      "name": "Annotations",
+      "type": "DetailCabinet"
+    },
+    {
+      "name": "Surface Bodies",
+      "type": "SurfaceBodyFolder"
+    },
+    {
+      "name": "Solid Bodies",
+      "type": "SolidBodyFolder"
+    },
+    {
+      "name": "Lights and Cameras",
+      "type": "EnvFolder"
+    },
+    {
+      "name": "Markups",
+      "type": "InkMarkupFolder"
+    },
+    {
+      "name": "Equations",
+      "type": "EqnFolder"
+    },
+    {
+      "name": "Material <not specified>",
+      "type": "MaterialFolder"
+    },
+    {
+      "name": "Front Plane",
+      "type": "RefPlane"
+    },
+    {
+      "name": "Top Plane",
+      "type": "RefPlane"
+    },
+    {
+      "name": "Right Plane",
+      "type": "RefPlane"
+    },
+    {
+      "name": "Origin",
+      "type": "OriginProfileFeature"
+    },
+    {
+      "name": "Case_40p9_x_20_x_37_Profile",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Case_40p9_x_20_x_37",
+      "type": "Extrusion"
+    },
+    {
+      "name": "Mounting_tabs_54_x_20_x_2p6_Profile",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Mounting_tabs_54_x_20_x_2p6",
+      "type": "ICE"
+    },
+    {
+      "name": "Output_boss_D13_Profile",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Output_boss_D13",
+      "type": "ICE"
+    },
+    {
+      "name": "Output_shaft_envelope_D6_Profile",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Output_shaft_envelope_D6",
+      "type": "ICE"
+    }
+  ],
+  "native_features": true,
+  "source": "build_follower_r3.py servo()/metal_horn(); nominal not measured hardware",
+  "bodies": [
+    {
+      "box_m": [
+        -0.02495,
+        -0.01,
+        -0.0285,
+        0.02905,
+        0.01,
+        0.0142
+      ],
+      "mass_properties_density_1": [
+        0.0022078180582405737,
+        1.6396933098760335e-36,
+        -0.009482910759809036,
+        3.142173757032474e-05,
+        0.006908135914478157,
+        3.142173757032474e-05,
+        4.743041741262274e-09,
+        8.367478419537493e-09,
+        5.696338786952853e-09,
+        1.9387045606711586e-26,
+        9.888776620069579e-11,
+        2.2871543937091216e-26
+      ]
+    }
+  ]
+}

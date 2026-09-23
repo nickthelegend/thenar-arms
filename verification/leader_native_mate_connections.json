@@ -1,0 +1,1458 @@
+{
+  "classification": "CAD MEASURED native mate entity components, compared with source rigid groups and joint adjacency",
+  "mates": [
+    {
+      "feature": "Rigid_leader_encoder_0_Encoder_cartridge_L1",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_Encoder_cartridge_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_Encoder_cartridge_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_0_Bearing_cap_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_Bearing_cap_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_Bearing_cap_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_0_Bearing_cap_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_Bearing_cap_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_Bearing_cap_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_0_Encoder_rotor_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_0_Encoder_rotor_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_0_Encoder_rotor_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_0_Magnet_cup_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_0_Magnet_cup_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_0_Magnet_cup_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_0_AS5600_PCB_L1",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_AS5600_PCB_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_AS5600_PCB_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_0_AS5600_chip_L1",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_AS5600_chip_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_AS5600_chip_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_0_AS5600_connectors_L1",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_AS5600_connectors_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_AS5600_connectors_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_0_688_bearing_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_688_bearing_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_688_bearing_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_0_688_bearing_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_688_bearing_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_encoder_0_688_bearing_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_0_Diametric_magnet_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_0_Diametric_magnet_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_0_Diametric_magnet_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_Encoder_cartridge_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_Encoder_cartridge_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_Encoder_cartridge_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_Bearing_cap_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_Bearing_cap_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_Bearing_cap_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_Bearing_cap_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_Bearing_cap_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_Bearing_cap_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_Encoder_rotor_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_1_Encoder_rotor_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_1_Encoder_rotor_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_Magnet_cup_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_1_Magnet_cup_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_1_Magnet_cup_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_AS5600_PCB_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_AS5600_PCB_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_AS5600_PCB_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_AS5600_chip_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_AS5600_chip_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_AS5600_chip_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_AS5600_connectors_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_AS5600_connectors_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_AS5600_connectors_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_688_bearing_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_688_bearing_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_688_bearing_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_688_bearing_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_688_bearing_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_encoder_1_688_bearing_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_1_Diametric_magnet_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_1_Diametric_magnet_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_1_Diametric_magnet_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_Encoder_cartridge_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_Encoder_cartridge_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_Encoder_cartridge_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_Bearing_cap_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_Bearing_cap_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_Bearing_cap_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_Bearing_cap_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_Bearing_cap_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_Bearing_cap_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_Encoder_rotor_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_2_Encoder_rotor_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_2_Encoder_rotor_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_Magnet_cup_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_2_Magnet_cup_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_2_Magnet_cup_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_AS5600_PCB_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_AS5600_PCB_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_AS5600_PCB_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_AS5600_chip_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_AS5600_chip_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_AS5600_chip_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_AS5600_connectors_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_AS5600_connectors_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_AS5600_connectors_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_688_bearing_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_688_bearing_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_688_bearing_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_688_bearing_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_688_bearing_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_encoder_2_688_bearing_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_2_Diametric_magnet_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_2_Diametric_magnet_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_2_Diametric_magnet_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_Encoder_cartridge_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_Encoder_cartridge_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_Encoder_cartridge_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_Bearing_cap_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_Bearing_cap_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_Bearing_cap_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_Bearing_cap_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_Bearing_cap_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_Bearing_cap_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_Encoder_rotor_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_3_Encoder_rotor_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_3_Encoder_rotor_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_Magnet_cup_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_3_Magnet_cup_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_3_Magnet_cup_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_AS5600_PCB_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_AS5600_PCB_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_AS5600_PCB_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_AS5600_chip_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_AS5600_chip_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_AS5600_chip_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_AS5600_connectors_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_AS5600_connectors_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_AS5600_connectors_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_688_bearing_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_688_bearing_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_688_bearing_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_688_bearing_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_688_bearing_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_encoder_3_688_bearing_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_3_Diametric_magnet_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_3_Diametric_magnet_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_3_Diametric_magnet_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_Encoder_cartridge_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_Encoder_cartridge_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_Encoder_cartridge_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_Bearing_cap_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_Bearing_cap_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_Bearing_cap_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_Bearing_cap_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_Bearing_cap_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_Bearing_cap_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_Encoder_rotor_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_4_Encoder_rotor_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_4_Encoder_rotor_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_Magnet_cup_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_4_Magnet_cup_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_4_Magnet_cup_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_AS5600_PCB_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_AS5600_PCB_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_AS5600_PCB_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_AS5600_chip_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_AS5600_chip_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_AS5600_chip_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_AS5600_connectors_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_AS5600_connectors_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_AS5600_connectors_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_688_bearing_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_688_bearing_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_688_bearing_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_688_bearing_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_688_bearing_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_encoder_4_688_bearing_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_4_Diametric_magnet_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_4_Diametric_magnet_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_4_Diametric_magnet_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_Encoder_cartridge_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_Encoder_cartridge_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_Encoder_cartridge_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_Bearing_cap_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_Bearing_cap_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_Bearing_cap_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_Bearing_cap_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_Bearing_cap_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_Bearing_cap_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_Encoder_rotor_L1",
+      "actual_component_entities": [
+        "leader_follower_Trigger_Encoder_L1",
+        "leader_encoder_5_Encoder_rotor_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Trigger_Encoder_L1",
+        "leader_encoder_5_Encoder_rotor_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_Magnet_cup_L1",
+      "actual_component_entities": [
+        "leader_follower_Trigger_Encoder_L1",
+        "leader_encoder_5_Magnet_cup_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Trigger_Encoder_L1",
+        "leader_encoder_5_Magnet_cup_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_AS5600_PCB_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_AS5600_PCB_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_AS5600_PCB_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_AS5600_chip_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_AS5600_chip_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_AS5600_chip_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_AS5600_connectors_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_AS5600_connectors_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_AS5600_connectors_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_688_bearing_front_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_688_bearing_front_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_688_bearing_front_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_688_bearing_rear_L1",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_688_bearing_rear_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_encoder_5_688_bearing_rear_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "Rigid_leader_encoder_5_Diametric_magnet_L1",
+      "actual_component_entities": [
+        "leader_follower_Trigger_Encoder_L1",
+        "leader_encoder_5_Diametric_magnet_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Trigger_Encoder_L1",
+        "leader_encoder_5_Diametric_magnet_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J1_Revolute_axis",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_follower_Shoulder_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_follower_Shoulder_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J1_Axial_location",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_follower_Shoulder_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_follower_Shoulder_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J2_Revolute_axis",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_follower_Upper_arm_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_follower_Upper_arm_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J2_Axial_location",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_follower_Upper_arm_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_follower_Upper_arm_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J3_Revolute_axis",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_follower_Forearm_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_follower_Forearm_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J3_Axial_location",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_follower_Forearm_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_follower_Forearm_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J4_Revolute_axis",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_follower_Wrist_pitch_roll_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_follower_Wrist_pitch_roll_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J4_Axial_location",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_follower_Wrist_pitch_roll_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_follower_Wrist_pitch_roll_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J5_Revolute_axis",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_follower_Handle_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_follower_Handle_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J5_Axial_location",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_follower_Handle_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_follower_Handle_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J6_Revolute_axis",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_follower_Trigger_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_follower_Trigger_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J6_Axial_location",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_follower_Trigger_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_follower_Trigger_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J1_Pose_driver",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_follower_Base_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_follower_Shoulder_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J2_Pose_driver",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_follower_Shoulder_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_follower_Upper_arm_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J3_Pose_driver",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_follower_Upper_arm_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_follower_Forearm_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J4_Pose_driver",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_follower_Forearm_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_follower_Wrist_pitch_roll_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J5_Pose_driver",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_follower_Handle_Encoder_L1",
+        "leader_follower_Wrist_pitch_roll_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_follower_Handle_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J6_Pose_driver",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_follower_Trigger_Encoder_L1",
+        "leader_follower_Handle_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_follower_Trigger_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J1_Source_preview_limits",
+      "actual_component_entities": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_follower_Base_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Base_Encoder_L1",
+        "leader_follower_Shoulder_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J2_Source_preview_limits",
+      "actual_component_entities": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_follower_Shoulder_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Shoulder_Encoder_L1",
+        "leader_follower_Upper_arm_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J3_Source_preview_limits",
+      "actual_component_entities": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_follower_Upper_arm_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Upper_arm_Encoder_L1",
+        "leader_follower_Forearm_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J4_Source_preview_limits",
+      "actual_component_entities": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_follower_Forearm_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Forearm_Encoder_L1",
+        "leader_follower_Wrist_pitch_roll_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J5_Source_preview_limits",
+      "actual_component_entities": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_follower_Handle_Encoder_L1",
+        "leader_follower_Wrist_pitch_roll_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Wrist_pitch_roll_Encoder_L1",
+        "leader_follower_Handle_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    },
+    {
+      "feature": "J6_Source_preview_limits",
+      "actual_component_entities": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_follower_Trigger_Encoder_L1",
+        "leader_follower_Handle_Encoder_L1"
+      ],
+      "source_expected_components": [
+        "leader_follower_Handle_Encoder_L1",
+        "leader_follower_Trigger_Encoder_L1"
+      ],
+      "pass": true,
+      "native_error": [
+        0,
+        false
+      ]
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "part": "Base_MG996R_R3",
+    "source_volume_mm3": 143126.81849352794,
+    "cad_export_volume_mm3": 143126.81379209415,
+    "bounds_delta_mm": 1.4210854715202004e-14,
+    "relative_volume_delta": -3.2848028297394194e-08,
+    "bidirectional_all_vertices_and_30000_surface_samples_max_mm": [
+      0.0019584061997449174,
+      0.0006582218891679759
+    ],
+    "surface_comparison_pass": true,
+    "strict_1_micron_surface_check": false,
+    "comparison_tolerance_mm": 0.005,
+    "tolerance_basis": "Current R3 build_follower_r3.py uses 0.005 mm mesh surface simplification. Stricter 1 micron result retained."
+  },
+  {
+    "part": "Gripper_body_MG996R_R3",
+    "source_volume_mm3": 54119.54426704741,
+    "cad_export_volume_mm3": 54119.54488461971,
+    "bounds_delta_mm": 0.0,
+    "relative_volume_delta": 1.1411262157423607e-08,
+    "bidirectional_all_vertices_and_30000_surface_samples_max_mm": [
+      2.9547379185806084e-06,
+      3.777803225816253e-06
+    ],
+    "surface_comparison_pass": true,
+    "strict_1_micron_surface_check": true,
+    "comparison_tolerance_mm": 0.005,
+    "tolerance_basis": "Current R3 build_follower_r3.py uses 0.005 mm mesh surface simplification. Stricter 1 micron result retained."
+  },
+  {
+    "part": "Moving_jaw_MG996R_R3",
+    "source_volume_mm3": 19401.36227623283,
+    "cad_export_volume_mm3": 19401.36227554418,
+    "bounds_delta_mm": 0.0,
+    "relative_volume_delta": -3.549494032029088e-11,
+    "bidirectional_all_vertices_and_30000_surface_samples_max_mm": [
+      3.2607567664733634e-06,
+      3.5821512294773244e-06
+    ],
+    "surface_comparison_pass": true,
+    "strict_1_micron_surface_check": true,
+    "comparison_tolerance_mm": 0.005,
+    "tolerance_basis": "Current R3 build_follower_r3.py uses 0.005 mm mesh surface simplification. Stricter 1 micron result retained."
+  },
+  {
+    "part": "Shoulder_MG996R_R3",
+    "source_volume_mm3": 73467.20598104133,
+    "cad_export_volume_mm3": 73467.20933460438,
+    "bounds_delta_mm": 3.814697265625e-06,
+    "relative_volume_delta": 4.564707478671437e-08,
+    "bidirectional_all_vertices_and_30000_surface_samples_max_mm": [
+      0.000153231625031378,
+      3.5200802984625754e-05
+    ],
+    "surface_comparison_pass": true,
+    "strict_1_micron_surface_check": true,
+    "comparison_tolerance_mm": 0.005,
+    "tolerance_basis": "Current R3 build_follower_r3.py uses 0.005 mm mesh surface simplification. Stricter 1 micron result retained."
+  },
+  {
+    "part": "Upper_arm_MG996R_R3",
+    "source_volume_mm3": 108278.26349211176,
+    "cad_export_volume_mm3": 108278.26311019134,
+    "bounds_delta_mm": 9.155273517080786e-07,
+    "relative_volume_delta": -3.5272121889917685e-09,
+    "bidirectional_all_vertices_and_30000_surface_samples_max_mm": [
+      1.8509477094242102e-05,
+      6.486740276321187e-06
+    ],
+    "surface_comparison_pass": true,
+    "strict_1_micron_surface_check": true,
+    "comparison_tolerance_mm": 0.005,
+    "tolerance_basis": "Current R3 build_follower_r3.py uses 0.005 mm mesh surface simplification. Stricter 1 micron result retained."
+  },
+  {
+    "part": "Wrist_pitch_roll_MG996R_R3",
+    "source_volume_mm3": 28958.28388766292,
+    "cad_export_volume_mm3": 28958.304760093077,
+    "bounds_delta_mm": 0.0,
+    "relative_volume_delta": 7.207757972693685e-07,
+    "bidirectional_all_vertices_and_30000_surface_samples_max_mm": [
+      0.001701407620624747,
+      0.0006473171879441963
+    ],
+    "surface_comparison_pass": true,
+    "strict_1_micron_surface_check": false,
+    "comparison_tolerance_mm": 0.005,
+    "tolerance_basis": "Current R3 build_follower_r3.py uses 0.005 mm mesh surface simplification. Stricter 1 micron result retained."
+  }
+]

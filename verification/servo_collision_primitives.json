@@ -1,0 +1,13 @@
+{
+  "representation": "Union of two boxes and two cylinders using native source dimensions",
+  "comparison_mesh_cylinder_segments": 1024,
+  "bidirectional_sampled_envelope_error_mm": [
+    0.00031953525106796765,
+    0.0003237720940943292
+  ],
+  "CAD_tessellation_volume_mm3": 31421.70581278289,
+  "primitive_union_volume_mm3": 31421.73459264245,
+  "bounds_delta_mm": 1.1444091789769573e-06,
+  "pass": true,
+  "physical_mass_inertia": "No values inferred from these collision shapes"
+}

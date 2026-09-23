@@ -1,0 +1,650 @@
+{
+  "note": "Accepted deliverables and simulation handoffs. Checkpoints, failed trials and raw intermediate meshes are deliberately excluded. Physical and runtime limitations are in docs/final_report.md.",
+  "files": [
+    {
+      "path": "docs/decision_log.md",
+      "bytes": 7791,
+      "sha256": "2a23d0224dd689cb6beb2aa6468f4fbcf47a2d6f30847b9b3d7629cdcea847c4"
+    },
+    {
+      "path": "docs/final_report.md",
+      "bytes": 14853,
+      "sha256": "7b3bf6e4f26f3b00c5c8aef203ba8300295450779d53292ad9f7f71d1fe0bd52"
+    },
+    {
+      "path": "docs/open_issues.md",
+      "bytes": 2773,
+      "sha256": "9cb7b9e83afdc6bdfe9b9dd9fe5e8f81514cdb774f56d9c3f443afb8774aa018"
+    },
+    {
+      "path": "docs/source_audit.md",
+      "bytes": 5947,
+      "sha256": "6be4f45bfad1772c3c11873756adbe40da753d8983f508313af4797e8fd0ac3e"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/CMakeLists.txt",
+      "bytes": 203,
+      "sha256": "fd7e459e8a04e56275c8bac2dba5aa7d158851aa735a092a473f21b0c2726fce"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/config/joint_limits.yaml",
+      "bytes": 1570,
+      "sha256": "6a22925836be7c6a2ecf30e20bc2f25794c8d35c203e7874ed71f3e1f159905a"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/config/ros2_control_mapping.yaml",
+      "bytes": 1746,
+      "sha256": "d4431a36198bfaeecbefb2cd3fd2d16b6db6e65d6eed8adddd2e1d56893d4a26"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/launch/display.launch.py",
+      "bytes": 741,
+      "sha256": "132c3c9918f89359ae900af0d131abb1238abf9486d667324a2de5e301727b21"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/Base_MG996R_R3_body0.stl",
+      "bytes": 960584,
+      "sha256": "c64e93dd9a8d9e02367f7150fb1c154ab85cf1e8afb27e2e91211eccb51489d8"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/Forearm_MG996R_R3_body0.stl",
+      "bytes": 804484,
+      "sha256": "497898ea01c07923da3f23f9fd788c8c4ae76138c76b264e50e9bb2208fedfcc"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/Forearm_MG996R_R3_body1.stl",
+      "bytes": 144684,
+      "sha256": "a9afb68cb1a575a34d476af72912d99142f85eae175ea4ffc202438d89b86be1"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/Forearm_MG996R_R3_body2.stl",
+      "bytes": 103984,
+      "sha256": "cdf30bb5112a9422de7de6efc7a94bb32b77fecfd8887d412891252adb4cef53"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/Gripper_body_MG996R_R3_body0.stl",
+      "bytes": 575184,
+      "sha256": "6bf16a0a4c59bb8af678b293132e7b5b5c2214f8d2741871f8a0245a814948be"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/Metal_Horn_D20_PCD14_R3_body0.stl",
+      "bytes": 444184,
+      "sha256": "f0182067dd19cfd74c695af6efa2db242d3a56e56e574c7709ca9159efca81cd"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/MG996R_Nominal_R3_body0.stl",
+      "bytes": 128784,
+      "sha256": "e98612e923c7b2ff039bf55a6a8481b8c2eedcd9bf68d889d8ac80df127aaf68"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/Moving_jaw_MG996R_R3_body0.stl",
+      "bytes": 534584,
+      "sha256": "8a42346a50011559fbb204d206fc88b8dc6599324585d443d8608a36d3db9442"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/Shoulder_MG996R_R3_body0.stl",
+      "bytes": 890684,
+      "sha256": "a73c8654647fa4213de6a951f2547178c8405edb4181cf3a6d93cbec287aed4d"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/Upper_arm_MG996R_R3_body0.stl",
+      "bytes": 731984,
+      "sha256": "ae97eca56f4416b8cb287396e70b645944d1978d2d68745d9a6b168f8105e80d"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/collision/Wrist_pitch_roll_MG996R_R3_body0.stl",
+      "bytes": 992284,
+      "sha256": "96358a09300d9f928048de1c822dd78a3be7429549dee4528cbbc40415bf7773"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/visual/Base_MG996R_R3.STL",
+      "bytes": 960584,
+      "sha256": "05277565de79f70efeb82b487403fbf00589558451546c4b643468b1494e67c6"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/visual/Forearm_MG996R_R3.STL",
+      "bytes": 1053084,
+      "sha256": "bbb4909076ad3c9c4e35a7827c42ff34747ee74fc21eaae0d4d2c5011576cb88"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/visual/Gripper_body_MG996R_R3.STL",
+      "bytes": 575184,
+      "sha256": "c51279ec046df3488c411a9116d798c3a861233e82f8b5a7298bf469b4f9d9b0"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/visual/Metal_Horn_D20_PCD14_R3.STL",
+      "bytes": 444184,
+      "sha256": "f7ec1347ae6d8f3d8d5429b4ea5ca32490b2a53e925fdf615ddbb962d6c48c95"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/visual/MG996R_Nominal_R3.STL",
+      "bytes": 128784,
+      "sha256": "30ee9c33579fa90f15249bd47aa865f4a1ea0e44606b0e40d62a8c8872bb9a59"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/visual/Moving_jaw_MG996R_R3.STL",
+      "bytes": 534584,
+      "sha256": "7574b939f38543b32e93fa6793146a2b82aef8a34d7e280108b87d85d0ef8e7f"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/visual/Shoulder_MG996R_R3.STL",
+      "bytes": 890684,
+      "sha256": "d52ae68e3a8d5de4c41cf4a39c9477adf4c6d6dc2cfadfddad5233c3d7fec959"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/visual/Upper_arm_MG996R_R3.STL",
+      "bytes": 731984,
+      "sha256": "3e943316322dbc11e7b628c3cd1ff47a7fe968f2ab734b17a718e513803731ac"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/meshes/visual/Wrist_pitch_roll_MG996R_R3.STL",
+      "bytes": 992284,
+      "sha256": "b866ed1aa6780a66246f73e7e29f28200cbf9f62baeabe35f9acc7127942b0b8"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/package.xml",
+      "bytes": 736,
+      "sha256": "e791d8dcbc68c61b100ab6b10c262a2430a3b551a998f602401f960a5eb7484a"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/README.md",
+      "bytes": 1516,
+      "sha256": "b3aadddc6275754035159eb1dd6db52032eb5af6879574367fc57b40a4898b2f"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/rviz/so101.rviz",
+      "bytes": 507,
+      "sha256": "575a328c091f1d0580801a3712959a03c1c26d6580d2f94cc7b54375afc6905f"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/urdf/so101.expanded.urdf",
+      "bytes": 17591,
+      "sha256": "9734972ff02173cce6f99aa088416766737f711af3fb55721ba2c6e91bb7cab9"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/urdf/so101.urdf",
+      "bytes": 20522,
+      "sha256": "0955868569d3642dbd763d24347ebadd2fc92b2cba37c8a64c6cf1bb1f31f373"
+    },
+    {
+      "path": "ros2_ws/src/so101_description/urdf/so101.urdf.xacro",
+      "bytes": 20566,
+      "sha256": "2979dad27a5e6c02a22dce9083c32d19c07f5c1941ff888e56b0549e745a7239"
+    },
+    {
+      "path": "simulation/cad_rig.json",
+      "bytes": 30493,
+      "sha256": "7b26c71b4d0927c04687adf0b6f8cf8a61fec3b194b3252b43f0e92fe5bb8a34"
+    },
+    {
+      "path": "simulation/inertial_properties.yaml",
+      "bytes": 25406,
+      "sha256": "009fe31e5d0d491dc8c9aa333a3ed0d8b20e93268f9cbbd796eaa0f2d400d3c0"
+    },
+    {
+      "path": "simulation/isaac/config/import_requirements.yaml",
+      "bytes": 475,
+      "sha256": "53b730c7a2d2ae6bd09ab2c970ebb256895c2e4981a9074e7c37cea60864e035"
+    },
+    {
+      "path": "simulation/isaac/README.md",
+      "bytes": 726,
+      "sha256": "b4ea61d40d5972fdea094b693c51d03eafd46a70839d5aeb773fb49e28067e52"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/Base_MG996R_R3_body0.stl",
+      "bytes": 960584,
+      "sha256": "c64e93dd9a8d9e02367f7150fb1c154ab85cf1e8afb27e2e91211eccb51489d8"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/Forearm_MG996R_R3_body0.stl",
+      "bytes": 804484,
+      "sha256": "497898ea01c07923da3f23f9fd788c8c4ae76138c76b264e50e9bb2208fedfcc"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/Forearm_MG996R_R3_body1.stl",
+      "bytes": 144684,
+      "sha256": "a9afb68cb1a575a34d476af72912d99142f85eae175ea4ffc202438d89b86be1"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/Forearm_MG996R_R3_body2.stl",
+      "bytes": 103984,
+      "sha256": "cdf30bb5112a9422de7de6efc7a94bb32b77fecfd8887d412891252adb4cef53"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/Gripper_body_MG996R_R3_body0.stl",
+      "bytes": 575184,
+      "sha256": "6bf16a0a4c59bb8af678b293132e7b5b5c2214f8d2741871f8a0245a814948be"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/Metal_Horn_D20_PCD14_R3_body0.stl",
+      "bytes": 444184,
+      "sha256": "f0182067dd19cfd74c695af6efa2db242d3a56e56e574c7709ca9159efca81cd"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/MG996R_Nominal_R3_body0.stl",
+      "bytes": 128784,
+      "sha256": "e98612e923c7b2ff039bf55a6a8481b8c2eedcd9bf68d889d8ac80df127aaf68"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/Moving_jaw_MG996R_R3_body0.stl",
+      "bytes": 534584,
+      "sha256": "8a42346a50011559fbb204d206fc88b8dc6599324585d443d8608a36d3db9442"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/Shoulder_MG996R_R3_body0.stl",
+      "bytes": 890684,
+      "sha256": "a73c8654647fa4213de6a951f2547178c8405edb4181cf3a6d93cbec287aed4d"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/Upper_arm_MG996R_R3_body0.stl",
+      "bytes": 731984,
+      "sha256": "ae97eca56f4416b8cb287396e70b645944d1978d2d68745d9a6b168f8105e80d"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/collision/Wrist_pitch_roll_MG996R_R3_body0.stl",
+      "bytes": 992284,
+      "sha256": "96358a09300d9f928048de1c822dd78a3be7429549dee4528cbbc40415bf7773"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/visual/Base_MG996R_R3.stl",
+      "bytes": 960584,
+      "sha256": "05277565de79f70efeb82b487403fbf00589558451546c4b643468b1494e67c6"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/visual/Forearm_MG996R_R3.stl",
+      "bytes": 1053084,
+      "sha256": "bbb4909076ad3c9c4e35a7827c42ff34747ee74fc21eaae0d4d2c5011576cb88"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/visual/Gripper_body_MG996R_R3.stl",
+      "bytes": 575184,
+      "sha256": "c51279ec046df3488c411a9116d798c3a861233e82f8b5a7298bf469b4f9d9b0"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/visual/Metal_Horn_D20_PCD14_R3.stl",
+      "bytes": 444184,
+      "sha256": "f7ec1347ae6d8f3d8d5429b4ea5ca32490b2a53e925fdf615ddbb962d6c48c95"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/visual/MG996R_Nominal_R3.stl",
+      "bytes": 128784,
+      "sha256": "30ee9c33579fa90f15249bd47aa865f4a1ea0e44606b0e40d62a8c8872bb9a59"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/visual/Moving_jaw_MG996R_R3.stl",
+      "bytes": 534584,
+      "sha256": "7574b939f38543b32e93fa6793146a2b82aef8a34d7e280108b87d85d0ef8e7f"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/visual/Shoulder_MG996R_R3.stl",
+      "bytes": 890684,
+      "sha256": "d52ae68e3a8d5de4c41cf4a39c9477adf4c6d6dc2cfadfddad5233c3d7fec959"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/visual/Upper_arm_MG996R_R3.stl",
+      "bytes": 731984,
+      "sha256": "3e943316322dbc11e7b628c3cd1ff47a7fe968f2ab734b17a718e513803731ac"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/meshes/visual/Wrist_pitch_roll_MG996R_R3.stl",
+      "bytes": 992284,
+      "sha256": "b866ed1aa6780a66246f73e7e29f28200cbf9f62baeabe35f9acc7127942b0b8"
+    },
+    {
+      "path": "simulation/isaac/source_urdf/so101.urdf",
+      "bytes": 19349,
+      "sha256": "9a01e2298b5d7a2be87dbb61e676cad963672085be99b594a4b15f7091fdc96f"
+    },
+    {
+      "path": "simulation/isaac/validation/canonical_pose_reference.json",
+      "bytes": 142928,
+      "sha256": "7d9fa2c48535c388a922eee8470009822c3bb983692fbcd564af5b50ec0e0b5e"
+    },
+    {
+      "path": "simulation/joint_map.yaml",
+      "bytes": 9178,
+      "sha256": "fef054ab2529318caa03e5cd0c4a41b3e8568c42f57922fbf9c892f50d21fafe"
+    },
+    {
+      "path": "simulation/leader_joint_map.yaml",
+      "bytes": 6290,
+      "sha256": "1cba4d19b8d34366d039017e0a1996e6daf45a2f729e503b70747a503f3b0ce4"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Base_MG996R_R3.stl",
+      "bytes": 960584,
+      "sha256": "05277565de79f70efeb82b487403fbf00589558451546c4b643468b1494e67c6"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Base_MG996R_R3_body0.stl",
+      "bytes": 960584,
+      "sha256": "c64e93dd9a8d9e02367f7150fb1c154ab85cf1e8afb27e2e91211eccb51489d8"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Forearm_MG996R_R3.stl",
+      "bytes": 1053084,
+      "sha256": "bbb4909076ad3c9c4e35a7827c42ff34747ee74fc21eaae0d4d2c5011576cb88"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Forearm_MG996R_R3_body0.stl",
+      "bytes": 804484,
+      "sha256": "497898ea01c07923da3f23f9fd788c8c4ae76138c76b264e50e9bb2208fedfcc"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Forearm_MG996R_R3_body1.stl",
+      "bytes": 144684,
+      "sha256": "a9afb68cb1a575a34d476af72912d99142f85eae175ea4ffc202438d89b86be1"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Forearm_MG996R_R3_body2.stl",
+      "bytes": 103984,
+      "sha256": "cdf30bb5112a9422de7de6efc7a94bb32b77fecfd8887d412891252adb4cef53"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Gripper_body_MG996R_R3.stl",
+      "bytes": 575184,
+      "sha256": "c51279ec046df3488c411a9116d798c3a861233e82f8b5a7298bf469b4f9d9b0"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Gripper_body_MG996R_R3_body0.stl",
+      "bytes": 575184,
+      "sha256": "6bf16a0a4c59bb8af678b293132e7b5b5c2214f8d2741871f8a0245a814948be"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Metal_Horn_D20_PCD14_R3.stl",
+      "bytes": 444184,
+      "sha256": "f7ec1347ae6d8f3d8d5429b4ea5ca32490b2a53e925fdf615ddbb962d6c48c95"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Metal_Horn_D20_PCD14_R3_body0.stl",
+      "bytes": 444184,
+      "sha256": "f0182067dd19cfd74c695af6efa2db242d3a56e56e574c7709ca9159efca81cd"
+    },
+    {
+      "path": "simulation/mujoco/meshes/MG996R_Nominal_R3.stl",
+      "bytes": 128784,
+      "sha256": "30ee9c33579fa90f15249bd47aa865f4a1ea0e44606b0e40d62a8c8872bb9a59"
+    },
+    {
+      "path": "simulation/mujoco/meshes/MG996R_Nominal_R3_body0.stl",
+      "bytes": 128784,
+      "sha256": "e98612e923c7b2ff039bf55a6a8481b8c2eedcd9bf68d889d8ac80df127aaf68"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Moving_jaw_MG996R_R3.stl",
+      "bytes": 534584,
+      "sha256": "7574b939f38543b32e93fa6793146a2b82aef8a34d7e280108b87d85d0ef8e7f"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Moving_jaw_MG996R_R3_body0.stl",
+      "bytes": 534584,
+      "sha256": "8a42346a50011559fbb204d206fc88b8dc6599324585d443d8608a36d3db9442"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Shoulder_MG996R_R3.stl",
+      "bytes": 890684,
+      "sha256": "d52ae68e3a8d5de4c41cf4a39c9477adf4c6d6dc2cfadfddad5233c3d7fec959"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Shoulder_MG996R_R3_body0.stl",
+      "bytes": 890684,
+      "sha256": "a73c8654647fa4213de6a951f2547178c8405edb4181cf3a6d93cbec287aed4d"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Upper_arm_MG996R_R3.stl",
+      "bytes": 731984,
+      "sha256": "3e943316322dbc11e7b628c3cd1ff47a7fe968f2ab734b17a718e513803731ac"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Upper_arm_MG996R_R3_body0.stl",
+      "bytes": 731984,
+      "sha256": "ae97eca56f4416b8cb287396e70b645944d1978d2d68745d9a6b168f8105e80d"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Wrist_pitch_roll_MG996R_R3.stl",
+      "bytes": 992284,
+      "sha256": "b866ed1aa6780a66246f73e7e29f28200cbf9f62baeabe35f9acc7127942b0b8"
+    },
+    {
+      "path": "simulation/mujoco/meshes/Wrist_pitch_roll_MG996R_R3_body0.stl",
+      "bytes": 992284,
+      "sha256": "96358a09300d9f928048de1c822dd78a3be7429549dee4528cbbc40415bf7773"
+    },
+    {
+      "path": "simulation/mujoco/README.md",
+      "bytes": 1362,
+      "sha256": "4a0f12defbfddb40ca71b40e4c008be53c6034bcc3c497c8ab163a1c37cd400f"
+    },
+    {
+      "path": "simulation/mujoco/so101.xml",
+      "bytes": 8030,
+      "sha256": "ac5758425793efea9074384ce855130c04c636dce0929868c97e0cf84c7de914"
+    },
+    {
+      "path": "simulation/mujoco/so101_import_test.urdf",
+      "bytes": 18925,
+      "sha256": "022baaec667151598b6b112af343f3b71545f0f8af9651fbf1a595986ff1d549"
+    },
+    {
+      "path": "simulation/urdf_visual_mapping.json",
+      "bytes": 11104,
+      "sha256": "40c2de398153e533ed8c283fd075489a473960e3deaaa30a2ceb9b0b21a7b8bf"
+    },
+    {
+      "path": "so101-mg996r/firmware/joint_mapping.md",
+      "bytes": 2814,
+      "sha256": "197988092c701d510001a86227705630c43bae1a50a62348c1e54722d4440884"
+    },
+    {
+      "path": "solidworks/assemblies/SO101_Follower_Master.SLDASM",
+      "bytes": 18965204,
+      "sha256": "b5ca2956beb372702fdadf23c13d14660b1913572610a9531d6972ea03f0ca31"
+    },
+    {
+      "path": "solidworks/assemblies/SO101_Leader_Master.SLDASM",
+      "bytes": 20427259,
+      "sha256": "0776857cb201f3422822384112ccf78d87d7a62c33ed1926ff30f6650ed8c36d"
+    },
+    {
+      "path": "solidworks/assemblies/~$SO101_Follower_Master.SLDASM",
+      "bytes": 6,
+      "sha256": "39f2f4b8e6f9e0ab916365bdd53440e1814129ed2d1679da7dcde80e19c0a6e1"
+    },
+    {
+      "path": "solidworks/hardware/leader/688_bearing_front_L1.SLDPRT",
+      "bytes": 64059,
+      "sha256": "e050a27a7e0aaddb26c8d743a254928525b06405e4a65beee78f4a713db14a6a"
+    },
+    {
+      "path": "solidworks/hardware/leader/688_bearing_rear_L1.SLDPRT",
+      "bytes": 64340,
+      "sha256": "33da92ca5207872e61eb85ebe87a11686da21bb3287f1eb2ef6b8e6dddc1fc43"
+    },
+    {
+      "path": "solidworks/hardware/leader/AS5600_chip_L1.SLDPRT",
+      "bytes": 40856,
+      "sha256": "0815771ed6829529b219a209d5c26799b8dcb829f028a046ebe4095b69711f93"
+    },
+    {
+      "path": "solidworks/hardware/leader/AS5600_connectors_L1.SLDPRT",
+      "bytes": 46703,
+      "sha256": "abe29db03c0cdac9dad8d00f95e78b45c313406c5464d88b918b77150f064660"
+    },
+    {
+      "path": "solidworks/hardware/leader/AS5600_PCB_L1.SLDPRT",
+      "bytes": 53833,
+      "sha256": "2a6dee2858084dcd0cb28e84d49cc05c487a9e3c64ebc2bc6ecb5993fcba0e44"
+    },
+    {
+      "path": "solidworks/hardware/leader/Bearing_cap_front_L1.SLDPRT",
+      "bytes": 57133,
+      "sha256": "02c67f5ca763aa38d5d234e077f0d65cc6952d2c1b072851912bcd7485ecded8"
+    },
+    {
+      "path": "solidworks/hardware/leader/Bearing_cap_rear_L1.SLDPRT",
+      "bytes": 73044,
+      "sha256": "321e3d72f3f4e43949994878593d8d7cb4a382d3033b4febe8d3357a0543fcaa"
+    },
+    {
+      "path": "solidworks/hardware/leader/Diametric_magnet_L1.SLDPRT",
+      "bytes": 54799,
+      "sha256": "bf7d91b649fc4ed91c130c5c69dee262758c044cce12d0bca3b6a64aa7d004b9"
+    },
+    {
+      "path": "solidworks/hardware/leader/Encoder_cartridge_L1.SLDPRT",
+      "bytes": 4262436,
+      "sha256": "44a629caff419f02ae6a030a8d7fb50b805bab3a0a61dc209dc96bfeaf4a9ccd"
+    },
+    {
+      "path": "solidworks/hardware/leader/Encoder_rotor_L1.SLDPRT",
+      "bytes": 1241622,
+      "sha256": "7070c92e5caa09c539a4b7db291fb02dc71453708233a3af2364e8ef4067d43f"
+    },
+    {
+      "path": "solidworks/hardware/leader/Magnet_cup_L1.SLDPRT",
+      "bytes": 904070,
+      "sha256": "e227de0cd6aaf6cdf4865a95d191e74155486ed839794bd27934face215f3494"
+    },
+    {
+      "path": "solidworks/hardware/Metal_Horn_D20_PCD14_R3.SLDPRT",
+      "bytes": 77771,
+      "sha256": "7fbb68fe8adccd4f10357f851172dcb8cc8eb92baef132c794085f62c01f2a13"
+    },
+    {
+      "path": "solidworks/hardware/MG996R_Nominal_R3.SLDPRT",
+      "bytes": 66517,
+      "sha256": "d9f1a3713700e9f9e2c8ffb2269add6ca16764b63366374a925e1cb629fdf963"
+    },
+    {
+      "path": "solidworks/parts/Base_MG996R_R3.SLDPRT",
+      "bytes": 9225728,
+      "sha256": "ed2bb15c286248866179474277733d49214036d387d15c49019e5dcede163248"
+    },
+    {
+      "path": "solidworks/parts/Forearm_MG996R_R3.SLDPRT",
+      "bytes": 15670316,
+      "sha256": "52f153e9fac2619d2aac5b36a4b800e9c6183eea353acfc0bc942cdbc2166b6e"
+    },
+    {
+      "path": "solidworks/parts/Gripper_body_MG996R_R3.SLDPRT",
+      "bytes": 5512715,
+      "sha256": "8750583b09f9b8a0a450612b77d940d6815c8da3b1c3e41eed4c035fedaaa4cd"
+    },
+    {
+      "path": "solidworks/parts/leader/Base_Encoder_L1.SLDPRT",
+      "bytes": 14095472,
+      "sha256": "819db19ddfe14bf12cd3cdfdcd59e50feb4d3899dba65ee16790526c4f867a70"
+    },
+    {
+      "path": "solidworks/parts/leader/Forearm_Encoder_L1.SLDPRT",
+      "bytes": 15168116,
+      "sha256": "6578479efda668b98c32a9fa3c4a2e6a29e9f6951b035ee608aa2b7ceefeff1e"
+    },
+    {
+      "path": "solidworks/parts/leader/Handle_Encoder_L1.SLDPRT",
+      "bytes": 9464107,
+      "sha256": "e288bdd8fb03047fd0fa558aa714fbfb9252a769fa306668b7d9360a33d7db6e"
+    },
+    {
+      "path": "solidworks/parts/leader/Shoulder_Encoder_L1.SLDPRT",
+      "bytes": 7993785,
+      "sha256": "7de28b48ed6bab68d19c2528e1ce50b6c86c9897cf89abb6923c23dd63d9ad5b"
+    },
+    {
+      "path": "solidworks/parts/leader/Trigger_Encoder_L1.SLDPRT",
+      "bytes": 6328765,
+      "sha256": "ffc9e3e224f8ae0366b85dfaf0d59181ee6c6a4f47ff95ea513ca48e0faebc8e"
+    },
+    {
+      "path": "solidworks/parts/leader/Upper_arm_Encoder_L1.SLDPRT",
+      "bytes": 5568713,
+      "sha256": "e16b69dc1dd1962e2330ebe1f9eb7cb634e639c8768bcf0c0b3b9618b241788b"
+    },
+    {
+      "path": "solidworks/parts/leader/Wrist_pitch_roll_Encoder_L1.SLDPRT",
+      "bytes": 7539098,
+      "sha256": "24446e83db9d25cbf18b7f07885df2794384ede5c8c0e70f1a23545483c02ce9"
+    },
+    {
+      "path": "solidworks/parts/Moving_jaw_MG996R_R3.SLDPRT",
+      "bytes": 5180104,
+      "sha256": "3eda92e1b7f9cf366fad38b18d1e206b7b5607f1a9326293ddc932703a21d7ee"
+    },
+    {
+      "path": "solidworks/parts/Shoulder_MG996R_R3.SLDPRT",
+      "bytes": 8098593,
+      "sha256": "73773bab14006cd2da9d7cb3dcfae15a6b022c25a865ea1e50ef95bc3b828fdc"
+    },
+    {
+      "path": "solidworks/parts/Upper_arm_MG996R_R3.SLDPRT",
+      "bytes": 6805247,
+      "sha256": "b2d85edf1859a7f9fe305080e74220444c714c806abc2e672d535c18528ae17c"
+    },
+    {
+      "path": "solidworks/parts/Wrist_pitch_roll_MG996R_R3.SLDPRT",
+      "bytes": 9718991,
+      "sha256": "42b07a8fc165090b4d74b1be1aee7faf079ece088051ae560d0902c8043968eb"
+    },
+    {
+      "path": "solidworks/README.md",
+      "bytes": 5343,
+      "sha256": "192cdde2f32d3a9c6e77eb82b147f2b36d7dc4a1e4cc52d8a9aed2f3c143d60d"
+    },
+    {
+      "path": "verification/pose_images/mujoco_HOME.png",
+      "bytes": 85476,
+      "sha256": "a848983a91727453cad131fa217acd30a721e436cdab6b21e72189d15b51b38f"
+    },
+    {
+      "path": "verification/pose_images/mujoco_J1_MAX.png",
+      "bytes": 67432,
+      "sha256": "8228f3145101469feb860cbc65eeb771032813fdaa959b3cc6eb7dabfb3fedf6"
+    },
+    {
+      "path": "verification/pose_images/mujoco_J2_MIN.png",
+      "bytes": 80000,
+      "sha256": "fcbc35c44dd7388204501263d101bba8f9e1603eb73dfbfe94d4a2b584b81562"
+    },
+    {
+      "path": "verification/pose_images/mujoco_MULTI.png",
+      "bytes": 67962,
+      "sha256": "b5c4ea5618b14de19a0d6da77cd4814d89a1e88cdd051e124c12ddaac673418a"
+    },
+    {
+      "path": "verification/pose_images/mujoco_ZERO.png",
+      "bytes": 70373,
+      "sha256": "d898ae9eb9b0de9cbcb35dc35318033e98ce047b3b5e1e6d9f8d6c5e14b4fd02"
+    },
+    {
+      "path": "verification/pose_images/solidworks_HOME.png",
+      "bytes": 202872,
+      "sha256": "c2901a66b9ec2c5bb5df6eb31f8936e1d983671f84d831f81033a5c873b5fbc8"
+    },
+    {
+      "path": "verification/pose_images/solidworks_J1_MAX.png",
+      "bytes": 195470,
+      "sha256": "f32591ad5bab7d74485b7b81ce96ee3d378aeef36a619fbbdc76057ac875ab84"
+    },
+    {
+      "path": "verification/pose_images/solidworks_J2_MIN.png",
+      "bytes": 196812,
+      "sha256": "38a20bd5738ee938363d9af7a8962ffd8507d92826bc2c800ad4d4a0129ddaf6"
+    },
+    {
+      "path": "verification/pose_images/solidworks_MULTI.png",
+      "bytes": 189472,
+      "sha256": "621a6e71df5ef0584a054209267ab9a2c1563749380fb9a04b47631e2eb74fba"
+    },
+    {
+      "path": "verification/pose_images/solidworks_ZERO.png",
+      "bytes": 195649,
+      "sha256": "4add58ab8d697065179778714c6e71c91a0fe4f0e965b4263aafd6c16f14e7e6"
+    },
+    {
+      "path": "verification/visual_pose_comparison.md",
+      "bytes": 2318,
+      "sha256": "fbfaf817b4aed2c2d0688e1f8426fd1e3cbb908aeacc564a52519278046519ab"
+    }
+  ]
+}
