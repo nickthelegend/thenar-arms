@@ -73,10 +73,10 @@ const followerFocus=[0,1,2,3,4,5].map(ix=>objects[ix].center.clone());
 const CAM_DIR=new THREE.Vector3(0.75,-1.18,.8).normalize();
 function smooth(x){x=THREE.MathUtils.clamp(x,0,1);return x*x*(3-2*x)}
 function offset(ix){const o=objects[ix],small=o.part.kind==='hardware'||o.entry.part.includes('cap')||o.entry.part.includes('cup');const a=(ix*2.3999632297)%(Math.PI*2);return new THREE.Vector3(Math.cos(a)*(small?82:145),Math.sin(a)*(small?75:125),small?70:120)}
-function setHud(chapter,label,instruction,counter,t){$('#chapter').textContent=chapter;$('#part').textContent=label;$('#instruction').textContent=instruction;$('#counter').textContent=counter;$('#clock').textContent=`${String(Math.floor(t/60)).padStart(2,'0')}:${String(Math.floor(t%60)).padStart(2,'0')} / 03:00`;$('#bar').style.width=`${t/DURATION*100}%`}
+function setHud(chapter,label,instruction,counter,t){const time=`${String(Math.floor(t/60)).padStart(2,'0')}:${String(Math.floor(t%60)).padStart(2,'0')}`;$('#chapter').textContent=chapter;$('#part').textContent=label;$('#instruction').textContent=instruction;$('#counter').textContent=counter;$('#clock').textContent=`${time} / 03:00`;$('#bar').style.width=`${t/DURATION*100}%`;$('#timeline').value=String(t);$('#timeline').setAttribute('aria-valuetext',`${time} of 03:00`)}
 function cameraAt(focus,distance,orbit=0){camera.position.copy(focus).add(CAM_DIR.clone().applyAxisAngle(new THREE.Vector3(0,0,1),orbit).multiplyScalar(distance));camera.lookAt(focus)}
 function renderAt(rawTime){
- const t=THREE.MathUtils.clamp(Number(rawTime)||0,0,DURATION-1/24),intro=t<INTRO,transition=t>=LEADER_END&&t<FOLLOWER_START,final=t>=FOLLOWER_END;
+ const t=THREE.MathUtils.clamp(Number(rawTime)||0,0,DURATION),intro=t<INTRO,transition=t>=LEADER_END&&t<FOLLOWER_START,final=t>=FOLLOWER_END;
  $('.panel').style.display=intro||final?'none':'block';
  $('#status').innerHTML=final?'BOTH 3D ASSEMBLIES COMPLETE<br>Pi 4B → two USB ESP32 boards · external 6 V servo power':intro?'ACTUAL CONVERTED STL GEOMETRY<br>One-by-one assembly into recorded CAD positions':'Actual converted STL geometry<br>Leader L1 + MG996R follower R3';
  let active=-1;for(let i=0;i<steps.length;i++){if(t>=steps[i].start&&t<steps[i].end){active=i;break}}
@@ -97,9 +97,20 @@ function renderAt(rawTime){
  scene.updateMatrixWorld(true);renderer.render(scene,camera);return true;
 }
 ready.remove();window.renderAt=renderAt;window.assemblyReady=true;renderAt(0);
-if(!new URLSearchParams(location.search).has('capture')){
- let began=performance.now(),pausedAt=null;
- function play(now){if(pausedAt===null)renderAt(((now-began)/1000)%DURATION);requestAnimationFrame(play)}
- window.addEventListener('keydown',e=>{if(e.code==='Space'){e.preventDefault();if(pausedAt===null)pausedAt=performance.now();else{began+=performance.now()-pausedAt;pausedAt=null}}});
+const capturing=new URLSearchParams(location.search).has('capture');
+if(capturing){$('#nav-actions').hidden=true;$('#timeline').hidden=true}
+else{
+ const timeline=$('#timeline'),button=$('#play-pause');
+ let playhead=0,playing=true,scrubbing=false,lastFrame=performance.now();
+ function syncButton(){button.textContent=playing?'Pause':'Play';button.setAttribute('aria-label',playing?'Pause animation':'Play animation')}
+ function seek(value){playhead=THREE.MathUtils.clamp(Number(value)||0,0,DURATION);renderAt(playhead);lastFrame=performance.now()}
+ function toggle(){if(!playing&&playhead===DURATION)seek(0);playing=!playing;lastFrame=performance.now();syncButton()}
+ button.addEventListener('click',toggle);
+ timeline.addEventListener('pointerdown',()=>{scrubbing=true});
+ timeline.addEventListener('input',e=>seek(e.target.value));
+ for(const event of ['pointerup','pointercancel'])timeline.addEventListener(event,()=>{scrubbing=false;lastFrame=performance.now()});
+ window.addEventListener('pointerup',()=>{if(scrubbing){scrubbing=false;lastFrame=performance.now()}});
+ window.addEventListener('keydown',e=>{if(e.code==='Space'&&!e.target.closest('button, a, input')){e.preventDefault();toggle()}});
+ function play(now){if(playing&&!scrubbing){playhead=Math.min(DURATION,playhead+(now-lastFrame)/1000);renderAt(playhead);if(playhead===DURATION){playing=false;syncButton()}}lastFrame=now;requestAnimationFrame(play)}
  requestAnimationFrame(play);
 }
