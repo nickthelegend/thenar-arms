@@ -30,7 +30,11 @@
     #timeline::-moz-range-thumb{width:24px;height:24px;border:4px solid #e8f6ff;border-radius:50%;background:#65b5ff;box-shadow:0 0 0 5px #09111da8,0 0 18px #65b5ff99}
     #timeline:focus-visible{outline:2px solid #a9d7ff;outline-offset:2px}
     #status{position:absolute;left:62px;top:143px;max-width:720px;font-size:25px;line-height:1.35;color:#bdd0dd}
-    #ready{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#dcecf8;font:700 24px 'Courier New',monospace}
+    #ready{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:12px;width:760px;max-width:90%;padding:25px;color:#dcecf8;text-align:center;font:700 24px 'Courier New',monospace;background:#0b1829d9;border:1px solid #45617a;border-radius:14px}
+    #ready small{font:500 20px Arial,Helvetica,sans-serif;color:#afc6d8}
+    #ready a{color:#9ed1ff}
+    #retry-load{min-height:43px;padding:0 16px;border:1px solid #82b1d6;border-radius:7px;background:#1e4e72;color:white;font:700 19px Arial,Helvetica,sans-serif;cursor:pointer}
+    #retry-load[hidden]{display:none}
     .corner{position:absolute;left:62px;bottom:146px;color:#91a9bc;font:700 19px 'Courier New',monospace}
     #nav-actions{position:fixed;z-index:20;right:20px;bottom:18px;display:flex;gap:10px}
     #nav-actions[hidden]{display:none}
@@ -40,7 +44,7 @@
   </style>
 </head>
 <body><div id="stage">
-  <div id="ready">Loading actual STL assemblies…</div>
+  <div id="ready" role="status"><span id="load-label">Loading assembly parts…</span><small>If loading is slow, <a href="./video/thenar-real-3d-assembly-180s.mp4">watch the MP4</a>.</small><button type="button" id="retry-load" hidden>Retry 3D loading</button></div>
   <div class="top"><div class="brand">THENAR<span> / </span>ASSEMBLY</div><div id="clock">00:00 / 03:00</div></div>
   <div class="rule"></div><div id="status">Actual converted STL geometry<br>Leader L1 + MG996R follower R3</div>
   <div class="panel"><div id="chapter">3D ASSEMBLY</div><div id="part">Loading parts</div><div id="instruction">One component at a time, into its recorded CAD position.</div><div id="counter"></div></div>
@@ -48,4 +52,10 @@
   <div class="corner">Nominal CAD positions · dry-fit actual purchased hardware before power</div>
   <div id="barback"><div id="bar"></div></div>
   <input id="timeline" type="range" min="0" max="180" step="0.01" value="0" aria-label="Assembly timeline, drag to seek" aria-valuetext="00:00 of 03:00">
-</div><nav id="nav-actions" aria-label="Assembly film navigation"><button type="button" id="play-pause" aria-label="Pause animation">Pause</button><a href="./" id="back-to-studio">← Back to Robot Studio</a><a href="./video/thenar-real-3d-assembly-180s.mp4" id="watch-mp4">Watch MP4</a></nav><script type="module" src="/src/assembly-video.js"></script></body></html>
+</div><nav id="nav-actions" aria-label="Assembly film navigation"><button type="button" id="play-pause" aria-label="Pause animation">Pause</button><a href="./" id="back-to-studio">← Back to Robot Studio</a><a href="./video/thenar-real-3d-assembly-180s.mp4" id="watch-mp4">Watch MP4</a></nav><script>
+  const retry=document.getElementById('retry-load'),label=document.getElementById('load-label');
+  retry.addEventListener('click',()=>location.reload());
+  setTimeout(()=>{if(label.isConnected&&!window.assemblyReady)retry.hidden=false},25000);
+  function showLoadError(){if(!window.assemblyReady&&!window.assemblyLoadFailed&&label.isConnected){label.textContent='3D loading failed. Retry or watch the MP4.';retry.hidden=false}}
+  addEventListener('error',showLoadError);addEventListener('unhandledrejection',showLoadError);
+</script><script type="module" src="/src/assembly-video.js"></script></body></html>
