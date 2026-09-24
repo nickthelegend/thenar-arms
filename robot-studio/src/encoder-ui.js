@@ -1,4 +1,5 @@
-const root='/models/so101/encoder-leader-l1/';
+import {modelUrl} from './asset-path.js';
+const root=modelUrl('encoder-leader-l1/');
 export function encoderLinks(){return `<p class="panel-help"><a href="${root}READ-ME-FIRST.md" target="_blank">Encoder leader: BOM, wiring and assembly</a><br><a href="${root}P1S_ENCODER_CARTRIDGE_FIT.3mf" download>Test first: one encoder cartridge · 5 pieces</a><br><a href="${root}SO101-AS5600-LEADER-L1.zip" download>Download encoder leader kit · 37 printed pieces</a></p>`}
 export function renderEncoderPlates(m,index,onSelect){
  const p=m.plates[index],leader=p.robot==='leader';

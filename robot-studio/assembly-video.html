@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thenar · actual 3D assembly film</title>
+  <style>
+    *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#09111d;color:#eef5fa;font-family:Arial,Helvetica,sans-serif}
+    #stage{position:relative;width:1920px;height:1080px;overflow:hidden;background:radial-gradient(circle at 55% 40%,#17283e,#09111d 74%)}
+    canvas{position:absolute;inset:0;width:1920px;height:1080px}
+    .top{position:absolute;top:46px;left:62px;right:62px;display:flex;align-items:start;justify-content:space-between;pointer-events:none}
+    .brand{font-weight:900;letter-spacing:.16em;font-size:25px;color:#b7c8d8}.brand span{color:#f9bb58}
+    #clock{font:700 24px 'Courier New',monospace;color:#92a6ba}
+    .rule{position:absolute;top:101px;left:62px;right:62px;height:1px;background:#466078}
+    .panel{position:absolute;right:62px;top:147px;width:485px;min-height:380px;padding:30px 34px;border:1px solid #41617a;border-radius:18px;background:rgba(9,19,33,.88);box-shadow:0 20px 65px #0713208c;pointer-events:none}
+    #chapter{font:700 19px 'Courier New',monospace;letter-spacing:.1em;color:#87b9ff}
+    #part{margin:22px 0 16px;font-size:52px;line-height:1.03;font-weight:900;letter-spacing:-.035em;text-wrap:balance}
+    #instruction{font-size:26px;line-height:1.27;color:#d7e5ef}
+    #counter{margin-top:26px;font:700 22px 'Courier New',monospace;color:#a9bfd2}
+    .legend{position:absolute;left:62px;bottom:100px;display:flex;gap:24px;font:700 20px 'Courier New',monospace;color:#c5d5e2}
+    .swatch{display:inline-block;width:17px;height:17px;margin-right:9px;border-radius:4px;vertical-align:-2px}
+    .leader{background:#5e9ce7}.follower{background:#eeb250}.hardware{background:#bbc7d2}
+    #barback{position:absolute;left:62px;right:62px;bottom:56px;height:8px;border-radius:5px;background:#314458}
+    #bar{width:0;height:100%;border-radius:5px;background:linear-gradient(90deg,#5e9ce7 0%,#5e9ce7 60%,#eeb250 60%,#eeb250 92%,#ed8290 92%)}
+    #status{position:absolute;left:62px;top:143px;max-width:720px;font-size:25px;line-height:1.35;color:#bdd0dd}
+    #ready{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#dcecf8;font:700 24px 'Courier New',monospace}
+    .corner{position:absolute;left:62px;bottom:146px;color:#91a9bc;font:700 19px 'Courier New',monospace}
+    #nav-actions{position:fixed;z-index:20;right:20px;bottom:18px;display:flex;gap:10px}
+    #nav-actions[hidden]{display:none}
+    #nav-actions a{display:inline-flex;align-items:center;min-height:43px;padding:0 15px;border:1px solid #6385a2;border-radius:8px;background:#0e2134;color:#f1f8ff;font-size:14px;font-weight:800;text-decoration:none;box-shadow:0 8px 24px #07111d66}
+    #nav-actions a:hover,#nav-actions a:focus-visible{background:#214765;outline:2px solid #a9d7ff;outline-offset:2px}
+  </style>
+</head>
+<body><div id="stage">
+  <div id="ready">Loading actual STL assemblies…</div>
+  <div class="top"><div class="brand">THENAR<span> / </span>ASSEMBLY</div><div id="clock">00:00 / 03:00</div></div>
+  <div class="rule"></div><div id="status">Actual converted STL geometry<br>Leader L1 + MG996R follower R3</div>
+  <div class="panel"><div id="chapter">3D ASSEMBLY</div><div id="part">Loading parts</div><div id="instruction">One component at a time, into its recorded CAD position.</div><div id="counter"></div></div>
+  <div class="legend"><span><b class="swatch leader"></b>ENCODER LEADER</span><span><b class="swatch follower"></b>MG996R FOLLOWER</span><span><b class="swatch hardware"></b>HARDWARE</span></div>
+  <div class="corner">Nominal CAD positions · dry-fit actual purchased hardware before power</div>
+  <div id="barback"><div id="bar"></div></div>
+</div><nav id="nav-actions" aria-label="Assembly film navigation"><a href="./" id="back-to-studio">← Back to Robot Studio</a><a href="./video/thenar-real-3d-assembly-180s.mp4" id="watch-mp4">Watch MP4</a></nav><script>if(new URLSearchParams(location.search).has('capture'))document.getElementById('nav-actions').hidden=true;</script><script type="module" src="/src/assembly-video.js"></script></body></html>

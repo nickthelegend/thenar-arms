@@ -10,8 +10,10 @@ import { addFitTestPlates } from './fit-test.js';
 import { isR3, r3Notice, renderR3Plates, renderR3Checks, followerBelowTable } from './r3-ui.js';
 import { createAssemblyGuard } from './assembly-guard.js';
 import { encoderLinks, renderEncoderPlates, appendEncoderChecks } from './encoder-ui.js';
+import { modelUrl, installModelLinkRewriter } from './asset-path.js';
 
 const $=s=>document.querySelector(s);
+installModelLinkRewriter();
 const studyView=new URLSearchParams(location.search).get('geometry')!=='original';
 const icon=name=>`<i data-lucide="${name}"></i>`;
 $('#app').innerHTML=`
@@ -21,6 +23,7 @@ $('#app').innerHTML=`
 <section class="canvas-wrap" aria-label="Interactive three-dimensional robot viewer"><div class="scene-title"><h1 id="scene-heading">The original SO-101.</h1><p id="scene-subtitle">Original meshes · MG996R fit not yet released</p></div><div class="view-tools"><button id="fit-view" title="Fit assembly" aria-label="Fit assembly">${icon('maximize')}</button><button id="front-view" title="Front view" aria-label="Front view">${icon('panel-top')}</button><button id="top-view" title="Top view" aria-label="Top view">${icon('square')}</button><button id="capture" title="Save view as PNG" aria-label="Save view as PNG">${icon('camera')}</button></div><div id="selected-tag" class="selected-tag hidden"></div><div class="legend"><span><b class="dot"></b>Follower</span><span><b class="dot blue"></b>Leader</span><span><b class="dot dark"></b>Purchased parts</span></div><span class="viewport-hint">Drag to orbit · Scroll to zoom</span><div class="loading" id="loading"><span id="load-label">Loading CAD assemblies…</span><progress value="0" max="100"></progress></div><div class="checks-view hidden" id="checks-view"></div></section>
 <aside class="panel"><div class="panel-head" id="panel-heading">${icon('sliders-horizontal')} Joint controls</div><div class="panel-body" id="panel-body"></div></aside><footer class="footbar"><span id="footer-status">Preparing geometry</span><span>Geometric preview · no hardware connection</span></footer></main><div id="toast" class="toast hidden" role="status"></div>`;
 $('.rev').outerHTML=`<select id="geometry-mode" aria-label="Geometry version" style="max-width:190px;background:#17253e;color:white;border:1px solid #738095;border-radius:4px;padding:7px"><option value="original">Original SO-101</option><option value="clearance">MG996R clearance study</option></select>`;
+const filmLink=document.createElement('a');filmLink.className='film-link';filmLink.href='./assembly-video.html';filmLink.setAttribute('aria-label','Open 3D assembly video');filmLink.innerHTML='<span class="film-word">3D assembly film</span><span aria-hidden="true">▶</span>';$('.top-right').prepend(filmLink);
 $('#geometry-mode option[value="clearance"]').textContent='MG996R follower · R3';
 $('#geometry-mode').value=studyView?'clearance':'original';$('#geometry-mode').onchange=e=>{location.search=e.target.value==='clearance'?'?geometry=clearance':'?geometry=original'};
 if(studyView){$('.status-text').textContent='Loading MG996R follower R3…';$('[data-robot="follower"] small').textContent='Original-derived MG996R conversion';$('.top-right .download').href='/models/so101/follower-r3/SO101-MG996R-R3-PROTOTYPE.zip';$('.top-right .download span').textContent='Download MG996R R3'}
@@ -53,10 +56,10 @@ function setupScene(){
  renderer.setAnimationLoop(t=>{if(animate&&activeTab==='assembly'){const s=(t-animationStart)/1000;const next=manifest.home.map((v,i)=>v+Math.sin(s*.65+i*.5)*[18,10,12,12,18,9][i]);if(!acceptPose(next))animate=false;syncSliders()}orbit.update();renderer.render(scene,camera)});
 }
 async function loadCAD(){
- const res=await fetch('/models/so101/'+(studyView?'study-manifest.json':'manifest.json'));if(!res.ok)throw new Error('CAD manifest could not be loaded.');const manifestText=await res.text();manifest=JSON.parse(manifestText);angles=[...manifest.home];
- try {fitReport=await(await fetch('/models/so101/fit-analysis.json')).json()}catch{fitReport=null}report=null;
- try {const r=await fetch('/models/so101/motion-verification.json');if(r.ok){motionCheck=await r.json();if(studyView){const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(manifestText)))).map(x=>x.toString(16).padStart(2,'0')).join('');if(hash!==motionCheck.manifest_sha256)motionCheck=null}}}catch{motionCheck=null}
- if(!isR3(manifest))try {const r=await fetch('/models/so101/fit-test/verification.json');if(r.ok){benchReport=await r.json();addFitTestPlates(manifest,benchReport)}}catch{benchReport=null}
+ const res=await fetch(modelUrl(studyView?'study-manifest.json':'manifest.json'));if(!res.ok)throw new Error('CAD manifest could not be loaded.');const manifestText=await res.text();manifest=JSON.parse(manifestText);angles=[...manifest.home];
+ try {fitReport=await(await fetch(modelUrl('fit-analysis.json'))).json()}catch{fitReport=null}report=null;
+ try {const r=await fetch(modelUrl('motion-verification.json'));if(r.ok){motionCheck=await r.json();if(studyView){const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(manifestText)))).map(x=>x.toString(16).padStart(2,'0')).join('');if(hash!==motionCheck.manifest_sha256)motionCheck=null}}}catch{motionCheck=null}
+ if(!isR3(manifest))try {const r=await fetch(modelUrl('fit-test/verification.json'));if(r.ok){benchReport=await r.json();addFitTestPlates(manifest,benchReport)}}catch{benchReport=null}
  if(isR3(manifest)){
   $('.status-text').textContent='MG996R follower R3 · nominal-fit prototype';
   $('.top-right .download').href='/models/so101/follower-r3/SO101-MG996R-R3-PROTOTYPE.zip';
@@ -72,7 +75,7 @@ async function loadCAD(){
   $('[data-robot="leader"] small').textContent='6 passive AS5600 encoder joints';
  }
  const loader=new STLLoader();let count=0;
- await Promise.all(manifest.parts.map(async p=>{partMap.set(p.id,p);const g=await loader.loadAsync('/models/so101/'+p.file);g.computeVertexNormals();geometries.set(p.id,g);$('progress').value=++count/manifest.parts.length*100}));
+ await Promise.all(manifest.parts.map(async p=>{partMap.set(p.id,p);const g=await loader.loadAsync(modelUrl(p.file));g.computeVertexNormals();geometries.set(p.id,g);$('progress').value=++count/manifest.parts.length*100}));
  for(const n of manifest.nodes){const g=new THREE.Group();g.position.fromArray(n.position);g.rotation.set(...n.rotation.map(THREE.MathUtils.degToRad));g.userData=n;nodeMap[n.id]=g;(n.parent?nodeMap[n.parent]:robotGroup).add(g)}
  for(const i of manifest.instances){const p=partMap.get(i.part),mesh=new THREE.Mesh(geometries.get(i.part),material(p,i.robot));mesh.position.fromArray(i.position);mesh.rotation.set(...i.rotation.map(THREE.MathUtils.degToRad));mesh.castShadow=true;mesh.receiveShadow=true;mesh.userData={...i,originalPosition:[...i.position]};nodeMap[i.node].add(mesh);partMeshes.push(mesh)}
  updatePose();if(manifest.encoder_leader)assemblyGuard=createAssemblyGuard(partMeshes);
