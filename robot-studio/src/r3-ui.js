@@ -1,4 +1,5 @@
-const ROOT='/models/so101/follower-r3/';
+import {modelUrl} from './asset-path.js';
+const ROOT=modelUrl('follower-r3/');
 export const isR3=m=>m?.revision?.startsWith('SO101-MG996R-R3');
 function toolpathNotice(manifest){
  const report=manifest.prototype_reports.plates;

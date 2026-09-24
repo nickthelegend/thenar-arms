@@ -40,6 +40,13 @@ Open [the assembly viewer](http://127.0.0.1:5173/) or
 Keep the terminal running. The website displays actual exported meshes and never
 connects to hardware. `?geometry=original` opens untouched upstream references.
 
+Hosted on GitHub Pages: [Robot Studio](https://nickthelegend.github.io/thenar-arms/)
+and its [one-by-one 3D assembly animation](https://nickthelegend.github.io/thenar-arms/assembly-video.html).
+The [180-second MP4](robot-studio/public/video/thenar-real-3d-assembly-180s.mp4)
+uses the actual STL assembly manifest. The animation is a nominal CAD sequence,
+not a physical-fit certificate. [Raspberry Pi 4B host wiring](so101-mg996r/RASPBERRY-PI-4B.md)
+is documented separately.
+
 ## What is verified — and what is not
 
 | Check | Result |

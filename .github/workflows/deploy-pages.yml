@@ -1,0 +1,46 @@
+name: Deploy Robot Studio to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'robot-studio/**'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: robot-studio/package-lock.json
+      - uses: actions/configure-pages@v5
+      - name: Install dependencies
+        working-directory: robot-studio
+        run: npm ci
+      - name: Build project-path website
+        working-directory: robot-studio
+        env:
+          GITHUB_PAGES: 'true'
+        run: npm run build
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: robot-studio/dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
