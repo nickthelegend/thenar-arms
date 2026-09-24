@@ -21,7 +21,27 @@ const indicator=new THREE.Mesh(new THREE.TorusGeometry(21,1.5,8,72),new THREE.Me
 const manifest=await(await fetch(modelUrl('encoder-leader-l1/manifest.json'))).json();
 const geometry=new Map(),partById=new Map(manifest.parts.map(p=>[p.id,p]));
 const loader=new STLLoader();
-for(const p of manifest.parts){const g=await loader.loadAsync(modelUrl(p.file));g.computeVertexNormals();geometry.set(p.id,g)}
+let nextPart=0,loadedParts=0;
+async function loadPart(p){
+ for(let attempt=0;attempt<2;attempt++){
+  const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),45000);
+  try{
+   const response=await fetch(modelUrl(p.file),{signal:controller.signal});
+   if(!response.ok)throw new Error(`HTTP ${response.status}`);
+   const g=loader.parse(await response.arrayBuffer());g.computeVertexNormals();return g;
+  }catch(error){if(attempt===1)throw new Error(`Could not load ${p.id}: ${error.message}`)}
+  finally{clearTimeout(timeout)}
+ }
+}
+async function loadWorker(){
+ while(nextPart<manifest.parts.length){
+  const p=manifest.parts[nextPart++],g=await loadPart(p);
+  geometry.set(p.id,g);loadedParts++;
+  if(!window.assemblyLoadFailed)$('#load-label').textContent=`Loading 3D parts ${loadedParts}/${manifest.parts.length}…`;
+ }
+}
+try{await Promise.all(Array.from({length:Math.min(6,manifest.parts.length)},loadWorker))}
+catch(error){window.assemblyLoadFailed=true;$('#load-label').textContent='A 3D part failed to load. Retry or watch the MP4.';$('#retry-load').hidden=false;throw error}
 const nodes=new Map();for(const n of manifest.nodes){const group=new THREE.Group();group.position.fromArray(n.position);if(n.id==='leader')group.position.x=100;if(n.id==='follower')group.position.x=-500;group.rotation.set(...n.rotation.map(THREE.MathUtils.degToRad));if(n.joint!==null)group.rotation.z=THREE.MathUtils.degToRad(manifest.home[n.joint]*(n.factor??1)+(n.offset??0));nodes.set(n.id,group);(n.parent?nodes.get(n.parent):scene).add(group)}
 
 function mat(p,robot){
