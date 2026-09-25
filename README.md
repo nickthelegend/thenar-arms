@@ -1,63 +1,98 @@
-# Thenar Arms — SO-101 / MG996R + encoder leader
+# Thenar Arms
 
-Original-derived SO-101 robot CAD, a six-MG996R follower, a passive six-AS5600
-leader, browser assembly viewer, P1S print layouts and ESP32 prototype firmware.
-**Engineering prototypes: not physically tested or payload rated.**
+An original-derived SO-101 project with two separate builds: a six-MG996R
+positional-servo **follower** and a passive, six-AS5600 **encoder leader**. The
+repository includes converted STL parts, Bambu P1S geometry layouts, articulated
+SolidWorks assemblies, a browser-based 3D viewer, an assembly animation, and
+prototype ESP32 firmware.
 
-![Both actual CAD assemblies](docs/images/assembly.png)
+> **Prototype status:** CAD and software checks are documented, but the complete
+> printed mechanism, purchased hardware, wiring, and powered motion have **not**
+> been physically validated. There is no payload rating or print-ready G-code.
 
-## Current deliverables
+![MG996R follower and encoder leader CAD assemblies](docs/images/assembly.png)
 
-| Kit | Printed pieces | P1S geometry layouts | Guide |
-|---|---:|---:|---|
-| MG996R follower R3 | 7 | 2 | [BOM and assembly](so101-mg996r/R3-PRINT.md) |
-| Passive AS5600 leader L1 | 37 (12 unique) | 3 | [BOM, dimensions, wiring and calibration](so101-mg996r/ENCODER-LEADER.md) |
+## Start here
 
-- [Follower STL/3MF ZIP](so101-mg996r/output/follower-r3/SO101-MG996R-R3-PROTOTYPE.zip)
-- [Encoder leader STL/3MF/firmware ZIP](so101-mg996r/output/encoder-leader-l1/SO101-AS5600-LEADER-L1.zip)
-- [Encoder evidence](so101-mg996r/output/encoder-leader-l1/verification.json)
+| What you want | Link |
+|---|---|
+| Inspect both arms in 3D | [Open Robot Studio](https://nickthelegend.github.io/thenar-arms/) |
+| See where each part goes | [Interactive 3D assembly film](https://nickthelegend.github.io/thenar-arms/assembly-video.html) — drag the timeline or pause at a step |
+| Watch offline | [180-second MP4](robot-studio/public/video/thenar-real-3d-assembly-180s.mp4) |
+| Build the MG996R follower | [Follower BOM, print notes and assembly](so101-mg996r/R3-PRINT.md) |
+| Build the encoder leader | [Leader BOM, print notes, wiring and calibration](so101-mg996r/ENCODER-LEADER.md) |
+| Use a Raspberry Pi 4B as host | [Pi 4B wiring and bridge guide](so101-mg996r/RASPBERRY-PI-4B.md) |
 
-These are converted files, not the stock SO-101 plates. Keep revisions separate.
-Leader needs six Adafruit6357 AS5600 boards, twelve 8×16×5 bearings, six diametric
-6×2 magnets, ESP32 + TCA9548A and specified fasteners. Follower needs six MG996R
-servos (four reported owned), matching metal-disc horns and ESP32 + PCA9685.
-Full BOMs are in the linked guides. Only AS5600 board geometry is specified;
-generic controller enclosures are not included.
+The animation uses project STL meshes and nominal CAD positions. Individual
+fasteners and unspecified controller boards are not modeled. It is an assembly
+guide, **not** proof that parts fit, move safely, or work electrically.
 
-## SolidWorks assemblies and release
+## Choose a build
 
-The existing R3 follower and L1 leader have separate articulated SolidWorks
-assemblies. Download the [SolidWorks reconstruction release](https://github.com/nickthelegend/thenar-arms/releases/tag/solidworks-r3-l1-2026-09-23)
-for the native CAD files, validation evidence and simulation handoffs. Open the
+| | MG996R follower R3 | Passive encoder leader L1 |
+|---|---|---|
+| Actuation / sensing | Six 180° positional MG996R servos; no external follower encoders | Six passive AS5600 angle-sensing joints; no drive servos |
+| Print set | 7 joined units, 2 P1S geometry-only layouts | 37 pieces from 12 unique STLs, 3 P1S geometry-only layouts |
+| Essential hardware | 6 matching 25T metal-disc horns, ESP32, PCA9685, separate regulated 6 V servo supply, mounting fasteners | 6 Adafruit 6357 AS5600 boards, 12 **688ZZ 8 × 16 × 5 mm** bearings, 6 diametric Ø6 × 2 mm magnets, ESP32, TCA9548A, fasteners |
+| Files | [Follower STL/3MF ZIP](so101-mg996r/output/follower-r3/SO101-MG996R-R3-PROTOTYPE.zip) | [Leader STL/3MF/firmware ZIP](so101-mg996r/output/encoder-leader-l1/SO101-AS5600-LEADER-L1.zip) |
+| Detailed guide | [R3-PRINT.md](so101-mg996r/R3-PRINT.md) | [ENCODER-LEADER.md](so101-mg996r/ENCODER-LEADER.md) |
+
+These are **converted parts**, not the stock SO-101 Ender plates. Do not mix R3
+follower brackets, L1 leader parts, earlier revisions, and untouched stock
+parts. The original link shapes and source datums are retained; this is not a
+whole-arm scale-up. Case, horn, bearing and board dimensions are nominal design
+inputs, not measurements of the user's purchased components.
+
+**Before a full print:** inspect every sliced layer in Bambu Studio, then
+print and dry-fit one mount or one five-piece encoder cartridge. The 3MF files
+are layouts, **not approved sliced projects**. The follower and leader guides
+document unresolved slicer clipping/layer-review findings. PETG is the planned
+structural material; a successful PLA test does not establish strength.
+
+![P1S geometry layouts for the converted parts](docs/images/print-plates.png)
+
+## CAD, simulation and evidence
+
+The [SolidWorks reconstruction release](https://github.com/nickthelegend/thenar-arms/releases/tag/solidworks-r3-l1-2026-09-23)
+contains separate articulated follower and leader assemblies. Open the
 [follower master](solidworks/assemblies/SO101_Follower_Master.SLDASM) or
-[leader master](solidworks/assemblies/SO101_Leader_Master.SLDASM) with the
-`solidworks/parts/` and `solidworks/hardware/` folders kept alongside them.
-The [SolidWorks guide](solidworks/README.md) explains the saved poses and joint
-controls; the [reconstruction report](docs/final_report.md) gives measured
-geometry, motion and collision results.
+[leader master](solidworks/assemblies/SO101_Leader_Master.SLDASM) with their
+`solidworks/parts/` and `solidworks/hardware/` folders alongside them. See the
+[SolidWorks guide](solidworks/README.md) and [reconstruction report](docs/final_report.md).
 
-| Assembly | Components | Moving joints | Native motion checks |
-|---|---:|---:|---|
-| MG996R follower R3 | 19 | 6, including jaw | 28/28 poses passed |
-| Passive AS5600 leader L1 | 73 | 6, including trigger | 28/28 poses passed |
+| Native assembly | Components | Moving joints | Recorded SolidWorks pose checks |
+|---|---:|---:|---:|
+| Follower R3 | 19 | 6, including jaw | 28/28 passed |
+| Leader L1 | 73 | 6, including trigger | 28/28 passed |
 
-**Already printed parts:** the original STL/3MF files were not modified. A
-hash check found all 330 original project files unchanged, so the SolidWorks
-work does not call for reprinting them. The CAD reconstruction is not a
-byte-identical STL copy: the largest sampled surface differences are
-0.00196 mm for the follower and 0.00338 mm for the leader. One leader forearm
-CAD solid has a documented 0.00001 mm internal separation needed for a valid
-solid body. These are CAD/export differences; physical fit remains untested.
+The SolidWorks work did **not** modify the 330 existing project STL/3MF files;
+those files do not need reprinting because of that reconstruction. Its CAD
+solids are not byte-identical to the STLs. The reports document sampled surface
+differences, a small leader-forearm solid-body separation, and collision
+results. ROS 2 description and MuJoCo kinematics passed recorded pose checks;
+ROS 2 visualization, Isaac import and physical dynamics were not tested.
 
-The ROS 2 description and MuJoCo kinematics pass the recorded pose checks.
-ROS 2 visualization, Isaac import and physical dynamics have not been tested.
-The release's ZIP contains all 593 files added for this reconstruction;
-GitHub's source archive contains the complete repository at that release.
+![Exploded encoder cartridge CAD](docs/images/encoder-exploded.png)
 
-![Encoder cartridge exploded CAD](docs/images/encoder-exploded.png)
-![Actual P1S layout geometry](docs/images/print-plates.png)
+### Validation boundaries
 
-## Run the website
+| Check | Recorded result |
+|---|---|
+| Closed single-shell print meshes | 7 follower + 12 unique leader meshes |
+| Nominal mounting interfaces | 6/6 follower and 6/6 leader checks passed |
+| Sampled internal collision poses | Follower 72/72 clear; leader 70/72 clear. Two folded leader collisions and table intersections remain documented. |
+| Encoder cartridge | Sampled rotation/PCB checks show no positive overlap; magnet gap is nominally 2 mm. |
+| P1S layouts | Five geometry layouts fit the P1S envelope with 12 mm part spacing. Slicing release is **not cleared**. |
+| Firmware | Both ESP32 roles compile and host motion-math tests pass; follower stays locked until calibration. |
+| Real hardware | **Not validated:** actual fits, bearings, sensors, wiring, strength, powered travel or payload. |
+
+The browser preview checks discrete poses; it is not a swept-path or physical
+safety certificate. The firmware STOP/OE path does not cut servo power. Clamp
+and support the arm, and provide an accessible hardware power disconnect.
+See the [encoder verification report](so101-mg996r/output/encoder-leader-l1/verification.json)
+for machine-readable results.
+
+## Run Robot Studio locally
 
 ```sh
 cd robot-studio
@@ -65,51 +100,23 @@ npm ci
 npm run dev
 ```
 
-Open [the assembly viewer](http://127.0.0.1:5173/) or
-[print layouts](http://127.0.0.1:5173/?geometry=clearance&view=fit-test).
-Keep the terminal running. The website displays actual exported meshes and never
-connects to hardware. `?geometry=original` opens untouched upstream references.
+Open `http://127.0.0.1:5173/` for the arm viewer,
+`http://127.0.0.1:5173/assembly-video.html` for the seekable 3D assembly
+animation, or `http://127.0.0.1:5173/?geometry=clearance&view=fit-test` for
+print-layout geometry. `?geometry=original` shows untouched upstream references.
+The website does not connect to hardware.
 
-Hosted on GitHub Pages: [Robot Studio](https://nickthelegend.github.io/thenar-arms/)
-and its [one-by-one 3D assembly animation](https://nickthelegend.github.io/thenar-arms/assembly-video.html).
-The [180-second MP4](robot-studio/public/video/thenar-real-3d-assembly-180s.mp4)
-uses the actual STL assembly manifest. The animation is a nominal CAD sequence,
-not a physical-fit certificate. [Raspberry Pi 4B host wiring](so101-mg996r/RASPBERRY-PI-4B.md)
-is documented separately.
+<details>
+<summary>Reproduce the current CAD and validation checks</summary>
 
-## What is verified — and what is not
-
-| Check | Result |
-|---|---|
-| Closed single-shell printing meshes | 7 follower + 12 unique leader meshes |
-| Nominal mounting-interface checks | 6/6 follower; 6/6 leader |
-| Sampled internal collisions | Follower72/72 clear; leader70/72 clear |
-| Unsafe samples | Table intersections and two folded leader collisions retained in reports; preview rejects detected requested poses |
-| Cartridge rotation / PCB insertion | No positive overlap in sampled checks; nominal 2 mm magnet gap |
-| Print layout | Five layouts, 12 mm spacing, P1S envelope checked |
-| Slicing release | **Not cleared**; clipping diagnostics/layer review unresolved, geometry downloads only |
-| Firmware | Both ESP32 roles compile; host motion-math tests pass; follower locked until calibration |
-| Physical validation | **Not performed**: bearing fits, screws/tools, sensors, wiring, strength and powered operation |
-
-Print/test **one encoder cartridge first**, not all five plates. Closed STL
-meshes and animations do not prove working hardware. Preview checks are discrete,
-not a swept-path planner. No payload claim. Firmware STOP/OE is not a physical
-power cut; support the arm against gravity and provide a hardware disconnect.
-
-## Reproduce CAD and checks
-
-Python3.12 recommended. Make a venv and install
-[`so101-mg996r/requirements-cad.txt`](so101-mg996r/requirements-cad.txt).
-Committed original-source meshes/manifest provide the input datums.
+Use a Python 3.12 environment with
+[`so101-mg996r/requirements-cad.txt`](so101-mg996r/requirements-cad.txt)
+installed, then run from the repository root:
 
 ```sh
 python so101-mg996r/tools/build_encoder_leader.py
 python so101-mg996r/tools/verify_encoder_leader.py
 python so101-mg996r/tools/pack_encoder_leader.py
-# Optional macOS, installed Bambu Studio required:
-python so101-mg996r/tools/slice_encoder_leader.py
-python so101-mg996r/tools/publish_encoder_project.py
-python so101-mg996r/tools/render_project.py
 cd robot-studio
 node scripts/verify-preview.mjs
 node scripts/verify-r3.mjs
@@ -117,17 +124,18 @@ node scripts/verify-encoder.mjs
 npm run build
 ```
 
-The publisher refuses failed home/interface/hash checks. Generated layouts do
-not ship runnable G-code. See the leader guide for both firmware compile commands,
-calibration and opt-in serial bridge. No automatic flashing or arming occurs.
+Optional publishing/slicing scripts and firmware commands are in the kit
+guides. No command here automatically flashes firmware or arms servos.
 
-## Source and licensing
+</details>
 
-Original SO-101 source: [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100),
-Apache-2.0, licence preserved at `so101-mg996r/source/LICENSE`. Geometry is locally
-modified, with original parts/datums retained; no whole-arm scaling.
-AS5600 drawing: [Adafruit Industries](https://github.com/adafruit/Adafruit-AS5600-Magnetic-Angle-Sensor-PCB),
-CC BY-SA, attribution/licence in `so101-mg996r/source/encoder/`.
-Third-party assets retain their respective licences; this repository does not
-claim to relicense them. Images above are renders of the actual exported CAD,
-not photographs of a tested robot.
+## Source and licences
+
+The original SO-101 design is from
+[TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100),
+Apache-2.0; its licence is preserved at `so101-mg996r/source/LICENSE`.
+The AS5600 board drawing is from
+[Adafruit Industries](https://github.com/adafruit/Adafruit-AS5600-Magnetic-Angle-Sensor-PCB),
+CC BY-SA, with attribution in `so101-mg996r/source/encoder/`.
+Third-party assets keep their respective licences; this repository does not
+relicense them. The images above are CAD renders, not photos of a tested robot.
