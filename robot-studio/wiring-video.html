@@ -20,16 +20,17 @@
     .below{display:flex;gap:24px;align-items:start;justify-content:space-between;margin-top:22px;flex-wrap:wrap}
     .note{max-width:780px;color:#b8cad9;font-size:14px;line-height:1.6}
     .note strong{color:#f3ca82}
+    .note a{color:#9fd6e2;font-weight:700}
     @media(max-width:620px){main{padding-top:16px}nav{gap:8px}.brand{flex-basis:100%;margin-bottom:4px}nav a{font-size:12px;padding:0 10px}.below{gap:12px}}
   </style>
 </head>
 <body><main>
   <nav aria-label="Site navigation"><div class="brand">THENAR<span> / </span>WIRING</div><a href="./">← Robot Studio</a><a href="./assembly-video.html">3D assembly</a></nav>
   <h1>Connect the two arms</h1>
-  <p class="intro">A 90-second Raspberry Pi 4B wiring walkthrough for the encoder leader and MG996R follower.</p>
-  <video controls playsinline preload="metadata" aria-label="Thenar Raspberry Pi 4B wiring walkthrough">
-    <source src="./video/thenar-wiring-90s.mp4" type="video/mp4">
-    Your browser cannot play the video. <a href="./video/thenar-wiring-90s.mp4">Download the MP4</a> instead.
+  <p class="intro">One leader ESP32 → Raspberry Pi 4B → PCA9685 → MG996R follower. A 90-second connector-level walkthrough.</p>
+  <video controls playsinline preload="metadata" poster="./video/thenar-wiring-one-esp-poster.jpg" aria-label="Thenar one ESP32 Raspberry Pi 4B wiring walkthrough">
+    <source src="./video/thenar-wiring-90s.mp4?v=one-esp-20260929" type="video/mp4">
+    Your browser cannot play the video. <a href="./video/thenar-wiring-90s.mp4?v=one-esp-20260929">Download the MP4</a> instead.
   </video>
-  <div class="below"><div class="note"><strong>Wiring plan, not a physical test report.</strong> Follow the labelled connections, keep the MG996R servo supply separate from Raspberry Pi USB power, and check polarity, voltage and board pin labels on your actual hardware before switching on. The video has on-screen instructions and no audio.</div><a class="download" href="./video/thenar-wiring-90s.mp4" download>Download MP4 ↓</a></div>
+  <div class="below"><div class="note"><strong>Illustrated wiring, not a physical test report.</strong> Check your actual board labels and keep servo power separate from Pi power. The current bridge software still expects a second ESP32; a Pi-side PCA9685 driver is required before this arrangement can move the follower. <a href="https://github.com/nickthelegend/thenar-arms/blob/main/so101-mg996r/RASPBERRY-PI-DIRECT-FOLLOWER.md">Read the exact pin table and bring-up order.</a> The video has on-screen instructions and no audio.</div><a class="download" href="./video/thenar-wiring-90s.mp4?v=one-esp-20260929" download>Download MP4 ↓</a></div>
 </main></body></html>

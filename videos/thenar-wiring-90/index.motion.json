@@ -1,0 +1,10 @@
+{
+  "duration": 90,
+  "assertions": [
+    { "kind": "appearsBy", "selector": "#pi", "bySec": 3 },
+    { "kind": "appearsBy", "selector": "#sensors", "bySec": 10 },
+    { "kind": "appearsBy", "selector": "#pca", "bySec": 41 },
+    { "kind": "appearsBy", "selector": "#servos", "bySec": 59 },
+    { "kind": "staysInFrame", "selector": "#diagram" }
+  ]
+}
