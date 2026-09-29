@@ -5,6 +5,14 @@ audience: Thenar arm builder
 duration: 90
 ---
 
+## Changes from v1 — 2026-09-29
+
+User note: "u not doing it clearly dude please.." The screenshot shows the all-at-once board diagram scaled down until connector labels are too small to follow. Replace the diagram as the focal content with six large-print, one-connection-at-a-time close-ups at the same 0/8/25/38/56/72-second beats. Keep physical pin numbers, separate servo power, and the untested/software-gap warning visible. Do not represent these graphics as footage of the user's actual boards.
+
+## Still open
+
+The revised composition needs preview approval before final MP4 rendering and replacement of the public video.
+
 ## Frame 1
 
 - status: animated

@@ -8,6 +8,6 @@ font_display: "Arial Black"
 font_data: "Arial"
 ---
 
-Concept: a printed field-service wiring chart with illustrated boards and visible connector rows comes alive as each real signal and power route is drawn. The persistent bench view prevents the learner from losing the network context.
+Concept: a printed field-service wiring chart presents one large connection map at a time. The previous all-at-once bench made its pin labels unreadable at normal browser size; the revised view uses full-frame tables with large physical pin numbers and explicit power separation.
 
-Focal: the active connection is always the brightest wire and its two endpoint connectors. Edge anchors: numbered instruction below; circuit legend and safety strip at the edges. Supporting detail: six channels, exact Pi physical pin numbers, bus addresses, connector labels, and supply rails. Background: cream drafting sheet with faint measured grid and registration ticks. Illustrated board silhouettes are deliberately generic; the printed labels on the purchased modules win.
+Focal: one numbered step and a large source-to-destination mapping. Supporting detail: six encoder channels, exact Pi physical pin numbers, connector labels, and separate power rails. Background: cream drafting sheet with faint measured grid. Illustrations remain generic; printed labels on the purchased modules win.

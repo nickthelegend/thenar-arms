@@ -1,10 +1,12 @@
 {
   "duration": 90,
   "assertions": [
-    { "kind": "appearsBy", "selector": "#pi", "bySec": 3 },
-    { "kind": "appearsBy", "selector": "#sensors", "bySec": 10 },
-    { "kind": "appearsBy", "selector": "#pca", "bySec": 41 },
-    { "kind": "appearsBy", "selector": "#servos", "bySec": 59 },
-    { "kind": "staysInFrame", "selector": "#diagram" }
+    { "kind": "appearsBy", "selector": "#focus1", "bySec": 1 },
+    { "kind": "appearsBy", "selector": "#focus2", "bySec": 9 },
+    { "kind": "appearsBy", "selector": "#focus3", "bySec": 26 },
+    { "kind": "appearsBy", "selector": "#focus4", "bySec": 39 },
+    { "kind": "appearsBy", "selector": "#focus5", "bySec": 57 },
+    { "kind": "appearsBy", "selector": "#focus6", "bySec": 73 },
+    { "kind": "staysInFrame", "selector": "#focus" }
   ]
 }

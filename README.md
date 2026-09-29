@@ -22,7 +22,7 @@ prototype ESP32 firmware.
 | Build the MG996R follower | [Follower BOM, print notes and assembly](so101-mg996r/R3-PRINT.md) |
 | Build the encoder leader | [Leader BOM, print notes, wiring and calibration](so101-mg996r/ENCODER-LEADER.md) |
 | Use a Raspberry Pi 4B as host | [Pi 4B wiring and bridge guide](so101-mg996r/RASPBERRY-PI-4B.md) |
-| Use only one ESP32 | [Pi-direct follower wiring guide](so101-mg996r/RASPBERRY-PI-DIRECT-FOLLOWER.md) and [90-second connection video](https://nickthelegend.github.io/thenar-arms/wiring-video.html) |
+| Use only one ESP32 | [Pi-direct follower wiring guide](so101-mg996r/RASPBERRY-PI-DIRECT-FOLLOWER.md) and [large-print 90-second connection video](https://nickthelegend.github.io/thenar-arms/wiring-video.html) |
 
 The one-ESP32 layout uses the ESP32 for leader sensing and Pi I²C for the
 PCA9685. **The current bridge still needs a second ESP32**; a Pi-side follower

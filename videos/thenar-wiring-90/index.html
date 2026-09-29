@@ -48,6 +48,38 @@
     #progress{display:block;width:100%;height:100%;background:#0b7880;transform-origin:left center;transform:scaleX(0)}
     .time{font-size:18px;font-weight:900;color:#305157;white-space:nowrap}
     .footer{position:absolute;left:66px;bottom:18px;font-size:15px;font-weight:700;color:#596f72}
+    #diagram,.notes{display:none}
+    .flag{display:none}
+    .sub{font-size:31px}
+    #focus{position:absolute;left:66px;top:248px;width:1788px;height:730px;border:4px solid #223a3d;background:#fcfaf4;box-shadow:12px 12px 0 #d4d1c9;overflow:hidden}
+    .focus-step{position:absolute;inset:0;padding:35px 45px 37px;opacity:0;background:#fcfaf4}
+    .focus-top{display:flex;align-items:center;gap:24px;margin-bottom:24px;padding-bottom:20px;border-bottom:4px solid #223a3d}
+    .focus-number{display:grid;place-items:center;flex:none;width:90px;height:90px;border-radius:50%;background:#0b7880;color:#fff;font-size:42px;font-weight:900}
+    .focus-title{margin:0;font-size:53px;line-height:1.02;letter-spacing:-.035em}
+    .focus-kicker{margin-left:auto;color:#0b7880;font-size:27px;font-weight:900;letter-spacing:.08em;white-space:nowrap}
+    .focus-copy{font-size:32px;line-height:1.24;font-weight:700;color:#294248}
+    .route{display:flex;align-items:center;justify-content:space-between;gap:22px;margin:55px 0 43px}
+    .route-box{display:flex;align-items:center;justify-content:center;flex-direction:column;min-height:215px;flex:1;padding:20px;background:#e4eeee;border:4px solid #0b7880;border-radius:16px;text-align:center;font-size:43px;font-weight:900;line-height:1.12}
+    .route-box small{margin-top:15px;font-size:29px;font-weight:700;color:#355055}
+    .route-arrow{flex:none;color:#b5452a;font-size:72px;font-weight:900}
+    .callout{padding:20px 25px;background:#fff0d2;border-left:10px solid #b5452a;color:#803a21;font-size:32px;line-height:1.2;font-weight:900}
+    .wire-table{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:31px;font-weight:800;table-layout:fixed}
+    .wire-table th{text-align:left;color:#0b7880;font-size:28px;letter-spacing:.05em;padding:10px 14px;border-bottom:4px solid #223a3d}
+    .wire-table td{padding:16px 14px;border-bottom:2px solid #c3d3d1;line-height:1.1}
+    .wire-table td:first-child{color:#162c32}
+    .wire-table td:last-child{color:#0a676e}
+    .wire-table .map-arrow{width:90px;text-align:center;color:#b5452a;font-size:40px}
+    .wire-table.compact td{padding:11px 14px}
+    .power-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:28px}
+    .power-box{padding:27px 30px;min-height:270px;border:4px solid #0b7880;border-radius:15px;background:#e4eeee}
+    .power-box.servo{border-color:#b5452a;background:#fff0d2}
+    .power-box h3{margin:0 0 14px;font-size:41px}
+    .power-box p{margin:0;font-size:33px;line-height:1.29;font-weight:700}
+    .checks{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:22px 0}
+    .check{display:flex;align-items:center;gap:23px;min-height:158px;padding:22px 26px;background:#e4eeee;border:3px solid #0b7880;border-radius:12px;font-size:32px;line-height:1.18;font-weight:800}
+    .check b{display:grid;place-items:center;flex:none;width:63px;height:63px;background:#0b7880;border-radius:50%;color:white;font-size:31px}
+    .bottom{bottom:44px}
+    .footer{font-size:17px}
   </style>
 </head>
 <body>
@@ -55,7 +87,7 @@
   <section id="wiring-bench" class="clip" data-start="0" data-duration="90" data-track-index="0">
     <div class="grid" data-layout-ignore></div>
     <div class="top">
-      <div class="eyebrow">THENAR / CONNECTOR-LEVEL WIRING / 02</div>
+      <div class="eyebrow">THENAR / LARGE-PRINT WIRING / 03</div>
       <h1>ONE ESP32. ONE PI. TWO ARMS.</h1>
       <div class="sub">Encoder leader → ESP32 → USB → Pi 4B → PCA9685 → MG996R follower</div>
       <div class="flag"><strong>ILLUSTRATED WIRING · NOT A HARDWARE TEST</strong>Match the printed pin labels on your actual boards before applying power.</div>
@@ -162,6 +194,26 @@
         <text x="1290" y="496" class="body">FUSE + ACCESSIBLE CUT-OFF</text>
       </g>
     </svg>
+    <div id="focus" aria-label="Large-print step-by-step wiring connections">
+      <section class="focus-step" id="focus1"><div class="focus-top"><div class="focus-number">01</div><h2 class="focus-title">One ESP32. One Pi. Two arms.</h2><div class="focus-kicker">CONNECTION MAP</div></div>
+        <div class="route"><div class="route-box">Leader arm<small>6 × AS5600 encoders</small></div><div class="route-arrow">→</div><div class="route-box">ESP32<small>reads leader only</small></div><div class="route-arrow">→</div><div class="route-box">Pi 4B<small>USB data from ESP32</small></div><div class="route-arrow">→</div><div class="route-box">Follower arm<small>Pi → PCA9685 → servos</small></div></div>
+        <div class="callout">Do not power MG996R servos from the Pi. The follower needs a separate regulated 6 V supply.</div></section>
+      <section class="focus-step" id="focus2"><div class="focus-top"><div class="focus-number">02</div><h2 class="focus-title">Each leader encoder gets its own mux channel.</h2><div class="focus-kicker">LEADER ARM</div></div>
+        <table class="wire-table compact"><thead><tr><th>AS5600 on joint</th><th class="map-arrow"></th><th>TCA9548A channel</th></tr></thead><tbody><tr><td>Base</td><td class="map-arrow">→</td><td>CH0 SDA + SCL</td></tr><tr><td>Shoulder</td><td class="map-arrow">→</td><td>CH1 SDA + SCL</td></tr><tr><td>Elbow</td><td class="map-arrow">→</td><td>CH2 SDA + SCL</td></tr><tr><td>Wrist pitch</td><td class="map-arrow">→</td><td>CH3 SDA + SCL</td></tr><tr><td>Wrist roll</td><td class="map-arrow">→</td><td>CH4 SDA + SCL</td></tr><tr><td>Gripper</td><td class="map-arrow">→</td><td>CH5 SDA + SCL</td></tr></tbody></table>
+        <div class="focus-copy">All six sensors also share 3V3 and GND. One AS5600 per channel, because each uses address 0x36.</div></section>
+      <section class="focus-step" id="focus3"><div class="focus-top"><div class="focus-number">03</div><h2 class="focus-title">Mux → leader ESP32 → Pi USB.</h2><div class="focus-kicker">DATA PATH</div></div>
+        <table class="wire-table"><thead><tr><th>TCA9548A upstream</th><th class="map-arrow"></th><th>ESP32 pin</th></tr></thead><tbody><tr><td>SDA</td><td class="map-arrow">→</td><td>GPIO21</td></tr><tr><td>SCL</td><td class="map-arrow">→</td><td>GPIO22</td></tr><tr><td>VCC / VIN (3.3 V side)</td><td class="map-arrow">→</td><td>3V3 — verify module label</td></tr><tr><td>GND</td><td class="map-arrow">→</td><td>GND</td></tr></tbody></table>
+        <div class="callout">Then connect the ESP32 USB port to a Pi USB-A port with a data cable. This is leader data, not servo power.</div></section>
+      <section class="focus-step" id="focus4"><div class="focus-top"><div class="focus-number">04</div><h2 class="focus-title">Pi header → PCA9685 logic pins.</h2><div class="focus-kicker">PHYSICAL PIN NUMBERS</div></div>
+        <table class="wire-table"><thead><tr><th>Raspberry Pi 4B header</th><th class="map-arrow"></th><th>PCA9685 label</th></tr></thead><tbody><tr><td>Pin 1 · 3V3</td><td class="map-arrow">→</td><td>VCC (logic only)</td></tr><tr><td>Pin 6 · GND</td><td class="map-arrow">→</td><td>GND</td></tr><tr><td>Pin 3 · GPIO2 / SDA</td><td class="map-arrow">→</td><td>SDA</td></tr><tr><td>Pin 5 · GPIO3 / SCL</td><td class="map-arrow">→</td><td>SCL</td></tr><tr><td>Pin 11 · GPIO17</td><td class="map-arrow">→</td><td>OE, only if exposed</td></tr></tbody></table>
+        <div class="focus-copy">VCC is not V+. OE HIGH disables PWM, but OE is not an emergency stop.</div></section>
+      <section class="focus-step" id="focus5"><div class="focus-top"><div class="focus-number">05</div><h2 class="focus-title">PCA9685 signals → MG996R servos.</h2><div class="focus-kicker">FOLLOWER ARM</div></div>
+        <div class="power-grid"><div class="power-box"><h3>Signal leads</h3><p>PCA outputs CH0–CH5 go to the six servo signal wires, one joint per channel. Match signal, + and − markings on your actual board.</p></div><div class="power-box servo"><h3>Servo power</h3><p>Separate regulated 6 V + goes through a fuse and switch to servo V+. Its − goes to servo GND. Pi and servo grounds share a reference.</p></div></div>
+        <div class="callout" style="margin-top:32px">Never connect the 6 V positive rail to Pi 5 V, Pi 3V3, or PCA9685 VCC.</div></section>
+      <section class="focus-step" id="focus6"><div class="focus-top"><div class="focus-number">06</div><h2 class="focus-title">Power-off checks before a first motion test.</h2><div class="focus-kicker">NOT YET HARDWARE-TESTED</div></div>
+        <div class="checks"><div class="check"><b>1</b><span>Leave the 6 V servo rail OFF. Check polarity and shorts.</span></div><div class="check"><b>2</b><span>Power Pi separately; confirm all six leader readings.</span></div><div class="check"><b>3</b><span>Confirm PCA9685 at I²C address 0x40.</span></div><div class="check"><b>4</b><span>Calibrate and test one unloaded servo first.</span></div></div>
+        <div class="callout">Software gap: current bridge.py expects a second ESP32. A safe Pi-side PCA9685 driver is still required.</div></section>
+    </div>
     <div class="notes">
       <div class="note" id="note1"><div class="step">01</div><div><h2>Use only one ESP32.</h2><p>It reads the leader. The Pi reads USB data and controls the follower over I²C.</p></div><div class="detail warning">The Pi GPIO does not power or directly pulse six servos.</div></div>
       <div class="note" id="note2"><div class="step">02</div><div><h2>Connect six leader sensors.</h2><p>AS5600 SDA/SCL pairs go to mux channels 0–5; share 3V3 and GND.</p></div><div class="detail">Each AS5600 uses address 0x36; the TCA9548A isolates the six copies.</div></div>
@@ -171,7 +223,7 @@
       <div class="note" id="note6"><div class="step">06</div><div><h2>Test one unloaded joint first.</h2><p>Monitor the leader, calibrate pulses, then test a single servo before all six.</p></div><div class="detail warning">Current bridge.py expects a second ESP32; a Pi-side PCA9685 driver is required.</div></div>
     </div>
     <div class="bottom"><div class="brand">THENAR · ONE-ESP WIRING</div><div class="track"><div id="progress"></div></div><div class="time"><span id="elapsed">00:00</span> / 01:30</div></div>
-    <div class="footer">Generic board outlines · real silkscreens and purchased servo pinout take precedence · no physical validation claimed</div>
+    <div class="footer">Illustrated pin maps · actual board silkscreens and servo pinout take precedence · no physical validation claimed</div>
   </section>
 </main>
 <script>
@@ -214,6 +266,12 @@
   tl.to('#note5',{opacity:0,duration:.35},71.6);
   tl.to('#note6',{opacity:1,duration:.4},72);
   tl.fromTo('#note6 .step',{scale:.88},{scale:1,duration:.65,ease:'power3.out'},72.1);
+  const focusCuts=[[0,1,8],[8,2,25],[25,3,38],[38,4,56],[56,5,72],[72,6,90]];
+  gsap.set('.focus-step',{opacity:0});
+  focusCuts.forEach(([start,index,end])=>{
+    tl.set('#focus'+index,{opacity:1},start);
+    if(end<90)tl.set('#focus'+index,{opacity:0},end);
+  });
   tl.fromTo('#progress',{scaleX:0},{scaleX:1,duration:90,ease:'none'},0);
   const clock={seconds:0};
   tl.to(clock,{seconds:90,duration:90,ease:'none',onUpdate:()=>{
