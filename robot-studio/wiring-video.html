@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09111d">
+  <title>Thenar · Raspberry Pi wiring walkthrough</title>
+  <style>
+    :root{font-family:Arial,Helvetica,sans-serif;color:#eef5fa;background:#09111d}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;background:radial-gradient(circle at 50% 20%,#18314c,#09111d 70%)}
+    main{max-width:1240px;margin:auto;padding:24px clamp(16px,4vw,48px) 64px}
+    nav{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:28px}
+    nav a,.download{display:inline-flex;align-items:center;min-height:42px;padding:0 14px;border:1px solid #607e9a;border-radius:7px;color:#eaf5ff;text-decoration:none;font-size:14px;font-weight:700;background:#10243a}
+    nav a:hover,.download:hover{background:#224564}
+    .brand{margin-right:auto;font-size:18px;font-weight:900;letter-spacing:.11em;color:#b8c9da}.brand span{color:#f4b856}
+    h1{margin:0 0 8px;font-size:clamp(30px,5vw,54px);line-height:1.05;letter-spacing:-.035em}
+    .intro{margin:0 0 24px;color:#bbccdb;font-size:clamp(15px,2vw,18px);line-height:1.5}
+    video{display:block;width:100%;aspect-ratio:16/9;background:#050d16;border:1px solid #41617a;border-radius:12px;box-shadow:0 22px 60px #0008}
+    .below{display:flex;gap:24px;align-items:start;justify-content:space-between;margin-top:22px;flex-wrap:wrap}
+    .note{max-width:780px;color:#b8cad9;font-size:14px;line-height:1.6}
+    .note strong{color:#f3ca82}
+    @media(max-width:620px){main{padding-top:16px}nav{gap:8px}.brand{flex-basis:100%;margin-bottom:4px}nav a{font-size:12px;padding:0 10px}.below{gap:12px}}
+  </style>
+</head>
+<body><main>
+  <nav aria-label="Site navigation"><div class="brand">THENAR<span> / </span>WIRING</div><a href="./">← Robot Studio</a><a href="./assembly-video.html">3D assembly</a></nav>
+  <h1>Connect the two arms</h1>
+  <p class="intro">A 90-second Raspberry Pi 4B wiring walkthrough for the encoder leader and MG996R follower.</p>
+  <video controls playsinline preload="metadata" aria-label="Thenar Raspberry Pi 4B wiring walkthrough">
+    <source src="./video/thenar-wiring-90s.mp4" type="video/mp4">
+    Your browser cannot play the video. <a href="./video/thenar-wiring-90s.mp4">Download the MP4</a> instead.
+  </video>
+  <div class="below"><div class="note"><strong>Wiring plan, not a physical test report.</strong> Follow the labelled connections, keep the MG996R servo supply separate from Raspberry Pi USB power, and check polarity, voltage and board pin labels on your actual hardware before switching on. The video has on-screen instructions and no audio.</div><a class="download" href="./video/thenar-wiring-90s.mp4" download>Download MP4 ↓</a></div>
+</main></body></html>

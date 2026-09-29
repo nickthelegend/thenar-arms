@@ -9,6 +9,7 @@ export default defineConfig({
       input:{
         main:resolve(import.meta.dirname,'index.html'),
         assemblyVideo:resolve(import.meta.dirname,'assembly-video.html'),
+        wiringVideo:resolve(import.meta.dirname,'wiring-video.html'),
       },
     },
   },
